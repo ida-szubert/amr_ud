@@ -1,0 +1,4 @@
+*.pyc
+.DS_Store
+.idea/*
+parsed_datasets/.DS_Store
