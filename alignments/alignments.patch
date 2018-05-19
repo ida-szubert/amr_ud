@@ -1,0 +1,3170 @@
+33c33
+< none4/Kejian    #    19/Kejian
+---
+> none4/Kejian    #    19/Keijan
+50c50
+< t/this    #    1/This
+---
+> t/this    #    1/this
+57,58c57,58
+< p/protest :ARG0 a2/and ( :op2 o/other ) | :op2 p2/person :name n2/name ( :op1 none3/Xiao ) | :op2 none4/Kejian    #    23/protested ( :nsubj 21/others ) | :nsubj 19/Kejian ( :compound 18/Xiao ) | ( :cc 20/and ) | :conj-and 21/others
+< c/cause :ARG0 t/this    #    2/caused :nsubj 1/This
+---
+> p/protest :ARG0 a2/and ( :op2 o/other ) |  :op2 p2/person :name n2/name ( :op1 none3/Xiao ) | :op2 none4/Kejian    #    23/protested ( :nsubj 21/others ) | :nsubj 19/Kejian ( :compound 18/Xiao ) | ( :cc 20/and ) | :conj-and 21/others
+> c/cause :ARG0 t/this    #    2/caused :nsubj 1/this
+70c70
+< p/possible    #    1/Could
+---
+> p/possible    #    1/could
+73c73
+< p/possible :domain b/break    #    8/broken :aux 1/Could
+---
+> p/possible :domain b/break    #    8/broken :aux 1/could
+81c81
+< a3/activate    #    3/activating
+---
+> a3/activate    #    3/activating  
+90c90
+< c/cause    #    1/Hence
+---
+> c/cause    #    1/hence
+101c101
+< c/cause :ARG1 a/appear    #    22/appear :advmod 1/Hence
+---
+> c/cause :ARG1 a/appear    #    22/appear :advmod 1/hence
+103c103
+< u/urgent :mod p/particular    #    26/urgent :advmod 25/particularly
+---
+> u/urgent :mod p/particular    #    26/urgent :advmod 25/particular
+166c166
+< c3/company :ARG0-of e/establish :ARG1 h/headquarters    #    15/company :nmod-with 2/headquarters ( :case 1/With ) | :acl 3/established
+---
+> c3/company :ARG0-of e/establish :ARG1 h/hedquarters    #    15/company :nmod-with 2/hedquarters ( :case  1/with ) | :acl 3/established
+190c190
+< s/suck :time f/feed    #    6/suck :advcl 3/feed :advmod 1/When
+---
+> s/suck :time f/feed    #    6/suck :advcl 3/feed :advmod 1/when
+206c206
+< h/he    #    1/He
+---
+> h/he    #    1/he
+216c216
+< d2/deny :ARG0 h/he    #    2/denied :nsubj 1/He
+---
+> d2/deny :ARG0 h/he    #    2/denied :nsubj 1/he
+244c244
+< e/everyone :prep-from p/person :ARG0-of l/lead    #    8/everyone :nmod-from 2/leaders :case 1/From
+---
+> e/everyone :prep-from p/person :ARG0-of l/lead    #    8/everyone :nmod-from 2/leaders :case 1/from
+246c246
+< p2/person :prep-to-of e/everyone :prep-from p/person :ARG0-of l/lead    #    8/everyone :nmod-from 2/leaders ( :case 1/From ) | :nmod-to 6/people :case 3/to
+---
+> p2/person :prep-to-of e/everyone :prep-from p/person :ARG0-of l/lead    #    8/everyone :nmod-from 2/leaders ( :case 1/from ) | :nmod-to 6/people :case 3/to
+257c257
+< none2/7    #    23/7
+---
+> none2/7    #    23/7    
+260c260
+< o/or    #    25/or
+---
+> o/or    #    25/or 
+268c268
+< h/have-quant :ARG1 s/seismic-quantity :quant-of e/earthquake    #    18/have ( :dobj 20/intensity ) | :nsubj 15/earthquake
+---
+> h/have_quant :ARG1 s/seismic-quantity :quant-of e/earthquake    #    18/have ( :dobj 20/intensity ) | :nsubj 15/earthquake
+270c270
+< c/city :name n/name :op1 none0/Chengdu    #    2/Chengdu
+---
+> c/city :name n/name :op1 none0/Chendgu    #    2/Chengdu
+272,275c272,275
+< s/seismic-quantity :location c/city :name n/name :op1 none0/Chengdu    #    18/have ( :dobj 20/intensity ) | :nmod-in 2/Chengdu :case 1/In
+< c/city ( :name n/name :op1 none0/Chengdu ) | :location r2/relative-position    #    2/Chengdu ( :ref 4/which ) :acl-relcl 9/away
+< d/distance-quantity ( :unit k/kilometer ) | :quant none1/100    #    8/kms :nummod 7/100
+< o3/over :quant d/distance-quantity ( :unit k/kilometer ) | :quant none1/100    #    8/kms ( :nummod 7/100 ) | :advmod 6/over
+---
+> s/seismic-quantity :location c/city :name n/name :op1 none0/chengdu    #    18/have ( :dobj 20/intensity ) | :nmod-in 2/Chengdu :case 1/in
+> c/city ( :name n/name :op1 none0/Chendgu ) | :location r2/relative-position    #    2/Chengdu ( :ref 4/which ) :acl-relcl 9/away
+> d/distance-quantity ( :unit k/kilometer ) | :quant none1/100    #    8/km :nummod 7/100
+> o3/over :quant d/distance-quantity ( :unit k/kilometer ) | :quant none1/100    #    8/km ( :nummod 7/100 ) | :advmod 6/over
+277c277
+< r2/relative-position :quant o3/over :op1 d/distance-quantity ( :unit k/kilometer ) | :quant none1/100    #    9/away :nmod-npmod 8/kms ( :advmod 6/over ) | :nummod 7/100
+---
+> r2/relative-position :quant o3/over :op1 d/distance-quantity ( :unit k/kilometer ) | :quant none1/100    #    9/away :nmod-npmod 8/km ( :advmod 6/over ) | :nummod 7/100
+286c286
+< p4/person :name n3/name ( :op1 none8/Zhang ) | :op2 none9/Yufeng    #    36/Yufeng :compound 35/Zhang
+---
+> p4/person :name n3/name ( :op1 none8/Zhange ) | :op2 none9/Yufengne    #    36/Yufeng :compound 35/Zhang
+314c314
+< p/person :domain a/and ( :op1 p2/person :name n3/name ( :op1 none4/Wang ) | :op2 none5/Dongxing ) | ( :op2 p3/person :name n2/name ( :op1 none6/Wang ) | :op2 none7/Hongwen ) | :op3 p4/person :ARG0-of h/have-org-role :ARG2 s/secretary    #    13/those :nsubj 23/Dongxing ( :compound 22/Wang ) | ( :cc 28/and ) | ( :conj-and 26/Hongwen :compound 25/Wang ) | :conj-and 33/secretary
+---
+> p/person :domain a/and ( :op1 p2/person :name n3/name ( :op1 none4/Wang ) | :op2 none5/Dongxing ) | ( :op2 p3/person :name n2/name ( :op1 none6/Wang ) | :op2 none7/Hongwen ) | :op3 p4/person :ARG0-of h/have-org-role :ARG2 s/secretary    #    13/those :nsubj 23/Donxing ( :compound 22/Wang ) | ( :cc 28/and ) | ( :conj-and 26/Hongwen :compound 25/Wang ) | :conj-and 33/secretary
+316c316
+< p/person :prep-on d/duty :time d2/day    #    13/those ( :nmod-on 15/duty :case 14/on ) | :nmod-on 3/day :case 1/On
+---
+> p/person :prep-on d/duty :time d2/day    #    13/those ( :nmod-on 15/duty :case 14/on ) | :nmod-on 3/day :case 1/on
+324,325c324,325
+< p4/person ( :name n3/name ( :op1 none8/Zhang ) | :op2 none9/Yufeng ) | :ARG0-of h/have-org-role :ARG2 s/secretary    #    33/secretary :appos 36/Yufeng :compound 35/Zhang
+< a/and ( :op1 p2/person :name n3/name ( :op1 none4/Wang ) | :op2 none5/Dongxing ) | ( :op2 p3/person :name n2/name ( :op1 none6/Wang ) | :op2 none7/Hongwen ) | :op3 p4/person :ARG0-of h/have-org-role :ARG2 s/secretary    #    23/Dongxing ( :compound 22/Wang ) | ( :cc 28/and ) | ( :conj-and 26/Hongwen :compound 25/Wang ) | :conj-and 33/secretary
+---
+> p4/person ( :name n3/name ( :op1 none8/Zhange ) | :op2 none9/Yufenge ) | :ARG0-of h/have-org-role :ARG2 s/secretary    #    33/secretary :appos 36/Yufeng :compound 35/Zhang
+> a/and ( :op1 p2/person :name n3/name ( :op1 none4/Wang ) | :op2 none5/Dongxing ) | ( :op2 p3/person :name n2/name ( :op1 none6/Wang ) | :op2 none7/Hongwen ) | :op3 p4/person :ARG0-of h/have-org-role :ARG2 s/secretary    #    23/Donxing ( :compound 22/Wang ) | ( :cc 28/and ) | ( :conj-and 26/Hongwen :compound 25/Wang ) | :conj-and 33/secretary
+331c331
+< a/after    #    1/After
+---
+> a/after    #    1/after
+334,335c334,335
+< d/date-entity :decade none0/1990    #    3/nineties
+< none0/1990    #    3/nineties
+---
+> d/date-entity :decade none0/1990    #    3/nineties 
+> none0/1990    #    3/ninties
+345c345
+< s/stop :time a/after :op1 d/date-entity :decade none0/1990    #    8/stopped :nmod-after 3/nineties :case 1/After
+---
+> s/stop :time a/after :op1 d/date-entity :decade none0/nineties    #    8/stopped :nmod-after 3/nineties :case 1/after
+351c351
+< e/enterprise :mod e2/engineer    #    7/enterprises :compound 6/engineering
+---
+> e/enterprise :mod e2/engineer    #    7/enterprises :compound 6/engeneering
+360c360
+< d/dear    #    1/Dear
+---
+> d/dear    #    1/dear
+372c372
+< f2/friend :mod d/dear    #    2/friends :amod 1/Dear
+---
+> f2/friend :mod d/dear    #    2/friends :amod 1/dear
+405,406c405,406
+< m2/magnate    #    11/magnates
+< m3/magnate    #    11/magnates
+---
+> m2/magnates    #    11/magnates
+> m3/magnates    #    11/magnates
+412c412
+< o/organization :name n/name ( :op1 none0/International ) | ( :op2 none1/Data ) | :op3 none2/Group    #    29/Group ( :compound 28/Data ) | :compound 27/International
+---
+> o/organization :name n/name ( :op1 none0/International ) | ( :op2 none1/Data ) | :op3 none2/Group    #    29/Group ( :compound 28/Data ) | :compound 27/International 
+419,420c419,420
+< o2/own :ARG0 c/country :name n2/name :op1 none3/U.S.    #    26/owned :compound 25/U.S.
+< b/before ( :op1 n4/now ) | :duration t/temporal-quantity ( :unit y/year ) | :quant none5/10    #    5/years ( :nummod 4/10 ) | :amod 3/past
+---
+> o2/own :ARG0 c/country :name n2/name :op1 none3/U.S.    #    26/owned :compound 25/U.S
+> b/before ( :op1 n4/now ) | :duration t/temporal-quantity ( :unit y/year ) | :quant none5/10    #    5/year ( :nummod 4/10 ) | :amod 3/past
+443c443
+< l/life    #    1/Life
+---
+> l/life    #    1/life
+455c455
+< b/bed :domain l/life    #    5/bed :nsubj 1/Life
+---
+> b/bed :domain l/life    #    5/bed :nsubj 1/life
+462,463c462,463
+< o/or ( :op1 f2/family ) | :op2 f3/friend    #    29/family ( :cc 30/or ) | :conj-or 31/friends
+< o/or ( :op1 f2/family ) | ( :op2 f3/friend ) | :polarity none1/-    #    29/family ( :cc 30/or ) | ( :conj-or 31/friends ) | :neg 28/no
+---
+> o/or ( :op1 f2/family ) | :op2 f3/friends    #    29/family ( :cc 30/or ) | :conj-or 31/friends
+> o/or ( :op1 f2/family ) | ( :op2 f3/friends ) | :polarity none1/-    #    29/family ( :cc 30/or ) | ( :conj-or 31/friends ) | :neg 28/no
+466,467c466,467
+< a4/and ( :op3 o/or ( :op1 f2/family ) | :op2 f3/friend ) | ( :op2 c/custom ) | :op1 b2/barrier    #    23/barrier ( :cc 27/and ) | ( :conj-and 26/customs ) | :conj-and 29/family ( :cc 30/or ) | :conj-or 31/friends
+< l2/land :location-of a4/and ( :op3 o/or ( :op1 f2/family ) | :op2 f3/friend ) | ( :op2 c/custom ) | :op1 b2/barrier    #    17/land :acl-relcl 20/is :nsubj 23/barrier ( :cc 27/and ) | ( :conj-and 26/customs ) | :conj-and 29/family ( :cc 30/or ) | :conj-or 31/friends
+---
+> a4/and ( :op3 o/or ( :op1 f2/family ) | :op2 f3/friends ) | ( :op2 c/custom ) | :op1 b2/barrier    #    23/barrier ( :cc 27/and ) | ( :conj-and 26/customs ) | :conj-and 29/family ( :cc 30/or ) | :conj-or 31/friends
+> l2/land :location-of a4/and ( :op3 o/or ( :op1 f2/family ) | :op2 f3/friends ) | ( :op2 c/custom ) | :op1 b2/barrier    #    17/land :acl-relcl 20/is :nsubj 23/barrier ( :cc 27/and ) | ( :conj-and 26/customs ) | :conj-and 29/family ( :cc 30/or ) | :conj-or 31/friends
+473c473
+< c/country :name n/name ( :op1 none0/Saudi ) | :op2 none1/Arabia    #    2/Arabia :compound 1/Saudi
+---
+> c/country :name n/name ( :op1 none0/Saudi ) | :op2 none1/Arabia    #    2/Arabia :compound 1/saudi
+498c498
+< c/committee    #    17/committee
+---
+> c/committee    #    17/commmittee
+533,535c533,535
+< g2/govern    #    3/Government
+< g/government-organization :ARG0-of g2/govern    #    3/Government
+< i/international    #    1/International
+---
+> g2/govern    #    3/government
+> g/government-organization :ARG0-of g2/govern    #    3/government
+> i/international    #    1/international
+548,549c548,549
+< none6/Musharraf    #    24/Musharraf
+< none5/Pervez    #    23/Pervez
+---
+> none6/Musharraf    #    24/M
+> none5/Pervez    #    23/Pervaz
+552,553c552,553
+< none2/1    #    10/020112
+< none1/2002    #    10/020112
+---
+> none2/1    #    10/021112
+> none1/2002    #    10/021112
+555c555
+< s3/severe    #    12/severe
+---
+> s3/severe    #    12/serve
+557,558c557,558
+< p2/president    #    22/President
+< a3/around    #    1/Around
+---
+> p2/president    #    22/Presdent
+> a3/around    #    1/around
+568c568
+< r/religion    #    4/religious
+---
+> r/religion    #    4/religios
+570c570
+< r2/religious-group :name n/name :op1 none4/Islam    #    15/Islamic
+---
+> r2/religuious-group :name n/name :op1 none4/Islam    #    15/Islamic
+572,573c572,573
+< p/person :name n2/name ( :op1 none5/Pervez ) | ( :op2 none6/Musharraf )    #    24/Musharraf :compound 23/Pervez
+< a/arrest :prep-under a4/act    #    8/arrested :nmod-under 13/actions :case 11/under
+---
+> p/person :name n2/name ( :op1 none5/Pervez ) | ( :op2 none6/Musharraf )    #    24/M :compound 23/P
+> a/arest :prep-under a4/act    #    8/arrested :nmod-under 13/actions :case 11/under
+580,581c580,581
+< e/extremist :quant a3/around :op1 none0/1400    #    5/extremists :nummod 2/1400 :advmod 1/Around
+< a3/around :op1 none0/1400    #    2/1400 :advmod 1/Around
+---
+> e/extremist :quant a3/around :op1 none0/1400    #    5/extremits :nummod 2/1400 :advmod 1/around
+> a3/around :op1 none0/1400    #    2/1400 :advmod 1/around
+585,587c585,587
+< a6/announce :time w/weekend    #    20/announced :nmod-during 27/weekend :case 25/during
+< p/person ( :ARG0-of h/have-org-role :ARG2 p2/president ) | :name n2/name ( :op1 none5/Pervez ) | ( :op2 none6/Musharraf )    #    24/Musharraf ( :compound 23/Pervez ) | :compound 22/President
+< a6/announce :ARG0 p/person :name n2/name ( :op1 none5/Pervez ) | ( :op2 none6/Musharraf )    #    20/announced :nmod-by 24/Musharraf ( :compound 23/Pervez ) | :case 21/by
+---
+> a6/announce :time w/weekend    #    20/annnounced :nmod-during 27/weekend :case 25/during
+> p/person ( :ARG0-of h/have-org-role :ARG2 p2/president ) | :name n2/name ( :op1 none5/Pervez ) | ( :op2 none6/Musharraf )    #    24/M ( :compound 23/P ) | :compound 22/President
+> a6/announce :ARG0 p/person :name n2/name ( :op1 none5/Pervez ) | ( :op2 none6/Musharraf )    #    20/announced :nmod-by 24/M ( :compound 23/P ) | :case 21/by
+589c589
+< m/militant :mod r2/religious-group :name n/name :op1 none4/Islam    #    16/militants :amod 15/Islamic
+---
+> m/militant :mod r2/religiou-group :name n/name :op1 none4/Islam    #    16/militants :amod 15/Islamic
+598,599c598,599
+< none4/Jaish-e-Mohammad    #    15/Jaish-e-Mohammad
+< none3/Lashkar-e-Taiba    #    13/Lashkar-e-Taiba
+---
+> none4/Jaish-e-Mohammad    #    15/Jaish
+> none3/Lashkar-e-Taiba    #    13/Lashkar
+603c603
+< h/hardline    #    3/hardline
+---
+> h/hardline    #    3/hardline  
+610,614c610,614
+< o2/organization :name n4/name :op1 none4/Jaish-e-Mohammad    #    15/Jaish-e-Mohammad
+< o/organization :name n3/name :op1 none3/Lashkar-e-Taiba    #    13/Lashkar-e-Taiba
+< a/and ( :op2 o2/organization :name n4/name :op1 none4/Jaish-e-Mohammad ) | :op1 o/organization :name n3/name :op1 none3/Lashkar-e-Taiba    #    13/Lashkar-e-Taiba ( :cc 14/and ) | :conj-and 15/Jaish-e-Mohammad
+< g/group :domain a/and ( :op2 o2/organization :name n4/name :op1 none4/Jaish-e-Mohammad ) | :op1 o/organization :name n3/name :op1 none3/Lashkar-e-Taiba    #    13/Lashkar-e-Taiba ( :cc 14/and ) | ( :conj-and 15/Jaish-e-Mohammad ) | :nsubj 5/groups
+< g/group :consist-of m/militant    #    5/groups :amod 4/militant
+---
+> o2/organization :name n4/name :op1 none4/Jaish-e-Mohammad    #    15/Jaish
+> o/organizatio :name n3/name :op1 none3/Lashkar-e-Taiba    #    13/Lashkar
+> a/and ( :op2 o2/organization :name n4/name :op1 none4/Jaish-e-Mohammad ) | :op1 o/organizatio :name n3/name :op1 none3/Lashkar-e-Taiba    #    13/Lashkar-e-Taiba ( :cc 14/and ) | :conj-and 15/Jaish-e-Mohammad
+> g/group :domain a/and ( :op2 o2/organization :name n4/name :op1 none4/Jaish-e-Mohammad ) | :op1 o/organizatio :name n3/name :op1 none3/Lashkar-e-Taiba    #    13/Lashkar-e-Taiba ( :cc 14/and ) | ( :conj-and 15/Jaish-e-Mohammad ) | :nsubj 5/groups
+> g/group :consist-of m/militant    #    5/group :amod 4/militant
+634,635c634,635
+< s/state :ARG0 l/law    #    3/states :nsubj 2/law
+< l/law :source c/country :name n/name :op1 none0/Iran    #    2/law :amod 1/Iranian
+---
+> s/state :ARG0 l/law    #    3/tates :nsubj 2/law
+> l/law :source c/country :name n/name :op1 none0/Iran    #    2/law  :amod 1/Iranian
+646,647c646,647
+< a/and ( :op1 i/international ) | :op2 t/terrorism    #    1/International :conj 3/terrorism
+< i/international    #    1/International
+---
+> a/and ( :op1 i/international ) | :op2 t/terrorism    #    1/international :conj 3/terrorism
+> i/international    #    1/international
+669c669
+< p2/prevent :ARG1 a/attack :mod c2/cyber    #    11/prevention :nmod-of 13/cyberattacks :case 12/of
+---
+> p2/prevention :ARG1 a/attack :mod c2/cyber    #    11/prevention :nmod-of 13/cyberattacks :case 12/of 
+675c675
+< p2/power    #    1/Power
+---
+> p2/power    #    1/power
+687c687
+< c/cut :ARG1 p2/power    #    2/cuts :compound 1/Power
+---
+> c/cut :ARG1 p2/power    #    2/cuts :compound 1/power
+691c691
+< w/work :ARG1 s/space-craft    #    10/work :nmod-with 13/craft ( :case 11/with ) | :compound 12/space
+---
+> w/work :ARG1 s/space-craft    #    10/work :nmod-with 13/craft ( :case 11/with ) | :compound 12/space 
+698c698
+< none2/Boeing    #    8/Boeing
+---
+> none2/Boeing    #    8/Boening
+707c707
+< c3/cause    #    16/because
+---
+> c3/cause    #    16/becuse
+720,721c720,721
+< c2/company :name n3/name :op1 none2/Boeing    #    8/Boeing
+< c2/company :name n3/name :op1 none2/Boeing    #    17/it
+---
+> c2/company :name n3/name :op1 none2/Boening    #    8/Boening
+> c2/company :name n3/name :op1 none2/Boening    #    17/it
+728c728
+< m2/minimum :consist-of p2/point    #    15/minimum :compound 14/points
+---
+> m2/minimum :consist-of p2/points    #    15/minimum :compound 14/points
+734,737c734,737
+< t2/transfer :op1-of a/and :op2 s3/subcontract    #    28/transfer ( :cc 29/and ) | :conj-and 30/subcontracts
+< t/term :mod a/and ( :op1 t2/transfer ) | :op2 s3/subcontract    #    25/terms :nmod-of 28/transfer ( :case 26/of ) | ( :cc 29/and ) | :conj-and 30/subcontracts
+< b/benefit :ARG1 c2/company :name n3/name :op1 none2/Boeing    #    10/benefit :nsubj 8/Boeing
+< g/gain :ARG0 c2/company :name n3/name :op1 none2/Boeing    #    19/gain :nsubj 17/it
+---
+> t2/transfer :op1-of a/and :op2 s3/subcontract    #    28/transfer ( :cc 29/and ) | :conj-and 30/subcontracts  
+> t/term :mod a/and ( :op1 t2/transfer ) | :op2 s3/subcontract    #    25/terms :nmod-of 28/transfer ( :case 26/of ) | ( :cc 29/and ) | :conj-and 30/subcontracts  
+> b/benefit :ARG1 c2/company :name n3/name :op1 none2/Boening    #    10/benefit :nsubj 8/Boening
+> g/gain :ARG0 c2/company :name n3/name :op1 none2/Boening    #    19/gain :nsubj 17/it
+740,741c740,741
+< p3/point :mod f/few :degree m3/more    #    21/points :amod 20/fewer
+< p3/point :mod f/few ( :degree m3/more ) | :compared-to c4/company :name n4/name :op1 none3/Dassault    #    21/points :amod 20/fewer | ( :nmod-than 23/Dassault :case 22/than )
+---
+> p3/points :mod f/few :degree m3/more    #    21/points :amod 20/fewer
+> p3/points :mod f/few ( :degree m3/more ) | :compared-to c4/company :name n4/name :op1 none3/Dassault    #    21/points :amod 20/fewer | ( :nmod-than 23/Dassault :case 22/than ) 
+750c750
+< none0/Lim    #    4/Lim
+---
+> none0/Lim    #    4/Li
+758c758
+< p3/problem    #    7/problems
+---
+> p3/problem    #    7/problem
+761,762c761,762
+< m/military    #    1/Military
+< o/official    #    2/officials
+---
+> m/military    #    1/military
+> o/official    #    2/official
+769,770c769,770
+< p4/person :ARG0-of h/have-org-role ( :ARG2 o/official ) | :ARG1 m/military    #    2/officials :amod 1/Military
+< c2/country :name n3/name ( :op1 none2/North ) | :op2 none3/Korea    #    19/Korea :compound 18/North
+---
+> p4/person :ARG0-of h/have-org-role ( :ARG2 o/official ) | :ARG1 m/military    #    2/officials :amod 1/military
+> c2/contry :name n3/name ( :op1 none2/North ) | :op2 none3/Korea    #    19/Korea :compound 18/North
+772c772
+< s/say :ARG0 p4/person :ARG0-of h/have-org-role ( :ARG2 o/official ) | :ARG1 m/military    #    3/said :nsubj 2/officials :amod 1/Military
+---
+> s/say :ARG0 p4/person :ARG0-of h/have-org-role ( :ARG2 o/official ) | :ARG1 m/military    #    3/said :nsubj 2/officials :amod 1/military
+784,786c784,786
+< s3/standoff :ARG1-of c4/close :ARG2 c3/conflict    #    16/standoff :acl-relcl 16/standoff :nmod-close_to 29/conflict :case 27/close :mwe 28/to
+< d3/develop :ARG1-of s4/suspect    #    24/development :amod 21/suspected
+< d3/develop :ARG1 w/weapon    #    24/development :compound 23/weapons
+---
+> s3/standoff :ARG1-of c4/close :ARG2 c3/conflict    #    16/standoff :acl-relcl 16/came :nmod-close_to 29/conflict :case 27/close :mwe 28/to
+> d3/develop :ARG1-of s4/suspect    #    24/developments :amod 21/suspected
+> d3/develop :ARG1 w/weapon    #    24/development :compound 23/weapon
+788c788
+< d3/develop :ARG0 c2/country :name n3/name ( :op1 none2/North ) | :op2 none3/Korea    #    24/development :nmod-poss 19/Korea :compound 18/North
+---
+> d3/develop :ARG0 c2/country :name n3/name ( :op1 none2/North ) | :op2 none3/Korea    #    24/developments :nmod-poss 19/Korea :compound 18/North
+819c819
+< p2/plant    #    19/plant
+---
+> p2/plant    #    19/plant  
+838c838
+< m/manufacture :ARG1 m2/methamphetamine    #    11/manufacture :nmod-of 13/methamphetamines :case 12/of
+---
+> m/manufacture :ARG1 m2/methamphetamine    #    11/manufacture :nmod-of 13/methamphetamines :case 12/0f
+840c840
+< m/manufacture :ARG1-of d3/disguise    #    11/manufacture :acl 14/disguised
+---
+> m/manufacture :ARG1-of d3/disguised    #    11/manufacture :acl 14/disguised
+844c844
+< 
+---
+>   
+853c853
+< none1/Canada    #    18/Canada
+---
+> none1/Canda    #    18/Canada
+856c856
+< none3/2000    #    12/2000
+---
+> none3/2000    #    12/2000 
+874c874
+< n3/national :source w2/world-region :name n4/name :op1 none2/West    #    3/national :amod 2/Western
+---
+> n3/national :source w2/world-region :name n4/name :op1 none2/West    #    3/national :amod 2/Western 
+923,925c923,925
+< t/tear    #    1/War-torn
+< w/war    #    1/War-torn
+< t/tear :ARG0 w/war    #    1/War-torn
+---
+> t/tear    #    1/war-torn
+> w/war    #    1/war-torn
+> t/tear :ARG0 w/war    #    1/war-torn
+928c928
+< c2/country ( :name n/name :op1 none0/Afghanistan ) | :ARG1-of t/tear :ARG0 w/war    #    2/Afghanistan :amod 1/War-torn
+---
+> c2/country ( :name n/name :op1 none0/Afghanistan ) | :ARG1-of t/tear :ARG0 w/war    #    2/Afghanistan :amod 1/war-torn
+935c935
+< s/supply :ARG0 c2/country :name n/name :op1 none0/Afghanistan    #    15/producer :nsubj 2/Afghanistan
+---
+> s/supply :ARG0 c2/country :name n/name :op1 none0/Afghanistan    #    15/supplier :nsubj 2/Afghanistan
+942c942
+< 
+---
+>  
+960c960
+< d/defense    #    9/Defense
+---
+> d/defense    #    9/Defence
+963c963
+< m/ministry    #    10/Ministry
+---
+> m/ministry    #    10/ministry
+970c970
+< c/country :name n/name :op1 none0/India    #    8/Indian
+---
+> c/country :name n/name :op1 none0/India    #    8/Indian 
+975c975
+< m/ministry :mod c/country :name n/name :op1 none0/India    #    10/Ministry :amod 8/Indian
+---
+> m/ministry :mod c/country :name n/name :op1 none0/India    #    10/ministry :amod 8/Indian
+994c994
+< none0/ASEAN    #    1/ASEAN
+---
+> none0/ASEAN    #    1/AEAN
+1004,1005c1004,1005
+< a/agree :ARG0 o2/organization :name n/name :op1 none0/ASEAN    #    3/agree :nsubj 1/ASEAN
+< i/identify :ARG0 o2/organization :name n/name :op1 none0/ASEAN    #    10/identify :nsubj 1/ASEAN
+---
+> a/agree :ARG0 o2/orgnization :name n/name :op1 none0/ASEAN    #    3/agree :nsubj 1/AESAN
+> i/identify :ARG0 o2/organization :name n/name :op1 none0/AESAN    #    10/identify :nsubj 1/AESAN
+1031c1031
+< b/border :ARG2 s2/sea    #    6/borders :compound 5/sea
+---
+> b/border :ARG2 s2/sea    #    6/borders :compound 5/see
+1034c1034
+< u/use :purpose e/evade    #    8/used :advcl-in 14/evading
+---
+> u/use :purpose e/evade    #    8/used :advcl-in 14/evading 
+1048c1048
+< none0/15    #    1/2002-10-15
+---
+> none0/15    #    1/2002-10-25
+1070c1070
+< c6/crime    #    28/anti-crime
+---
+> c6/crime    #    28/anti-criminal
+1078,1079c1078,1079
+< o/oppose    #    28/anti-crime
+< o/oppose :ARG1 c6/crime    #    28/anti-crime
+---
+> o/oppose    #    28/anti-criminal
+> o/oppose :ARG1 c6/crime    #    28/anti-criminal
+1090c1090
+< c4/cause :ARG0 c5/concern    #    20/concern :case 18/because :mwe 19/of
+---
+> c4/cause :ARG0 c5/concern    #    20/concern :case 18/because :mwe 19/of   
+1110c1110
+< c/country :name n/name :op1 none0/China    #    1/China
+---
+> c/country  :name n/name :op1 none0/China    #    1/China
+1112c1112
+< c/country :name n/name :op1 none0/China    #    3/CN
+---
+> c/country  :name n/name :op1 none0/China    #    3/CN
+1121c1121
+< none0/U.S.    #    2/U.S.
+---
+> none0/U.S.    #    2/U.S
+1124c1124
+< p2/pursue    #    27/pursuing
+---
+> p2/pursue    #    27/pursuit
+1133c1133
+< p/pursue    #    15/pursuit
+---
+> p/pursue    #    15/pursuing
+1139c1139
+< g/government-organization :ARG0-of g2/govern :ARG1 c/country :name n/name :op1 none0/U.S.    #    3/government :compound 2/U.S.
+---
+> g/government-organization :ARG0-of g2/govern :ARG1 c/country :name n/name :op1 none0/U.S    #    3/government :compound 2/U.S
+1145c1145
+< i/intend :ARG0 c2/country :name n2/name :op1 none1/Iran    #    9/intentions :nmod-poss 7/Iran
+---
+> i/intent :ARG0 c2/country :name n2/name :op1 none1/Iran    #    9/intentions :nmod-poss 7/Iran
+1171c1171
+< none0/Yazd    #    4/Yazd
+---
+> none0/Yazd    #    4/Yazad
+1187c1187
+< p/province :name n/name ( :op1 none0/Yazd ) | :op2 none1/Province    #    5/Province :compound 4/Yazd
+---
+> p/province :name n/name ( :op1 none0/Yazad ) | :op2 none1/Province    #    5/Province :compound 4/Yazad
+1206c1206
+< m/make :location c/country :name n2/name :op1 none3/Iran    #    27/made :nmod-in 30/Iran :case 29/in
+---
+> m/make :location c/country :name n2/name :op1 none3/Iran    #    27/made :nmod-in 30/Iran :case 29/in  
+1231c1231
+< i/increase :ARG1 d/defense    #    5/defenses :amod 3/increased
+---
+> i/increase :ARG1 d/defense    #    5/defenses :amod 3/increased 
+1257c1257
+< none0/-    #    1/No
+---
+> none0/-    #    1/no
+1268c1268
+< d/drug :polarity none0/-    #    3/drug :neg 1/No
+---
+> d/drug :polarity none0/-    #    3/drug :neg 1/no
+1277c1277
+< m/monetary-quantity ( :unit c/cent ) | :quant none0/5    #    5/cents :nummod 4/five
+---
+> m/monetary-quantity ( :unit c/cent ) | :quant none0/5    #    5/cent :nummod 4/five
+1280c1280
+< c2/cost :ARG1 p/produce    #    3/costs :xcomp 7/produce
+---
+> c2/cos :ARG1 p/produce    #    3/costs :xcomp 7/produce
+1282c1282
+< c2/cost :ARG2 m/monetary-quantity ( :unit c/cent ) | :quant none0/5    #    3/costs :dobj 5/cents :nummod 4/five
+---
+> c2/cost :ARG2 m/monetary-quantity ( :unit c/cent ) | :quant none0/5    #    3/costs :dobj 5/cent :nummod 4/five
+1308c1308
+< l3/last    #    1/Last
+---
+> l3/last    #    1/last
+1316c1316
+< w/week :mod l3/last    #    2/week :amod 1/Last
+---
+> w/week :mod l3/last    #    2/week :amod 1/last
+1323c1323
+< l2/link :ARG1 o/organization :name n2/name ( :op1 none2/People's ) | :op2 none3/Mujahedeen    #    11/linked :nmod-to 16/Mujahedeen ( :case 12/to ) | :compound 14/People
+---
+> l2/link :ARG1 o/organization :name n2/name ( :op1 none2/People's ) | :op2 none3/Mjahedeen    #    11/linked :nmod-to 16/Mujahedeen ( :case 12/to ) | :compound 14/People
+1337c1337
+< none1/American    #    14/American
+---
+> none1/American    #    14/American 
+1371c1371
+< b/behave    #    12/behavior
+---
+> b/behave    #    12/behaviour
+1376,1378c1376,1378
+< c2/country :name n3/name :op1 none4/Australia    #    20/Australia
+< c2/country :name n3/name :op1 none4/Australia    #    11/Australian
+< c2/country :name n3/name :op1 none4/Australia    #    15/Australia
+---
+> c2/country :name n3/name :op1 none4/Australia    #    20/Austraila
+> c2/country :name n3/name :op1 none4/Australia    #    11/Austrailan
+> c2/country :name n3/name :op1 none4/Australia    #    15/Austraila
+1385c1385
+< m/monitor :ARG1 b/behave    #    9/monitoring :dobj 12/behavior
+---
+> m/monitor :ARG1 b/behaviour    #    9/monitoring :dobj 12/behaviour
+1387,1388c1387,1388
+< b/behave :quant a2/all    #    12/behavior :det 10/all
+< b/behave :ARG0 c2/country :name n3/name :op1 none4/Australia    #    12/behavior :amod 11/Australian
+---
+> b/behave :quant a2/all    #    12/behaviour :det 10/all
+> b/behave :ARG0 c2/country :name n3/name :op1 none4/Australia    #    12/behaviour :amod 11/Australian
+1404c1404
+< none0/Federal    #    6/Federal
+---
+> none0/Federal    #    6/federal
+1406c1406
+< s2/spokeswoman    #    2/spokeswoman
+---
+> s2/spokeswoman    #    2/spokeswomen
+1416c1416
+< l/licence    #    19/licence
+---
+> l/licence    #    19/license
+1490c1490
+< l/live    #    1/Live
+---
+> l/live    #    1/live
+1497c1497
+< o2/organization :name n2/name :op1 none1/FAO    #    7/FAO
+---
+> o2/organization :name n2/name :op1 none1/FAO    #    7/FAO 
+1500c1500
+< p/poultry :ARG0-of l/live    #    2/poultry :amod 1/Live
+---
+> p/poultry :ARG0-of l/live    #    2/poultry :amod 1/live
+1509c1509
+< 
+---
+>  
+1529,1531c1529,1531
+< c2/country :quant none2/10    #    14/countries :nummod 13/10
+< a2/and ( :op1 d/die ) | :op2 b/break    #    8/deaths ( :cc 9/and ) | :conj-and 11/outbreaks
+< c/cause :ARG1 a2/and ( :op1 d/die ) | :op2 b/break    #    6/caused ( :dobj 11/outbreaks ) | :dobj 8/deaths ( :cc 9/and ) | :conj-and 11/outbreaks
+---
+> c2/countries :quant none2/10    #    14/countries :nummod 13/10
+> a2/and ( :op1 d/die ) | :op2 b/break    #    8/death ( :cc 9/and ) | :conj-and 11/outbreaks
+> c/cause :ARG1 a2/and ( :op1 d/die ) | :op2 b/break    #    6/caused ( :dobj 11/outbreaks ) | :dobj 8/death ( :cc 9/and ) | :conj-and 11/outbreaks
+1533c1533
+< a2/and ( :op1 d/die ) | ( :op2 b/break ) | :quant none1/13    #    8/deaths ( :cc 9/and ) | ( :conj-and 11/outbreaks ) | :nummod 7/13
+---
+> a2/and ( :op1 d/die ) | ( :op2 b/break ) | :quant none1/13    #    8/death ( :cc 9/and ) | ( :conj-and 11/outbreaks ) | :nummod 7/13
+1539,1542c1539,1542
+< none2/2004    #    1/2004-02-16
+< d/date-entity ( :month none0/2 ) | ( :day none1/16 ) | :year none2/2004    #    1/2004-02-16
+< none1/16    #    1/2004-02-16
+< none0/2    #    1/2004-02-16
+---
+> none2/2004    #    1/2004-02-06
+> d/date-entity ( :month none0/2 ) | ( :day none1/16 ) | :year none2/2004    #    1/2004-02-06
+> none1/16    #    1/2004-02-06
+> none0/2    #    1/2004-02-06
+1554c1554
+< u/up-to    #    1/Up
+---
+> u/up-to    #    1/up
+1556c1556
+< u/up-to    #    1/Up :mwe 2/to
+---
+> u/up-to    #    1/up :mwe 2/to
+1570c1570
+< t/troop    #    15/troops
+---
+> t/troop    #    15/trops
+1574c1574
+< s/surrender :time a2/after :op1 s2/surround    #    12/surrendered :advcl 16/surrounded :mark 13/after
+---
+> s/surrender :time a2/after :op1 s2/surround    #    12/surrendered :advcl 16/surrounded :mark 13//after
+1583,1584c1583,1584
+< a/and ( :op3 p/person :ARG0-of c2/command ) | ( :op2 r/relative ) | :op1 i/insurgent    #    4/insurgents ( :cc 5/and ) | ( :conj-and 7/relatives ) | :conj-and 11/commanders
+< s/surrender :ARG0 a/and ( :op3 p/person :ARG0-of c2/command ) | ( :op2 r/relative ) | :op1 i/insurgent    #    12/surrendered ( :nsubj 7/relatives ) | ( :nsubj 11/commanders ) | :nsubj 4/insurgents ( :cc 5/and ) | ( :conj-and 7/relatives ) | :conj-and 11/commanders
+---
+> a/and ( :op3 p/person :ARG0-of c2/command ) | ( :op2 r/relative ) | :op1 i/insurgent    #    4/insurgent ( :cc 5/and ) | ( :conj-and 7/relatives ) | :conj-and 11/commanders
+> s/surrender :ARG0 a/and ( :op3 p/person :ARG0-of c2/command ) | ( :op2 r/relative ) | :op1 i/insurgent    #    12/surrendered ( :nsubj 7/relatives ) | ( :nsubj 11/commanders ) | :nsubj 4/insurgent ( :cc 5/and ) | ( :conj-and 7/relatives ) | :conj-and 11/commanders
+1587,1588c1587,1588
+< i/insurgent :quant u/up-to :op1 none0/700    #    4/insurgents :nummod 3/700 :advmod 1/Up :mwe 2/to
+< u/up-to :op1 none0/700    #    3/700 :advmod 1/Up :mwe 2/to
+---
+> i/insurgent :quant u/up-to :op1 none0/700    #    4/insurgents :nummod 3/700 :advmod 1/up :mwe 2/to
+> u/up-to :op1 none0/700    #    3/700 :advmod 1/up :mwe 2/to
+1596,1597c1596,1597
+< g/government-organization :ARG0-of g2/govern    #    3/Government
+< g2/govern    #    3/Government
+---
+> g/government-organization :ARG0-of g2/govern    #    3/government
+> g2/govern    #    3/government
+1607,1608c1607,1608
+< g/government-organization :ARG0-of g2/govern :ARG1 c/country :name n/name :op1 none0/Albania    #    3/Government :compound 2/Albanian
+< w/work :ARG0 g/government-organization :ARG0-of g2/govern    #    6/working :nsubj 3/Government
+---
+> g/government-organization :ARG0-of g2/govern :ARG1 c/country :name n/name :op1 none0/Albania    #    3/government :compound 2/Albanian
+> w/work :ARG0 g/government-organization :ARG0-of g2/govern    #    6/working :nsubj 3/government
+1614,1616c1614,1616
+< a/and ( :op1 s3/support ) | :op2 c2/cooperate    #    17/support ( :cc 18/and ) | :conj-and 19/cooperation
+< r/require :ARG1 a/and ( :op1 s3/support ) | :op2 c2/cooperate    #    15/require :dobj 17/support ( :cc 18/and ) | :conj-and 19/cooperation
+< a/and ( :op1 s3/support ) | ( :op2 c2/cooperate ) | :mod i/international    #    17/support ( :cc 18/and ) | ( :conj-and 19/cooperation ) | :amod 16/international
+---
+> a/and ( :op1 s3/support ) | :op2 c2/cooperation    #    17/support ( :cc 18/and ) | :conj-and 19/cooperation
+> r/require :ARG1 a/and ( :op1 s3/support ) | :op2 c2/cooperation    #    15/require :dobj 17/support ( :cc 18/and ) | :conj-and 19/cooperation
+> a/and ( :op1 s3/support ) | ( :op2 c2/cooperation ) | :mod i/international    #    17/support ( :cc 18/and ) | ( :conj-and 19/cooperation ) | :amod 16/international
+1623c1623
+< i/international    #    1/International
+---
+> i/international    #    1/international
+1629c1629
+< p/person ( :ARG0-of h/have-org-role :ARG2 d/diplomat ) | :mod i/international    #    2/diplomats :compound 1/International
+---
+> p/person ( :ARG0-of h/have-org-role :ARG2 d/diplomat ) | :mod i/international    #    2/diplomats :compound 1/international 
+1653c1653
+< l/last    #    1/Last
+---
+> l/last    #    1/last
+1660c1660
+< y/year    #    28/years
+---
+> y/year    #    28/year
+1663c1663
+< r2/rate-entity :ARG3 t2/temporal-quantity ( :quant none3/1 ) | :unit d/day    #    9/daily
+---
+> r2/rate-entity :ARG3 t2/temporat-quantity ( :quant none3/1 ) | :unit d/day    #    9/daily
+1669c1669
+< w/week :mod l/last    #    2/week :amod 1/Last
+---
+> w/week :mod l/last    #    2/week :amod 1/last
+1675c1675
+< n/newspaper :frequency r2/rate-entity :ARG3 t2/temporal-quantity ( :quant none3/1 ) | :unit d/day    #    10/newspaper :amod 9/daily
+---
+> n/newspaper :frequency r2/rate-entity :ARG3 t2/temporat-quantity ( :quant none3/1 ) | :unit d/day    #    10/newspaper :amod 9/daily
+1678c1678
+< q/quote :ARG2 s2/state :ARG0 s/source    #    11/quoted ( :acl 16/stating ) | :dobj 14/sources
+---
+> q/quote :ARG2 s2/state :ARG0 s/source   #    11/quoted ( :acl 16/stating ) | :dobj 14/sources
+1686,1687c1686,1687
+< f/face :time w2/within :op1 t/temporal-quantity ( :unit y/year ) | :quant none8/20    #    23/face :nmod-within 28/years ( :nummod 27/20 ) | :case 26/within
+< w2/within :op1 t/temporal-quantity ( :unit y/year ) | :quant none8/20    #    28/years ( :nummod 27/20 ) | :case 26/within
+---
+> f/face :time w2/within :op1 t/temporal-quantit ( :unit y/year ) | :quant none8/20    #    23/face :nmod-within 28/years ( :nummod 27/20 ) | :case 26/within
+> w2/within :op1 t/temporal-quantit ( :unit y/year ) | :quant none8/20    #    28/years ( :nummod 27/20 ) | :case 26/within
+1689c1689
+< r/rejoin :ARG1 c/country :name n4/name :op1 none6/China    #    20/rejoin :dobj 21/China
+---
+> r/rejoin :ARG1 c/county :name n4/name :op1 none6/China    #    20/rejoin :dobj 21/China
+1697c1697
+< a/after    #    10/in
+---
+> a/after    #     10/in
+1713c1713
+< g/generate :ARG0 p/plant    #    8/generate :nsubj 3/plant
+---
+> g/generate :ARG0 p/plant    #    8/generate :nsubj 3/plant 
+1721,1722c1721,1722
+< t3/telecommunication    #    5/Telecom
+< a/and ( :op1 t/terrorism ) | ( :op2 t2/technology ) | :op3 t3/telecommunication    #    1/terrorism ( :conj 3/technology ) | :conj 5/Telecom
+---
+> t3/telecommunication    #    5/telecommunication
+> a/and ( :op1 t/terrorism ) | ( :op2 t2/technology ) | :op3 t3/telecommunication    #    1/terrorism ( :conj 3/technology ) | :conj 5/telecommunication
+1734c1734
+< none0/1    #    1/One
+---
+> none0/1    #    1/one
+1739,1740c1739,1740
+< b/break :ARG1 m/missile ( :quant none0/1 ) | :ARG1-of i/include :ARG2 m2/missile    #    5/broke ( :compound-prt 6/up ) | :nsubj 1/One :nmod-of 4/missiles :case 2/of
+< m/missile ( :quant none0/1 ) | :ARG1-of i/include :ARG2 m2/missile    #    1/One :nmod-of 4/missiles :case 2/of
+---
+> b/break :ARG1 m/missile ( :quant none0/1 ) | :ARG1-of i/include :ARG2 m2/missile    #    5/broke ( :compound-prt 6/up ) | :nsubj 1/one :nmod-of 4/missiles :case 2/of
+> m/missile ( :quant none0/1 ) | :ARG1-of i/include :ARG2 m2/missile    #    1/one :nmod-of 4/missiles :case 2/of
+1751c1751
+< c/country :name n2/name :op1 none1/Brazil    #    5/Brazil
+---
+> c/country :name n2/name :op1 none1/Brazil    #    5/Bazil
+1757,1758c1757,1758
+< c2/current    #    1/Currently
+< r/receive :time c2/current    #    6/receive :advmod 1/Currently
+---
+> c2/current    #    1/currently
+> r/receive :time c2/current    #    6/receive :advmod 1/currently
+1761c1761
+< p/patient :quant none0/24000    #    3/patients :nummod 2/24000
+---
+> p/patient :quant none0/24000    #    3/patients :nummod 2/2400
+1769,1771c1769,1771
+< g2/govern    #    1/Government
+< g/government-organization :ARG0-of g2/govern    #    1/Government
+< c/crack :ARG1 g/government-organization :ARG0-of g2/govern    #    2/crackdown :compound 1/Government
+---
+> g2/govern    #    1/government
+> g/government-organization :ARG0-of g2/govern    #    1/government
+> c/crack :ARG1 g/government-organization :ARG0-of g2/govern    #    2/crackdown :compound 1/government
+1791c1791
+< d2/date-interval ( :op1 d3/date-entity ( :day none3/17 ) | ( :year none1/2005 ) | :month none2/9 ) | :op2 d4/date-entity ( :day none3/17 ) | ( :year none1/2005 ) | :month none2/9    #    3/September ( :nummod 4/2005 ) | :nummod 2/17-18
+---
+> d2/date-interval ( :op1 d3/date-entity ( :day none3/17 ) | ( :year none1/2005 ) | :month none2/9 ) | :op2 d4/date-entity ( :day none3/18 ) | ( :year none1/2005 ) | :month none2/9    #    3/September ( :nummod 4/2005 ) | :nummod 2/17-18
+1796,1798c1796,1798
+< a/and ( :op1 p/possess ) | :op2 t/traffic    #    12/possession ( :cc 13/and ) | :conj-and 14/trafficking
+< s/suspect :ARG1 a/and ( :op1 p/possess ) | :op2 t/traffic    #    10/suspicion :nmod-of 12/possession ( :case 11/of ) | ( :cc 13/and ) | :conj-and 14/trafficking
+< a/and ( :op1 p/possess :ARG1 w/weapon ) | :op2 t/traffic :ARG1 w/weapon    #    12/possession ( :cc 13/and ) | ( :conj-and 14/trafficking ) | :nmod-of 16/weapons :case 15/of
+---
+> a/and ( :op1 p/posses ) | :op2 t/traffic    #    12/possession ( :cc 13/and ) | :conj-and 14/trafficking
+> s/suspect :ARG1 a/and ( :op1 p/posses ) | :op2 t/traffic    #    10/suspicion :nmod-of 12/possession ( :case 11/of ) | ( :cc 13/and ) | :conj-and 14/trafficking
+> a/and ( :op1 p/posses :ARG1 w/weapon ) | :op2 t/traffic :ARG1 w/weapon    #    12/possession ( :cc 13/and ) | ( :conj-and 14/trafficking ) | :nmod-of 16/weapons :case 15/of
+1820,1821c1820,1821
+< n/nature    #    3/natural
+< a3/and    #    1/weather
+---
+> n/nature    #    3/natral
+> a3/and    #    1/and
+1827c1827
+< a2/and ( :op1 w/weather ) | :op2 d/disaster    #    1/weather ( :cc 2/and ) | :conj-and 4/disaster
+---
+> a2/and ( :op1 w/weather ) | :op2 d/distater    #    1/weather ( :cc 2/and ) | :conj-and 4/disaster
+1896c1896
+< d/destroy :ARG1 s2/satellite    #    13/destroying :dobj 15/satellite
+---
+> d/destroy :ARG1 s2/satellite    #    13/destruction :dobj 15/satellite
+1912c1912
+< l/law    #    16/illegally
+---
+> l/law    #    16/illegally 
+1929c1929
+< c2/collect :manner l/law :polarity none1/-    #    17/collecting :advmod 16/illegally
+---
+> c2/collect :manner l/law :polarity none1/-    #    17/collecting :advmod 16/illegaly
+1939c1939
+< p2/penalize    #    16/carries :dobj 16/carries
+---
+> p2/penalty    #    16/carries :dobj 16/penalty
+1941c1941
+< g/gram    #    6/grams
+---
+> g/gram    #    6/grams   
+1947c1947
+< m/more-than    #    3/more :mwe 4/than
+---
+> m/more-than    #    3/more :mwe 4/then
+1949c1949
+< p/possess    #    1/Possession
+---
+> p/possess    #    1/possession
+1964,1965c1964,1965
+< p/possess :ARG1 o/or ( :op1 h/heroin :quant m/more-than :op2 m3/mass-quantity ( :unit g/gram ) | :quant none0/600 ) | :op2 o2/opium :quant m2/more-than :op1 m4/mass-quantity ( :unit k/kilogram ) | :quant none1/20    #    1/Possession :nmod-of 6/grams ( :case 2/of ) | ( :cc 9/or ) | ( :nummod 5/600 :advmod 3/more :mwe 4/than ) | ( :nmod-of 8/heroin :case 7/of ) | :conj-or 13/kilograms ( :nummod 12/20 :advmod 10/more :mwe 11/than ) | :nmod-of 15/opium :case 14/of
+< p2/penalize :ARG2 p/possess    #    16/carries ( :nsubj 1/Possession ) | :dobj 19/penalty
+---
+> p/possess :ARG1 o/or ( :op1 h/heroin :quant m/more-than :op2 m3/mass-quantity ( :unit g/gram ) | :quant none0/600 ) | :op2 o2/opium :quant m2/more-than :op1 m4/mass-quantity ( :unit k/kilogram ) | :quant none1/20    #    1/possession :nmod-of 6/grams ( :case 2/of ) | ( :cc 9/or ) | ( :nummod 5/600 :advmod 3/more :mwe 4/than ) | ( :nmod-of 8/heroin :case 7/of ) | :conj-or 13/kilograms ( :nummod 12/20 :advmod 10/more :mwe 11/than ) | :nmod-of 15/opium :case 14/of
+> p2/penalize :ARG2 p/possession    #    16/carries ( :nsubj 1/possession ) | :dobj 19/penalty
+1967c1967
+< p2/penalize    #    16/carries :dobj 19/penalty
+---
+> p2/penalize    #    16/carries :dobj 19/penalty 
+1969c1969
+< p2/penalize :location c2/country :name n/name :op1 none2/Vietnam    #    16/carries ( :dobj 19/penalty ) | :nmod-in 22/Vietnam :case 20/in
+---
+> p2/penalize :location c2/county :name n/name :op1 none2/Vietnam    #    16/carries ( :dobj 19/penalty ) | :nmod-in 22/Vietnm :case 20/in
+1971c1971
+< 
+---
+>   
+2013,2015c2013,2015
+< g2/govern    #    3/Government
+< g/government-organization :ARG0-of g2/govern    #    3/Government
+< i/international    #    1/International
+---
+> g2/govern    #    3/government
+> g/government-organization :ARG0-of g2/govern    #    3/government
+> i/international    #    1/international
+2021,2022c2021,2022
+< a/and ( :op1 i/international ) | ( :op2 g/government-organization :ARG0-of g2/govern ) | ( :op3 w/weapon ) | ( :op4 p/proliferate ) | ( :op5 a2/and ( :op1 w2/war ) | :op2 c/conflict ) | :op6 m/military    #    1/International ( :conj 3/Government ) | ( :conj 5/weapons ) | ( :conj 7/proliferation ) | ( :dep 9/war ( :cc 10/and ) | :conj-and 11/conflict ) | :conj 13/military
+< a2/and ( :op1 w2/war ) | :op2 c/conflict    #    9/war ( :cc 10/and ) | :conj-and 11/conflict
+---
+> a/and ( :op1 i/international ) | ( :op2 g/government-organization :ARG0-of g2/govern ) | ( :op3 w/weapon )  | ( :op4 p/proliferate ) | ( :op5 a2/and ( :op1 w2/war ) | :op2 c/conflict ) | :op6 m/military    #    1/1international ( :conj 3/government ) | ( :conj 5/weapons ) | ( :conj 7/proliferation ) | ( :dep 9/war ( :cc 10/and ) | :conj-and 11/conflict ) | :conj 13/military
+> a2/and ( :op1 w2/war ) | :op2 c/conflict    #    9/war ( :cc 10/and ) | :conj-and 11/conflict 
+2047c2047
+< none0/India    #    1/India
+---
+> none0/India    #    1/Insia
+2065,2066c2065,2066
+< none9/Forza    #    21/Forza
+< none8/Riina    #    16/riina
+---
+> none9/Forza    #    21/Forza 
+> none8/Riina    #    16/Riina
+2068c2068
+< none12/Silvio    #    18/Silvio
+---
+> none12/Silvio    #    18/Silvo
+2072c2072
+< none11/Party    #    23/party
+---
+> none11/Party    #    23/Party
+2076,2077c2076,2077
+< p4/person :name n/name ( :op1 none1/Leoluca ) | :op2 none2/Lanza    #    7/Lanza :compound 6/Leoluca
+< p5/person :name n2/name ( :op1 none7/Giovanni ) | :op2 none8/Riina    #    16/riina :compound 15/Giovanni
+---
+> p4/person :name n/name ( :op1 none1/Leuloca ) | :op2 none2/Lanza    #    7/Lanza :compound 6/Leoluca
+> p5/person :name n2/name ( :op1 none7/Giovanni ) | :op2 none8/Riina    #    16/Riina :compound 15/Giovanni
+2079,2080c2079,2080
+< a/and ( :op1 p4/person :name n/name ( :op1 none1/Leoluca ) | :op2 none2/Lanza ) | :op2 p5/person :name n2/name ( :op1 none7/Giovanni ) | :op2 none8/Riina    #    7/Lanza ( :compound 6/Leoluca ) | ( :cc 14/and ) | :conj-and 16/riina :compound 15/Giovanni
+< p5/person ( :name n2/name ( :op1 none7/Giovanni ) | :op2 none8/Riina ) | :ARG0-of h2/have-org-role :ARG1 p2/political-party :name n4/name ( :op1 none9/Forza ) | ( :op2 none10/Italia ) | :op3 none11/Party    #    16/riina ( :compound 15/Giovanni ) | :nmod-from 23/party ( :case 17/from ) | ( :compound 22/Italia ) | :compound 21/Forza
+---
+> a/and ( :op1 p4/person :name n/name ( :op1 none1/Leuloca ) | :op2 none2/Lanza ) | :op2 p5/person :name n2/name ( :op1 none7/Giovanni ) | :op2 none8/Riina    #    7/Lanza ( :compound 6/Leoluca ) | ( :cc 14/and ) | :conj-and 16/Riina :compound 15/Giovanni
+> p5/person ( :name n2/name ( :op1 none7/Giovanni ) | :op2 none8/Riina ) | :ARG0-of h2/have-org-role :ARG1 p2/political-party :name n4/name ( :op1 none9/Forza ) | ( :op2 none10/Italia ) | :op3 none11/Party    #    16/Riina ( :compound 15/Giovanni ) | :nmod-from 23/party ( :case 17/from ) | ( :compound 22/Italia ) | :compound 21/Forza
+2082c2082
+< p4/person ( :name n/name ( :op1 none1/Leoluca ) | :op2 none2/Lanza ) | :ARG0-of h/have-org-role :ARG1 p/political-party :name n3/name ( :op1 none3/Christian-Democrats ) | ( :op2 none4/for ) | ( :op3 none5/Independence ) | :op4 none6/Party    #    7/Lanza ( :compound 6/Leoluca ) | :nmod-of 10/Christian-Democrats ( :compound 12/Independence ) | ( :compound 13/Party ) | ( :compound 11/for ) | :case 8/of
+---
+> p4/person ( :name n/name ( :op1 none1/Leuloca ) | :op2 none2/Lanza ) | :ARG0-of h/have-org-role :ARG1 p/political-party :name n3/name ( :op1 none3/Christian-Democrats ) | ( :op2 none4/for ) | ( :op3 none5/Independence ) | :op4 none6/Party    #    7/Lanza ( :compound 6/Leoluca ) | :nmod-of 10/Christian-Democrats ( :compound 12/Independence ) | ( :compound 13/Party ) | ( :compound 11/for ) | :case 8/of
+2084,2085c2084,2085
+< c3/candidate :ARG1-of a2/arrest    #    4/candidates :amod 3/arrested
+< c3/candidate :domain a/and ( :op1 p4/person :name n/name ( :op1 none1/Leoluca ) | :op2 none2/Lanza ) | :op2 p5/person :name n2/name ( :op1 none7/Giovanni ) | :op2 none8/Riina    #    7/Lanza ( :compound 6/Leoluca ) | ( :cc 14/and ) | ( :conj-and 16/riina :compound 15/Giovanni ) | :nsubj 4/candidates
+---
+> c3/candidates :ARG1-of a2/arrest    #    4/candidates :amod 3/arrested
+> c3/candidates :domain a/and ( :op1 p4/person :name n/name ( :op1 none1/Leuloca ) | :op2 none2/Lanza ) | :op2 p5/person :name n2/name ( :op1 none7/Giovanni ) | :op2 none8/Riina    #    7/Lanza ( :compound 6/Leoluca ) | ( :cc 14/and ) | ( :conj-and 16/Riina :compound 15/Giovanni ) | :nsubj 4/candidates
+2136c2136
+< a5/attack :ARG1 c/country :name n/name :op1 none0/Estonia    #    23/attacks :nmod-against 25/Estonia :case 24/against
+---
+> a5/attacks :ARG1 c/country :name n/name :op1 none0/Estonia    #    23/attacks :nmod-against 25/Estonia :case 24 /against
+2138c2138
+< b/begin :time a4/after :op1 o/onset    #    2/began :nmod-after 17/onset :case 15/after
+---
+> b/begin :time a4/after :op1 o/onset    #    2/bagan :nmod-after 17/onset :case 15/after
+2153c2153
+< a/access    #    1/Access
+---
+> a/access    #    1/access
+2160,2161c2160,2161
+< r/restrict :ARG1 a/access    #    7/restricted :nsubjpass 1/Access
+< a/access :ARG1 w/website    #    1/Access :nmod-to 4/websites :case 2/to
+---
+> r/restrict :ARG1 a/access    #    7/restricted :nsubjpass 1/access
+> a/access :ARG1 w/website    #    1/access :nmod-to 4/websites :case 2/to
+2168c2168
+< m/military    #    1/Military
+---
+> m/military    #    1/military
+2189c2189
+< s/state :ARG1 r/recommend :ARG1 c2/confident    #    2/stated :ccomp 7/confident :aux 5/should
+---
+> s/stated :ARG1 r/recommend :ARG1 c2/confident    #    2/stated :ccomp 7/confident :aux 5/should
+2192c2192
+< c2/confident :ARG2 a/and ( :op1 c/capable :ARG2 d/defend ) | :op2 c4/capable :ARG2 s2/security    #    7/confident :nmod-in 15/capabilities ( :case 8/in ) | ( :nmod 12/defense | :nmod 14/security
+---
+> c2/confident :ARG2 a/and ( :op1 c/capable :ARG2 d/defend ) | :op2 c4/capable :ARG2 s2/security    #    7/confident :nmod-in 15/capabilities ( :case 8/in ) | ( :nmod 12/defense) | :nmod 14/security
+2197c2197
+< a/and ( :op1 c/capable :ARG2 d/defend ) | :op2 c4/capable :ARG2 s2/security    #    15/capabilities :nmod 12/defense ( :cc 13/and ) | :conj-and 14/security
+---
+> a/and ( :op1 c/capable :ARG2 d/defend ) | :op2 c4/capable :ARG2 s2/security    #    15/capabilities :nmod 12/defense ( :cc 13/and ) | :conj-and 14/security 
+2207c2207
+< h/he    #    1/He
+---
+> h/he    #    1/he
+2213c2213
+< n/need :ARG0 h/he    #    2/needs :nsubj 1/He
+---
+> n/need :ARG0 h/he    #    2/needs :nsubj 1/he
+2215c2215
+< c/conduct :ARG0 h/he    #    4/conduct :nsubj 1/He
+---
+> c/conduct :ARG0 h/he    #    4/conduct :nsubj 1/he
+2224c2224
+< b/bring    #    3/Bringing
+---
+> b/bring    #    3/bringing
+2226,2227c2226,2227
+< h/healthcare    #    6/Healthcare
+< u/universal    #    5/Universal
+---
+> h/healthcare    #    6/healthcare
+> u/universal    #    5/universal
+2229,2232c2229,2232
+< b/bring :li none0/2    #    2/2 :acl 3/Bringing
+< b/bring :ARG2 w/we    #    3/Bringing :nsubj 4/us
+< b/bring :ARG1 h/healthcare    #    3/Bringing :dobj 6/Healthcare
+< h/healthcare :mod u/universal    #    6/Healthcare :amod 5/Universal
+---
+> b/bring :li none0/2    #    2/2 :acl 3/bringing
+> b/bring :ARG2 w/we    #    3/bringing :nsubj 4/us
+> b/bring :ARG1 h/healthcare    #    3/bringing :dobj 6/healthcare
+> h/healthcare :mod u/universal    #    6/healthcare :amod 5/universal 
+2254c2254
+< t/ticket :mod p4/political-party :name n2/name :op1 none1/Republican    #    9/ticket :amod 8/Republican
+---
+> t/ticket :mod p4/political-party :name n2/name :op1 none1/Republican    #    9/ticket :amod 8/Repulican
+2261c2261
+< none0/-    #    1/Not
+---
+> none0/-    #    1/not
+2273c2273
+< s/suspect :ARG1 r/relate :polarity none0/-    #    4/suspect ( :advmod 1/Not ) | :advcl 8/relates
+---
+> s/suspect :ARG1 r/relate :polarity none0/-    #    4/suspect ( :advmod 1/not ) | :advcl 8/relates
+2311c2311
+< none1/-    #    13/'t
+---
+> none1/-    #    13/n't
+2313c2313
+< none0/-    #    6/'t
+---
+> none0/-    #    6/n't
+2318c2318
+< r/recommend    #    12/shouldn
+---
+> r/recommend    #    12/should
+2320c2320
+< o/obvious :ARG1 s/say    #    4/saying :ccomp 5/isn :advmod 8/obviously
+---
+> o/obvious :ARG1 s/say    #    4/saying :ccomp 5/is :advmod 8/obviously
+2322,2324c2322,2324
+< s/say :polarity none0/-    #    4/saying :ccomp 5/isn :neg 6/'t
+< s/say :ARG1 r/recommend :ARG1 c/care    #    4/saying :ccomp 5/isn :ccomp 14/care :aux 12/shouldn
+< r/recommend :ARG1 c/care    #    14/care :aux 12/shouldn
+---
+> s/say :polarity none0/-    #    4/saying :ccomp 5/is :neg 6/n't
+> s/say :ARG1 r/recommend :ARG1 c/care    #    4/saying :ccomp 5/is :ccomp 14/care :aux 12/should
+> r/recommend :ARG1 c/care    #    14/care :aux 12/should
+2326c2326
+< r/recommend :ARG1 c/care :polarity none1/-    #    14/care :aux 12/shouldn :neg 13/'t
+---
+> r/recommend :ARG1 c/care :polarity none1/-    #    14/care :aux 12/should :neg 13/n't
+2328c2328
+< r2/run :extent l/long    #    18/run :amod 17/long
+---
+> r2/run :extent l/long    #    18/run :amod 17/long 
+2343c2343
+< p/prefer    #    1/Preferably
+---
+> p/prefer    #    1/preferably
+2348c2348
+< p/prefer :ARG1 s/solution    #    1/Preferably :nmod-with 4/solution :case 2/with
+---
+> p/prefer :ARG1 s/solution    #    1/preferably :nmod-with 4/solution :case 2/with
+2355c2355
+< a/allow ( :ARG1 e/enlist :mod a2/again | :condition w/wish    #    7/allow :xcomp 15/reenlist :advcl 19/wish
+---
+> a/allow ( :ARG1 e/enlist :mod a2/again) | :condition w/wish    #    7/allow :xcomp 15/reenlist :advcl 19/wish
+2383,2384c2383
+< 90.
+< # ::id DF-183-195681-794_9722.13 ::date 2013-08-28T22:47:03 ::annotator UCO-AMR-05 ::preferred
+---
+> 90: # ::id DF-183-195681-794_9722.13 ::date 2013-08-28T22:47:03 ::annotator UCO-AMR-05 ::preferred
+2389c2388
+< i/i    #    4/I
+---
+> i/i    #    4/I 
+2395c2394
+< c/convince :ARG2 a/amr-unknown    #    7/convince :nmod-of 2/what :case 1/Of
+---
+> c/convince :ARG2 a/amr-unknown    #    7/convince :nmod-of 2/what :case 1/of
+2430c2429
+< i/i    #    1/I
+---
+> i/i    #    1/I 
+2439c2438
+< o2/obligate    #    24/should
+---
+> o2/obligate    #    24/should 
+2442c2441
+< a/answer ( :op1 a/answer ) | :op2 a4/answer    #    5/answering
+---
+> a/and ( :op1 a/answer ) | :op2 a4/answer    #    5/answering
+2480c2479
+< o/overhear :time r/ride    #    10/overheard :avcl 2/riding :mark 1/While
+---
+> o/overhear :time r/ride    #    10/overheard :avcl 2/riding :mark 1/while
+2505,2506c2504,2505
+< p/petroleum    #    7/itelf
+< o2/of-course    #    1/Of
+---
+> p/petroleum    #    7/itself
+> o2/of-course    #    1/of
+2508,2510c2507,2509
+< o2/of-course    #    1/Of :mwe 2/course
+< p/petroleum :mod p/petroleum    #    6/petroleum :nmod 7/itelf
+< i/issue :mod o2/of-course    #    12/issue :advmod 1/Of :mwe 2/course
+---
+> o2/of-course    #    1/of :mwe 2/course
+> p/petroleum :mod p/petroleum    #    6/petroleum :nmod 7/itself
+> i/issue :mod o2/of-course    #    12/issue :advmod 1/of :mwe 2/course
+2513c2512
+< i/issue :domain a/access :mod o/only :polarity none0/-    #    12/issue ( :nsubj 4/access ) | ( :amod 11/only ) | :neg 9/not
+---
+> i/issue :domain a/access :mod o/only :polarity none0/-    #    12/issue ( :nsubj 4/access ) | ( :amod 11/only ) | :neg 9/not  
+2550c2549
+< t2/thing :ARG1-of s/say    #    8/says :dobj 6/what
+---
+> t2/think :ARG1-of s/say    #    8/says :dobj 6/what
+2568c2567
+< y/you    #    1/You
+---
+> y/you    #    1/you
+2575,2576c2574,2575
+< v/vote :ARG0 y/you    #    3/voted :nsubj 1/You
+< s/support :ARG0 y/you    #    6/supported :nsubj 1/You
+---
+> v/vote :ARG0 y/you    #    3/voted :nsubj 1/you
+> s/support :ARG0 y/you    #    6/supported :nsubj 1/you
+2591c2590
+< c/contrast    #    1/While
+---
+> c/contrast    #    1/while
+2594c2593
+< i/i    #    2/I
+---
+> i/i    #    2/I 
+2614c2613
+< n/nazis :domain w/we :mod a4/all    #    11/Nazis ( :nsubj 7/we ) | :advmod 9/all
+---
+> n/nazis :domain w/we :mod a4/all    #    11/NAzis ( :nsubj 7/we ) | :advmod 9/all
+2620c2619
+< c/contrast :ARG1 d/disagree    #    3/disagree :mark 1/While
+---
+> c/contrast :ARG1 d/disagree    #    3/disagree :mark 1/while
+2628c2627
+< c/cause    #    1/So
+---
+> c/cause    #    1/so
+2637c2636
+< c/cause :ARG1 a/ask    #    3/ask :mark 1/So
+---
+> c/cause :ARG1 a/ask    #    3/ask :mark 1/so
+2643c2642
+< g/good :ARG1 p2/person    #    10/good :nmod-for 11/for :case 11/for
+---
+> g/good :ARG1 p2/person    #    10/good :nmod-for 11/people :case 11/for
+2645a2645,2929
+> 100.
+> # ::id lpp_1943.1 ::date 2012-06-07T17:06:07 ::annotator ISI-AMR-05 ::preferred
+> # ::snt Chapter 1 .
+> # ::zh I
+> # ::save-date Thu Jun 7, 2012 ::file lpp_1943_1.txt
+> c/chapter    #    1/chapter
+> none0/1    #    2/1
+> c/chapter :mod none0/1    #    1/chapter :nummod 2/1
+> 
+> 101.
+> # ::id lpp_1943.53 ::date 2012-07-24T11:54:57 ::annotator ISI-AMR-05 ::preferred
+> # ::snt That , however , is not my fault .
+> # ::zh 这不是我的过错。
+> # ::save-date Tue Apr 9, 2013 ::file lpp_1943_53.txt
+> c/contrast    #    3/however
+> none0/-    #    6/not
+> i/i    #    7/my
+> f/fault    #    8/fault
+> t/that    #    1/that
+> c/contrast :ARG2 f/fault    #    8/fault :advmod 3/however
+> f/fault :ARG1 i/i    #    8/fault :nmod-poss 7/my
+> f/fault :ARG2 t/that    #    8/fault :nsubj 1/that
+> f/fault :polarity none0/-    #    8/fault :neg 6/not
+> 
+> 102.
+> # ::id lpp_1943.126 ::date 2012-07-31T10:09:21 ::annotator ISI-AMR-05 ::preferred
+> # ::snt And he sank into a reverie , which lasted a long time .
+> # ::zh 说到这里，他就长时间地陷入沉思之中。
+> # ::save-date Thu Jun 4, 2015 ::file lpp_1943_126.txt
+> a/and    #    1/and
+> h/he    #    2/he
+> l/long    #    11/long
+> s/sink    #    3/sank
+> r/reverie    #    6/reverie
+> a/and :op2 s/sink    #    3/sink :cc 1/and
+> s/sink :ARG0 h/he    #    3/sank :nsubj 2/he
+> l/long    #    9/lasted :dobj 12/time :amod 11/long
+> s/sink :ARG4 r/reverie    #    3/sank :nmod-into 6/reverie :case 4/into
+> r/reverie :ARG1-of l/long    #    6/reverie :acl-relcl 9/lasted :dobj 12/time :amod 11/long
+> r/reverie :ARG1-of l/long    #    9/lasted ( :dobj 12/time :amod 11/long ) | :nsubj 6/reverie
+> 
+> 103.
+> # ::id lpp_1943.134 ::date 2012-07-31T10:54:57 ::annotator ISI-AMR-05 ::preferred
+> # ::snt That is so .
+> # ::zh “那当然。
+> # ::save-date Sat Dec 29, 2012 ::file lpp_1943_134.txt
+> s/so    #    3/so
+> t/that    #    1/that
+> s/so :domain t/that    #    3/so :nsubj 1/that
+> 
+> 104.
+> # ::id lpp_1943.233 ::date 2012-11-08T07:45:11 ::annotator ISI-AMR-05 ::preferred
+> # ::snt If it is only a sprout of radish or the sprig of a rose - bush , one would let it grow wherever it might wish .
+> # ::zh 如果是小萝卜或是玫瑰的嫩苗，就让它去自由地生长。
+> # ::save-date Thu May 2, 2013 ::file lpp_1943_233.txt
+> a/allow    #    20/let
+> r2/rose    #    14/rose
+> g/grow    #    22/grow
+> i/it    #    21/it
+> i/it    #    2/it
+> i/it    #    24/it
+> s2/sprig    #    11/spring
+> o/one    #    18/one
+> p/possible    #    25/might
+> s/sprout    #    6/sprout
+> r/radish    #    8/radish
+> w2/wish    #    26/wish
+> b2/bush    #    16/bush
+> o3/only    #    4/only
+> o2/or    #    9/or
+> o2/or ( :op1 s/sprout ) | :op2 s2/spring    #    6/sprout ( :cc 9/or ) | :conj-or 11/spring
+> s/sprout :part-of r/radish    #    6/sprout :nmod-of 8/radish :case 7/of
+> s2/spring :part-of b2/bush    #    11/spring :nmod-of 16/bush :case 12/of
+> b2/bush :mod r2/rose    #    16/bush :compound 14/rose
+> o2/or ( :op1 s/sprout ) | ( :op2 s2/spring ) | :mod o3/only    #    6/sprout ( :cc 9/or ) | ( :conj-or 11/spring ) | :advmod 4/only
+> a/allow :ARG0 o/one    #    20/let :nsubj 18/one
+> a/allow :condition o2/or ( :op1 s/sprout ) | :op2 s2/spring    #    20/let :csubj 6/sprout ( :cc 9/or ) | :conj-or 11/spring
+> o2/or ( :op1 s/sprout ) | ( :op2 s2/spring ) | :domain i/it    #    6/sprout ( :cc 9/or ) | ( :conj-or 11/spring ) | :nsubj 2/it
+> a/allow :ARG1 g/grow    #    20/let :ccomp 22/grow
+> g/grow :ARG1 i/it    #    22/grow :nsubj 21/it
+> g/grow :location w2/wish    #    22/grow :advcl 26/wish :advmod 23/wherever
+> w2/wish :ARG0 i/it    #    26/wish :nsubj 24/it
+> w2/wish :ARG1-of p/possible    #    26/wish :aux 25/might
+> 
+> 105.
+> # ::id lpp_1943.320 ::date 2012-11-19T12:10:21 ::annotator ISI-AMR-05 ::preferred
+> # ::snt I do n't believe anything .
+> # ::zh 我什么也不认为！
+> # ::save-date Tue Apr 23, 2013 ::file lpp_1943_320.txt
+> i/i    #    1/I
+> a2/anything    #    5/anything
+> b2/believe    #    4/believe
+> none0/-    #    3/n't
+> b2/believe :polarity none0/-    #    4/believe :neg 3/n't
+> b2/believe :ARG0 i/i    #    4/believe :nsubj 1/I
+> b2/believe :ARG1 a2/anything    #    4/believe :dobj 5/anything
+> 
+> 106.
+> # ::id lpp_1943.324 ::date 2012-11-19T12:15:08 ::annotator ISI-AMR-05 ::preferred
+> # ::snt Matters of consequence !
+> # ::zh “正经事？”
+> # ::save-date Tue Apr 23, 2013 ::file lpp_1943_324.txt
+> h/have    #    2/of
+> c/consequence    #    3/consequence
+> m/matter    #    1/matters
+> m/matter :ARG0-of h/have :ARG1 c/consequence    #    1/matters :nmod-of 3/consequence :case 2/of
+> 
+> 107.
+> # ::id lpp_1943.334 ::date 2012-11-19T12:32:18 ::annotator ISI-AMR-05 ::preferred
+> # ::snt He has never looked at a star .
+> # ::zh 他从来没有看过一颗星星。
+> # ::save-date Mon Apr 15, 2013 ::file lpp_1943_334.txt
+> e/ever    #    3/never
+> none0/-    #    3/never
+> h/he    #    1/he
+> l/look    #    4/looked
+> s/star    #    7/star
+> l/look :ARG0 h/he    #    4/looked :nsubj 1/he
+> l/look :ARG1 s/star    #    4/looked :nmod-at 7/star :case 5/at
+> l/look ( :time e/ever ) | :polarity none0/-    #    4/looked :neg 3/never
+> 
+> 108.
+> # ::id lpp_1943.342 ::date 2012-11-20T10:16:50 ::annotator ISI-AMR-05 ::preferred
+> # ::snt The flowers have been growing thorns for millions of years .
+> # ::zh “几百万年以来花儿都在制造着刺，
+> # ::save-date Sat Apr 20, 2013 ::file lpp_1943_342.txt
+> g/grow    #    5/growing
+> f/flower    #    2/flowers
+> m/multiple    #    8/milions
+> none0/1000000    #    8/milions
+> m/multiple :op1 t2/temporal-quantity ( :unit y/year ) | :quant none0/1000000    #    8/milions :nmod-of 10/year :case 9/of
+> t/thorn    #    6/thorns
+> y/year    #    10/years
+> g/grow :ARG1 t/thorn    #    5/growing :dobj 6/thorns
+> g/grow :ARG0 f/flower    #    5/growing :nsubj 2/flowers
+> g/grow :duration m/multiple :op1 t2/temporal-quantity ( :unit y/year ) | :quant none0/1000000    #    5/growing :nmod-for 8/millions ( :case 7/for ) | :nmod-of 10/years :case 9/of
+> 
+> 109.
+> # ::id lpp_1943.438 ::date 2012-11-11T13:02:46 ::annotator ISI-AMR-05 ::preferred
+> # ::snt But , as he said , one never knows !
+> # ::zh 他想，说不定它还会活动呢！
+> # ::save-date Tue Apr 9, 2013 ::file lpp_1943_438.txt
+> c/contrast    #    1/but
+> none0/-    #    8/never
+> h/he    #    4/he
+> k/know    #    9/knows
+> o/one    #    7/one
+> s/say    #    5/said
+> s/say :ARG0 h/he    #    5/said :nsubj 4/he
+> s/say :ARG1 k/know    #    9/knows :advcl 5/said
+> k/know :polarity none0/-    #    9/knows :neg 8/never
+> k/know :ARG0 o/one    #    9/knows :nsubj 7/one
+> c/contrast :ARG2 s/say :ARG1 k/know    #    9/knows ( :advcl 5/said ) | :cc 1/but
+> 
+> 110.
+> # ::id lpp_1943.460 ::date 2012-11-11T15:47:56 ::annotator ISI-AMR-05 ::preferred
+> # ::snt It is my fault that you have not known it all the while .
+> # ::zh “但由于我的过错，你一点也没有理会。
+> # ::save-date Sat Jul 25, 2015 ::file lpp_1943_460.txt
+> a/all    #    11/all
+> none0/-    #    8/not
+> f/fault    #    4/fault
+> i3/i    #    3/my
+> i2/it    #    10/it
+> w/while-away    #    13/while
+> y/you    #    6/you
+> k/know    #    9/known
+> f/fault :ARG1 i3/i    #    4/fault :nmod-poss 3/my
+> f/fault :ARG2 k/know    #    4/fault :ccomp 9/known
+> k/know :ARG0 y/you    #    9/known :nsubj 6/you
+> k/know :polarity none0/-    #    9/known :neg 8/not
+> k/know :ARG1 i2/it    #    9/known :dobj 10/it
+> k/know :time w/while-away    #    9/known :nmod-tmod 13/while
+> w/while-away :duration a/all    #    13/while :det-predet 11/all 
+> 
+> 111.
+> # ::id lpp_1943.505 ::date 2012-11-13T15:55:17 ::annotator ISI-AMR-05 ::preferred
+> # ::snt That frightens me ...
+> # ::zh “这倒叫我有点紧张…
+> # ::save-date Tue Nov 13, 2012 ::file lpp_1943_505.txt
+> i/i    #    3/me
+> t/that    #    1/that
+> f/frighten    #    2/frightens
+> f/frighten :ARG0 t/that    #    2/frightens :nsubj 1/that
+> f/frighten :ARG1 i/i    #    2/frightens :dobj 3/me
+> 
+> 112.
+> # ::id lpp_1943.529 ::date 2012-11-19T20:04:51 ::annotator ISI-AMR-05 ::preferred
+> # ::snt " Over all that , " the king answered .
+> # ::zh “统治这一切。”
+> # ::save-date Tue Dec 11, 2012 ::file lpp_1943_529.txt
+> a/answer    #    9/answered
+> k/king    #    8/king
+> o/over    #    2/over
+> a2/all    #    3/all
+> t/that    #    4/that
+> a/answer :ARG0 k/king    #    9/answered :nsubj 8/king
+> o/over :op1 t/that    #    4/that :case 2/over
+> t/that :mod a2/all    #    4/that :det 3/all
+> a/answer :ARG2 o/over :op1 t/that    #    9/answered :parataxis 4/that :case 2/over
+> 
+> 113.
+> # ::id lpp_1943.557 ::date 2012-11-25T17:27:14 ::annotator ISI-AMR-05 ::preferred
+> # ::snt And you will see how well I am obeyed .
+> # ::zh 你将看到我的命令一定会被服从的。”
+> # ::save-date Fri Apr 19, 2013 ::file lpp_1943_557.txt
+> a/amr-unknown    #    5/how
+> i/i    #    7/I
+> o/obey    #    9/obeyed
+> s/see    #    4/see
+> w/well    #    6/well
+> y/you    #    2/you
+> s/see :ARG0 y/you    #    4/see :nsubj 2/you
+> s/see :ARG1 o/obey    #    4/see :ccomp 9/obeyed
+> o/obey :ARG1 i/i    #    9/obeyed :nsubjpass 7/I
+> o/obey :manner w/well    #    9/obeyed :advmod 6/well
+> w/well :degree a/amr-unknown    #    6/well :advmod 5/how
+> 
+> 114.
+> # ::id lpp_1943.608 ::date 2012-11-26T18:28:52 ::annotator ISI-AMR-05 ::preferred
+> # ::snt For , to conceited men , all other men are admirers .
+> # ::zh 在那些爱虚荣的人眼里，别人都成了他们的崇拜者。
+> # ::save-date Tue May 7, 2013 ::file lpp_1943_608.txt
+> p2/person :domain m/man    #    9/men
+> a/all    #    7/all
+> c/conceit    #    4/conceited
+> m/man    #    9/men
+> o/other    #    8/other
+> a3/admire    #    11/admirers
+> m2/man    #    5/men
+> m2/man :mod c/conceit    #    5/men :amod 4/conceited
+> p2/person ( :domain m/men ) | :ARG0-of a3/admire    #    11/admirers :nsubj 9/men
+> m/men :mod o/other    #    9/men :amod 8/other
+> m/men :mod a/all    #    9/men :det 7/all
+> o2/opine ( :ARG0 m2/man ) | :ARG1 p2/person ( :domain m/man ) | :ARG0-of a3/admire    #    11/admirers ( :nsubj 9/men ) | :nmod-to 5/men :case 3/to
+> 
+> 115.
+> # ::id lpp_1943.667 ::date 2012-11-08T14:00:38 ::annotator ISI-AMR-05 ::preferred
+> # ::snt I have so much to do !
+> # ::zh 我的工作很多…
+> # ::save-date Fri Apr 26, 2013 ::file lpp_1943_667.txt
+> d/do    #    6/do
+> i/i    #    1/I
+> m/much    #    4/much
+> o/obligate    #    2/have
+> s/so    #    3/so
+> o/oblige :ARG1 i/i    #    2/have :nsubj 1/I
+> o/oblige :ARG2 d/do :ARG1 m/much    #    2/have :dobj 4/much :acl 6/do
+> d/do :ARG1 m/much    #    4/much :acl 6/do
+> m/much :degree s/so    #    4/much :advmod 3/so
+> 
+> 116.
+> # ::id lpp_1943.708 ::date 2012-11-09T17:10:17 ::annotator ISI-AMR-05 ::preferred
+> # ::snt It is a very different matter .
+> # ::zh 这不是一码事。”
+> # ::save-date Mon Aug 5, 2013 ::file lpp_1943_708.txt
+> i/it    #    1/it
+> m/matter    #    6/matter
+> d/differ    #    5/different
+> v/very    #    4/very
+> m/matter :domain i/it    #    6/matter :nsubj 1/it
+> m/matter :ARG1-of d/differ    #    6/matter :amod 5/different
+> d/differ :degree v/very    #    5/different :advmod 4/very
+> 
+> 117.
+> # ::id lpp_1943.1387 ::annotator ISI-AMR-05 ::preferred
+> # ::snt I had loosened the golden muffler that he always wore .
+> # ::zh æˆ‘è§£å¼€äº†ä»–ä¸€ç›´å¸¦ç€çš„é‡‘é»„è‰²çš„å›´è„–ã€‚
+> # ::save-date Mon Nov 3, 2014 ::file lpp_1943_1387.txt
+> a/always    #    9/always
+> w/wear    #    10/wear
+> i/i    #    1/I
+> h/he    #    8/he
+> m/muffler    #    6/muffler
+> l/loosen    #    3/loosen
+> g/gold    #    5/golden
+> w/wear :time a/always    #    10/wear :advmod 9/always
+> m/muffler :ARG1-of w/wear    #    6/muffler :acl-relcl 10/wear
+> l/loosen :ARG0 i/i    #    3/loosen :nsubj 1/I
+> w/wear :ARG0 h/he    #    10/wear :nsubj 8/he
+> w/wear :ARG1 m/muffler    #    10/wear :dobj 6/muffler
+> l/loosen :ARG1 m/muffler    #    3/loosen :dobj 6/muffler
+> w/wear :ARG1 m/muffler    #    10/wear :dobj 6/muffler
+> m/muffler :consist-of g/gold    #    6/muffler :amod 5/golden
+> 
+2652c2936
+< h/he    #    1/He
+---
+> h/he    #    1/he
+2657,2658c2941,2942
+< s/succeed    #    2/succeeds
+< r/resign    #    15/resigned
+---
+> s/succeed    #    2/succeed
+> r/resign    #    15/resign
+2662c2946
+< s/succeed :ARG0 h/he    #    2/succeeds :nsubj 1/He
+---
+> s/succeed :ARG0 h/he    #    2/succeed :nsubj 1/he
+2664,2666c2948,2950
+< r/resign :ARG0 p/person :name t/name ( :op1 none0/Terrence ) | ( :op2 none1/D. ) | :op3 none2/Daniels    #    15/resigned :nsubj 5/Daniels ( :compound 4/D. ) | :compound 3/Terrence
+< r/resign :ARG0 p/person :name t/name ( :op1 none0/Terrence ) | ( :op2 none1/D. ) | :op3 none2/Daniels    #    5/Daniels ( :compound 4/D. ) | ( :compound 3/Terrence ) | :acl-relcl 15/resigned
+< s/succeed :ARG1 p/person :name t/name ( :op1 none0/Terrence ) | ( :op2 none1/D. ) | :op3 none2/Daniels    #    2/succeeds :dobj 5/Daniels ( :compound 4/D. ) | :compound 3/Terrence
+---
+> r/resign :ARG0 p/person :name t/name ( :op1 none0/Terrence ) | ( :op2 none1/D. ) | :op3 none2/Daniels    #    15/resign :nsubj 5/Daniels ( :compound 4/D. ) | :compound 3/Terrence
+> r/resign :ARG0 p/person :name t/name ( :op1 none0/Terrence ) | ( :op2 none1/D. ) | :op3 none2/Daniels    #    5/Daniels ( :compound 4/D. ) | ( :compound 3/Terrence ) | :acl-relcl 15/resign
+> s/succeed :ARG1 p/person :name t/name ( :op1 none0/Terrence ) | ( :op2 none1/D. ) | :op3 none2/Daniels    #    2/succeed :dobj 5/Daniels ( :compound 4/D. ) | :compound 3/Terrence
+2670c2954
+< s/succeed :ARG1 p/person :name t/name ( :op1 none0/Terrence ) | ( :op2 none1/D. ) | :op3 none2/Daniels    #    2/succeeds :dobj 5/Daniels ( :compound 4/D. ) | :compound 3/Terrence
+---
+> s/succeed :ARG1 p/person :name t/name ( :op1 none0/Terrence ) | ( :op2 none1/D. ) | :op3 none2/Daniels    #    2/succeed :dobj 5/Daniels ( :compound 4/D. ) | :compound 3/Terrence
+2673a2958,3485
+> 119.
+> # ::id lpp_1943.1366 ::annotator ISI-AMR-05 ::preferred
+> # ::snt It is the right day , but this is not the place .
+> # ::zh æ—¥å­æ˜¯å¯¹çš„ï¼›ä½†åœ°ç‚¹ä¸æ˜¯è¿™é‡Œâ€¦â€
+> # ::save-date Sun Dec 20, 2015 ::file lpp_1943_1366.txt
+> none0/-    #    10/not
+> d/day    #    5/day
+> r/right    #    4/right
+> t/this    #    8/this
+> p/place    #    12/place
+> p/place :polarity none0/-    #    12/place :neg 10/not
+> d/day :ARG2-of r/right    #    5/day :amod 4/right
+> p/place :domain t/this    #    12/place :nsubj 8/this
+> d/day :ARG1-of c/contrast :ARG2 p/place    #    5/day ( :conj-but 12/place ) | :cc 7/but
+> c/contrast    #    7/but
+> 
+> 120.
+> # ::id lpp_1943.1368 ::annotator ISI-AMR-05 ::preferred
+> # ::snt At no time did I see or hear anyone .
+> # ::zh æˆ‘è¿˜æ˜¯çœ‹ä¸åˆ°ï¼Œä¹Ÿå¬ä¸è§ä»»ä½•åˆ«äººã€‚
+> # ::save-date Mon Apr 15, 2013 ::file lpp_1943_1368.txt
+> a/anyone    #    9/anyone
+> i/i    #    5/I
+> h/hear    #    8/hear
+> none1/-    #    2/no
+> none0/-    #    2/no
+> s/see    #    6/see
+> o/or    #    7/or
+> h/hear :ARG1 a/anyone    #    8/hear :dobj 9/anyone
+> h/hear :ARG0 i/i    #    8/hear :nsubj 5/I
+> s/see :ARG0 i/i    #    6/see :nsubj 5/I
+> s/see :ARG1 a/anyone    #    6/see :dobj 9/anyone
+> s/see :op1-of o/or :op2 h/hear    #    6/see ( :conj-or 8/hear ) | :cc 7/or
+> s/see :op1-of o/or ( :op2 h/hear ) | :time e/ever    #    6/see ( :conj-or 8/hear ) | ( :cc 7/or ) | :nmod-at 3/time :case 1/at
+> s/see ( :polarity none0/-) | :op1-of o/or ( :op2 h/hear :polarity none1/- ) | :time e/ever    #    6/see ( :conj-or 8/hear ) | ( :cc 7/or ) | :nmod-at 3/time ( :neg 2/no ) | :case 1/at
+> 
+> 121.
+> # ::id lpp_1943.1371 ::annotator ISI-AMR-05 ::preferred
+> # ::snt You have nothing to do but wait for me there .
+> # ::zh ä½ åœ¨é‚£é‡Œç­‰ç€æˆ‘å°±è¡Œäº†ã€‚
+> # ::save-date Mon Apr 15, 2013 ::file lpp_1943_1371.txt
+> n/nothing    #    3/nothing
+> w2/wait    #    7/wait
+> i/i    #    9/I
+> h2/have    #    2/have
+> d/do    #    5/do
+> t2/there    #    10/there
+> y/you    #    1/you
+> c/contrast    #    6/but
+> h2/have :ARG0 y/you    #    2/have :nsubj 1/you
+> n/nothing :ARG1-of d/do    #    3/nothing :xcomp 5/do
+> h2/have :ARG1 n/nothing    #    2/have :dobj 3/nothing
+> w2/wait :ARG2 i/i    #    7/wait :nmod-for 9/I :case 8/for
+> w2/wait :location t2/there    #    7/wait :advmod 10/there
+> d/do :ARG0 y/you    #    5/do :nsubj 1/you
+> w2/wait :ARG1 y/you    #    7/wait :nsubj 1/you
+> h2/have :ARG1 n/nothing ( :ARG1-of d/do ) | :ARG1-of c/contrast :ARG2 w2/wait    #    2/have ( :dobj 3/nothing ) | :xcomp 5/do ( :cc 6/but ) | :conj-but 7/wait  
+> 
+> 122.
+> # ::id lpp_1943.1378 ::annotator ISI-AMR-05 ::preferred
+> # ::snt I want to get down from the wall .
+> # ::zh æˆ‘è¦ä¸‹æ¥äº†ï¼ â€¦â€
+> # ::save-date Mon Apr 15, 2013 ::file lpp_1943_1378.txt
+> d/down    #    5/down
+> i/i    #    1/I
+> w/want    #    2/want
+> g/get    #    4/get
+> w2/wall    #    8/wall
+> w/want :ARG1 g/get    #    2/want :xcomp 4/get
+> w/want :ARG0 i/i    #    2/want :nsubj 1/I
+> g/get :ARG0 i/i    #    4/get :nsubj 1/I
+> g/get :ARG2 r/relative-position :op1 w2/wall    #    4/get :nmod-from 8/wall :case 6/from
+> g/get :ARG2 r/relative-position :direction d/down    #    4/get :compound-prt 5/down
+> 
+> 123.
+> # ::id lpp_1943.1388 ::annotator ISI-AMR-05 ::preferred
+> # ::snt I had moistened his temples , and had given him some water to drink .
+> # ::zh æˆ‘ç”¨æ°´æ¸æ¹¿äº†ä»–çš„å¤ªé˜³ç©´ï¼Œè®©ä»–å–äº†ç‚¹æ°´ã€‚
+> # ::save-date Sat Dec 29, 2012 ::file lpp_1943_1388.txt
+> t/temple    #    5/temple
+> a/and    #    7/and
+> w/water    #    12/water
+> i/i    #    1/I
+> h/he    #    10/he
+> h/he    #    4/he
+> d/drink    #    14/drink
+> g/give    #    9/give
+> m/moisten    #    3/moisten
+> s/some    #    11/some
+> g/give :ARG1 w/water    #    9/give :dobj 12/water
+> w/water :purpose d/drink    #    12/water :acl 14/drink
+> m/moisten :ARG0 i/i    #    3/moisten :nsubj 1/I
+> t/temple :poss h/he    #    5/temple :nmod-poss 4/he
+> g/give :ARG2 h/he    #    9/give :iobj 10/he
+> m/moisten :ARG1 t/temple    #    3/moisten :dobj 5/temple
+> g/give :ARG0 i/i    #    9/give :nsubj 1/I
+> w/water :quant s/some    #    12/water :det 11/some
+> m/moisten :op1-of a/and :op2 g/give    #    3/moisten ( :conj-and 9/give ) | :cc 7/and
+> 
+> 124.
+> # ::id lpp_1943.1394 ::annotator ISI-AMR-05 ::preferred
+> # ::snt How do you know about that ?
+> # ::zh â€œä½ æ€Žä¹ˆçŸ¥é“çš„ï¼Ÿâ€
+> # ::save-date Sat Dec 29, 2012 ::file lpp_1943_1394.txt
+> k/know    #    4/know
+> t/that    #    6/that
+> y/you    #    3/you
+> a/amr-unknown    #    1/how
+> k/know :ARG1 t/that    #    4/know :nmod-about 6/that :case 5/about
+> k/know :ARG0 y/you    #    4/know :nsubj 3/you
+> k/know :manner a/amr-unknown    #    4/know :advmod 1/how
+> 
+> 125.
+> # ::id lpp_1943.1400 ::annotator ISI-AMR-05 ::preferred
+> # ::snt His look was very serious , like someone lost far away .
+> # ::zh ä»–çš„çœ¼ç¥žå¾ˆä¸¥è‚ƒï¼Œæœ›ç€é¥è¿œçš„åœ°æ–¹ã€‚
+> # ::save-date Wed Nov 4, 2015 ::file lpp_1943_1400.txt
+> a/away    #    11/away
+> v/very    #    4/very
+> s2/someone    #    8/someone
+> h/he    #    1/he
+> f/far    #    10/far
+> s/serious    #    5/serious
+> l/look    #    2/look
+> l2/lose    #    9/lose
+> r/resemble    #    7/like
+> l/look :ARG0 h/he    #    2/look :nmod-poss 1/he
+> l2/lose :ARG1 s2/someone    #    9/lose :nsubj 8/someone
+> s/serious :ARG2 l/look    #    5/serious :nsubj 2/look
+> l2/lose :direction a/away    #    9/lose :advmod 11/away
+> s/serious :degree v/very    #    5/serious :advmod 4/very
+> a/away :mod f/far    #    11/away :advmod 10/far
+> l2/lose :ARG1 s2/someone    #    9/lose :nsubj 8/someone
+> s/serious :ARG2 l/look    #    5/serious :nsubj 2/look
+> r/resemble :ARG2 s2/someone :ARG0-of l2/lose    #    9/lost ( :nsubj 8/someone ) | :mark 7/like
+> l/look :ARG1-of r/resemble :ARG2 s2/someone :ARG0-of l2/lose    #    2/look :advcl 9/lost ( :nsubj 8/someone ) | :mark 7/like   
+> 
+> 126.
+> # ::id lpp_1943.1445 ::annotator ISI-AMR-05 ::preferred
+> # ::snt For some , who are travelers , the stars are guides .
+> # ::zh å¯¹æ—…è¡Œçš„äººæ¥è¯´ï¼Œæ˜Ÿæ˜Ÿæ˜¯å‘å¯¼ã€‚
+> # ::save-date Sun Dec 30, 2012 ::file lpp_1943_1445.txt
+> s/star    #    9/star
+> g/guide    #    11/guide
+> s2/some    #    2/some
+> t/travel    #    6/traveler
+> g/guide :ARG0 s/star    #    11/guide :nsubj 9/star
+> t/travel :ARG0 s2/some    #    6/traveler :nsubj 2/some
+> t/travel :ARG0 s2/some    #    2/some :acl-relcl 6/traveler
+> g/guide :ARG1 s2/some    #    11/guides :nmod-for 2/some :case 1/for
+> 
+> 127.
+> # ::id lpp_1943.1481 ::annotator ISI-AMR-05 ::preferred
+> # ::snt That night I did not see him set out on his way .
+> # ::zh è¿™å¤©å¤œé‡Œï¼Œæˆ‘æ²¡æœ‰çœ‹åˆ°ä»–èµ·ç¨‹ã€‚
+> # ::save-date Tue Mar 1, 2016 ::file lpp_1943_1481.txt
+> n/night    #    2/night
+> t/that    #    1/that
+> w/way    #    12/way
+> i/i    #    3/I
+> s2/set-out    #    8/set :compound-prt 9/out
+> s2/set-out    #    8/set
+> s2/set-out    #    9/out
+> h/he    #    7/he
+> h/he    #    11/he
+> none0/-    #    5/not
+> s/see    #    6/see
+> s2/set-out :ARG0 h/he    #    8/set ( :compound-prt 9/out ) | :nsubj 7/he
+> s/see :ARG1 s2/set-out    #    6/see :ccomp 8/set :compound-prt 9/out
+> s/see :polarity none0/-    #    6/see :neg 5/not
+> w/way :poss h/he    #    12/way :nmod-poss 11/he
+> s/see :ARG0 i/i    #    6/see :nsubj 3/I
+> s2/set-out :ARG1 w/way    #    8/set ( :compound-prt 9/out ) | :nmod-on 12/way :case 10/on
+> n/night :dayperiod-of d/date-entity :mod t/that    #    2/night :det 1/that
+> n/night :dayperiod-of d/date-entity :time-of s/see    #    2/night :acl-relcl 6/see
+> 
+> 128.
+> # ::id lpp_1943.1502 ::annotator ISI-AMR-05 ::preferred
+> # ::snt All the stars will be wells with a rusty pulley .
+> # ::zh æ‰€æœ‰çš„æ˜Ÿæ˜Ÿéƒ½å°†æ˜¯å¸¦æœ‰ç”Ÿäº†é”ˆçš„è¾˜è½³çš„äº•ã€‚
+> # ::save-date Mon Nov 3, 2014 ::file lpp_1943_1502.txt
+> s/star    #    3/star
+> a/all    #    1/all
+> w/well    #    6/well
+> p/pulley    #    10/pulley
+> r/rust    #    9/rusty
+> w/well :domain-of s/star    #    6/well :nsubj 3/star
+> s/star :mod a/all    #    3/star :det-predet 1/all
+> w/well :ARG0-of h/have :ARG1 p/pulley    #    6/well :nmod-with 10/pulley :case 7/with
+> p/pulley :mod r/rust    #    10/pulley :amod 9/rusty
+> 
+> 129.
+> # ::id lpp_1943.1510 ::annotator ISI-AMR-05 ::preferred
+> # ::snt And he sat down , because he was afraid .
+> # ::zh ä»–è¿™æ—¶åä¸‹æ¥ï¼Œå› ä¸ºä»–å®³æ€•äº†ã€‚
+> # ::save-date Mon May 13, 2013 ::file lpp_1943_1510.txt
+> a/and    #    1/and
+> h/he    #    7/he
+> h/he    #    2/he
+> c/cause    #    6/because
+> f/fear    #    9/afraid
+> s/sit-down    #    3/sit :advmod 4/down
+> s/sit-down    #    3/sit
+> s/sit-down    #    4/down
+> s/sit-down :ARG1 h/he    #    3/sit ( :advmod 4/down ) | :nsubj 2/he
+> s/sit-down :op2-of a/and    #    3/sit ( :advmod 4/down ) | :cc 1/and
+> f/fear :ARG0 h/he    #    9/afraid :nsubj 7/he
+> c/cause :ARG0 f/fear    #    9/afraid :mark 6/because
+> s/sit-down :ARG1-of c/cause :ARG0 f/fear    #    3/sit ( :advmod 4/down ) | :advcl 9/afraid :mark 6/because
+> 
+> 130.
+> # ::id lpp_1943.1515 ::annotator ISI-AMR-05 ::preferred
+> # ::snt She has four thorns , of no use at all , to protect herself against all the world .
+> # ::zh å¥¹åªæœ‰å››æ ¹å¾®ä¸è¶³é“çš„åˆºï¼Œä¿æŠ¤è‡ªå·±ï¼ŒæŠµæŠ—å¤–æ•Œâ€¦â€
+> # ::save-date Tue Apr 23, 2013 ::file lpp_1943_1515.txt
+> t/thorn    #    4/thorn
+> a/all    #    16/all
+> w/world    #    18/world
+> h/have    #    2/have
+> none1/-    #    7/no
+> p/protect    #    13/protect
+> s/she    #    1/she
+> u/use    #    8/use
+> none0/4    #    3/four
+> s/she    #    14/herself
+> w/world :mod a/all    #    18/world :det-predet 16/all
+> h/have :ARG1 t/thorn    #    2/have :dobj 4/thorn
+> u/use :polarity none1/-    #    8/use :neg 7/no
+> t/thorn :ARG0-of p/protect    #    4/thorn :acl 13/protect
+> p/protect :ARG2 w/world    #    13/protect :nmod-against 18/world :case 15/against
+> t/thorn :ARG1-of u/use    #    4/thorn :nmod-of 8/use :case 6/of
+> h/have :ARG0 s/she    #    2/have :nsubj 1/she
+> t/thorn :ARG1-of h/have :purpose p/protect    #    2/have :dobj 4/thorn :acl 13/protect
+> t/thorn :quant none0/4    #    4/thorn :nummod 3/four
+> p/protect :ARG1 s/she    #    13/protect :dobj 14/herself
+> 
+> 131.
+> # ::id lpp_1943.1291 ::annotator ISI-AMR-05 ::preferred
+> # ::snt I did not want him to tire himself with the rope .
+> # ::zh æˆ‘ä¸æ„¿è®©ä»–è´¹åŠ²ã€‚
+> # ::save-date Sun Dec 2, 2012 ::file lpp_1943_1291.txt
+> t/tire    #    7/tire
+> w/want    #    4/want
+> i/i    #    1/I
+> h/he    #    5/he
+> none0/-    #    3/not
+> r/rope    #    11/rope
+> h/he    #    8/himself
+> w/want :ARG1 t/tire    #    4/want :xcomp 7/tire
+> w/want :ARG0 i/i    #    4/want :nsubj 1/I
+> w/want :polarity none0/-    #    4/want :neg 3/not
+> t/tire :ARG0 h/he    #    7/tire :nsubj 5/he
+> t/tire :ARG1 h/he    #    7/tire :dobj 8/himself
+> t/tire :instrument r/rope    #    7/tire :nmod-with 11/rope :case 9/with
+> w/want :ARG1 t/tire :ARG0 h/he    #    4/want ( :dobj 5/he ) | :xcomp 7/tire :nsubj 5/he
+> 
+> 132.
+> # ::id lpp_1943.1230 ::date 2012-11-15T19:56:42 ::annotator ISI-AMR-05 ::preferred
+> # ::snt He has never been either hungry or thirsty .
+> # ::zh â€œä»–ä»Žæ¥ä¸çŸ¥é“é¥¥æ¸´ã€‚
+> # ::save-date Thu May 9, 2013 ::file lpp_1943_1230.txt
+> t/thirst    #    8/thirsty
+> h/hunger    #    6/hungry
+> a/and    #    7/or
+> a/and    #    5/either
+> h2/he    #    1/he
+> t/thirst :ARG0 h2/he    #    8/thirsty :nsubj 1/he
+> h/hunger :ARG0 h2/he    #    6/hungry :nsubj 1/he
+> e/ever    #    3/never
+> none0/-    #    3/never
+> none1/-    #    3/never
+> h/hunger :op1-of a/and :op2 t/thirst    #    6/hungry ( :conj-or 8/thirsty ) | :cc 7/or
+> h/hunger :op1-of a/and :op2 t/thirst    #    6/hungry ( :cc-preconj 5/either ) | ( :cc 7/or ) | :conj-or 8/thirsty
+> a/and ( :op1 h/hunger :polarity none0/- ) | ( :op2 t/thirst :polarity none1/- ) | :time e/ever    #    6/hungry ( :cc 7/or ) | ( :conj-or 6/thirsty ) | :neg 3/never
+> 
+> 133.
+> # ::id lpp_1943.1234 ::date 2012-11-15T20:20:35 ::annotator ISI-AMR-05 ::preferred
+> # ::snt I made a gesture of weariness .
+> # ::zh æˆ‘æ˜¾å‡ºåŽŒçƒ¦çš„æ ·å­ï¼š
+> # ::save-date Wed Jun 3, 2015 ::file lpp_1943_1234.txt
+> g2/gesture    #    4/gesture
+> w/weary    #    6/weariness
+> i/i    #    1/I
+> g2/gesture :ARG1 w/weary    #    2/make :dobj 4/gesture :nmod-of 6/weariness :case 5/of
+> g2/gesture    #    2/make :dobj 4/gesture
+> g2/gesture :ARG0 i/i    #    2/make ( :dobj 4/gesture ) | :nsubj 1/I
+> 
+> 134.
+> # ::id lpp_1943.1267 ::date 2013-04-20T20:54:32 ::annotator ISI-AMR-05 ::preferred
+> # ::snt I felt deeply moved , and stirred .
+> # ::zh æˆ‘å¾ˆæ¿€åŠ¨ã€‚
+> # ::save-date Sun Jul 26, 2015 ::file lpp_1943_1267.txt
+> f/feel    #    2/feel
+> s/stir    #    7/stir
+> a/and    #    6/and
+> i/i    #    1/I
+> m/move    #    4/move
+> d/deep    #    3/deeply
+> m/move :ARG1-of d/deep    #    4/move :advmod 3/deeply
+> f/feel :ARG0 i/i    #    2/feel :nsubj 1/I
+> a/and ( :op1 s/stir ) | :op2 m/move    #    4/move ( :cc 6/and ) | :conj-and 7/stir
+> s/stir :ARG1 i/i    #    7/stir :nsubj 1/I
+> m/move :ARG1 i/i    #    4/move :nsubj 1/I
+> f/feel :ARG1 a/and ( :op2 s/stir ) | :op1 m/move    #    2/feel ( :xcomp 4/move ( :cc 6/and ) | :conj-and 7/stir ) | :xcomp 7/stir
+> 
+> 135.
+> # ::id lpp_1943.1209 ::date 2012-11-27T12:54:54 ::annotator ISI-AMR-05 ::preferred
+> # ::snt This was a merchant who sold pills that had been invented to quench thirst .
+> # ::zh è¿™æ˜¯ä¸€ä½è´©å–èƒ½å¤Ÿæ­¢æ¸´çš„ç²¾åˆ¶è¯ä¸¸çš„å•†äººã€‚
+> # ::save-date Fri May 10, 2013 ::file lpp_1943_1209.txt
+> t/thirst    #    14/thirst
+> p2/pill    #    7/pill
+> i/invent    #    11/invent
+> q/quench    #    13/quench
+> t2/this    #    1/this
+> s/sell    #    6/sell
+> m/merchandise    #    4/merchant
+> p/person :ARG0-of m/merchandise    #    4/merchant
+> p/person ( :ARG0-of m/merchandise ) | :domain t2/this    #    4/merchant :nsubj 1/this
+> p2/pill :ARG1-of i/invent    #    7/pill :acl-relcl 11/invent
+> i/invent :ARG1 p2/pill    #    11/invent :nsubjpass 7/pill
+> s/sell :ARG1 p2/pill    #    6/sell :dobj 7/pill
+> q/quench :ARG1 t/thirst    #    13/quench :dobj 14/thirst
+> i/invent :purpose q/quench    #    11/invent :nmod-to 13/quench :case 12/to
+> m/merchandise :ARG0 p/person :ARG0-of s/sell    #    4/merchant :acl-relcl 6/sell
+> m/merchandise :ARG0 p/person :ARG0-of s/sell    #    6/sell :nsubj 4/merchant
+> 
+> 136.
+> # ::id lpp_1943.105 ::date 2012-07-31T07:42:19 ::annotator ISI-AMR-05 ::preferred
+> # ::snt The little prince , who asked me so many questions , never seemed to hear the ones I asked him .
+> # ::zh å°çŽ‹å­å‘æˆ‘æå‡ºäº†å¾ˆå¤šé—®é¢˜ï¼Œå¯æ˜¯ï¼Œå¯¹æˆ‘æå‡ºçš„é—®é¢˜ï¼Œä»–å¥½è±¡åŽ‹æ ¹æ²¡æœ‰å¬è§ä¼¼çš„ã€‚
+> # ::save-date Wed Apr 8, 2015 ::file lpp_1943_105.txt
+> s/seem    #    13/seem
+> h/hear    #    15/hear
+> o/one    #    17/one
+> a2/ask    #    19/ask
+> a/ask    #    6/ask
+> i/i    #    18/I
+> i/i    #    7/I
+> p/prince    #    3/prince
+> p/prince    #    20/he
+> q/question    #    10/question
+> m/many    #    9/many
+> s2/so    #    8/so
+> l/little    #    2/little
+> e2/ever    #    12/never
+> s/seem :ARG1 h/hear    #    13/seem :xcomp 15/hear
+> s/seem :ARG1 h/hear ( :polarity none0/- ) | :time e2/ever    #    13/seem ( :xcomp 15/hear ) | :neg 12/never
+> h/hear :ARG0 p/prince    #    15/hear :nsubj 3/prince
+> h/hear :ARG1 o/one    #    15/hear :dobj 17/one
+> o/one :ARG1-of a2/ask    #    17/one :acl-relcl 19/ask
+> a2/ask :ARG2 p/prince    #    19/ask :dobj 20/he
+> a2/ask :ARG0 i/i    #    19/ask :nsubj 18/I
+> p/prince :ARG0-of a/ask    #    3/prince :acl-relcl 6/ask
+> a/ask :ARG0 p/prince    #    6/ask :nsubj 3/prince
+> p/prince :mod l/little    #    3/prince :amod 2/little
+> a/ask :ARG2 i/i    #    6/ask :iobj 7/I
+> a/ask :ARG1 q/question    #    6/ask :dobj 10/question
+> q/question :quant m/many    #    10/question :amod 9/many
+> m/many :degree s2/so    #    9/many :advmod 8/so
+> 
+> 137.
+> # ::id lpp_1943.275 ::date 2012-11-14T11:00:13 ::annotator ISI-AMR-05 ::preferred
+> # ::snt At first you seemed to be very much surprised .
+> # ::zh å¼€å§‹ï¼Œä½ æ˜¾å¾—å¾ˆæƒŠå¥‡çš„æ ·å­ï¼Œ
+> # ::save-date Wed Aug 7, 2013 ::file lpp_1943_275.txt
+> v/very    #    7/very
+> s2/surprise    #    9/surprised
+> m/much    #    8/much
+> s/seem    #    4/seem
+> y/you    #    3/you
+> s/seem :ARG1 s2/surprise    #    4/seem :xcomp 9/surprised
+> s2/surprise :degree m/much    #    9/surprised :advmod 8/much
+> s2/surprise :ARG1 y/you    #    9/surprised :nsubj 3/you
+> m/much :degree v/very    #    8/much :advmod 7/very
+> s/seem :time a/at-first    #    4/seem :nmod-at 2/first :case 1/at
+> a/at-first    #    2/first :case 1/at
+> a/at-first    #    2/first
+> a/at-first    #    1/at
+> 
+> 138.
+> # ::id lpp_1943.470 ::date 2012-11-11T17:09:27 ::annotator ISI-AMR-05 ::preferred
+> # ::snt It seems that they are very beautiful .
+> # ::zh æ®è¯´è¿™æ˜¯å¾ˆç¾Žçš„ã€‚
+> # ::save-date Sat Jul 25, 2015 ::file lpp_1943_470.txt
+> v2/very    #    6/very
+> b/beautiful    #    7/beautiful
+> s/seem    #    2/seem
+> t2/they    #    4/they
+> b/beautiful :degree v2/very    #    7/beautiful :advmod 6/very
+> s/seem :ARG1 b/beautiful    #    2/seem :ccomp 7/beautiful
+> b/beautiful :ARG1 t2/they    #    7/beautiful :nsubj 4/they
+> 
+> 139.
+> # ::id lpp_1943.478 ::date 2012-11-11T18:01:54 ::annotator ISI-AMR-05 ::preferred
+> # ::snt For she did not want him to see her crying .
+> # ::zh å¥¹æ˜¯æ€•å°çŽ‹å­çœ‹è§å¥¹åœ¨å“­ã€‚
+> # ::save-date Wed Apr 10, 2013 ::file lpp_1943_478.txt
+> w/want    #    5/want
+> c/cry    #    10/cry
+> h/he    #    6/he
+> s2/see    #    8/see
+> none0/-    #    4/not
+> s/she    #    2/she
+> s/she    #    9/she
+> s2/see :ARG0 h/he    #    8/see :nsubj 6/he
+> s2/see :ARG1 c/cry    #    8/see :dobj 10/cry
+> c/cry :ARG0 s/she    #    10/cry :nmod-poss 9/she
+> w/want :ARG1 s2/see    #    5/want :xcomp 8/see
+> w/want :ARG0 s/she    #    5/want :nsubj 2/she
+> w/want :polarity none0/-    #    5/want :neg 4/not
+> 
+> 140.
+> # ::id lpp_1943.820 ::date 2012-11-14T18:11:13 ::annotator ISI-AMR-05 ::preferred
+> # ::snt Perhaps that is because he is thinking of something else besides himself .
+> # ::zh è¿™å¯èƒ½æ˜¯å› ä¸ºä»–æ‰€å…³å¿ƒçš„æ˜¯åˆ«çš„äº‹ï¼Œè€Œä¸æ˜¯ä»–è‡ªå·±ã€‚â€
+> # ::save-date Mon Sep 22, 2014 ::file lpp_1943_820.txt
+> p/possible    #    1/perhaps
+> c/cause    #    4/because
+> s/something    #    9/something
+> t/think    #    7/think
+> h/he    #    5/he
+> h/he    #    12/himself
+> e/else    #    10/else
+> d/differ    #    11/besides
+> t/think :ARG0 h/he    #    7/think :nsubj 5/he
+> s/something :mod e/else    #    9/something :advmod 10/else
+> t/think :ARG2 s/something    #    7/think :nmod-of 9/something :case 8/of
+> s/something ( :ARG1-of d/differ :ARG2 h/he ) | :mod e/else    #    9/something :advmod 10/else :nmod-besides 12/himself :case 11/besides
+> d/differ :ARG2 h/he    #    12/himself :case 11/besides
+> t/think :ARG0-of c/cause    #    7/think :mark 4/because
+> p/possible :ARG1 c/cause :ARG0 t/think    #    3/is ( :advmod 1/perhaps ) | :advcl 7/thinking :mark 4/because
+> 
+> 141.
+> # ::id lpp_1943.834 ::date 2012-11-15T06:20:55 ::annotator ISI-AMR-05 ::preferred
+> # ::snt What are you doing ?
+> # ::zh ä½ åœ¨è¿™é‡Œå¹²ä»€ä¹ˆï¼Ÿâ€
+> # ::save-date Tue Apr 16, 2013 ::file lpp_1943_834.txt
+> y/you    #    3/you
+> d2/do    #    4/do
+> a/amr-unknown    #    1/what
+> d2/do :ARG0 y/you    #    4/do :nsubj 3/you
+> d2/do :ARG1 a/amr-unknown    #    4/do :dobj 1/what
+> 
+> 142.
+> # ::id lpp_1943.30 ::date 2012-07-24T08:57:30 ::annotator ISI-AMR-05 ::preferred
+> # ::snt I would try to find out , so , if this was a person of true understanding .
+> # ::zh æˆ‘æƒ³çŸ¥é“ä»–æ˜¯å¦çœŸçš„æœ‰ç†è§£èƒ½åŠ›ã€‚
+> # ::save-date Thu Feb 4, 2016 ::file lpp_1943_30.txt
+> t/try    #    3/try
+> i/i    #    1/I
+> p/person    #    14/person
+> t2/this    #    11/this
+> t3/true    #    16/true
+> u2/understand    #    17/understanding
+> t/try :ARG1 f/find-out    #    3/try :xcomp 5/find :compound-prt 6/out
+> f/find-out :ARG0 i/i    #    5/find ( :compound-prt 6/out ) | :nsubj 1/I
+> p/person :mod t2/this    #    14/person :nsubj 11/this
+> t/try :ARG0 i/i    #    3/try :nsubj 1/I
+> f/find-out    #    5/find :compound-prt 6/out
+> f/find-out    #    5/find
+> f/find-out    #    6/out
+> u2/understand :ARG1-of t3/true    #    17/understanding :amod 16/true
+> p/person :ARG0-of u2/understand    #    14/person :nmod-of 17/understanding :case 15/of
+> none0/interrogative    #    10/if
+> none0/interrogative :mode-of u2/understanding :ARG0 p/person    #    14/person ( :nmod-of 17/understanding :case 15/of ) | :mark 10/if
+> f/find-out :ARG1 u2/understanding :ARG0 p/person    #    5/find :advcl 14/person :nmod-of 17/understanding :case 15/of
+> 
+> 143.
+> # ::id lpp_1943.195 ::date 2012-08-07T10:20:58 ::annotator ISI-AMR-05 ::preferred
+> # ::snt I shall certainly try to make my portraits as true to life as possible .
+> # ::zh å½“ç„¶ï¼Œæˆ‘ä¸€å®šè¦æŠŠè¿™äº›ç”»å°½é‡åœ°ç”»å¾—é€¼çœŸï¼Œ
+> # ::save-date Sun Apr 12, 2015 ::file lpp_1943_195.txt
+> t/try    #    4/try
+> p2/possible    #    14/possible
+> i/i    #    1/I
+> i/i    #    7/my
+> p/portrait    #    8/portrait
+> m/make    #    6/make
+> t2/true    #    10/true
+> l/life    #    12/life
+> c/certain    #    3/certainly
+> m2/most    #    9/as
+> t2/true :ARG2 l/life    #    10/true :nmod-to 12/life :case 11/to
+> m/make :ARG0 i/i    #    6/make :nsubj 1/I
+> m/make :ARG1 t2/true    #    6/make :advcl 10/true
+> t/try :ARG0 i/i    #    4/try :nsubj 1/I
+> t/try :mod c/certain    #    4/try :advmod 3/certainly
+> m2/most :degree-of t2/true :compared-to p2/possible    #    10/true ( :advcl-as 14/possible :case 13/as ) | :mark 9/as
+> t/try :ARG1 m/make    #    4/try :xcomp 6/make
+> m/make :ARG1 t2/true :ARG1 p/portrait    #    6/make ( :dobj 8/portrait ) | :advcl 10/true
+> p/portrait :poss i/i    #    8/portrait :nmod-poss 7/my
+> 
+> 144.
+> # ::id lpp_1943.94 ::date 2012-07-31T06:59:45 ::annotator ISI-AMR-05 ::preferred
+> # ::snt Do you think that this sheep will have to have a great deal of grass ?
+> # ::zh ä½ è¯´è¿™åªç¾Šéœ€è¦å¾ˆå¤šè‰å—ï¼Ÿâ€
+> # ::save-date Mon Apr 15, 2013 ::file lpp_1943_94.txt
+> t/think    #    3/think
+> g2/great    #    12/great
+> h/have    #    10/have
+> o/obligate    #    8/have
+> d/deal    #    13/deal
+> g/grass    #    15/grass
+> t2/this    #    5/this
+> s/sheep    #    6/sheep
+> y/you    #    2/you
+> d/deal :mod g2/great    #    13/deal :amod 12/great
+> s/sheep :mod t2/this    #    6/sheep :det 5/this
+> d/deal :quant-of g/grass    #    13/deal :nmod-of 15/grass :case 14/of
+> h/have :ARG0 s/sheep    #    10/have :nsubj 6/sheep
+> o/obligate :ARG1 s/sheep    #    8/have :nsubj 6/sheep
+> o/obligate :ARG2 h/have    #    8/have :xcomp 10/have
+> t/think :ARG0 y/you    #    3/think :nsubj 2/you
+> t/think :ARG1 o/obligate    #    3/think :ccomp 8/have
+> h/have :ARG1 g/grass :quant d/deal    #    10/have :dobj 13/deal :nmod-of 15/grass :case 14/of
+> 
+> 145.
+> # ::id lpp_1943.165 ::date 2012-07-31T12:53:52 ::annotator ISI-AMR-05 ::preferred
+> # ::snt Does he collect butterflies ?
+> # ::zh ä»–æ˜¯å¦æ”¶é›†è´è¶æ ‡æœ¬å‘€ï¼Ÿâ€
+> # ::save-date Tue Jul 31, 2012 ::file lpp_1943_165.txt
+> c/collect    #    3/collect
+> b/butterfly    #    4/butterfly
+> h/he    #    2/he
+> c/collect :ARG1 b/butterfly    #    3/collect :dobj 4/butterfly
+> c/collect :ARG0 h/he    #    3/collect :nsubj 2/he
+> 
+2679c3491
+< y2/year    #    12/years
+---
+> y2/year    #    12/year
+2683c3495
+< e/event    #    8/events
+---
+> e/event    #    8/event
+2685,2686c3497,3498
+< c/contrast    #    1/But
+< b/be-temporally-at    #    9/took :dobj 10/place
+---
+> c/contrast    #    1/but
+> b/be-temporally-at    #    9/take :dobj 10/place
+2688c3500
+< c/contrast :ARG2 o/obligate    #    3/have :cc 1/But
+---
+> c/contrast :ARG2 o/obligate    #    3/have :cc 1/but
+2691,2692c3503,3504
+< r/recognize :ARG1 b/be-temporally-at    #    5/recognize :ccomp 9/took :dobj 10/place
+< e/event :mod t/this    #    8/events :det 7/these
+---
+> r/recognize :ARG1 b/be-temporally-at    #    5/recognize :ccomp 9/take :dobj 10/place
+> e/event :mod t/this    #    8/event :det 7/these
+2696c3508
+< none0/35 :quant-of t2/temporal-quantity :unit y2/year    #    12/years :nummod 11/35
+---
+> none0/35 :quant-of t2/temporal-quantity :unit y2/year    #    12/year :nummod 11/35
+2698,2700c3510,3512
+< b/be-temporally-at :ARG1 e/event    #    9/took ( :dobj 10/place ) | :nsubj 8/events
+< b/be-temporally-at :ARG2 b2/before :op1 n/now    #    9/took ( :dobj 10/place ) | :advmod 13/ago
+< b2/before ( :op1 n/now ) | :quant t2/temporal-quantity ( :quant none0/35 ) | :unit y2/year    #    13/ago :nmod-npmod 12/years :nummod 11/35
+---
+> b/be-temporally-at :ARG1 e/event    #    9/take ( :dobj 10/place ) | :nsubj 8/event
+> b/be-temporally-at :ARG2 b2/before :op1 n/now    #    9/take ( :dobj 10/place ) | :advmod 13/ago
+> b2/before ( :op1 n/now ) | :quant t2/temporal-quantity ( :quant none0/35 ) | :unit y2/year    #    13/ago :nmod-npmod 12/year :nummod 11/35
+2706c3518
+< b/bond    #    9/bonds
+---
+> b/bond    #    9/bond
+2708,2709c3520,3521
+< none2/-    #    13/n
+< c4/ceiling    #    16/the
+---
+> none2/-    #    13/not
+> c4/ceiling    #    16/ceiling
+2712c3524
+< d/debt    #    19/government
+---
+> d/debt    #    19/debt
+2715,2716c3527,3528
+< s/suspend    #    4/suspended
+< l/lift    #    14/'t
+---
+> s/suspend    #    4/suspend
+> l/lift    #    14/lift
+2718c3530
+< s2/sell    #    5/sales
+---
+> s2/sell    #    5/sale
+2721,2732c3533,3544
+< s/suspend :ARG0 g4/government-organization :ARG0-of g/govern    #    4/suspended :nsubj 3/government
+< s/suspend :ARG1 s2/sell    #    4/suspended :dobj 5/sales
+< s2/sell :ARG1 b/bond    #    5/sales :nmod-of 9/bonds :case 6/of
+< b/bond :mod s3/savings    #    9/bonds :compound 8/savings
+< b/bond :mod c3/country :name n/name :op1 none0/U.S.    #    9/bonds :compound 7/U.S.
+< s/suspend :ARG1-of c/cause :ARG0 l/lift    #    4/suspended :advcl 14/'t :mark 10/because
+< l/lift :polarity none2/-    #    14/'t :neg 13/n
+< l/lift :ARG1 c4/ceiling    #    14/'t :dobj 16/the
+< c4/ceiling :prep-on d/debt    #    16/the :nmod-on 19/government :case 17/ceiling
+< g5/government-organization :ARG0-of g2/govern    #    18/on
+< g2/govern    #    18/on
+< d/debt :mod g5/government-organization :ARG0-of g2/govern    #    19/government :compound 18/on
+---
+> s/suspend :ARG0 g4/government-organization :ARG0-of g/govern    #    4/suspend :nsubj 3/government
+> s/suspend :ARG1 s2/sell    #    4/suspend :dobj 5/sale
+> s2/sell :ARG1 b/bond    #    5/sale :nmod-of 9/bond :case 6/of
+> b/bond :mod s3/savings    #    9/bond :compound 8/savings
+> b/bond :mod c3/country :name n/name :op1 none0/U.S.    #    9/bond :compound 7/U.S.
+> s/suspend :ARG1-of c/cause :ARG0 l/lift    #    4/suspend :advcl 14/lift :mark 10/because
+> l/lift :polarity none2/-    #    14/lift :neg 13/not
+> l/lift :ARG1 c4/ceiling    #    14/lift :dobj 16/ceiling
+> c4/ceiling :prep-on d/debt    #    16/ceiling :nmod-on 19/debt :case 17/on
+> g5/government-organization :ARG0-of g2/govern    #    18/government
+> g2/govern    #    18/government
+> d/debt :mod g5/government-organization :ARG0-of g2/govern    #    19/debt :compound 18/government
+2734c3546
+< l/lift :ARG0 g3/government-organization :name n2/name :op1 none1/Congress    #    14/'t :nsubj 11/Congress
+---
+> l/lift :ARG0 g3/government-organization :name n2/name :op1 none1/Congress    #    14/lift :nsubj 11/Congress
+2741c3553
+< a/and    #    1/And
+---
+> a/and    #    1/and
+2743,2744c3555,3556
+< d/decide    #    4/decided
+< g/guest    #    8/guests
+---
+> d/decide    #    4/decide
+> g/guest    #    8/guest
+2747c3559
+< s/star    #    14/stars
+---
+> s/star    #    14/star
+2752,2754c3564,3566
+< d/decide :ARG0 c/city    #    4/decided :nsubj 3/city
+< d/decide :ARG1 t/treat    #    4/decided :xcomp 6/treat
+< r/royalty :op1-of o/or :op2 s/star    #    11/royalty ( :conj-or 14/stars ) | :cc 12/or
+---
+> d/decide :ARG0 c/city    #    4/decide :nsubj 3/city
+> d/decide :ARG1 t/treat    #    4/decide :xcomp 6/treat
+> r/royalty :op1-of o/or :op2 s/star    #    11/royalty ( :conj-or 14/star ) | :cc 12/or
+2756,2765c3568,3577
+< t/treat :ARG1 g/guest    #    6/treat :dobj 8/guests
+< g/guest :poss c/city    #    8/guests :nmod-poss 7/its
+< d/decide :op2-of a/and    #    4/decided :cc 1/And
+< s/star :mod r2/rock    #    14/stars :compound 13/rock
+< o2/own    #    17/owners
+< p/person :ARG0-of o2/own    #    17/owners
+< p/person :ARG0-of o2/own :ARG1 f/factory    #    17/owners :compound 16/factory
+< m/more :degree-of o/or ( :op1 r/royalty ) | :op2 s/star    #    11/royalty ( :conj-or 14/stars ) | ( :cc 12/or ) | :advmod 9/more
+< o/or ( :op1 r/royalty ) | ( :op2 s/star ) | :compared-to p/person :ARG0-of o2/own    #    11/royalty ( :conj-or 14/stars ) | ( :cc 12/or ) | ( :nmod-than 17/owners ) | :case 10/like
+< r/royalty :op1-of o/or ( :op2 s/star ) | :ARG2-of t/treat :ARG1 g/guest    #    6/treat :dobj 8/guests :nmod-like 11/royalty ( :conj-or 14/stars ) | :cc 12/or
+---
+> t/treat :ARG1 g/guest    #    6/treat :dobj 8/guest
+> g/guess :poss c/city    #    8/guess :nmod-poss 7/its
+> d/decide :op2-of a/and    #    4/decide :cc 1/and
+> s/star :mod r2/rock    #    14/star :compound 13/rock
+> o2/own    #    17/owner
+> p/person :ARG0-of o2/own    #    17/owner
+> p/person :ARG0-of o2/own :ARG1 f/factory    #    17/owner :compound 16/factory
+> m/more :degree-of o/or ( :op1 r/royalty ) | :op2 s/star    #    11/royalty ( :conj-or 14/star ) | ( :cc 12/or ) | :advmod 9/more
+> o/or ( :op1 r/royalty ) | ( :op2 s/star ) | :compared-to p/person :ARG0-of o2/own    #    11/royalty ( :conj-or 14/star ) | ( :cc 12/or ) | ( :nmod-than 17/owner ) | :case 10/like
+> r/royalty :op1-of o/or ( :op2 s/star ) | :ARG2-of t/treat :ARG1 g/guest    #    6/treat :dobj 8/guest :nmod-like 11/royalty ( :conj-or 14/star ) | :cc 12/or
+2772,2778c3584,3590
+< p/person :ARG0-of d2/drive    #    15/drivers
+< d2/drive    #    15/drivers
+< c/car    #    13/cars
+< s2/schoolboy    #    10/schoolboys
+< e/executive    #    7/executives
+< d/drool    #    8/drooled
+< d3/drool    #    8/drooled
+---
+> p/person :ARG0-of d2/drive    #    15/driver
+> d2/drive    #    15/driver
+> c/car    #    13/car
+> s2/schoolboy    #    10/schoolboy
+> e/executive    #    7/executive
+> d/drool    #    8/drool
+> d3/drool    #    8/drool
+2781,2782c3593,3594
+< none0/Fortune    #    5/Fortune
+< a2/after    #    1/After
+---
+> none0/Fortune    #    5/fortune
+> a2/after    #    1/after
+2784,2789c3596,3601
+< d/drool :ARG1-of r3/resemble :ARG2 d3/drool :ARG0 s2/schoolboy    #    8/drooled ( :nmod-like 10/schoolboys ) | :case 9/like
+< c/car :op1-of a/and :op2 p/person :ARG0-of d2/drive    #    13/cars ( :conj-and 15/drivers ) | :cc 14/and
+< p2/person :ARG0-of h/have-org-role :ARG2 e/executive    #    7/executives
+< d/drool :time a2/after :op1 r/race    #    8/drooled :nmod-after 3/race :case 1/After
+< r/race :op1-of a2/after    #    3/race :case 1/After
+< d/drool :ARG0 p2/person :ARG0-of h/have-org-role :ARG2 e/executive    #    8/drooled :nsubj 7/executives
+---
+> d/drool :ARG1-of r3/resemble :ARG2 d3/drool :ARG0 s2/schoolboy    #    8/drool ( :nmod-like 10/schoolboy ) | :case 9/like
+> c/car :op1-of a/and :op2 p/person :ARG0-of d2/drive    #    13/car ( :conj-and 15/driver ) | :cc 14/and
+> p2/person :ARG0-of h/have-org-role :ARG2 e/executive    #    7/executive
+> d/drool :time a2/after :op1 r/race    #    8/drool :nmod-after 3/race :case 1/after
+> r/race :op1-of a2/after    #    3/race :case 1/after
+> d/drool :ARG0 p2/person :ARG0-of h/have-org-role :ARG2 e/executive    #    8/drool :nsubj 7/executive
+2792c3604
+< d/drool :ARG1 a/and ( :op1 c/car ) | :op2 p/person :ARG0-of d2/drive    #    8/drooled :nmod-over 13/cars ( :case 11/over ) | ( :cc 14/and ) | :conj-and 15/drivers
+---
+> d/droll :ARG1 a/and ( :op1 c/car ) | :op2 p/person :ARG0-of d2/drive    #    8/drooled :nmod-over 13/cars  ( :case 11/over ) | ( :cc 14/and ) | :conj-and 15/drivers
+2800c3612
+< c/change    #    4/changing
+---
+> c/change    #    4/change
+2803,2805c3615,3617
+< e/exit    #    17/exits
+< p/pattern    #    6/patterns
+< a3/already    #    1/Already
+---
+> e/exit    #    17/exit
+> p/pattern    #    6/pattern
+> a3/already    #    1/already
+2807c3619
+< c2/cause    #    11/causing
+---
+> c2/cause    #    11/cause
+2814,2820c3626,3632
+< c/change :op1-of a/and :op2 c2/cause    #    4/changing ( :conj-and 11/causing ) | :cc 10/and
+< c/change :op1-of a/and ( :op2 c2/cause ) | :time a3/already    #    4/changing ( :conj-and 11/causing ) | ( :cc 10/and ) | :advmod 1/Already
+< c/change :ARG1 p/pattern    #    4/changing :dobj 6/patterns
+< p/pattern :mod d/develop    #    6/patterns :compound 5/development
+< c/change :ARG2 b/bad :degree m/more    #    4/changing :nmod-for 9/worse :case 7/for
+< c/change :ARG0 i/it    #    4/changing :nsubj 2/it
+< c2/cause :ARG1 c3/congest    #    11/causing :dobj 14/congestion
+---
+> c/change :op1-of a/and :op2 c2/cause    #    4/change ( :conj-and 11/cause ) | :cc 10/and
+> c/change :op1-of a/and ( :op2 c2/cause ) | :time a3/already    #    4/change ( :conj-and 11/cause ) | ( :cc 10/and ) | :advmod 1/already
+> c/change :ARG1 p/pattern    #    4/change :dobj 6/pattern
+> p/pattern :mod d/develop    #    6/pattern :compound 5/development
+> c/change :ARG2 b/bad :degree m/more    #    4/change :nmod-for 9/worse :case 7/for
+> c/change :ARG0 i/it    #    4/change :nsubj 2/it
+> c2/cause :ARG1 c3/congest    #    11/cause :dobj 14/congestion
+2823,2825c3635,3637
+< e/exit :op1-of a2/around    #    17/exits :case 15/around
+< c2/cause :ARG1 c3/congest :ARG1 a2/around :op1 e/exit    #    11/causing ( :dobj 14/congestion ) | :nmod-around 17/exits :case 15/around
+< e/exit :poss i/it    #    17/exits :nmod-poss 16/its
+---
+> e/exit :op1-of a2/around    #    17/exit :case 15/around
+> c2/cause :ARG1 c3/congest :ARG1 a2/around :op1 e/exit    #    11/cause ( :dobj 14/congestion ) | :nmod-around 17/exit :case 15/around
+> e/exit :poss i/it    #    17/exit :nmod-poss 16/its
+2839,2841c3651,3653
+< p/person :name h/name ( :op1 none0/Homer ) | :op2 none1/Simpson    #    8/him
+< a/amr-unknown    #    1/Where
+< n/need :ARG1 p/person :name h/name ( :op1 none0/Homer ) | :op2 none1/Simpson    #    7/need :dobj 8/him
+---
+> p/person :name h/name ( :op1 none0/Homer ) | :op2 none1/Simpson    #    8/he
+> a/amr-unknown    #    1/where
+> n/need :ARG1 p/person :name h/name ( :op1 none0/Homer ) | :op2 none1/Simpson    #    7/need :dobj 8/he
+2843c3655
+< b/be-located-at ( :ARG2 a/amr-unknown ) | :ARG1 p/person :name h/name ( :op1 none0/Homer ) | :op2 none1/Simpson    #    4/Simpson ( :compound 3/Homer ) | ( :advmod 1/Where ) | :cop 2/'s
+---
+> b/be-located-at ( :ARG2 a/amr-unknown ) | :ARG1 p/person :name h/name ( :op1 none0/Homer ) | :op2 none1/Simpson    #    4/Simpson ( :compound 3/Homer ) | ( :advmod 1/where ) | :cop 2/'s
+2850,2851c3662,3663
+< t/thing    #    14/things
+< b2/business    #    8/businesses
+---
+> t/thing    #    14/thing
+> b2/business    #    8/business
+2854c3666
+< r3/road    #    5/roads
+---
+> r3/road    #    5/road
+2862,2864c3674,3676
+< r2/recommend ( :condition r/recognize ) | :ARG1 d/do    #    3/recognize ( :advcl 12/do :aux 11/should | :mark 1/If
+< b/benefit :ARG0 r3/road    #    7/benefit :nsubj 5/roads
+< b/benefit :ARG1 b2/business    #    7/benefit :dobj 8/businesses
+---
+> r2/recommend ( :condition r/recognize ) | :ARG1 d/do    #    3/recognize ( :advcl 12/do :aux 11/should) | :mark 1/if 
+> b/benefit :ARG0 r3/road    #    7/benefit :nsubj 5/road
+> b/benefit :ARG1 b2/business    #    7/benefit :dobj 8/business
+2869,2870c3681,3682
+< d/do :ARG1 t/thing    #    12/do :dobj 14/things
+< t/thing :quant none0/2    #    14/things :nummod 13/two
+---
+> d/do :ARG1 t/thing    #    12/do :dobj 14/thing
+> t/thing :quant none0/2    #    14/thing :nummod 13/two
+2879c3691
+< c/cause :ARG0 a/amr-unknown    #    1/Why
+---
+> c/cause :ARG0 a/amr-unknown    #    1/why
+2882c3694
+< a/amr-unknown :ARG0-of c/cause :ARG1 h/hard :domain u/understand    #    7/understand ( :advmod 1/Why ) | :dep 5/hard
+---
+> a/amr-unknown :ARG0-of c/cause :ARG1 h/hard :domain u/understand    #    7/understand ( :advmod 1/why ) | :dep 5/hard
+2890,2892c3702,3704
+< y/y'all    #    1/You :det 2/all
+< y/y'all    #    1/You
+< y/y'all    #    2/all
+---
+> y/y'all    #    1/you :det 2/all
+> y/y'all    #    1/you
+> y/y/all    #    2/all
+2894c3706
+< w/wrong :ARG1 y/y'all    #    5/wrong :nsubj 1/You :det 2/all
+---
+> w/wrong :ARG1 y/y'all    #    5/wrong :nsubj 1/you :det 2/all
+2902c3714
+< c/cadre    #    2/cadres
+---
+> c/cadre    #    2/cadre
+2905c3717
+< s/standard    #    10/standards
+---
+> s/standard    #    10/standard
+2907c3719
+< o/other    #    15/others
+---
+> o/other    #    15/other
+2913,2915c3725,3727
+< r/require :ARG0 c/cadre    #    4/require :nsubj 2/cadres
+< c/cadre :ARG0-of a/audit    #    2/cadres :compound 1/Audit
+< a2/adhere :ARG1 s/standard    #    7/adhere :nmod-to 10/standards :case 8/to
+---
+> r/require :ARG0 c/cadre    #    4/require :nsubj 2/cadre
+> c/cadre :ARG0-of a/audit    #    2/cadre :compound 1/Audit
+> a2/adhere :ARG1 s/standard    #    7/adhere :nmod-to 10/standard :case 8/to
+2917c3729
+< s/standard :ARG1-of a3/apply    #    10/standards :acl-relcl 12/apply
+---
+> s/standard :ARG1-of a3/apply    #    10/standard :acl-relcl 12/apply
+2919,2920c3731,3732
+< a3/apply :ARG2 a4/audit :ARG1 o/other    #    12/apply :dobj 15/others :compound 14/auditing
+< o/other :ARG1-of a4/audit    #    15/others :compound 14/auditing
+---
+> a3/apply :ARG2 a4/audit :ARG1 o/other    #    12/apply :dobj 15/other :compound 14/auditing
+> o/other :ARG1-of a4/audit    #    15/other :compound 14/auditing
+2927,2929c3739,3741
+< p2/prosecute    #    2/prosecuting
+< p/prosecute    #    7/prosecuted
+< a/authority    #    3/authorities
+---
+> p2/prosecute    #    2/prosecute
+> p/prosecute    #    7/prosecute
+> a/authority    #    3/authority
+2931,2934c3743,3746
+< d/dare :ARG0 a/authority    #    4/dare :nsubj 3/authorities
+< a/authority :ARG0-of p2/prosecute    #    3/authorities :amod 2/prosecuting
+< d/dare :ARG1 p/prosecute    #    4/dare :xcomp 7/prosecuted
+< p/prosecute :ARG1 a/authority    #    7/prosecuted :nsubjpass 3/authorities
+---
+> d/dare :ARG0 a/authority    #    4/dare :nsubj 3/authority
+> a/authority :ARG0-of p2/prosecute    #    3/authority :amod 2/prosecute
+> d/dare :ARG1 p/prosecute    #    4/dare :xcomp 7/prosecute
+> p/prosecute :ARG1 a/authorities    #    7/prosecute :nsubjpass 3/authority
+2942c3754
+< h/he    #    1/He
+---
+> h/he    #    1/he
+2944c3756
+< m/make    #    2/made
+---
+> m/make    #    2/make
+2950,2953c3762,3765
+< r/realize :ARG0 p/person    #    4/realize :nsubj 3/people
+< m/make :beneficiary p/person    #    2/made :dobj 3/people
+< m/make :ARG0 h/he    #    2/made :nsubj 1/He
+< m/make :ARG1 r/realize    #    2/made :ccomp 4/realize
+---
+> r/realize :ARG0 p/people    #    4/realize :nsubj 3/people
+> m/make :beneficiary p/people    #    2/made :dobj 3/people
+> m/make :ARG0 h/he    #    2/make :nsubj 1/he
+> m/make :ARG1 r/realize    #    2/make :ccomp 4/realize
+2955c3767
+< s/strength ( :op1 a/and ) | :op2 n/nature    #    6/strength ( :conj-and 11/nature ) | :cc 9/and
+---
+> s/strength ( :op1 a/and ) | :op2 n/nature    #    6/strenth ( :conj-and 11/nature ) | :cc 9/and
+2968,2969c3780,3781
+< h/he    #    1/He
+< e/email    #    3/emailed
+---
+> h/he    #    1/he
+> e/email    #    3/email
+2972c3784
+< f/friend    #    8/him
+---
+> f/friend    #    8/he
+2980,2985c3792,3797
+< a/ask :ARG0 h/he    #    7/ask :nsubj 1/He
+< a/ask :ARG2 f/friend    #    7/ask :dobj 8/him
+< e/email :ARG2 f/friend    #    3/emailed :dobj 5/friend
+< e/email :time j/just    #    3/emailed :advmod 2/just
+< e/email :ARG0 h/he    #    3/emailed :nsubj 1/He
+< e/email :ARG1 a/ask    #    3/emailed :xcomp 7/ask
+---
+> a/ask :ARG0 h/he    #    7/ask :nsubj 1/he
+> a/ask :ARG2 f/friend    #    7/ask :dobj 8/he
+> e/email :ARG2 f/friend    #    3/email :dobj 5/friend
+> e/email :time j/just    #    3/email :advmod 2/just
+> e/email :ARG0 h/he    #    3/email :nsubj 1/he
+> e/email :ARG1 a/ask    #    3/email :xcomp 7/ask
+2992c3804
+< a/accelerate    #    8/accelerating
+---
+> a/accelerate    #    8/accelerate
+2996,2997c3808,3809
+< p/physicist    #    6/physicists
+< none0/Australia    #    5/Australian
+---
+> p/physicist    #    6/physicist
+> none0/Australia    #    5/australian
+2999,3004c3811,3816
+< c2/current    #    1/Currently
+< p/physicist    #    9/their
+< a/accelerate :time c2/current    #    8/accelerating :advmod 1/Currently
+< g/group :ARG1 p/physicist    #    3/group :nmod-of 6/physicists :case 4/of
+< c/country :name n/name :op1 none0/Australia    #    5/Australian
+< p/physicist :mod c/country :name n/name :op1 none0/Australia    #    6/physicists :amod 5/Australian
+---
+> c2/current    #    1/currently
+> p/physicist    #    9/they
+> a/accelerate :time c2/current    #    8/accelerate :advmod 1/currently
+> g/group :ARG1 p/physicist    #    3/group :nmod-of 6/physicist :case 4/of
+> c/country :name n/name :op1 none0/Australia    #    5/australian
+> p/physicist :mod c/country :name n/name :op1 none0/Australia    #    6/physicist :amod 5/australian
+3007,3010c3819,3822
+< a/accelerate :ARG0 g/group    #    8/accelerating :nsubj 3/group
+< a/accelerate :purpose r/realize    #    8/accelerating :xcomp 12/realize
+< a/accelerate :ARG1 w/work    #    8/accelerating :dobj 10/work
+< w/work :ARG0 p/physicist    #    10/work :nmod-poss 9/their
+---
+> a/accelerate :ARG0 g/group    #    8/accelerate :nsubj 3/group
+> a/accelerate :purpose r/realize    #    8/accelerate :xcomp 12/realize
+> a/accelerate :ARG1 w/work    #    8/accelerate :dobj 10/work
+> w/work :ARG0 p/physicist    #    10/work :nmod-poss 9/they
+3041c3853
+< w2/we    #    9/us
+---
+> w2/we    #    9/we
+3047c3859
+< s2/succeed :ARG0 w2/we    #    11/succeed :nsubj 9/us
+---
+> s2/succeed :ARG0 w2/we    #    11/succeed :nsubj 9/we
+3062c3874
+< h/have    #    3/had
+---
+> h/have    #    3/have
+3065,3066c3877,3878
+< c2/classmate    #    6/classmates
+< c2/classmate    #    14/them
+---
+> c2/classmate    #    6/classmate
+> c2/classmate    #    14/they
+3068,3069c3880,3881
+< h/have :mod a2/actual    #    3/had :advmod 2/actually
+< h/have :ARG0 i/i    #    3/had :nsubj 1/I
+---
+> h/have :mod a2/actual    #    3/have :advmod 2/actually
+> h/have :ARG0 i/i    #    3/have :nsubj 1/I
+3071,3076c3883,3888
+< h/have :op1-of a/and :op2 c/call    #    3/had ( :cc 9/and ) | :conj-and 11/going :xcomp 13/call
+< c/call :ARG1 c2/classmate    #    13/call :dobj 14/them
+< c2/classmate :quant s/some    #    6/classmates :det 4/some
+< c2/classmate :mod o/other    #    6/classmates :amod 5/other
+< h/have :ARG1 c2/classmate    #    3/had :dobj 6/classmates
+< h/have :ARG1 c2/classmate :location t/there    #    3/had ( :dobj 6/classmates ) | :advmod 7/there
+---
+> h/have :op1-of a/and :op2 c/call    #    3/have ( :cc 9/and ) | :conj-and 11/go :xcomp 13/call
+> c/call :ARG1 c2/classmate    #    13/call :dobj 14/they
+> c2/classmate :quant s/some    #    6/classmate :det 4/some
+> c2/classmate :mod o/other    #    6/classmate :amod 5/other
+> h/have :ARG1 c2/classmate    #    3/have :dobj 6/classmate
+> h/have :ARG1 c2/classmate :location t/there    #    3/have ( :dobj 6/classmate ) | :advmod 7/there
+3083,3084c3895,3896
+< c/connect    #    21/connected
+< d3/dial    #    16/dialed
+---
+> c/connect    #    21/connect
+> d3/dial    #    16/dial
+3087,3088c3899,3900
+< c4/call    #    15/calls
+< c3/call    #    15/calls
+---
+> c4/call    #    15/call
+> c3/call    #    15/call
+3094c3906
+< none1/12    #    13/dozens
+---
+> none1/12    #    13/dozen
+3100c3912
+< l/look    #    2/had :dobj 4/look
+---
+> l/look    #    2/have :dobj 4/look
+3102c3914
+< l/look :ARG0 i/i    #    5/at ( :dobj 4/look ) | :nsubj 1/I
+---
+> l/look :ARG0 i/i    #    5/have ( :dobj 4/look ) | :nsubj 1/I
+3106,3108c3918,3920
+< i2/include :ARG2 c4/call :quant m/multiple :op1 none1/12    #    13/dozens ( :nmod-of 15/calls ) | :case 11/out :mwe 12/of
+< c/connect :ARG1 c3/call ( :quant o/only :op1 none0/1 ) | :ARG1-of i2/include :ARG2 c4/call :quant m/multiple :op1 none1/12    #    21/connected :nsubjpass 18/one ( :advmod 17/only ) | :nmod-out-of 13/dozens ( :case 11/out :mwe 12/of ) | :nmod-of 15/calls :case 14/of
+< c/connect :manner p/proper    #    21/connected :advmod 20/properly
+---
+> i2/include :ARG2 c4/call :quant m/multiple :op1 none1/12    #    13/dozens ( :nmod-of 15/call ) | :case 11/out :mwe 12/of
+> c/connect :ARG1 c3/call ( :quant o/only :op1 none0/1 ) | :ARG1-of i2/include :ARG2 c4/call :quant m/multiple :op1 none1/12    #    21/connect :nsubjpass 18/one ( :advmod 17/only ) | :nmod-out-of 13/dozens ( :case 11/out :mwe 12/of ) | :nmod-of 15/calls :case 14/of
+> c/connect :manner p/proper    #    21/connect :advmod 20/properly
+3116c3928
+< w2/wreak    #    6/wreaked
+---
+> w2/wreak    #    6/wreak
+3118c3930
+< w/we    #    1/We
+---
+> w/we    #    1/we
+3120,3121c3932,3933
+< none1/Earthquake    #    10/Earthquake
+< e/earthquake    #    10/Earthquake
+---
+> none1/Earthquake    #    10/earthquake
+> e/earthquake    #    10/earthquake
+3123,3129c3935,3941
+< s/see    #    3/saw
+< e/earthquake :name n/name ( :op1 none0/Wenchuan ) | :op2 none1/Earthquake    #    10/Earthquake :compound 9/Wenchuan
+< s/see :ARG0 w/we    #    3/saw :nsubj 1/We
+< s/see :ARG1 d/damage    #    3/saw :dobj 5/damage
+< w2/wreak :ARG0 e/earthquake    #    6/wreaked :nmod-by 10/Earthquake :case 7/by
+< d/damage :ARG1-of w2/wreak    #    5/damage :acl 6/wreaked
+< s/see :ARG0 w/we :quant a/all    #    3/saw ( :nsubj 2/all ) | :nsubj 1/We
+---
+> s/see    #    3/see
+> e/earthquake :name n/name ( :op1 none0/Wenchuan ) | :op2 none1/Earthquake    #    10/earthquake :compound 9/Wenchuan
+> s/see :ARG0 w/we    #    3/see :nsubj 1/we
+> s/see :ARG1 d/damage    #    3/see :dobj 5/damage
+> w2/wreak :ARG0 e/earthquake    #    6/wreak :nmod-by 10/earthquake :case 7/by
+> d/damage :ARG1-of w2/wreak    #    5/damage :acl 6/wreak
+> s/see :ARG0 w/we :quant a/all    #    3/see ( :nsubj 2/all ) | :nsubj 1/we
+3138c3950
+< a/ant    #    19/ants
+---
+> a/ant    #    19/ant
+3140,3142c3952,3954
+< s/strike    #    5/strikes
+< l/life    #    10/lives
+< l2/life    #    10/lives
+---
+> s/strike    #    5/strike
+> l/life    #    10/life
+> l2/life    #    10/life
+3146c3958
+< l2/life    #    10/lives
+---
+> l2/life    #    10/life
+3150c3962
+< b/become :time s/strike    #    13/become :advcl 5/strikes :advmod 1/Once
+---
+> b/become :time s/strike    #    13/become :advcl 5/strike :advmod 1/once
+3153,3156c3965,3968
+< s/strike :ARG0 e4/earthquake    #    5/strikes :compound 4/earthquake
+< s/strike :ARG0 e4/earthquake :mod p2/powerful    #    5/strikes ( :compound 4/earthquake ) | :amod 3/powerful
+< b/become :ARG1 t2/tiny :domain l/life    #    13/become ( :nsubj 10/lives ) | :nmod-as 15/tiny :case 14/as
+< l/life :poss p/person    #    10/lives :nmod-poss 8/people
+---
+> s/strike :ARG0 e4/earthquake    #    5/strike :compound 4/earthquake
+> s/strike :ARG0 e4/earthquake :mod p2/powerful    #    5/strike ( :compound 4/earthquake ) | :amod 3/powerful
+> b/become :ARG1 t2/tiny :domain l/life    #    13/become ( :nsubj 10/life ) | :nmod-as 15/tiny :case 14/as
+> l/life :poss p/person    #    10/life :nmod-poss 8/people
+3159,3160c3971,3972
+< l2/life :poss a/ant    #    17/those :nmod-of 19/ants :case 18/of
+< t4/tiny :domain l2/life :poss a/ant    #    15/tiny :nmod-as 17/those :nmod-of 19/ants :case 18/of
+---
+> l2/life :poss a/ant    #    17/those :nmod-of 19/ant :case 18/of
+> t4/tiny :domain l2/life :poss a/ant    #    15/tiny :nmod-as 17/those :nmod-of 19/ant :case 18/of
+3171,3173c3983,3985
+< none2/God    #    8/his
+< e/eye    #    9/eyes
+< d/disaster    #    14/disasters
+---
+> none2/God    #    8/he   
+> e/eye    #    9/eye
+> d/disaster    #    14/disaster
+3175c3987
+< none0/-    #    12/'t
+---
+> none0/-    #    12/not
+3180c3992
+< none1/China    #    17/Chinese
+---
+> none1/China    #    17/chinese
+3182,3183c3994,3995
+< c/country :name n2/name :op1 none1/China    #    17/Chinese
+< l2/land :poss c/country :name n2/name :op1 none1/China    #    18/land :amod 17/Chinese
+---
+> c/country :name n2/name :op1 none1/China    #    17/chinese
+> l2/land :poss c/country :name n2/name :op1 none1/China    #    18/land :amod 17/chinese
+3187c3999
+< o/open :ARG1 e/eye    #    7/open :dobj 9/eyes
+---
+> o/open :ARG1 e/eye    #    7/open :dobj 9/eye
+3189,3191c4001,4003
+< l/let :ARG0 p2/person :name n/name :op1 none2/God    #    13/let :nsubj 5/God
+< e/eye :part-of p2/person :name n/name :op1 none2/God    #    9/eyes :nmod-poss 8/his
+< l/let :polarity none0/-    #    13/let :neg 12/'t
+---
+> l/let :ARG0 p2/person :name n/name :op1 none2/God    #    13/open :nsubj 5/God
+> e/eye :part-of p2/person :name n/name :op1 none2/God    #    9/eye :nmod-poss 8/he
+> l/let :polarity none0/-    #    13/let :neg 12/not
+3193,3194c4005,4006
+< v/visit :ARG0 d/disaster    #    15/visit :nsubj 14/disasters
+< v/visit :mod a2/again    #    15/visit :advmod 19/again
+---
+> v/visit :ARG0 d/disaster    #    15/visit :nsubj 14/disaster
+> v/visit :mod a2/again    #     15/visit :advmod 19/again
+3206,3207c4018,4019
+< d/dispute    #    6/disputes
+< f/fight    #    9/fights
+---
+> d/dispute    #    6/dispute
+> f/fight    #    9/fight
+3211,3213c4023,4025
+< a2/aim :ARG1 a/and ( :op1 s/settle ) | ( :op2 s2/stop ) | :op3 s3/stabilize    #    3/was ( :nsubj 2/aim ) | :xcomp 5/settle ( :cc 10/and ) | ( :conj-and 8/stop ) | :conj-and 11/stabilize
+< s/settle :ARG1 d/dispute    #    5/settle :dobj 6/disputes
+< s2/stop :ARG1 f/fight    #    8/stop :dobj 9/fights
+---
+> a2/aim :ARG1 a/and ( :op1 s/settle ) | ( :op2 s2/stop ) | :op3 s3/stabilize    #    3/be ( :nsubj 2/aim ) | :xcomp 5/settle ( :cc 10/and ) | ( :conj-and 8/stop ) | :conj-and 11/stabilize
+> s/settle :ARG1 d/dispute    #    5/settle :dobj 6/dispute
+> s2/stop :ARG1 f/fight    #    8/stop :dobj 9/fight
+3220,3221c4032,4033
+< t/tank    #    4/tanks
+< a/ant    #    11/ants
+---
+> t/tank    #    4/tank
+> a/ant    #    11/ant
+3225,3226c4037,4038
+< h/human    #    14/humans
+< h/human    #    1/Humans
+---
+> h/human    #    14/human
+> h/human    #    1/human
+3237c4049
+< m4/manufacture :ARG0 h/human    #    17/manufacture :nsubj 14/humans
+---
+> m4/manufacture :ARG0 h/human    #    17/manufacture :nsubj 14/human
+3242,3244c4054,4056
+< m/manufacture :ARG0 h/human    #    3/manufacture :nsubj 1/Humans
+< m/manufacture :ARG1 t/tank    #    3/manufacture :dobj 4/tanks
+< t/tank :mod p3/powerful    #    4/tanks :acl-relcl 9/powerful
+---
+> m/manufacture :ARG0 h/human    #    3/manufacture :nsubj 1/human
+> m/manufacture :ARG1 t/tank    #    3/manufacture :dobj 4/tank
+> t/tank :mod p3/powerful    #    4/tank :acl-relcl 9/powerful
+3246c4058
+< p3/powerful :compared-to a/ant    #    9/powerful :nmod-than 11/ants :case 10/than
+---
+> p3/powerful :compared-to a/ant    #    9/powerful :nmod-than 11/ant :case 10/than
+3252c4064
+< none0/-    #    5/'t
+---
+> none0/-    #    5/not
+3254c4066
+< d/defeat    #    2/defeated
+---
+> d/defeat    #    2/defeat
+3261,3263c4073,4075
+< b/brave :domain p2/person :ARG0-of h/have-org-role :ARG2 g/general    #    9/brave :nsubj 3/general
+< g/general :ARG2-of h/have-org-role :ARG0 p2/person :ARG1-of d/defeat    #    3/general :amod 2/defeated
+< c/claim :domain-of p/possible :polarity none0/-    #    6/claim ( :neg 5/'t ) | :aux 4/can
+---
+> b/brave :domain p2/person :ARG0-of h/have-org-role :ARG2 g/general    #    9/brave :nsubj 3/general 
+> g/general :ARG2-of h/have-org-role :ARG0 p2/person :ARG1-of d/defeat    #    3/general :amod 2/defeat
+> c/claim :domain-of p/possible :polarity none0/-    #    6/claim ( :neg 5/not ) | :aux 4/can
+3272c4084
+< g/go    #    5/going
+---
+> g/go    #    5/go
+3275c4087
+< g/go :time d/die    #    5/going :advcl 10/die :advmod 8/when
+---
+> g/go :time d/die    #    5/go :advcl 10/die :advmod 8/when
+3277,3278c4089,4090
+< g/go :ARG4 h/hell    #    5/going :nmod-to 7/Hell :case 6/to
+< f/fear :ARG1 g/go    #    3/afraid :advcl 5/going
+---
+> g/go :ARG4 h/hell    #    5/go :nmod-to 7/Hell :case 6/to
+> f/fear :ARG1 g/go    #    3/afraid :advcl 5/go
+3290c4102
+< a/amr-unknown    #    1/How
+---
+> a/amr-unknown    #    1/how
+3293c4105
+< s/set :manner a/amr-unknown    #    4/set :advmod 1/How
+---
+> s/set :manner a/amr-unknown    #    4/set :advmod 1/how
+3301c4113
+< e/earthquake    #    2/earthquakes
+---
+> e/earthquake    #    2/earthquake
+3303,3304c4115,4116
+< s2/sign    #    8/signs
+< t2/type    #    5/types
+---
+> s2/sign    #    8/sign
+> t2/type    #    5/type
+3307,3309c4119,4121
+< t/type    #    1/Strike-type
+< s/strike    #    1/Strike-type
+< t/type :mod s/strike    #    1/Strike-type
+---
+> t/type    #    1/strike-type
+> s/strike    #    1/strike-type
+> t/type :mod s/strike    #    1/strike-type
+3313,3314c4125,4126
+< e/earthquake :mod t/type :mod s/strike    #    2/earthquakes :amod 1/Strike-type
+< h/have :ARG0 e/earthquake    #    3/have :nsubj 2/earthquakes
+---
+> e/earthquake :mod t/type :mod s/strike    #    2/earthquake :amod 1/strike-type
+> h/have :ARG0 e/earthquake    #    3/have :nsubj 2/earthquake
+3318c4130
+< t2/type :mod v/various    #    5/types :amod 4/various
+---
+> t2/type :mod v/various    #    5/type :amod 4/various
+3320,3328c4132,4140
+< t2/type :mod-of s2/sign    #    5/types :nmod-of 8/signs :case 6/of
+< s2/sign :ARG1-of l/last :ARG2 l2/long    #    8/signs :acl-relcl 14/long-lasting
+< s2/sign :ARG1-of l/last :ARG2 l2/long    #    14/long-lasting :nsubj 8/signs
+< s2/sign :ARG0-of p/precede    #    8/signs :compound 7/precursory
+< s2/sign :ARG1-of s3/spread :extent w/wide    #    8/signs :acl-relcl 12/widespread
+< s2/sign :ARG1-of s3/spread :extent w/wide    #    12/widespread :nsubj 8/signs
+< s2/sign :ARG1-of v2/vary    #    8/signs :acl-relcl 18/variable
+< s2/sign :ARG1-of v2/vary    #    18/variable :nsubj 8/signs
+< h/have :ARG1 s2/sign :mod t2/type    #    3/have :dobj 5/types :nmod-of 8/signs :case 6/of
+---
+> t2/type :mod-of s2/sign    #    5/type :nmod-of 8/sign :case 6/of
+> s2/sign :ARG1-of l/last :ARG2 l2/long    #    8/sign :acl-relcl 14/long-lasting
+> s2/sign :ARG1-of l/last :ARG2 l2/long    #    14/long-lasting :nsubj 8/sign
+> s2/sign :ARG0-of p/precede    #    8/sign :compound 7/precursory
+> s2/sign :ARG1-of s3/spread :extent w/wide    #    8/sign :acl-relcl 12/widespread
+> s2/sign :ARG1-of s3/spread :extent w/wide    #    12/widespread :nsubj 8/sign
+> s2/sign :ARG1-of v2/vary    #    8/sign :acl-relcl 18/variable
+> s2/sign :ARG1-of v2/vary    #    18/variable :nsubj 8/sign
+> h/have :ARG1 s2/sign :mod t2/type    #    3/have :dobj 5/type :nmod-of 8/sign :case 6/of
+3334,3337c4146,4149
+< n/natural    #    1/Natural
+< p2/predict    #    6/predicted
+< b/building    #    11/buildings
+< d/disaster    #    2/disasters
+---
+> n/natural    #    1/natural
+> p2/predict    #    6/predict
+> b/building    #    11/building
+> d/disaster    #    2/disaster
+3341c4153
+< c2/collapse    #    15/collapsed
+---
+> c2/collapse    #    15/collapse
+3345,3352c4157,4164
+< c2/collapse :polarity none1/-    #    15/collapsed :neg 13/not
+< p2/predict :domain-of p/possible :polarity none0/-    #    6/predicted ( :aux 3/can ) | :neg 4/not
+< b/building :mod s/school    #    11/buildings :compound 10/school
+< c2/collapse :ARG1 b/building    #    15/collapsed :nsubj 11/buildings
+< r/recommend :ARG1 c2/collapse    #    15/collapsed :aux 12/should
+< p2/predict :ARG1 d/disaster    #    6/predicted :nsubjpass 2/disasters
+< d/disaster :mod n/natural    #    2/disasters :amod 1/Natural
+< p2/predict :domain-of p/possible :ARG1-of c/contrast :ARG2 r/recommend :ARG1 c2/collapse    #    6/predicted ( :aux 3/can ) | ( :cc 8/but ) | :conj-but 15/collapsed :aux 12/should
+---
+> c2/collapse :polarity none1/-    #    15/collapse :neg 13/not
+> p2/predict :domain-of p/possible :polarity none0/-    #    6/predict ( :aux 3/can ) | :neg 4/not
+> b/building :mod s/school    #    11/building :compound 10/school
+> c2/collapse :ARG1 b/building    #    15/collapse :nsubj 11/building
+> r/recommend :ARG1 c2/collapse    #    15/collapse :aux 12/should
+> p2/predict :ARG1 d/disaster    #    6/predict :nsubjpass 2/disaster
+> d/disaster :mod n/natural    #    2/disaster :amod 1/natural
+> p2/predict :domain-of p/possible :ARG1-of c/contrast :ARG2 r/recommend :ARG1 c2/collapse    #    6/predict ( :aux 3/can ) | ( :cc 8/but ) | :conj-but 15/collapse :aux 12/should
+3358,3359c4170,4171
+< u2/unit    #    5/units
+< u2/unit    #    14/units
+---
+> u2/unit    #    5/unit
+> u2/unit    #    14/unit
+3362c4174
+< t/take    #    8/taking
+---
+> t/take    #    8/take
+3364,3369c4176,4181
+< w/work    #    13/working
+< w/work    #    4/working
+< b/break    #    19/broken
+< w2/work    #    13/working
+< w2/work    #    4/working
+< g/get    #    15/got
+---
+> w/work    #    13/work
+> w/work    #    4/work
+> b/break    #    19/break
+> w2/work    #    13/work
+> w2/work    #    4/work
+> g/get    #    15/get
+3372,3374c4184,4186
+< u/unit    #    5/units
+< u/unit    #    14/units
+< c/cause    #    1/Due
+---
+> u/unit    #    5/unit
+> u/unit    #    14/unit
+> c/cause    #    1/due
+3376,3378c4188,4190
+< b/break    #    19/broken :compound 20/up
+< b/break :ARG1 u/unit    #    19/broken ( :compound 20/up ) | :nsubj 14/units
+< t/take    #    8/taking :compound 9/on
+---
+> b/break    #    19/break :compound 20/up
+> b/break :ARG1 u/unit    #    19/break ( :compound 20/up ) | :nsubj 14/units
+> t/take    #    8/take :compound 9/on
+3380,3391c4192,4203
+< u/unit :ARG0-of w/work    #    14/units :amod 13/working
+< u2/unit :ARG0-of w2/work    #    5/units :amod 4/working
+< t/take :time n/no-longer    #    8/taking :advmod 7/longer :neg 6/no
+< p/person :ARG1-of e/employ    #    11/employees
+< e/employ    #    11/employees
+< y/young :mod-of p/person :ARG1-of e/employ    #    11/employees :amod 10/young
+< t/take :ARG1 p/person :ARG1-of e/employ    #    8/taking :dobj 11/employees
+< g/get :ARG1 u/unit    #    15/got :nsubj 14/units
+< u2/unit :ARG0-of t/take    #    5/units :acl 8/taking
+< u2/unit :mod f/formal    #    5/units :amod 3/formal
+< c/cause :ARG0 t/take :ARG0 u2/unit    #    1/Due :amod-to 5/units ( :case 2/to ) | :acl 8/taking
+< g/get :ARG1-of c/cause    #    15/got :advmod 1/Due
+---
+> u/unit :ARG0-of w/work    #    14/unit :amod 13/work
+> u2/unit :ARG0-of w2/work    #    5/unit :amod 4/work
+> t/take :time n/no-longer    #    8/take :advmod 7/longer :neg 6/no
+> p/person :ARG1-of e/employ    #    11/employee
+> e/employ    #    11/employee
+> y/young :mod-of p/person :ARG1-of e/employ    #    11/employee :amod 10/young
+> t/take :ARG1 p/person :ARG1-of e/employ    #    8/take :dobj 11/employee
+> g/get :ARG1 u/unit    #    15/get :nsubj 14/unit
+> u2/unit :ARG0-of t/take    #    5/unit :acl 8/take
+> u2/unit :mod f/formal    #    5/unit :amod 3/formal
+> c/cause :ARG0 t/take :ARG0 u2/unit    #    1/due :amod-to 5/unit ( :case 2/to ) | :acl 8/take
+> g/get :ARG1-of c/cause    #    15/get :advmod 1/due
+3395,3397c4207,4209
+< b/break :op2-of a/and :op1 o/old :degree m/more    #    17/older ( :conj-and 19/broken ) | :cc 18/and
+< b/break :op2-of a/and ( :op1 o/old :degree m/more ) | :manner i/increase    #    17/older ( :conj-and 19/broken ) | ( :advmod 16/increasingly ) | :cc 18/and
+< g/get :ARG2 a/and ( :op2 b/break ) | :op1 o/old :degree m/more    #    15/got ( :xcomp 19/broken ) | :xcomp 17/older ( :conj-and 19/broken ) | :cc 18/and
+---
+> b/break :op2-of a/and :op1 o/old :degree m/more    #    17/older ( :conj-and 19/break ) | :cc 18/and
+> b/break :op2-of a/and ( :op1 o/old :degree m/more ) | :manner i/increase    #    17/older ( :conj-and 19/break ) | ( :advmod 16/increasingly ) | :cc 18/and
+> g/get :ARG2 a/and ( :op2 b/break ) | :op1 o/old :degree m/more    #    15/got ( :xcomp 19/break ) | :xcomp 17/older ( :conj-and 19/break ) | :cc 18/and
+3403,3405c4215,4217
+< f/face    #    1/Faced
+< r/rascal    #    3/rascals
+< h2/hooligan    #    5/hooligans
+---
+> f/face    #    1/face
+> r/rascal    #    3/rascal
+> h2/hooligan    #    5/hooligan
+3414c4226
+< f/face :ARG1 p/person :mod c/country :name n/name :op1 none0/China    #    1/Faced :nsubj 11/Chinese
+---
+> f/face :ARG1 p/person :mod c/country :name n/name :op1 none0/China    #    1/face :nsubj 11/Chinese
+3417,3418c4229,4230
+< r/rascal :op1-of a2/and :op2 h2/hooligan    #    3/rascals ( :conj-and 5/hooligans ) | :cc 4/and
+< f/face :ARG0 a2/and ( :op1 r/rascal ) | :op2 h2/hooligan    #    1/Faced :nmod-with 3/rascals ( :case 2/with ) | ( :conj-and 5/hooligans ) | :cc 4/and
+---
+> r/rascal :op1-of a2/and :op2 h2/hooligan    #    3/rascal ( :conj-and 5/hooligan ) | :cc 4/and
+> f/face :ARG0 a2/and ( :op1 r/rascal ) | :op2 h2/hooligan    #    1/face :nmod-with 3/rascal ( :case 2/with ) | ( :conj-and 5/hooligan ) | :cc 4/and
+3420,3421c4232,4233
+< a2/and ( :op2 h2/hooligan ) | ( :op1 r/rascal ) | :example p2/person :mod c4/country :name n2/name :op1 none1/America    #    3/rascals ( :cc 4/and ) | ( :conj-and 5/hooligans ) | :nmod-like 8/Americans :case 6/like
+< o/obligate ( :ARG2 a/arm ) | :ARG1-of c3/cause :ARG0 f/face    #    12/have ( :dobj 14/choice :neg 13/no ) | ( :advcl 1/Faced ) | ( :cc 15/but ) | :conj-but 17/arm
+---
+> a2/and ( :op2 h2/hooligan ) | ( :op1 r/rascal ) | :example p2/person :mod c4/country :name n2/name :op1 none1/America    #    3/rascal ( :cc 4/and ) | ( :conj-and 5/hooligan ) | :nmod-like 8/Americans :case 6/like
+> o/obligate ( :ARG2 a/arm ) | :ARG1-of c3/cause :ARG0 f/face    #    12/have ( :dobj 14/choice :neg 13/no ) | ( :advcl 1/faced ) | ( :cc 15/but ) | :conj-but 17/arm
+3432c4244
+< h/help    #    7/helps
+---
+> h/help    #    7/help
+3436c4248
+< c/contrast    #    4/hand ( :case 1/On ) | :nummod 3/one
+---
+> c/contrast    #    4/hand ( :case 1/on ) | :nummod 3/one
+3438,3440c4250,4252
+< h/help :ARG1-of c/contrast    #    7/helps :nmod-on 4/hand ( :case 1/On ) | :nummod 3/one
+< h/help :ARG2 g/government-organization :ARG0-of g2/govern    #    7/helps :dobj 9/government
+< h/help :ARG0 i/it    #    7/helps :nsubj 6/it
+---
+> h/help :ARG1-of c/contrast    #    7/help :nmod-on 4/hand ( :case 1/on ) | :nummod 3/one
+> h/help :ARG2 g/government-organization :ARG0-of g2/govern    #    7/help :dobj 9/government
+> h/help :ARG0 i/it    #    7/help :nsubj 6/it
+3442c4254
+< h/help :ARG1 a/and ( :op1 r/reduce ) | :op2 n/narrow    #    7/helps :xcomp 11/reduce ( :conj-and 13/narrow ) | :cc 12/and
+---
+> h/help :ARG1 a/and ( :op1 r/reduce ) | :op2 n/narrow    #    7/help :xcomp 11/reduce ( :conj-and 13/narrow ) | :cc 12/and
+3445c4257
+< n/narrow :ARG1 g3/gap    #    13/narrow :dobj 15/gap
+---
+> n/narrow :ARG1 g3/gap    #    13/reduce :dobj 15/gap
+3454,3455c4266,4267
+< b2/beam    #    4/beams
+< b/beam    #    11/beams
+---
+> b2/beam    #    4/beam
+> b/beam    #    11/beam
+3457c4269
+< p/place    #    7/placed
+---
+> p/place    #    7/place
+3466c4278
+< g/go :ARG1 b/beam    #    14/go :nsubj 11/beams
+---
+> g/go :ARG1 b/beam    #    14/go :nsubj 11/beam
+3468,3471c4280,4283
+< g/go :condition p/place    #    14/go :advcl 7/placed
+< g/go :condition p/place    #    14/go :advcl 7/placed :mark 1/If
+< b2/beam :mod u/up :degree m2/more    #    4/beams :amod 3/upper
+< p/place :ARG1 b2/beam    #    7/placed :nsubjpass 4/beams
+---
+> g/go :condition p/place    #    14/go :advcl 7/place
+> g/go :condition p/place    #    14/go :advcl 7/place :mark 1/if
+> b2/beam :mod u/up :degree m2/more    #    4/beam :amod 3/upper
+> p/place :ARG1 b2/beam    #    7/place :nsubjpass 4/beam
+3473,3474c4285,4286
+< p/place :manner c/correct    #    7/placed :advmod 6/correctly
+< b/beam :mod l/low :degree m/more    #    11/beams :amod 10/lower
+---
+> p/place :manner c/correct    #    7/place :advmod 6/correctly
+> b/beam :mod l/low :degree m/more    #    11/beam :amod 10/lower
+3481c4293
+< m2/meanwhile    #    1/Meanwhile
+---
+> m2/meanwhile    #    1/meanwhile
+3483,3486c4295,4298
+< e/expect    #    15/expectations
+< e/expect    #    13/have :dobj 15/expectations
+< e/expect :ARG1 t2/thing    #    15/expectations
+< e/expect :ARG1 t2/thing    #    13/have :dobj 15/expectations
+---
+> e/expect    #    15/expectation
+> e/expect    #    13/have :dobj 15/expectation
+> e/expect :ARG1 t2/thing    #    15/expectation
+> e/expect :ARG1 t2/thing   #    13/have :dobj 15/expectation
+3488c4300
+< h/highway    #    5/highways
+---
+> h/highway    #    5/highway
+3498,3499c4310,4311
+< c/cause :time m2/meanwhile    #    10/cause :advmod 1/Meanwhile
+< h/highway :op1-of a/and :op2 t/traffic    #    5/highways ( :conj-and 9/traffic ) | :cc 6/and
+---
+> c/cause :time m2/meanwhile    #    10/cause :advmod 1/meanwhile
+> h/highway :op1-of a/and :op2 t/traffic    #    5/highway ( :conj-and 9/traffic ) | :cc 6/and
+3502,3505c4314,4317
+< h/highway :ARG1-of c2/crowd    #    5/highways :amod 4/crowded
+< c/cause :ARG1 e/expect    #    10/cause :xcomp 13/have :dobj 15/expectations
+< e/expect :ARG0 p/person    #    13/have ( :dobj 15/expectations ) | :nsubj 11/people
+< e/expect :topic d/develop    #    13/have :dobj 15/expectations :nmod-in 18/development :case 16/in
+---
+> h/highway :ARG1-of c2/crowd    #    5/highway :amod 4/crowded
+> c/cause :ARG1 e/expect    #    10/cause :xcomp 13/have :dobj 15/expectation
+> e/expect :ARG0 p/person    #    13/have ( :dobj 15/expectation ) | :nsubj 11/people
+> e/expect :topic d/develop    #    13/have :dobj 15/expectation :nmod-in 18/development :case 16/in
+3508c4320,4512
+< c/cause :ARG0 a/and ( :op1 h/highway ) | :op2 t/traffic    #    10/cause ( :nsubj 9/traffic ) | :nsubj 5/highways ( :conj-and 9/traffic ) | :cc 6/and
+---
+> c/cause :ARG0 a/and ( :op1 h/highway ) | :op2 t/traffic    #    10/cause ( :nsubj 9/traffic ) | :nsubj 5/highway ( :conj-and 9/traffic ) | :cc 6/and
+> 
+> 179.
+> # ::id edinburgh_1003.1 ::date 2016-05-25T12:26:05
+> # ::snt that's a terribly small horse for you to ride .
+> # ::save-date Wed May 25, 2016 ::user nathans ::file edinburgh_1003_1.txt
+> s/small    #    5/small
+> t/terribly    #    4/terrible
+> r/ride    #    10/ride
+> h/horse    #    6/horse
+> y/you    #    8/you
+> t2/that    #    1/that
+> h/horse :mod t2/that    #    6/horse :nsubj 1/that
+> s/small :domain h/horse    #    6/horse :amod 5/small
+> s/small :beneficiary r/ride    #    5/small :xcomp 10/ride
+> r/ride :ARG0 y/you    #    10/ride :nsubj 8/you
+> s/small :degree t/terribly    #    5/small :advmod 4/terrible
+> 
+> 180.
+> # ::id edinburgh_1003.2 ::date 2016-05-25T12:31:26
+> # ::snt why don't you look at some of the toys in the basket .
+> # ::save-date Sat Jun 4, 2016 ::user nathans ::file edinburgh_1003_2.txt
+> l/look    #    5/look
+> t/toy    #    10/toy
+> b/basket    #    13/basket
+> s/some    #    7/some
+> y/you    #    4/you
+> r/recommend :ARG1 l/look    #    5/look ( :advmod 1/why ) | ( :aux 2/do ) | :neg 3/not
+> l/look :ARG0 y/you    #    5/look :nsubj 4/you
+> l/look :ARG1 t/toy    #    5/look :nmod-at 10/toys :case 6/at
+> t/toy :mod s/some    #    10/toy :det-qmod 7/some :mwe 8/of
+> t/toy :location b/basket    #    10/toys :nmod-in 13/basket :case 11/in
+> 
+> 181.
+> # ::id edinburgh_1003.3 ::date 2016-05-25T12:38:21
+> # ::snt does he walk like you or does he go hop hop hop ?
+> # ::save-date Wed May 25, 2016 ::user nathans ::file edinburgh_1003_3.txt
+> w/walk    #    3/walk
+> g/go    #    9/go
+> h2/hop    #    10/hop
+> h2/hop    #    11/hop
+> h2/hop    #    12/hop
+> h2/hop :mode none0/expressive    #    10/hop :goeswith 11/hop :goeswith 12/hop
+> h/he    #    8/he
+> h/he    #    2/he
+> y/you    #     5/you
+> g/go :ARG0 h/he    #    9/go :nsubj 8/he
+> g/go :ARG1 h2/hop    #    9/go :advmod 10/hop
+> w2/walk    #    3/walk
+> w/walk :ARG0 h/he    #    3/walk :nsubj 2/he
+> r/resemble    #    4/like
+> w/walk :ARG1-of r/resemble :ARG2 w2/walk :ARG0 y/you    #    3/walk :nmod-like 5/you :case 4/like
+> m/multiple-choice    #    6/or
+> w/walk :ARG1-of m/multiple-choice :ARG2 g/go    #    3/walk ( :conj-or 9/go ) | :cc 6/or
+> 
+> 182.
+> # ::id edinburgh_1003.4 ::date 2016-05-25T12:46:23
+> # ::snt if you look out the other window maybe you'll see it .
+> # ::save-date Wed May 25, 2016 ::user nathans ::file edinburgh_1003_4.txt
+> s/see    #    11/see
+> y/you    #    9/you
+> y/you    #    2/you
+> l/look    #    3/look
+> o/out    #    4/out
+> w/window    #    7/window
+> o2/other    #    6/other
+> i/it    #    12/it
+> s/see :ARG0 y/you    #    11/see :nsubj 9/you
+> p/possible    #    8/maybe
+> p/possible ( :ARG1 s/see ) | :condition l/look    #    11/see ( :discourse 8/maybe ) | :advcl 3/look :mark 1/if
+> l/look :ARG0 y/you    #    3/look :nsubj 2/you
+> w/window :mod o2/other    #    7/window :amod 6/other
+> w/window :op1-of o/out    #    7/window :case 4/out
+> l/look :direction o/out :op1 w/window    #    3/look ( :nmod-out 7/window ) | :case 4/out
+> s/see :ARG1 i/it    #    11/see :dobj 12/it
+> p/possible :ARG1 s/see    #    11/see :discourse 8/maybe
+> 
+> 183.
+> # ::id edinburgh_1003.5 ::date 2016-05-25T12:54:24
+> # ::snt I think that one's too large to go in the window .
+> # ::save-date Sat Jun 4, 2016 ::user nathans ::file edinburgh_1003_5.txt
+> t/think    #    2/think
+> i/i    #    1/I
+> t/think :ARG0 i/i    #     2/think :nsubj 1/I
+> l/large    #    7/large
+> t3/too    #    6/too
+> l/large :ARG1-of h/have-degree :ARG3 t3/too    #    7/large :advmod 6/too
+> l/large :ARG1-of h/have-degree    #    7/large
+> o/one    #    4/one
+> t2/that    #    3/that
+> o/one :mod t2/that    #    4/one :det 3/that
+> l/large :ARG1-of h/have-degree :ARG2 o/one    #    7/large :nsubj 4/one
+> g/go    #    9/go
+> w/window    #    12/window
+> g/go :ARG4 w/window    #    9/go :nmod-in 12/window :case 10/in
+> t/think :ARG1 h/have-degree :ARG1 l/large    #    2/think :ccomp 7/large
+> h/have-degree ( :ARG1 l/large ) | :ARG5 g/go    #    7/large :advcl 9/go
+> 
+> 184.
+> # ::id edinburgh_1003.6 ::date 2016-05-25T13:01:10
+> # ::snt not the kind you hit but the kind you kick .
+> # ::save-date Sat Jun 4, 2016 ::user nathans ::file edinburgh_1003_6.txt
+> k/kind-yy    #    8/kind
+> k2/kick    #    10/kick
+> p/person    #    9/you
+> k3/kind-yy    #    3/kind
+> h/hit    #    5/hit
+> p2/person    #    4/you
+> k2/kick :ARG0 p/person    #    10/kick :nsubj 9/you
+> k/kind-yy :ARG1-of k2/kick    #    8/kind :acl-relcl 10/kick
+> h/hit :ARG0 p2/person    #    5/hit :nsubj 4/you
+> k3/kind-yy :ARG1-of h/hit    #    3/kind :acl-relcl 5/hit
+> k/kind-yy :ARG1-of i2/instead-of :ARG2 k3/kind-yy    #    3/kind ( :cc-preconj 1/not ) | ( :conj-but 8/kind ) | :cc 6/but
+> 
+> 185.
+> # ::id edinburgh_1003.7 ::date 2016-05-25T13:04:51
+> # ::snt why don't you take that over and show it to him .
+> # ::save-date Wed May 25, 2016 ::user nathans ::file edinburgh_1003_7.txt
+> t/take    #    5/take
+> a/and    #    8/and
+> s/show    #    9/show
+> o/over    #    7/over
+> y/you    #    4/you
+> t2/that    #    6/that
+> t2/that    #    10/it
+> h/he    #    12/him
+> t/take :ARG0 y/you    #    5/take :nsubj 4/you
+> t/take :direction o/over    #    5/take :advmod 7/over
+> t/take :ARG1 t2/that    #    5/take :dobj 6/that
+> s/show :ARG1 t2/that    #    9/show :dobj 10/it
+> s/show :ARG2 h/he    #    9/show :nmod-to 12/him :case 11/to
+> t/take :op1-of a/and :op2 s/show    #    5/take ( :conj-and 9/show ) | :cc 8/and
+> r/recommend :ARG1 a/and ( :op1 t/take ) | :op2 s/show    #    5/take ( :advmod 1/why ) | ( :neg 3/not ) | ( :conj-and 9/show ) | :cc 8/and
+> s/show :ARG0 y/you    #    9/show :nsubj 4/you
+> 
+> 186.
+> # ::id edinburgh_1003.8 ::date 2016-05-25T13:09:12
+> # ::snt I guess Cliffy looks at Bozo at her house .
+> # ::save-date Wed May 25, 2016 ::user nathans ::file edinburgh_1003_8.txt
+> g/guess    #    2/guess
+> l/look    #    4/look
+> h/house    #    9/house
+> i/i    #    1/I
+> none1/Bozo    #    6/Bozo
+> none0/Cliffy    #    3/Cliffy
+> p2/person :name n2/name :op1 none1/Bozo    #    6/Bozo
+> p2/person :name n2/name :op1 none1/Bozo    #    8/her
+> p/person :name n/name :op1 none0/Cliffy    #    3/Cliffy
+> g/guess :ARG0 i/i    #    2/guess :nsubj 1/I
+> g/guess :ARG1 l/look    #    2/guess :ccomp 4/look
+> l/look :location h/house    #    4/look :nmod-at 9/house :case 7/at
+> l/look :ARG1 p2/person :name n2/name :op1 none1/Bozo    #    4/look :nmod-at 6/Bozo :case 5/at
+> h/house :poss p2/person :name n2/name :op1 none1/Bozo    #    9/house :nmod-poss 8/her
+> l/look :ARG0 p/person :name n/name :op1 none0/Cliffy    #    4/look :nsubj 3/Cliffy
+> 
+> 187.
+> # ::id edinburgh_1003.9 ::date 2016-05-25T13:10:57
+> # ::snt you don't have anything else to put in the box do you ?
+> # ::save-date Sat Jun 4, 2016 ::user nathans ::file edinburgh_1003_9.txt
+> h/have    #    4/have
+> a/anything    #    5/anything
+> y/you    #    1/you
+> e/else    #    6/else
+> p/put    #    8/put
+> b/box    #    11/box
+> none0/-    #    3/not
+> h/have :polarity none0/-    #    4/have :neg 3/not
+> h/have :ARG0 y/you    #    4/have :nsubj 1/you
+> h/have :ARG1 a/anything    #    4/have :dobj 5/anything
+> a/anything :mod e/else    #    5/anything :dep 6/else
+> a/anything :purpose p/put    #    5/anything :acl 8/put
+> p/put :ARG1 a/anything    #    5/anything :acl 8/put
+> p/put :ARG2 b/box    #    8/put :nmod-in 11/box :case 9/in
+> r/request-confirmation    #    12/do :nsubj 13/you
+> r/request-confirmation :ARG1 h/have    #    4/have :discourse 12/do :nsubj 13/you
+> 
+> 188.
+> # ::id edinburgh_1003.10 ::date 2016-05-25T14:04:59
+> # ::snt why don't you come over here and play with the ball ?
+> # ::save-date Wed May 25, 2016 ::user nathans ::file edinburgh_1003_10.txt
+> a/and    #    8/and
+> p/play    #    9/play
+> c/come    #    5/come
+> b/ball    #    12/ball
+> h/here    #    7/here
+> o/over    #    6/over
+> y/you    #    4/you
+> p/play :ARG2 b/ball    #    9/play :nmod-with 12/ball :case 10/with
+> c/come :ARG4 h/here    #    5/come :advmod 7/here
+> o/over :direction-of c/come :ARG4 h/here    #    5/come :advmod 7/here :advmod 6/over
+> c/come :ARG1 y/you    #    5/come :nsubj 4/you
+> c/come :op1-of a/and :op2 p/play    #    5/come ( :conj-and 9/play ) | :cc 8/and
+> r/recommend :ARG1 a/and ( :op1 c/come ) | :op2 p/play    #    5/come ( :advmod 1/why ) | ( :neg 3/not ) | ( :conj-and 9/play ) | :cc 8/and
+3526c4530
+< t/topic :mod c/current    #    8/topic :amod 6/current
+---
+> t/topic :mod c/current    #     8/topic :amod 6/current
+3533c4537
+< h/he    #    1/He
+---
+> h/he    #    1/he
+3543c4547
+< e/email :ARG0 h/he    #    3/emailed :nsubj 1/He
+---
+> e/email :ARG0 h/he    #    3/emailed :nsubj 1/he
+3547c4551
+< a/ask :ARG0 h/he    #    7/ask :nsubj 1/He
+---
+> a/ask :ARG0 h/he    #    7/ask :nsubj 1/he
+3552c4556
+< 
+---
+>   
+3595c4599
+< none0/FE    #    1/Fe
+---
+> none0/Fe    #    1/Fe
+3618c4622
+< s2/say    #    1/According :mwe 2/to
+---
+> s2/say    #    1/according :mwe 2/to
+3635,3636c4639,4640
+< s2/say :ARG0 p/person :ARG1 e2/expert    #    3/experts :case 1/According :mwe 2/to
+< s2/say ( :ARG1 p4/planet ) | :ARG0 p/person :ARG1 e2/expert    #    18/planet :nmod-according_to 3/experts :case 1/According :mwe 2/to
+---
+> s2/say :ARG0 p/person :ARG1 e2/expert    #    3/experts :case 1/according :mwe 2/to
+> s2/say ( :ARG1 p4/planet ) | :ARG0 p/person :ARG1 e2/expert    #    18/platen :nmod-according_to 3/experts :case 1/according :mwe 2/to
+3667c4671
+< d/demand :time t2/time    #    8/demanded :nmod-at 4/time :case 1/At
+---
+> d/demand :time t2/time    #    8/demanded :nmod-at 4/time :case 1/at
+3684c4688
+< l/late    #    1/Late
+---
+> l/late    #    1/late
+3686c4690
+< l/late :op1 d/date-entity ( :day none1/8 ) | ( :month none2/8 ) | :year none3/2008    #    4/August ( :nummod 3/8 ) | ( :nummod 5/2008 ) | :advmod 1/Late
+---
+> l/late :op1 d/date-entity ( :day none1/8 ) | ( :month none2/8 ) | :year none3/2008    #    4/August ( :nummod 3/8 ) | ( :nummod 5/2008 ) | :advmod 1/late
+3688c4692
+< none2/8    #    5/2008
+---
+> none2/8    #    5/August
+3710,3712c4714,4716
+< c/clear ( :polarity none0/- ) | :time l/late :op1 d/date-entity :day none1/8 :month none2/8 :year none3/2008    #    8/unclear :nmod-on 4/August ( :nummod 3/8 ) | ( :nummod 5/2008 ) | ( :advmod 1/Late ) | :case 2/on
+< c/clear ( :polarity none0/- ) | :domain o/or ( :op1 c2/combat :ARG1-of t/take ) | :op2 l2/limit    #    8/unclear ( :ccomp 23/limited ) | :ccomp 13/taken ( :cc 20/or ) | ( :conj-or 23/limited ) | :nsubj 11/combat
+< o/or ( :op1 c2/combat :ARG1-of t/take ) | :op2 l2/limit    #    13/taken ( :cc 20/or ) | ( :conj-or 23/limited ) | :nsubj 11/combat
+---
+> c/clear ( :polarity none0/- ) | :time l/late :op1 d/date-entity :day none1/8 :month none2/8 :year none3/2008    #    8/unclear :nmod-on 4/August ( :nummod 3/8 ) | ( :nummod 5/2008 ) | ( :advmod 1/late ) | :case 2/on
+> c/clear ( :polarity none0/- )  | :domain o/or ( :op1 c2/combat :ARG1-of t/take ) | :op2 l2/limit    #    8/unclear ( :ccomp 23/limited ) | :ccomp 13/taken ( :cc 20/or ) | ( :conj-or 23/limited ) | :nsubj 11/combat
+> o/or ( :op1 c2/combat :ARG1-of t/take ) | :op2 l2/limit    #     13/taken ( :cc 20/or ) | ( :conj-or 23/limited ) | :nsubj 11/combat
+3720c4724
+< o/or ( :mode none4/interrogative ) | :op1 c2/combat :ARG1-of t/take    #    13/taken ( :mark 9/whether ) | ( :cc 20/or ) | :nsubj 11/combat
+---
+> o/or ( :mode none4/unclear ) | :op1 c2/combat :ARG1-of t/take    #    13/taken ( :mark 9/whether ) | ( :cc 20/or ) | :nsubj 11/combat
+3726c4730
+< 
+---
+>                             
+3732c4736
+< p/person :name n/name ( :op1 none0/Nancy ) | :op2 none1/Scheper-Hughes    #    2/schepeter-Hughes :compound 1/Nancy
+---
+> p/person :name n/name ( :op1 none0/Nancy ) | :op2 none1/Scheper-Hughes    #    2/Schepeter-Hughes :compound 1/Nancy
+3734c4738
+< none1/Scheper-Hughes    #    2/schepeter-Hughes
+---
+> none1/Schepeter-Hughes    #    2/Schepeter-Hughes
+3745c4749
+< s/state :ARG0 p/person :name n/name ( :op1 none0/Nancy ) | :op2 none1/Scheper-Hughes    #    3/stated :nsubj 2/schepeter-Hughes :compound 1/Nancy
+---
+> s/state :ARG0 p/person :name n/name ( :op1 none0/Nancy ) | :op2 none1/Scheper-Hughes    #    3/stated :nsubj 2/Schepeter-Hughes :compound 1/Nancy
+3763c4767
+< d/drug    #    1/Drug
+---
+> d/drug    #    1/drug
+3778c4782
+< t/traffic :ARG1 d/drug    #    2/trafficking :compound 1/Drug
+---
+> t/traffic :ARG1 d/drug    #    2/trafficking :compound 1/drug
+3791,3792c4795,4796
+< p2/person :ARG0-of b/betray    #    14/traitors
+< b/betray    #    14/traitors
+---
+> p2/person :ARG0-of b/betray    #    14/traitor
+> b/betray    #    14/traitor
+3809,3810c4813,4814
+< p2/person :ARG0-of b/betray :ARG1 c2/country :name n/name :op1 none0/China    #    14/traitors :nmod-of 16/China :case 15/of
+< 
+---
+> p2/person :ARG0-of b/betray :ARG1 c2/country :name n/name :op1 none0/China    #    14/traitor :nmod-of 16/China :case 15/of
+>             
+3823a4828,4858
+> 200.
+> # ::id NATHANS_EXAMPLE ::date 2017-06-06T04:25:05 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+> # ::snt In the story, evildoer Cruella de Vil makes no attempt to conceal her glee and lack of conscience.
+> # ::save-date Tue Jun 6, 2017
+> a/attempt    #    11/attempt
+> a/attempt    #    9/makes :dobj 11/attempt
+> none0/-    #    10/no
+> a/attempt :polarity none0/-    #    11/attempt :neg 10/no
+> s/story    #    3/story
+> p/person :ARG0-of d/do :ARG1 t/thing :mod e/evil    #    5/evildoer 
+> e/evil    #    5/evildoer
+> p/person :name n/name ( :op1 none1/Cruella ) | ( :op2 none2/de ) | :op3 none3/Vil    #    8/Vil ( :compound 6/Cruella ) | :amod 7/de
+> none1/Cruella    #    6/Cruella
+> none2/de    #    7/de
+> none3/Vil    #    8/Vil
+> p/person :name n/name ( :op1 none1/Cruella ) | ( :op2 none2/de ) | :op3 none3/Vil    #    14/her
+> c/conceal    #    13/conceal
+> a2/and    #    16/and
+> g/glee    #    15/glee
+> l/lack    #    17/lack
+> c2/conscience    #    19/conscience
+> a/attempt :location s/story    #    9/makes ( :dobj 11/attempt ) | :nmod-in 3/story :case 1/in
+> a/attempt :ARG1 c/conceal    #    9/makes :dobj 11/attempt :acl 13/conceal
+> a/attempt :ARG0 p/person :name n/name ( :op1 none1/Cruella ) | ( :op2 none2/de ) | :op3 none3/Vil    #    9/makes ( :dobj 11/attempt ) | :nsubj 8/Vil ( :compound 6/Cruella ) | :amod 7/de
+> c/conceal :ARG0 p/person :name n/name ( :op1 none1/Cruella ) | ( :op2 none2/de ) | :op3 none3/Vil    #    13/conceal :nsubj 8/Vil ( :compound 6/Cruella ) | :amod 7/de
+> p/person ( :name n/name ( :op1 none1/Cruella ) | ( :op2 none2/de ) | :op3 none3/Vil ) | :ARG0-of d/do :ARG1 t/thing :mod e/evil    #    8/Vil ( :compound 6/Cruella ) | ( :amod 7/de ) | :appos 5/evildoer
+> a2/and ( :op1 g/glee ) | :op2 l/lack    #    15/glee ( :cc 16/and ) | :conj-and 17/lack
+> l/lack :ARG1 c2/conscience    #    17/lack :nmod-of 19/conscience :case 18/of
+> g/glee :poss p/person :name n/name ( :op1 none1/Cruella ) | ( :op2 none2/de ) | :op3 none3/Vil    #    15/glee :nmod-poss 14/her
+> l/lack :ARG0 p/person :name n/name ( :op1 none1/Cruella ) | ( :op2 none2/de ) | :op3 none3/Vil    #    17/lack :nmod-poss 14/her
+> c/conceal :ARG1 a2/and ( :op1 g/glee ) | :op2 l/lack    #    13/conceal :dobj 15/glee ( :cc 16/and ) | :conj-and 17/lack

@@ -1,0 +1,6047 @@
+1.
+q    #    2
+n    #    4
+p    #    6
+b    #    8
+b2    #    11
+t    #    17
+t2    #    19
+w    #    7
+d    #    15
+none1    #    13
+none2    #    14
+p :domain b    #    8 :aux 6
+b :ARG2 b2    #    8 :advmod 11
+b :ARG0 w    #    8 :nsubj 7
+b :ARG1 t    #    8 :dobj 17
+t :mod t2    #    17 :nmod-of 19 :case 18
+o :name n2 ( :op1 none1 ) | :op2 none2    #    14 :compound 13
+p2 :ARG0-of h ( :ARG2 d ) | :ARG1 o :name n2 ( :op1 none1 ) | :op2 none2    #    15 :compound 14 :compound 13
+p2 :ARG0-of h :ARG2 d    #    15
+q :time n    #    2 :amod-tmod 4
+q :ARG1 p :domain b    #    8 ( :aux 6 ) | :parataxis 2
+t :mod t2 :ARG0 p2 :ARG0-of h :ARG2 d    #    17 ( :nmod-poss 15 :case 16 ) | :nmod-of 19 :case 18
+
+2.
+none5    #    25
+none4    #    19
+none3    #    18
+none2    #    7
+none1    #    7
+none0    #    6
+m2    #    4
+a3    #    22
+a2    #    20
+c2    #    15
+a    #    17
+c    #    2
+b    #    11
+b    #    12
+b    #    11 :compound-prt 12
+m    #    9
+o    #    21
+p    #    23
+t    #    1
+p :op2-of a :op1 c    #    2 ( :cc 17 ) | :conj-and 23
+p :mod a3    #    23 :advmod 22
+c3 :name n3 :op1 none5    #    25
+p :location c3 :name n3 :op1 none5    #    23 :nmod-in 25 :case 24
+p2 :name n2 ( :op1 none3 ) | :op2 none4    #    19 :compound 18
+o :op2-of a2 :op1 p2 :name n2 ( :op1 none3 ) | :op2 none4    #    19 ( :compound 18 ) | ( :cc 20 ) | :conj-and 21
+p :ARG0 a2 ( :op2 o ) | :op2 p2 :name n2 ( :op1 none3 ) | :op2 none4    #    23 ( :nsubj 21 ) | :nsubj 19 ( :compound 18 ) | ( :cc 20 ) | :conj-and 21
+c :ARG0 t    #    2 :nsubj 1
+c :ARG1 b    #    2 :xcomp 11 :compound-prt 12
+b :location c2    #    11 ( :compound-prt 12 ) | :nmod-in 15 :case 13
+b :ARG1 m    #    11 ( :nsubj 9 ) | :compound-prt 12
+m :mod m2    #    9 :amod 4
+n ( :op3 none2 ) | ( :op2 none1 ) | :op1 none0 )    #    6 :nummod 7
+m :name n ( :op3 none2 ) | ( :op2 none1 ) | :op1 none0 )    #    9 :compound 6 :nummod 7
+
+3.
+p    #    1
+b    #    8
+t    #    6
+p :domain b    #    8 :aux 1
+b :ARG1 t    #    8 :nsubjpass 6
+
+4.
+m2    #    12
+a3    #    3
+a4    #    17
+a6    #    3
+c3    #    15
+c3    #    5
+c2    #    14
+e2    #    8
+a    #    22
+p3    #    21
+c    #    1
+e    #    19
+g    #    20
+h    #    16
+m    #    6
+n    #    18
+p    #    25
+r    #    11
+u    #    26
+w    #    10
+p2 :ARG0-of c3    #    5
+c :ARG1 a    #    22 :advmod 1
+a :ARG1 u    #    22 :xcomp 26
+u :mod p    #    26 :advmod 25
+m2 :mod w    #    12 :amod 10
+m2 :location r    #    12 :amod 11
+a3 :ARG1 m    #    3 :dobj 6
+m :mod p2 :AGR0-of c3    #    6 :compound 5
+a2 ( :op2 c2 ) | :op1 a5 :op1 a3    #    3 :conj-and 14
+u :domain a2 ( :op1 a5 :op1 a3 ) | :op2 c2    #    26 ( :nsubj 3 :conj-and 14 ) | :nsubj 14
+c2 :ARG1 a4 ( :op1 h ) | :op2 p3    #    14 ( :dobj 21 ) | :dobj 16 ( :cc 17 ) | :conj-and 21
+h :mod p2 :aRG0-of c3    #    16 :compound 15
+h :op1-of a4 :op2 p3    #    16 ( :cc 17 ) | :conj-and 21
+p3 :mod n    #    21 :amod 18
+g :ARG1 e    #    20 :amod 19
+p3 :mod g    #    21 :compound 20
+a5 ( :op1 a3 :ARG1 m ) | :op2 a6 :ARG1 m2    #    3 :dobj 6 :appos 12
+
+5.
+a    #    5
+none4    #    16
+none3    #    15
+none2    #    13
+none1    #    2
+none0    #    1
+s3    #    9
+h    #    10
+s    #    6
+s    #    3 :dobj 6
+s :ARG1 t    #    6
+s :ARG1 t :location a    #    3 :dobj 6 :amod 5
+p2 :name n ( :op1 none0 ) | :op2 none1    #    2 :compound 1
+s :ARG0 p2 :name n ( :op1 none0 ) | :op2 none1    #    3 ( :dobj 6 ) | :nsubj 2 :compound 1
+s :time s3    #    3 ( :dobj 6 ) | :nmod-during 9 :case 7
+s3 :ARG1-of h    #    9 :acl 10
+o :name n2 ( :op1 none2 ) | ( :op2 none3 ) | :op3 none4    #    16 ( :compound 13 ) | :amod 15
+h :ARG0 o :name n2 ( :op1 none2 ) | ( :op2 none3 ) | :op3 none4    #    10 :nmod-by 16 ( :case 11 ) | ( :compound 13 ) | :amod 15
+
+6.
+f2    #    21
+e    #    3
+g2    #    14
+none1    #    7
+f    #    19
+s2    #    12
+c3    #    15
+m    #    16
+l    #    10
+s    #    18
+m2    #    13
+c :name n :op1 none1    #    7
+h    #    2
+none0    #    5
+c5    #    22
+c4 :name n2 :op1 none0    #    5
+c3 :domain c :name n :op1 none1    #    15 :nsubj 7
+c3 :mod m2    #    15 :amod 13
+s2 :mod l    #    12 :compound 10
+c3 :mod s2    #    15 :amod 12
+c3 :mod g2    #    15 :compound 14
+c3 :ARG0-of e :ARG1 h    #    15 :nmod-with 2 ( :case 1 ) | :acl 3
+e :ARG1 h    #    2 :acl 3
+e :location c4 :name n2 :op1 none0    #    3 :nmod-in 5 :case 4
+s :ARG1 c5    #    18 :dobj 22
+m :ARG1 c5    #    16 :dobj 22
+c3 :ARG0-of s    #    15 :acl-relcl 18
+c3 :ARG0-of m    #    15 :acl-relcl 16
+c5 :ARG1-of f2    #    22 :amod 21
+f2 :ARG2 f    #    21 :compound 19
+
+7.
+c    #    12
+b    #    17
+e    #    9
+f    #    3
+m    #    2
+m    #    5
+m    #    16
+p    #    14
+s    #    6
+m2    #    8
+s :time f    #    6 :advcl 3 :advmod 1
+f :ARG2 m    #    3 :nsubj 2
+s :destination b    #    6 :nmod-into 17 :case 15
+b :poss m    #    17 :nmod-poss 16
+s :ARG0 m    #    6 :nsubj 5
+s :ARG1 e    #    6 :dobj 9
+e :mod m2    #    9 :compound 8
+s :ARG2 c    #    6 :nmod-from 12 :case 10
+c :part-of p    #    12 :nmod-of 14 :case 13
+
+8.
+e    #    15
+f    #    7
+h    #    1
+none0    #    18
+d3    #    19
+l    #    17
+o    #    14
+s    #    4
+r    #    8
+s2    #    12
+d2    #    2
+o2    #    11
+d2 :ARG0 h    #    2 :nsubj 1
+d2 :ARG1 s    #    2 :dobj 4
+s :ARG1 e    #    4 :ccomp 15
+e :mod o    #    15 :advmod 14
+e :purpose l    #    15 :xcomp 17
+t3 ( :unit d3 ) | :quant none0    #    19 :nummod 18
+l :ARG2 t3 ( :unit d3 ) | :quant none0    #    17 :nmod-tmod 19 :nummod 18
+e :domain r    #    15 :nsubj 8
+r :mod f    #    8 :compound 7
+r :location s2    #    8 :nmod-on 12 :case 9
+s2 :ARG0-of o2    #    12 :amod 11
+l :ARG1 r    #    17 :nsubj 8
+
+9.
+p2    #    6
+c    #    5
+e    #    8
+r2    #    11 :nmod-in 14 :case 13
+l    #    2
+o    #    9
+p :ARG0-of l    #    2
+t    #    12
+o :ARG2 r2    #    9 :xcomp 11 :nmod-in 14 :case 13
+r2 :ARG1 t    #    11 ( :dobj 12 ) | :nmod-in 14 :case 13
+r2 :ARG0 e    #    11 ( :nsubj 8 ) | :nmod-in 14 :case 13
+e :prep-from p :ARG0-of l    #    8 :nmod-from 2 :case 1
+p2 :mod c    #    6 :amod 5
+p2 :prep-to-of e :prep-from p :ARG0-of l    #    8 :nmod-from 2 ( :case 1 ) | :nmod-to 6 :case 3
+
+10.
+a    #    27
+a    #    29
+a    #    29 :case 27
+e    #    15
+none0    #    2
+none2    #    23
+k    #    8
+none1    #    7
+o    #    25
+none3    #    26
+o3    #    6
+e3    #    16
+e2    #    12
+s    #    20
+r2    #    9
+h    #    18 :dobj 20
+h :ARG1 s :quant-of e    #    18 ( :dobj 20 ) | :nsubj 15
+a :op1 o ( :op1 none2 ) | :op2 none3    #    23 ( :cc 25 ) | :conj-or 26 :nmod-at 29 :case 27
+c :name n :op1 none0    #    2
+h :ARG2 a :op1 o ( :op1 none2 ) | :op2 none3    #    18 :dobj 20 :nmod-of 23 ( :case 21 ) | ( :cc 25 ) | :conj-or 26 :nmod-at 29 :case 27
+s :location c :name n :op1 none0    #    18 ( :dobj 20 ) | :nmod-in 2 :case 1
+c ( :name n :op1 none0 ) | :location r2    #    2 ( :ref 4 ) :acl-relcl 9
+d ( :unit k ) | :quant none1    #    8 :nummod 7
+o3 :quant d ( :unit k ) | :quant none1    #    8 ( :nummod 7 ) | :advmod 6
+r2 :op1 e2    #    9 :nmod-from 12 :case 10
+r2 :quant o3 :op1 d ( :unit k ) | :quant none1    #    9 :nmod-npmod 8 ( :advmod 6 ) | :nummod 7
+e3 :ARG1 h    #    18 ( :aux 16 ) | :dobj 20
+
+11.
+d3 ( :month none2 ) | :day none3    #    11 :compound 10
+e :name n5 ( :op1 none0 ) | :op2 none1    #    7 :compound 6
+p4 :name n3 ( :op1 none8 ) | :op2 none9    #    36 :compound 35
+p5 :name n4 ( :op1 none10 ) | :op2 none11    #    30 :compound 29
+p5 :name n4 ( :op1 none10 ) | :op2 none11    #    18 :compound 17
+p2 :name n ( :op1 none4 ) | :op2 none5    #    23 :compound 22
+p3 :name n2 ( :op1 none6 ) | :op2 none7    #    26 :compound 25
+none7    #    26
+none6    #    25
+none5    #    23
+none4    #    22
+none3    #    11
+none2    #    10
+none1    #    7
+none0    #    6
+none9    #    36
+none8    #    35
+d2    #    3
+a    #    28
+c    #    32
+d    #    15
+m    #    9
+q    #    20
+s    #    33
+p4 :ARG0-of h :ARG2 s    #    33
+none11    #    30
+none10    #    29
+none11    #    18
+none10    #    17
+p    #    13
+p :domain a ( :op1 p2 :name n3 ( :op1 none4 ) | :op2 none5 ) | ( :op2 p3 :name n2 ( :op1 none6 ) | :op2 none7 ) | :op3 p4 :ARG0-of h :ARG2 s    #    13 :nsubj 23 ( :compound 22 ) | ( :cc 28 ) | ( :conj-and 26 :compound 25 ) | :conj-and 33
+p :prep-on d    #    13 :nmod-on 15 :case 14
+p :prep-on d :time d2    #    13 ( :nmod-on 15 :case 14 ) | :nmod-on 3 :case 1
+d :location q    #    15 :nmod-at 20 :case 16
+q :poss p5 :name n4 ( :op1 none10 ) | :op2 none11    #    20 :nmod-poss 18 :compound 17
+d2 :time-of e :name n5 ( :op1 none0 ) | :op1 none1    #    3 :nmod-of 7 ( :compound 6 ) | :case 4
+d2 :ARG0-of m    #    3 :parataxis 9
+m :ARG1 d3 ( :month none2 ) | :day none3    #    9 :advmod 11 :compound 10
+s :mod c    #    33 :amod 32
+p4 :ARG0-of h ( :ARG2 s ) | :ARG1 p5 :name n4 ( :op1 none10 ) | :op2 none11    #    33 :nmod-poss 30 :compound 29
+p4 ( :name n3 ( :op1 none8 ) | :op2 none9 ) | :ARG0-of h :ARG2 s    #    33 :appos 36 :compound 35
+a ( :op1 p2 :name n3 ( :op1 none4 ) | :op2 none5 ) | ( :op2 p3 :name n2 ( :op1 none6 ) | :op2 none7 ) | :op3 p4 :ARG0-of h :ARG2 s    #    23 ( :compound 22 ) | ( :cc 28 ) | ( :conj-and 26 :compound 25 ) | :conj-and 33
+
+12.
+a    #    1
+c    #    10
+e    #    7
+d :decade none0    #    3
+none0    #    3
+s2    #    5
+o :ARG0 s2    #    5
+o    #    5
+p :ARG0-of w    #    11
+s    #    8
+r    #    9
+w    #    11
+e2    #    6
+d :decade none0    #    3
+s :time a :op1 d :decade none0    #    8 :nmod-after 3 :case 1
+s :ARG1 r    #    8 :xcomp 9
+r :ARG1 p :ARG0-of w    #    9 :dobj 11
+r :ARG0 e    #    9 :nsubj 7
+p :ARG0-of w :ARG1 c    #    11 :compound 10
+s :ARG0 e    #    8 :nsubj 7
+e :mod e2    #    7 :compound 6
+e :ARG1-of o :ARG0 s2    #    7 :compound 5
+
+13.
+f2    #    2
+b    #    17
+d    #    1
+f    #    6
+i    #    5
+i    #    18
+none0    #    4
+m    #    14
+l    #    4
+n    #    16
+s    #    8
+r    #    15
+w    #    11
+h    #    19
+f2 :mod d    #    2 :amod 1
+l :ARG0 f2    #    4 :nsubj 2
+l :ARG1 f    #    4 :ccomp 6
+f :ARG1 w    #    6 :dobj 11
+w :quant s    #    11 :det-qmod 8
+w :prep-for m    #    11 :nmod-for 14 :case 12
+m :ARG1-of b :ARG2 h    #    14 :nmod-in 19 :case 17
+h :part-of i    #    19 :nmod-poss 18
+n :mod r    #    16 :advmod 15
+f :ARG0 i    #    6 :nsubj 5
+
+14.
+none5    #    4
+none4    #    9
+none3    #    25
+none2    #    29
+none1    #    28
+none0    #    27
+t2    #    8
+s2    #    18
+o3    #    14
+o2    #    26
+a2    #    15
+a    #    16
+b :op1 n4    #    3
+b    #    3
+n4    #    3
+e    #    13
+h    #    10
+m    #    11
+m2    #    11
+m3    #    11
+t3    #    10
+t3 :mod h    #    10
+s    #    22
+y    #    5
+c2 :name n3 :op1 none4    #    9
+o :name n ( :op1 none0 ) | ( :op2 none1 ) | :op3 none2    #    29 ( :compound 28 ) | :compound 27
+o :name n ( :op1 none0 ) | ( :op2 none1 ) | :op3 none2    #    31
+t ( :unit y ) | :quant none5    #    5 :nummod 4
+c :name n2 :op1 none3    #    25
+s :mod s2    #    18 :xcomp 22
+s :ARG0 o :name n ( :op1 none0 ) | ( :op2 none1 ) | :op3 none2    #    22 :nmod-of 29 ( :case 23 ) | ( :compound 28 ) | :compound 27
+o ( :name n ( :op1 none0 ) | ( :op2 none1 ) | :op3 none2 ) | :ARG1-of o2    #    29 ( :compound 28 ) | ( :compound 27 ) | :nmod 26
+o2 :ARG0 c :name n2 :op1 none3    #    26 :compound 25
+b ( :op1 n4 ) | :duration t ( :unit y ) | :quant none5    #    5 ( :nummod 4 ) | :amod 3
+m :mod t2    #    11 :det 8
+m :mod t3 :mod h    #    11 :amod 10
+m :mod c2 :name n3 :op1 none4    #    11 :amod 9
+m :ARG0-of e    #    11 :acl-relcl 13
+m :ARG0-of e    #    13 :nsubj 11
+m :ARG0-of e :manner m2 ( :mod o3 ) | :time a2 :op1 m3 :mod a    #    11 :acl-relcl 13 :dobj 14 ( :mwe 15 ) | :mwe 16
+s2 :mod-of s :time b ( :op1 n4 ) | :duration t ( :unit y ) | :quant none5    #    18 ( :xcomp 22 ) | :nmod-in 5 ( :nummod 4 ) | :amod 3
+s ( :mod s2 ) | :ARG1 m    #    18 ( :xcomp 22 ) | :nmod-behind 11 :case 7
+
+15.
+c    #    26
+b    #    5
+e    #    3
+d    #    25
+none1    #    28
+f    #    16
+m    #    13
+none0    #    3
+f3    #    31
+l    #    1
+o    #    30
+l4    #    10
+r    #    7
+l2    #    17
+a4    #    27
+b2    #    23
+f2    #    29
+e2    #    12
+a2    #    9
+l3    #    22
+b :consist-of r    #    5 :nmod-of 7 :case 6
+b :domain l    #    5 :nsubj 1
+b :location l4    #    5 :nmod-in 10 :case 8
+l4 :mod a2    #    10 :det 9
+b ( :time e ) | :polarity none0    #    5 :neg 3
+l2 :mod f    #    17 :amod 16
+l2 :mod m    #    13 :nmod-in 17 :case 14
+m :mod e2    #    13 :advmod 12
+o ( :op1 f2 ) | :op2 f3    #    29 ( :cc 30 ) | :conj-or 31
+o ( :op1 f2 ) | ( :op2 f3 ) | :polarity none1    #    29 ( :cc 30 ) | ( :conj-or 31 ) | :neg 28
+c :ARG1-of d    #    26 :amod 25
+b2 :mod l3    #    23 :compound 22
+a4 ( :op3 o ( :op1 f2 ) | :op2 f3 ) | ( :op2 c ) | :op1 b2    #    23 ( :cc 27 ) | ( :conj-and 26 ) | :conj-and 29 ( :cc 30 ) | :conj-or 31
+l2 :location-of a4 ( :op3 o ( :op1 f2 ) | :op2 f3 ) | ( :op2 c ) | :op1 b2    #    17 :acl-relcl 20 :nsubj 23 ( :cc 27 ) | ( :conj-and 26 ) | :conj-and 29 ( :cc 30 ) | :conj-or 31
+
+16.
+c :name n ( :op1 none0 ) | :op2 none1    #    2 :compound 1
+c :name n ( :op1 none0 ) | :op2 none1    #    4
+none0    #    1
+none1    #    2
+none0    #    4
+none1    #    4
+
+17.
+none7    #    9
+none6    #    12
+none5    #    11
+none4    #    15
+none3    #    14
+none2    #    1
+none1    #    4
+none0    #    3
+d2    #    27
+o2    #    16
+c3    #    18
+c5    #    24
+c4    #    25
+p2    #    2
+c    #    17
+d    #    22
+i    #    20
+m    #    23
+l    #    7
+s    #    5
+l2    #    8
+d3 ( :month none7 ) | :mod l2    #    9 :amod 8
+s :time d3 ( :month none7 ) | :mod l2    #    5 :nmod-tmod 9 :amod 8
+c2 :name n4 ( :op1 none5 ) | :op2 none6    #    12 :compound 11
+g :name n3 ( :op1 none3 ) | :op2 none4    #    15 :compound 14
+p :name n ( :op1 none0 ) | :op2 none1    #    4 :compound 3
+o :name n2 :op1 none2    #    1
+h ( :ARG2 p2 ) | :ARG1 o :name n2 :op1 none2    #    2 :compound 1
+h :ARG2 p2    #    2
+p ( :ARG0-of h :ARG2 p2 ) | :name n ( :op1 none0 ) | :op2 none1    #    4 ( :compound 3 ) | :compound 2
+s :ARG0 p :name n ( :op1 none0 ) | :op2 none1    #    5 :nsubj 4 :compound 3
+c3 :ARG0 p :name n ( :op1 none0 ) | :op2 none1    #    18 :nsubj 4 :compound 3
+s :ARG1 l    #    5 :dobj 7
+s :ARG2 c    #    5 :nmod-to 17 :case 10
+c :poss c2 :name n4 ( :op1 none5 ) | :op2 none6    #    17 :nmod-poss 12 :compound 11
+c :ARG0-of o2    #    17 :amod 16
+o2 :ARG1 g :name n3 ( :op1 none3 ) | :op2 none4    #    16 :compound 15 :compound 14
+c3 :ARG1 m    #    18 :nmod-for 23 :case 19
+s :purpose c3    #    5 :xcomp 18
+m :mod i    #    23 :amod 20
+m :mod d    #    23 :amod 22
+m :purpose c5 :ARG1 c4    #    23 :nmod-against 25 :case 24
+c4 :beneficiary d2    #    25 :nmod-to 27 :case 26
+
+18.
+c    #    9
+g2    #    3
+g :ARG0-of g2    #    3
+i    #    1
+l    #    13
+p :ARG0-of l    #    13
+a2    #    8
+t    #    5
+w    #    7
+d    #    11
+a2 ( :op1 w ) | :op2 c    #    7 ( :cc 8 ) | :conj-and 9
+
+19.
+none6    #    24
+none5    #    23
+none4    #    15
+none3    #    10
+none2    #    10
+none1    #    10
+none0    #    2
+s3    #    12
+s2    #    18
+p2    #    22
+a3    #    1
+a2    #    3
+a5    #    17
+a4    #    13
+a6    #    20
+a    #    8
+e    #    5
+r3    #    19
+m    #    16
+s    #    9
+r    #    4
+w    #    27
+r2 :name n :op1 none4    #    15
+p :ARG0-of h :ARG2 p2    #    22
+p :name n2 ( :op1 none5 ) | ( :op2 none6 )    #    24 :compound 23
+a :prep-under a4    #    8 :nmod-under 13 :case 11
+a :ARG1 e    #    8 :nsubjpass 5
+a :time s :op1 d ( :month none2 ) | ( :year none1 ) | :day none3    #    8 :nmod-since 10 :case 9
+s :op1 d ( :month none2 ) | ( :year none1 ) | :day none3    #    10 :case 9
+d ( :month none2 ) | ( :year none1 ) | :day none3    #    10
+e :ARG1-of a2    #    5 :amod 3
+e :mod r    #    5 :amod 4
+e :quant a3 :op1 none0    #    5 :nummod 2 :advmod 1
+a3 :op1 none0    #    2 :advmod 1
+a4 :mod s3    #    13 :amod 12
+a4 :ARG1-of a6    #    13 :acl 20
+a4 :prep-against a5 ( :op1 m ) | :op2 r3    #    13 ( :nmod-against 19 ) | :nmod-against 16 ( :case 14 ) | ( :cc 17 ) | :conj-and 19
+a6 :time w    #    20 :nmod-during 27 :case 25
+p ( :ARG0-of h :ARG2 p2 ) | :name n2 ( :op1 none5 ) | ( :op2 none6 )    #    24 ( :compound 23 ) | :compound 22
+a6 :ARG0 p :name n2 ( :op1 none5 ) | ( :op2 none6 )    #    20 :nmod-by 24 ( :compound 23 ) | :case 21
+r3 :mod s2    #    19 :amod 18
+m :mod r2 :name n :op1 none4    #    16 :amod 15
+m :op1-of a5 :op2 r3    #    16 ( :cc 17 ) | :conj-and 19
+a4 :prep-against m :op1-of a5 :op2 r3    #    13 :nmod-against 16 ( :case 14 ) | ( :cc 17 ) | :conj-and 19
+
+20.
+a    #    14
+none4    #    15
+none3    #    13
+none1    #    7
+g    #    5
+f    #    6
+h    #    3
+none0    #    2
+m    #    4
+r    #    8
+none2    #    10
+w :name n2 :op1 none2    #    10
+c :name n :op1 none1    #    7
+o2 :name n4 :op1 none4    #    15
+o :name n3 :op1 none3    #    13
+a ( :op2 o2 :name n4 :op1 none4 ) | :op1 o :name n3 :op1 none3    #    13 ( :cc 14 ) | :conj-and 15
+g :domain a ( :op2 o2 :name n4 :op1 none4 ) | :op1 o :name n3 :op1 none3    #    13 ( :cc 14 ) | ( :conj-and 15 ) | :nsubj 5
+g :consist-of m    #    5 :amod 4
+m :mod h    #    4 :amod 3
+g :quant none0    #    5 :compound 2
+g :ARG0-of f    #    5 :acl 6
+f :ARG1 r    #    6 :dobj 8
+r :ARG1 w :name n2 :op1 none2    #    8 :nmod-in 10 :case 9
+r :ARG0 c :name n :op1 none1    #    8 :amod 7
+
+21.
+c :name n :op1 none0    #    1
+d    #    8
+none0    #    1
+l    #    2
+p    #    6
+s    #    3
+t    #    9
+d2    #    5
+s :ARG0 l    #    3 :nsubj 2
+l :source c :name n :op1 none0    #    2 :amod 1
+p :manner d2    #    6 :compound 5
+p :ARG2 t    #    6 :nmod-for 9 :case 7
+p :ARG0 l    #    3 ( :nsubj 2 ) | :dobj 6
+t :mod d    #    9 :compound 8
+s :ARG1 p    #    3 :dobj 6
+
+22.
+a ( :op1 i ) | :op2 t    #    1 :conj 3
+i    #    1
+t    #    3
+
+23.
+p2    #    11
+a    #    13
+c    #    5
+f    #    9
+s2    #    8
+none0    #    1
+s    #    2
+c2    #    13
+p :name n :op1 none0    #    1
+a :mod c2    #    13
+s :ARG1 f    #    2 :ccomp 9
+s :ARG0 p :name n :op1 none0    #    2 :nsucj 1
+f :degree s2    #    9 :advmod 8
+f :ARG1 c    #    9 :nsubjpass 5
+f :ARG2 p2    #    9 :nmod-on 11 :case 10
+p2 :ARG1 a :mod c2    #    11 :nmod-of 13 :case 12
+
+24.
+p2    #    1
+a    #    9
+c    #    2
+f    #    7
+l    #    4
+p    #    3
+s    #    13
+s    #    12
+s    #    13 :compound 12
+w    #    10
+p :domain l    #    4 :aux 3
+l :ARG0 c    #    4 :nsubj 2
+c :ARG1 p2    #    2 :compound 1
+l :ARG2 f    #    4 :nmod-to 7 :case 5
+f :ARG2 w    #    7 :nmod-of 10 :case 8
+w :quant a    #    10 :det 9
+w :ARG1 s    #    10 :nmod-with 13 ( :case 11 ) | :compound 12
+
+25.
+none3    #    23
+none2    #    8
+none1    #    3
+none0    #    2
+m    #    11
+s3    #    30
+s2    #    7
+m3    #    20
+m2    #    15
+a    #    29
+c3    #    16
+p2    #    14
+p3    #    21
+c    #    6
+p :ARG0-of c    #    6
+b    #    10
+g    #    19
+f    #    20
+t2    #    28
+t3    #    27
+s    #    4
+t    #    25
+n :name n2 ( :op1 none0 ) | :op2 none1    #    3 :compound 2
+c2 :name n3 :op1 none2    #    8
+c2 :name n3 :op1 none2    #    17
+c4 :name n4 :op1 none3    #    23
+s :ARG0 n :name n2 ( :op1 none0 ) | :op2 none1    #    4 :nsubj 3 :compound 2
+s :ARG1 s2    #    4 :ccomp 7
+s2 :ARG0 p :ARG0-of c    #    7 :nsubj 6
+s2 :ARG1 b    #    7 :ccomp 10
+b :degree m    #    10 :advmod 11
+m2 :consist-of p2    #    15 :compound 14
+b :ARG0 m2    #    10 :nmod-from 15 :case 12
+b :ARG1-of c3 :ARG1 g    #    10 :advcl 19 :mark 16
+c3 :ARG0 g    #    19 :mark 16
+g :mod t    #    19 :nmod-in 25 :case 24
+t2 :ARG1 t3    #    28 :compound 27
+t2 :op1-of a :op2 s3    #    28 ( :cc 29 ) | :conj-and 30
+t :mod a ( :op1 t2 ) | :op2 s3    #    25 :nmod-of 28 ( :case 26 ) | ( :cc 29 ) | :conj-and 30
+b :ARG1 c2 :name n3 :op1 none2    #    10 :nsubj 8
+g :ARG0 c2 :name n3 :op1 none2    #    19 :nsubj 17
+g :ARG1 p3    #    19 :dobj 21
+f :degree m3    #    20
+p3 :mod f :degree m3    #    21 :amod 20
+p3 :mod f ( :degree m3 ) | :compared-to c4 :name n4 :op1 none3    #    21 :amod 20 | ( :nmod-than 23 :case 22 )
+
+26.
+none3    #    19
+none2    #    18
+none1    #    14
+none0    #    4
+d3    #    24
+s3    #    16
+s2    #    11
+s4    #    21
+c3    #    29
+c4    #    27
+p2    #    8
+p3    #    7
+c    #    17
+i    #    5
+m    #    1
+o    #    2
+s    #    3
+w    #    23
+n2    #    15
+n4    #    22
+c    #    17
+p :name n :op1 none0    #    4
+p4 :ARG0-of h ( :ARG2 o ) | :ARG1 m    #    2 :amod 1
+c2 :name n3 ( :op1 none2 ) | :op2 none3    #    19 :compound 18
+d2 :year none1    #    14
+s :ARG0 p4 :ARG0-of h ( :ARG2 o ) | :ARG1 m    #    3 :nsubj 2 :amod 1
+s :ARG1 i    #    3 :ccomp 5
+i :ARG0 p :name n :op1 none0    #    5 :nsubj 4
+p2 :domain s2    #    11 :aux 8
+i :ARG1 p2 :domain s2    #    5 :ccomp 11 :aux 8
+s2 :ARG1 p3    #    11 :nsubj 7
+s2 :compared-to s3    #    11 :nmod-as 16 :case 12
+s3 :mod n2    #    16 :amod 15
+s3 :time d2 :year none1    #    16 :nmod-tmod 14
+s3 :ARG1-of c :ARG0 d3    #    16 :nmod-over 24 :case 17
+c :ARG0 d3    #    24 :case 17
+c4 :ARG2 c3    #    29 :case 27 :mwe 28
+s3 :ARG1-of c4 :ARG2 c3    #    16 :acl-relcl 16 :nmod-close_to 29 :case 27 :mwe 28
+d3 :ARG1-of s4    #    24 :amod 21
+d3 :ARG1 w    #    24 :compound 23
+w :mod n4    #    23 :amod 22
+d3 :ARG0 c2 :name n3 ( :op1 none2 ) | :op2 none3    #    24 :nmod-poss 19 :compound 18
+
+27.
+c :name n :op1 none0    #    1
+none0    #    1
+
+28.
+c :name n3 :op1 none0    #    1
+none3    #    3
+none2    #    7
+none1    #    6
+f    #    2
+none0    #    1
+o :name n ( :op1 none1 ) | :op2 none2    #    7 :compound 6
+r    #    5
+c2 :name n2 :op1 none3    #    3
+f :ARG0 c :name n3 :op1 none0    #    2 :nsubj 1
+f :ARG1 o :name n ( :op1 none1 ) | :op2 none2    #    2 :dobj 7 :compound 6
+o ( :mod r ) | :name n ( :op1 none1 ) | :op2 none2    #    7 ( :compound 6 ) | :compound 5
+o ( :poss c2 :name n2 :op1 none3 ) | :name n ( :op1 none1 ) | :op2 none2    #    7 ( :compound 6 ) | :nmod-poss 3
+
+29.
+p2    #    19
+none1    #    10
+none0    #    1
+s2    #    17
+m    #    11
+l    #    10
+l :polarity none1    #    10
+s    #    3
+m3    #    18
+m2    #    13
+d2    #    5
+d3    #    14
+none2    #    7
+d :year none2    #    7
+p :name n :op1 none0    #    1
+s :ARG2 d2    #    3 :nmod-to 5 :case 4
+s :ARG1 p :name n :op1 none0    #    3 :nsubjpass 1
+s :time d :year none2    #    3 :nmod-tmod 7
+s :ARG3 m    #    3 :nmod-for 11 :case 8
+m :ARG1 m2    #    11 :nmod-of 13 :case 12
+m :manner l :polarity none1    #    11 :amod 10
+m :ARG1-of d3    #    11 :acl 14
+d3 :ARG2 p2    #    14 :nmod-as 19 :case 15
+p2 :purpose m3    #    19 :compound 18
+m3 :ARG1 s2    #    18 :compound 17
+  
+30.
+e    #    10
+e    #    4
+none2    #    2
+none1    #    7
+none1    #    18
+none0    #    7
+d2    #    15
+none3    #    12
+w    #    8
+c3    #    13
+n3    #    3
+c4    #    16
+d3 :year none3    #    12
+c2 :name n2 :op1 none1    #    7
+c2 :name n2 :op1 none1    #    18
+c :name n :op1 none0    #    7
+a ( :op1 c :name n :op1 none0 ) | :op2 c2 :name n2 :op1 none1    #    7
+w2 :name n4 :op1 none2    #    2
+e :ARG1 w    #    10 :nmod-poss 8
+e :time d3 :year none3    #    10 :nmod-in 12 :case 11
+e :ARG0-of c3    #    13 :nsubj 10
+c3 :ARG1 c4    #    13 :dobj 16
+c4 :mod d2    #    16 :amod 15
+c4 :accompanier c2 :name n2 :op1 none1    #    16 :nmod-with 18 :case 17
+w :domain n3    #    8 :nsubj 3
+n3 :source w2 :name n4 :op1 none2    #    3 :amod 2
+w :source a ( :op1 c :name n :op1 none0 ) | :op2 c2 :name n2 :op1 none1    #    8 :amod 7
+
+31.
+a    #    10
+c    #    5
+none0    #    1
+h2    #    11
+h    #    6
+l    #    7
+o    #    13
+o    #    9
+p    #    8
+s    #    2
+t    #    4
+s2    #    14
+p2 :name n2 :op1 none0    #    1
+s :ARG0 p2 :name n2 :op1 none0    #    2 :nsubj 1
+s :ARG1 h    #    2 :ccomp 6
+h :ARG0 c    #    6 :nsubj 5
+c :mod t    #    5 :det 4
+a ( :op1 o ) | :op2 h2    #    9 ( :cc 10 ) | :conj-and 11
+a ( :op1 o ) | ( :op2 h2 ) | :ARG1-of p    #    9 ( :cc 10 ) | ( :conj-and 11 ) | :amod 8
+l :degree-of a ( :op1 o ) | :op2 h2    #    9 ( :cc 10 ) | ( :conj-and 11 ) | :amod 7
+h :ARG1 l :degree-of a ( :op1 o ) | :op2 h2    #    6 :dobj 9 ( :cc 10 ) | ( :conj-and 11 ) | :amod 7
+s2 :part-of o    #    14 :compound 13
+l ( :compared-to s2 ) | :degree-of a ( :op1 o ) | :op2 h2    #    9 ( :cc 10 ) | ( :conj-and 11 ) | ( :amod 7 ) | :nmod-than 14 :case 12
+
+32.
+none3    #    24
+none2    #    23
+none1    #    12
+none0    #    2
+a3    #    17
+a2    #    18
+c3    #    21
+a    #    13
+c    #    3
+h    #    10
+t2    #    7
+o    #    20
+p    #    15
+s    #    8
+t    #    1
+w    #    1
+t :ARG0 w    #    1
+w3 :name n3 ( :op1 none2 ) | :op2 none3    #    24 :compound 23
+c2 :name n :op1 none0    #    2
+c2 ( :name n :op1 none0 ) | :ARG1-of t :ARG0 w    #    2 :amod 1
+c4 :name n2 :op1 none1    #    12
+s :ARG1 h    #    8 :nmod-of 10 :case 9
+s :mod t2    #    8 :amod 7
+s :ARG2 c4 :name n2 :op1 none1    #    8 :nmod-to 12 :case 11
+s :op1-of a :op2 p    #    8 ( :cc 13 ) | :conj-and 15
+c :ARG1 a ( :op1 s ) | :op2 p    #    3 ( :xcomp 15 ) | :xcomp 8 ( :cc 13 ) | :conj-and 15
+s :ARG0 c2 :name n :op1 none0    #    15 :nsubj 2
+p :ARG0 c2 :name n :op1 none0    #    15 :nsubj 2
+p :ARG1 o    #    15 :nmod-of 20 :case 16
+o :quant a2    #    20 :det-predet 18
+a2 :degree a3    #    18 :advmod 17
+o :ARG1-of c3    #    20 :acl 21
+c3 :location w3 :name n3 ( :op1 none2 ) | :op2 none3    #    21 :nmod-in 24 ( :case 22 ) | :compound 23
+ 
+33.
+none1    #    21
+none0    #    8
+d2    #    19
+d3    #    27
+s2    #    18
+m3    #    21
+m3 :polarity none1    #    21
+m2    #    14
+i2    #    16
+v2    #    23
+a2    #    22
+c2    #    26
+a    #    24
+d    #    9
+i    #    6
+h    #    15
+m    #    10
+o    #    25
+p    #    12
+s    #    5
+t    #    26
+c2 :ARG1 t    #    26
+n2    #    17
+c :name n :op1 none0    #    8
+i :manner s    #    6 :amod 5
+i :ARG1 p    #    6 :nmod-in 12 :case 7
+p :ARG0 m    #    12 :nmod-poss 10
+m :mod d    #    10 :compound 9
+m :mod c :name n :op1 none0    #    10 :amod 8
+p :ARG1 h    #    12 :nmod-of 15 :case 13
+h :mod m2    #    15 :amod 14
+a ( :op1 d2 ) | ( :op2 v2 ) | :op3 d3    #    19 ( :cc 24 ) | ( :conj-and 23 ) | :conj-and 27
+h :ARG2-of i2 :ARG1 a ( :op1 d2 ) | ( :op2 v2 ) | :op3 d3    #    15 :nmod-including 19 ( :case 16 ) | ( :cc 24 ) | ( :conj-and 23 ) | :conj-and 27
+d2 :purpose s2    #    19 :compound 18
+s2 :time n2    #    18 :nmod 17
+v2 :mod a2    #    23 :amod 22
+v2 :ARG1-of m3 :polarity none1    #    23 :amod 21
+d3 :mod o    #    27 :amod 25
+d3 :ARG0-of c2 :ARG1 t    #    27 :amod 26
+
+34.
+a    #    3
+e    #    13
+d    #    6
+none0    #    1
+i    #    10
+t2    #    8
+o    #    2
+s    #    12
+t :ARG2-of d    #    6
+o2 :name n :op1 none0    #    1
+o :ARG2 a    #    3 :aux 2
+a :ARG1 t :ARG2-of d    #    3 :nmod-on 6 :case 4
+a :purpose i    #    3 :xcomp 10
+a :ARG0 o2 :name n :op1 none0    #    3 :nsubj 1
+i :ARG0 o2 :name n :op1 none0    #    10 :nsubj 1
+i :ARG1 e    #    10 :dobj 13
+e :ARG1-of s    #    13 :amod 12
+d :ARG1 t2    #    6 :nmod-of 8 :case 7
+
+35.
+a    #    11
+p2    #    15
+c    #    3
+b    #    6
+e    #    14
+f    #    7
+s2    #    5
+none0    #    2
+p    #    10
+s    #    4
+u    #    8
+t    #    16
+c2    #    12
+c :quant none0    #    3 :nummod 2
+s :ARG0 c    #    4 :nsubj 3
+l :ARG2-of b2 :ARG1 b    #    6
+s :ARG1 l :ARG2-of b2 :ARG1 b    #    4 :dobj 6
+b :ARG2 s2    #    6 :compound 5
+b :ARG1-of u    #    6 :acl 8
+u :frequency f    #    8 :advmod 7
+u :purpose e    #    8 :advcl-in 14
+e :ARG1 t    #    14 :dobj 16
+t :ARG0-of p2    #    16 :amod 15
+a ( :op1 p ) | :op2 c2    #    10 ( :cc 11 ) | :conj-and 12
+u :ARG0 a ( :op1 p ) | :op2 c2    #    8 :nmod-by 10 ( :case 9 ) | ( :cc 11 ) | :conj-and 12
+u ( :purpose e :ARG0 a ) | :ARG0 a ( :op1 p ) | :op2 c2    #    8 ( :advcl-in 14 :mark 13 ) | :nmod-by 10 ( :case 9 ) | ( :cc 11 ) | :conj-and 12
+
+36.
+none2    #    1
+d ( :day none0 ) | ( :year none2 ) | :month none1    #    1
+none1    #    1
+none0    #    1
+
+37.
+c :name n :op1 none0    #    1
+none0    #    1
+c :name n :op1 none0    #    3
+none0    #    3
+
+38.
+none2    #    12
+none1    #    10
+none0    #    1
+a3    #    15
+a2    #    6
+c3    #    14
+c2    #    8
+c6    #    28
+c5    #    20
+c4    #    18
+a    #    9
+t :ARG1-of e    #    17
+d    #    29
+h    #    16
+m    #    4
+o    #    28
+o :ARG1 c6    #    28
+s    #    22
+r    #    7
+w    #    2
+v    #    23
+v    #    11
+c :name n2 :op1 none2    #    12
+p :name n :op1 none0    #    1
+w :ARG0 p :name n :op1 none0    #    2 :nsubj 1
+w :ARG1-of c4 :ARG0 c5    #    2 :nmod-because_of 20 :case 18 :mwe 19
+w :ARG1 a ( :op1 a2 ) | :op2 v    #    2 ( :xcomp 11 ) | :xcomp 6 ( :cc 9 ) | :conj-and 11
+c4 :ARG0 c5    #    20 :case 18 :mwe 19
+c5 :ARG0 v    #    20 :nmod-about 23 :case 21
+a3 ( :op1 c3 ) | :op2 t :ARG1-of e    #    14 ( :cc 15 ) | :conj-and 17
+c3 :poss c :name n2 :op1 none2    #    14 :nmod-poss 12
+v :polarity none1    #    11 :neg 10
+v :ARG1 a3 ( :op1 c3 ) | :op2 t :ARG1-of e    #    11 :dobj 14 ( :cc 15 ) | :conj-and 17
+a ( :op1 a2 ) | :op2 v    #    6 ( :cc 9 ) | :conj-and 11
+a2 :ARG0 m    #    6 :nsubj 4
+a2 :ARG1 c2    #    6 :dobj 8
+c2 :mod r    #    8 :amod 7
+v :ARG0 m    #    11 :nsubj 4
+v :mod s    #    23 :amod 22
+v :beneficiary d    #    23 :nmod-in 26 ( :case 24 ) | :nmod-of 29 :case 27
+d :ARG0-of o :ARG1 c6    #    29 :amod 28
+t :ARG1-of e :ARG2 h    #    17 :amod 16
+
+39.
+c :name n :op1 none0    #    1
+none0    #    1
+c :name n :op1 none0    #    3
+none0    #    3
+
+40.
+none1    #    7
+none1    #    13
+none0    #    2
+s3    #    23
+s2    #    11
+p2    #    27
+g2    #    3
+c5    #    18
+c4    #    20
+a    #    10
+f    #    19
+i    #    9
+m    #    22
+o    #    21
+p    #    15
+s    #    5
+w    #    29
+n4    #    28
+g :ARG0-of g2    #    3
+c :name n :op1 none0    #    2
+g :ARG0-of g2 :ARG1 c :name n :op1 none0    #    3 :compound 2
+c2 :name n2 :op1 none1    #    7
+c2 :name n2 :op1 none1    #    25
+c2 :name n2 :op1 none1    #    13
+a ( :op1 s ) | :op2 s2    #    5 ( :cc 10 ) | :conj-and 11
+s :topic i    #    5 :nmod-of 9 :case 6
+i :ARG0 c2 :name n2 :op1 none1    #    9 :nmod-poss 7
+s :domain g :ARG0-of g2    #    5 :nsubj 3
+s2 :ARG0 g :ARG0-of g2    #    11 :nsubj 3
+s2 :ARG1 m    #    11 :ccomp 22
+m :mod o    #    22 :advmod 21
+m :ARG2 s3    #    22 :dobj 23
+m :ARG1 p    #    22 :nsubj 15
+p :ARG0 c2 :name n2 :op1 none1    #    15 :nmod-poss 13
+p :ARG1 c4    #    15 :nmod-of 20 :case 16
+c4 :mod c5    #    20 :amod 18
+c4 :mod f    #    20 :compound 19
+m :condition p2    #    22 :advcl 27
+p2 :ARG0 c2 :name n :op1 none1    #    27 :nsubj 25
+p2 :ARG1 w    #    27 :dobj 29
+w :mod n4    #    29 :amod 28
+
+41.
+f2    #    26
+f3    #    25
+none3    #    30
+none2    #    17
+d :polarity none2    #    17
+none1    #    5
+none0    #    4
+a    #    13
+c3    #    20
+c2    #    10
+c5    #    8
+c4    #    22
+p4    #    24
+p3    #    2
+e    #    28
+d    #    17
+p2    #    7
+f    #    14
+m    #    27
+l    #    18
+u    #    11
+y    #    9
+p :name n ( :op1 none0 ) | :op2 none1    #    5 :compound 4
+c :name n2 :op1 none3    #    30
+p2 :ARG1 u    #    7 :dobj 11
+u :ARG1-of c5    #    11 :amod 8
+u :mod c2    #    11 :compound 10
+c2 :mod y    #    10 :compound 9
+p2 :time c3    #    7 :advcl 20 :mark 12
+p2 :ARG0 p3    #    7 :nsubj 2
+p3 :location p :name n ( :op1 none0 ) | :op2 none1    #    2 :nmod-in 5 ( :case 3 ) | :compound 4
+c3 :ARG1 c4    #    20 :dobj 22
+c3 :ARG0 f    #    20 :nsubj 14
+f :mod a    #    14 :det 13
+f :location l    #    14 :nmod-at 18 :case 15
+l :ARG1-of d :polarity none2    #    18 :amod 17
+c3 :manner p4    #    20 :advcl 24
+p4 :ARG1 f2    #    24 :dobj 26
+f2 :mod f3    #    26 :amod 25
+f2 :ARG1-of m    #    26 :acl 27
+m :degree e    #    27 :advmod 28
+m :location c :name n2 :op1 none3    #    27 :nmod-in 30 :case 29
+
+42.
+a    #    4
+e    #    14
+d    #    5
+none1    #    10
+none0    #    8
+none0    #    1
+i    #    3
+none3    #    17
+s    #    18
+a2    #    15
+c2    #    12
+c2    #    13
+c2    #    12 :compound-prt 13
+d2    #    7
+none2    #    11
+c :name n :op1 none0    #    8
+c :name n :op1 none0    #    1
+m :name n2 ( :op1 none1 ) | :op2 none2    #    11 :compound 10
+m ( :poss c :name n :op1 none0 ) | :name n2 ( :op1 none1 ) | :op2 none2    #    11 ( :compound 10 ) | :nmod-poss 8
+i :ARG1 d    #    5 :amod 3
+d :mod a    #    5 :compound 4
+d2 :op1 c2    #    12 ( :compound-prt 13 ) | :mark 7
+c2 :ARG1 e    #    12 ( :compound-prt 13 ) | :dobj 14
+c2 :location a2 :op1 s    #    12 ( :compound-prt 13 ) | :nmod-along 18 :case 15
+s2 :name n3 ( :op1 none3 ) | :op2 none4    #    17
+s :location s2 :name n3 ( :op1 none3 ) | :op2 none4    #    18 :compound 17
+c2 :ARG0 m :name n2 ( :op1 none1 ) | :op2 none2    #    12 ( :compound-prt 13 ) | :nsubj 11 :compound 10
+d :poss c :name n :op1 none0    #    5 :nmod-poss 1
+
+43.
+d2 ( :year none0 ) | ( :month none1 ) | :day none2    #    1
+none2    #    1
+none1    #    1
+none0    #    1
+
+44.
+a    #    6
+b    #    5
+d    #    3
+none0    #    1
+i    #    7
+m    #    9
+o    #    2
+d2    #    9
+d2 :quant m    #    9
+b :time d2 :quant m    #    5 :nmod-in 9 :case 8
+b :ARG2 i    #    5 :nmod-as 7 :case 6
+i :degree a    #    7 :case 6
+b :ARG1 d    #    5 :nsubj 3
+d :mod o    #    3 :amod 2
+d :polarity none0    #    3 :neg 1
+
+45.
+p2    #    2
+c    #    5
+none0    #    4
+m ( :unit c ) | :quant none0    #    5 :nummod 4
+p    #    7
+c2    #    3
+c2 :ARG1 p    #    3 :xcomp 7
+p :ARG1 p2    #    7 :dobj 2
+c2 :ARG2 m ( :unit c ) | :quant none0    #    3 :dobj 5 :nummod 4
+
+46.
+c :name n :op1 none0    #    1
+none0    #    1
+c :name n :op1 none0    #    3
+none0    #    3
+
+47.
+none4    #    19
+none3    #    16
+none1    #    9
+none0    #    3
+m    #    6
+m    #    7
+m    #    6 :mwe 7
+l    #    10
+p    #    4
+r    #    5
+l2    #    11
+l3    #    1
+w    #    2
+n4    #    17
+none2    #    14
+c :name n :op1 none0    #    3
+o :name n2 ( :op1 none2 ) | :op2 none3    #    16 :compound 14
+c2 :name n3 :op1 none4    #    19
+r :time w    #    5 :nmod-tmod 2
+w :mod l3    #    2 :amod 1
+r :ARG0 p    #    5 :nsubj 4
+p :mod c :name n :op1 none0    #    4 :amod 3
+r :ARG1 l    #    5 :dobj 10
+l :ARG1-of l2    #    10 :acl 11
+l :quant m :op1 none1    #    10 :nummod 9 :advmod 6 :mwe 7
+m :op1 none1    #    9 :advmod 6 :mwe 7
+l2 :ARG1 o :name n2 ( :op1 none2 ) | :op2 none3    #    11 :nmod-to 16 ( :case 12 ) | :compound 14
+l :location r2 :direction n4    #    10 :advmod 17
+r2 :direction n4    #    17
+r2 ( :direction n4 ) | :op1 c2 :name n3 :op1 none4    #    17 :nmod-from 19 :case 18
+
+48.
+none6    #    8
+none4    #    10
+none3    #    16
+none0    #    13
+h2    #    5
+none1    #    14
+none5    #    11
+none9    #    2
+none7    #    9
+none8    #    1
+none2    #    15
+g2 :name n4 ( :op1 none0 ) | ( :op2 none1 ) | ( :op3 none2 ) | :op4 none3    #    16 ( :compound 14 ) | ( :compound 15 ) | :amod 13
+g :name n2 ( :op1 none4 ) | :op2 none5    #    11 :compound 10
+p :name n ( :op1 none8 ) | :op2 none9    #    2 :compound 1
+c :name n3 ( :op1 none6 ) | :op2 none7    #    9 :amod 8
+p2 :ARG0-of h2    #    5
+p2 :ARG0-of h2 :ARG1 g2 :name n4 ( :op1 none0 ) | ( :op2 none1 ) | ( :op3 none2 ) | :op4 none3    #    5 :nmod-of 16 ( :case 6 ) | ( :compound 14 ) | ( :compound 15 ) | :amod 13
+p2 ( :ARG0-of h2 ) | :domain p :name n ( :op1 none8 ) | :op2 none9    #    5 :nsubj 2 :compound 1
+g2 ( :name n4 ( :op1 none0 ) | ( :op2 none1 ) | ( :op3 none2 ) | :op4 none3 ) | :part-of g :name n2 ( :op1 none4 ) | :op2 none5    #    16 ( :compound 14 ) | ( :compound 15 ) | ( :amod 13 ) | :nmod-poss 11 :compound 10
+g ( :name n2 ( :op1 none4 ) | :op2 none5 ) | :mod c :name n3 ( :op1 none6 ) | :op2 none7    #    11 ( :compound 10 ) | :amod 9 :amod 8
+
+49.
+none4    #    20
+none4    #    11
+none4    #    15
+none3    #    24
+none2    #    23
+none3    #    6
+none2    #    5
+none1    #    2
+none0    #    1
+a3    #    21
+a2    #    10
+c3    #    8
+c4    #    18
+a    #    13
+b    #    12
+m    #    9
+o    #    16
+s    #    3
+p :name n ( :op1 none0 ) | :op2 none1    #    2 :compound 1
+c2 :name n3 :op1 none4    #    20
+c2 :name n3 :op1 none4    #    11
+c2 :name n3 :op1 none4    #    15
+c :name n2 ( :op1 none2 ) | :op2 none3    #    24 :compound 23
+c :name n2 ( :op1 none2 ) | :op2 none3    #    6 :compound 5
+s :ARG0 p :name n ( :op1 none0 ) | :op2 none1    #    3 :nsubj 2 :compound 1
+a ( :op2 o :ARG2 c4 ) | :op1 m    #    9 ( :cc 13 ) | :conj-and 18 :aux 16
+s :ARG1 a ( :op2 o :ARG2 c4 ) | :op1 m    #    3 ( :ccomp 18 ) | :ccomp 9 ( :cc 13 ) | :conj-and 18 :aux 16
+m :manner c3    #    9 :advmod 8
+m :ARG1 b    #    9 :dobj 12
+m :ARG0 c :name n2 ( :op1 none2 ) | :op2 none3    #    9 :nsubj 6 :compound 5
+b :quant a2    #    12 :det 10
+b :ARG0 c2 :name n3 :op1 none4    #    12 :amod 11
+o :ARG2 c4    #    18 :aux 16
+o ( :ARG2 c4 ) | :ARG1 c2 :name n3 :op1 none4    #    18 ( :aux 16 ) | :nsubj 15
+c4 :ARG0 c2 :name n3 :op1 none4    #    18 :nsubj 15
+c4 :ARG1 a3    #    18 :ccomp 21
+a3 :prep-toward c :name n2 ( :op1 none2 ) | :op2 none3    #    21 :nmod-towards 24 ( :compound 23 ) | :case 22
+
+50.
+none5    #    12
+none4    #    11
+none3    #    4
+none2    #    8
+none1    #    7
+none0    #    6
+s3    #    22
+s2    #    2
+a2    #    15
+c3    #    30
+c2    #    26 :mwe 27
+c2    #    26
+c2    #    27
+e    #    18
+i    #    31
+p4 :ARG0-of h2 :ARG2 m    #    24
+m    #    24
+l    #    19
+p    #    29
+s    #    9
+l2    #    25
+p2 :name n2 ( :op1 none4 ) | :op2 none5    #    12 :compound 11
+c :name n :op1 none3    #    4
+g2 :name n3 ( :op1 none0 ) | ( :op2 none1 ) | :op3 none2    #    8 ( :compound 6 ) | :compound 7
+s :ARG2 p2 :name n2 ( :op1 none4 ) | :op2 none5    #    9 :nmod-to 12 ( :compound 11 ) | :case 10
+s :ARG0 p3 :ARG0-of h :ARG2 s2    #    9 :nsubj 2
+p3 :ARG0-of h :ARG2 s2    #    2
+p3 :ARG0-of h ( :ARG2 s2 ) | :ARG1 g2 :name n3 ( :op1 none0 ) | ( :op2 none1 ) | :op3 none2    #    2 :nmod-for 8 ( :compound 6 ) | :compound 7
+g2 ( :name n3 ( :op1 none0 ) | ( :op2 none1 ) | :op3 none2 ) | :poss c :name n :op1 none3    #    8 ( :compound 6 ) | ( :compound 7 ) | :nmod-poss 4
+s :ARG1 s3    #    9 :ccomp 22
+s3 :ARG1 a2    #    22 :nsubjpass 15
+a2 :ARG1 l    #    15 :nmod-for 19 :case 16
+l :mod e    #    19 :compound 18
+s3 :ARG1-of c2 :ARG0 c3    #    22 :nmod-due_to 30 :case 26 :mwe 27
+c3 :mod p    #    30 :amod 29
+c3 :ARG1-of i    #    30 :acl 31
+s3 :prep-at l2    #    22 :nmod-at 25 :case 23
+l2 :mod p4 :ARG0-of h2 :ARG2 m    #    25 :amod 24
+
+51.
+a    #    10
+p2    #    6
+a3    #    9
+d    #    14
+g    #    19
+f    #    7
+none0    #    1
+p3    #    13
+p5    #    26
+none1    #    5
+f2    #    23
+p    #    6
+s    #    2
+c3    #    11
+c3    #    12
+c3    #    11 :mwe 12
+n4    #    25
+d2    #    20
+c4 :name n2 :op1 none1    #    5
+c :name n :op1 none0    #    1
+s :ARG0 c :name n :op1 none0    #    2 :nsubj 1
+s :ARG1 a    #    2 :ccomp 10
+a :ARG1 f    #    10 :nsubjpass 7
+f :ARG0-of p :ARG1 p2    #    7 :compound 6
+f :location c4 :name n2 :op1 none1    #    7 :compound 5
+a :ARG1-of c3 :ARG0 d    #    10 :nmod-due_to 14 :case 11 :mwe 12
+a :ARG1-of c3 :ARG0 d :mod a3    #    10 ( :advmod 9 ) | :nmod-due_to 14 :case 11 :mwe 12
+c3 :ARG0 d    #    14 :case 11 :mwe 12
+d :mod p3    #    14 :amod 13
+a :ARG1 f :mod a3    #    10 ( :advmod 9 ) | :nsubjpass 7
+d :time d2    #    14 :nmod-at 17 ( :case 15 ) | :nmod-of 20 :case 18
+d2 :ARG1-of g    #    20 :amod 19
+d2 :ARG1 f2    #    20 :nmod-about 23 :case 21
+f2 :poss p5    #    23 :nmod-of 26 :case 24
+p5 :mod n4    #    26 :amod 25
+
+52.
+a    #    6
+b    #    11
+e    #    8
+none2    #    15
+none1    #    7
+f    #    12
+s2    #    13
+none0    #    5
+l    #    1
+p    #    2
+s    #    3
+r    #    10
+u    #    4
+c :name n3 :op1 none2    #    15
+o :name n :op1 none0    #    5
+o2 :name n2 :op1 none1    #    7
+u :ARG0 s    #    4 :nsubj 3
+s :ARG1 p    #    3 :nmod 2
+p :ARG0-of l    #    2 :amod 1
+u :ARG1 e    #    4 :dobj 8
+e :purpose r    #    8 :acl 10
+r :ARG1 s2    #    10 :ccomp 13
+s2 :ARG1 f    #    13 :nsubj 12
+f :mod b    #    12 :compound 11
+s2 :location c :name n3 :op1 none2    #    13 :nmod-in 15 :case 14
+a ( :op1 o :name n :op1 none0 ) | :op2 o2 :name n2 :op1 none1    #    5 ( :cc 6 ) | :conj-and 7
+e :poss a ( :op1 o :name n :op1 none0 ) | :op2 o2 :name n2 :op1 none1    #    8 :nmod 5 ( :cc 6 ) | :conj-and 7
+ 
+53.
+c    #    6
+b    #    11
+d    #    8
+r2    #    10
+f    #    3
+none0    #    2
+none1    #    7
+s    #    4
+a2    #    9
+c2    #    14
+none2    #    13
+c :ARG0 s    #    6 :nsubj 4
+s :mod f    #    4 :compound 3
+s :name n :op1 none0    #    4 :compound 2
+c :location c2    #    6 :nmod-in 14 :case 12
+c2 :quant none2    #    14 :nummod 13
+a2 ( :op1 d ) | :op2 b    #    8 ( :cc 9 ) | :conj-and 11
+c :ARG1 a2 ( :op1 d ) | :op2 b    #    6 ( :dobj 11 ) | :dobj 8 ( :cc 9 ) | :conj-and 11
+b :ARG1-of r2    #    11 :amod 10
+a2 ( :op1 d ) | ( :op2 b ) | :quant none1    #    8 ( :cc 9 ) | ( :conj-and 11 ) | :nummod 7
+
+54.
+none2    #    1
+d ( :month none0 ) | ( :day none1 ) | :year none2    #    1
+none1    #    1
+none0    #    1
+
+55.
+none3    #    23
+none2    #    22
+none1    #    9
+none0    #    3
+s3    #    17
+s2    #    16
+u    #    1
+u    #    2
+u    #    1 :mwe 2
+g2    #    14
+a2    #    13
+c2    #    11
+a    #    5
+a    #    8
+r2    #    10
+i    #    4
+i    #    6
+h    #    19
+n    #    18
+s    #    12
+r    #    7
+l2    #    21
+t    #    15
+p :ARG0-of c2    #    11
+p :ARG0-of c2 :ARG1 p2 :ARG0-of r2    #    11 :compound 10
+p2 :ARG0-of r2    #    10
+s :time a2 :op1 s2    #    12 :advcl 16 :mark 13
+s2 :ARG1 t    #    16 :nsubj 15
+g :ARG0-of g2    #    14
+t :mod g :ARG0-of g2    #    15 :compound 14
+s2 :time l2 :op1 d ( :month none2 ) | :year none3    #    16 :nmod-in 22 ( :nummod 23 ) | :amod 21
+d ( :month none2 ) | :year none3    #    22 :nummod 23
+s2 :ARG2 h    #    16 :dobj 19
+h :quant s3    #    19 :amod 17
+h :mod n    #    19 :amod 18
+a ( :op3 p :ARG0-of c2 ) | ( :op2 r ) | :op1 i    #    4 ( :cc 5 ) | ( :conj-and 7 ) | :conj-and 11
+s :ARG0 a ( :op3 p :ARG0-of c2 ) | ( :op2 r ) | :op1 i    #    12 ( :nsubj 7 ) | ( :nsubj 11 ) | :nsubj 4 ( :cc 5 ) | ( :conj-and 7 ) | :conj-and 11
+p ( :ARG0-of c2 ) | :quant none1    #    11 :nummod 9
+r :poss i    #    7 :nmod-poss 6
+i :quant u :op1 none0    #    4 :nummod 3 :advmod 1 :mwe 2
+u :op1 none0    #    3 :advmod 1 :mwe 2
+
+56.
+a    #    18
+c :name n :op1 none0    #    2
+g :ARG0-of g2    #    3
+g2    #    3
+none0    #    2
+s3    #    17
+i    #    16
+p    #    9
+s    #    12
+r    #    15
+w    #    6
+c2    #    19
+n2    #    11
+g :ARG0-of g2 :ARG1 c :name n :op1 none0    #    3 :compound 2
+w :ARG0 g :ARG0-of g2    #    6 :nsubj 3
+w :ARG1 p    #    6 :nmod-on 9 :case 7
+p :topic s    #    9 :nmod-of 12 :case 10
+s :mod n2    #    12 :amod 11
+p :ARG0-of r    #    9 :acl-relcl 15
+p :ARG0-of r    #    15 :nsubj 9
+a ( :op1 s3 ) | :op2 c2    #    17 ( :cc 18 ) | :conj-and 19
+r :ARG1 a ( :op1 s3 ) | :op2 c2    #    15 :dobj 17 ( :cc 18 ) | :conj-and 19
+a ( :op1 s3 ) | ( :op2 c2 ) | :mod i    #    17 ( :cc 18 ) | ( :conj-and 19 ) | :amod 16
+
+57.
+d    #    2
+i    #    1
+p :ARG0-of h :ARG2 d    #    2
+i2    #    5
+w    #    3
+w :ARG1 i2    #    3 :dobj 5
+w :ARG0 p :ARG0-of h :ARG2 d    #    3 :nsubj 2
+p ( :ARG0-of h :ARG2 d ) | :mod i    #    2 :compound 1
+
+58.
+none7    #    18
+none6    #    21
+none6    #    12
+none5    #    4
+none4    #    3
+none2    #    8
+none1    #    7
+none0    #    6
+none8    #    27
+w2    #    26
+s2    #    16
+m2    #    24
+o2    #    22
+a    #    25
+d    #    9
+none3    #    9
+f    #    23
+m    #    13
+l    #    1
+o    #    19
+n    #    10
+q    #    11
+s    #    14
+r    #    20
+w    #    2
+y    #    28
+n2 ( :op1 none0 ) | ( :op2 none1 ) | :op3 none2    #    8 ( :compound 7 ) | :compound 6
+c4 :name n3 ( :op1 none4 ) | :op2 none5    #    4 :compound 3
+r2 :ARG3 t2 ( :quant none3 ) | :unit d    #    9
+c2 :name n5 :op1 none7    #    18
+c :name n4 :op1 none6    #    21
+c :name n4 :op1 none6    #    12
+t ( :unit y ) | :quant none8    #    28 :nummod 27
+q :time w    #    11 :nmod-tmod 2
+w :mod l    #    2 :amod 1
+q :ARG1 s    #    11 :dobj 14
+s :mod m    #    14 :amod 13
+s :mod c :name n4 :op1 none6    #    14 :amod 12
+q :ARG0 n    #    11 :nsubj 10
+n :poss c4 :name n3 ( :op1 none4 ) | :op2 none5    #    10 :nmod-poss 4 :compound 3
+n :frequency r2 :ARG3 t2 ( :quant none3 ) | :unit d    #    10 :amod 9
+n :name n2 ( :op1 none0 ) | ( :op2 none1 ) | :op3 none2    #    10 :compound 8 ( :compound 7 ) | :compound 6
+q :ARG2 s2    #    11 :acl 16
+q :ARG2 s2 :ARG0 s    #    11 ( :acl 16 ) | :dobj 14
+o2 ( :op1 r ) | :op2 f    #    20 ( :cc 22 ) | :conj-or 23
+o :ARG2 o2 ( :op1 r ) | :op2 f    #    20 ( :cc 22 ) | ( :conj-or 23 ) | :aux 19
+s2 :ARG1 o :ARG2 o2 ( :op1 r ) | :op2 f    #    16 :ccomp 20 ( :cc 22 ) | ( :conj-or 23 ) | :aux 19
+o ( :ARG1 c2 :name n5 :op1 none7 ) | :ARG2 o2 ( :op1 r ) | :op2 f    #    20 ( :cc 22 ) | ( :conj-or 23 ) | ( :aux 19 ) | :nsubj 18
+f :ARG1 a    #    23 :dobj 25
+f :ARG0 c2 :name n5 :op1 none7    #    23 :nsubj 18
+a :mod m2    #    25 :amod 24
+f :time w2 :op1 t ( :unit y ) | :quant none8    #    23 :nmod-within 28 ( :nummod 27 ) | :case 26
+w2 :op1 t ( :unit y ) | :quant none8    #    28 ( :nummod 27 ) | :case 26
+r :ARG0 c2 :name n5 :op1 none7    #    20 :nsubj 18
+r :ARG1 c :name n4 :op1 none6    #    20 :dobj 21
+
+59.
+a ( :op1 n ) | :quant t ( :unit y ) | :quant none1    #    12 ( :case 10 ) | :nummod 11
+a :op1 n    #    10
+a    #    10
+n    #    10
+e    #    9
+none1    #    11
+g    #    8
+none0    #    2
+o :value none0    #    2
+p    #    3
+r    #    6
+y    #    12
+r :ARG1 p    #    6 :nsubj 3
+r :ARG2 g    #    6 :xcomp 8
+g :ARG1 e    #    8 :dobj 9
+p :ord o :value none0    #    3 :amod 2
+r :time a ( :op1 n ) | :quant t ( :unit y ) | :quant none1    #    6 :nmod-in 12 ( :case 10 ) | :nummod 11
+t ( :unit y ) | :quant none1    #    12 :nummod 11
+g :ARG0 p    #    8 :nsubj 3
+
+60.
+t2    #    3
+t    #    1
+t3    #    5
+a ( :op1 t ) | ( :op2 t2 ) | :op3 t3    #    1 ( :conj 3 ) | :conj 5
+
+61.
+c :name n :op1 none2    #    9
+b    #    5
+b    #    6
+b    #    5 :compound-prt 6
+none2    #    9
+none1    #    8
+none0    #    1
+m    #    4
+m2    #    4
+o    #    7
+v    #    10
+b :ARG1 m ( :quant none0 ) | :ARG1-of i :ARG2 m2    #    5 ( :compound-prt 6 ) | :nsubj 1 :nmod-of 4 :case 2
+m ( :quant none0 ) | :ARG1-of i :ARG2 m2    #    1 :nmod-of 4 :case 2
+b :location o :op1 v    #    5 ( :compound-prt 6 ) | :nmod-over 10 :case 7
+o :op1 v    #    10 :case 7
+v :quant none1    #    10 :nummod 8
+v :mod c :name n :op1 none2    #    10 :amod 9
+
+62.
+p2 :name n :op1 none2    #    7
+c :name n2 :op1 none1    #    5
+none2    #    7
+none1    #    5
+none0    #    2
+p    #    3
+r    #    6
+c2    #    1
+r :time c2    #    6 :advmod 1
+r :ARG1 p2 :name n :op1 none2    #    6 :dobj 7
+r :ARG0 p    #    6 :nsubj 3
+p :quant none0    #    3 :nummod 2
+p :location c :name n2 :op1 none1    #    3 :nmod-in 5 :case 4
+
+63.
+c    #    2
+g2    #    1
+g :ARG0-of g2    #    1
+c :ARG1 g :ARG0-of g2    #    2 :compound 1
+
+64.
+a    #    13
+none6    #    2
+c :name n :op1 none0    #    5
+none4    #    4
+none3    #    2
+d    #    6
+g    #    8
+none0    #    5
+none1    #    4
+none5    #    3
+p    #    12
+s    #    10
+t    #    14
+w    #    16
+d2 ( :op1 d3 ( :day none3 ) | ( :year none1 ) | :month none2 ) | :op2 d4 ( :day none3 ) | ( :year none1 ) | :month none2    #    3 ( :nummod 4 ) | :nummod 2
+none2    #    3
+d :ARG0 c :name n :op1 none0    #    6 :nsubj 5
+d :ARG1 g    #    6 :dobj 8
+d :ARG2 s    #    6 :nmod-on 10 :case 9
+a ( :op1 p ) | :op2 t    #    12 ( :cc 13 ) | :conj-and 14
+s :ARG1 a ( :op1 p ) | :op2 t    #    10 :nmod-of 12 ( :case 11 ) | ( :cc 13 ) | :conj-and 14
+a ( :op1 p :ARG1 w ) | :op2 t :ARG1 w    #    12 ( :cc 13 ) | ( :conj-and 14 ) | :nmod-of 16 :case 15
+d :time d2 ( :op1 d3 ( :day none3 ) | ( :year none1 ) | :month none2 ) | :op2 d4 ( :day none6 ) | ( :year none4 ) | :month none5    #    6 :nmod-on 3 ( :nummod 4 ) | ( :nummod 2 ) | :case 1
+
+65.
+c :name n :op1 none0    #    1
+none1    #    6
+none0    #    1
+c2 :name n2 :op1 none1    #    6
+c :name n :op1 none0    #    3
+none1    #    8
+none0    #    3
+c2 :name n2 :op1 none1    #    8
+
+66.
+c    #    8
+d    #    4
+n    #    3
+a3    #    1
+a2    #    2
+w2    #    6
+w    #    1
+t    #    10
+a3 ( :op1 w2 ) | :op2 c    #    6 ( :cc 7 ) | :conj-and 8
+a2 ( :op1 w ) | :op2 d    #    1 ( :cc 2 ) | :conj-and 4
+d :mod n    #    4 :amod 3
+
+67.
+none2    #    1
+d ( :year none2 ) | ( :day none0 ) | :month none1    #    1
+none1    #    1
+none0    #    1
+
+68.
+none5    #    14
+none4    #    12
+none3    #    11
+none2    #    4
+none1    #    3
+none0    #    1
+w2    #    19
+d2    #    22
+m2    #    21
+a4    #    13
+c3    #    6
+c5    #    9
+a    #    2
+p    #    17
+s    #    5
+c2 :name n2 ( :op1 none1 ) | :op2 none2    #    4 :compound 3
+c9 :name n3 ( :op1 none3 ) | :op2 none4    #    12 :compound 11
+c :name n :op1 none0    #    1
+c10 :name n4 :op1 none5    #    14
+a ( :op1 c :name n :op1 none0 ) | :op2 c2 :name n2 ( :op1 none1 ) | :op2 none2    #    1 ( :cc 2 ) | :conj-and 4 :compound 3
+s :ARG0 a ( :op1 c :name n :op1 none0 ) | :op2 c2 :name n2 ( :op1 none1 ) | :op2 none2    #    5 :nsubj 1 ( :cc 2 ) | :conj-and 4 :compound 3
+s :ARG1 c3    #    5 :dobj 6
+c3 :ARG0 c5    #    6 :nmod-over 9 :case 7
+c5 :purpose p    #    9 :nmod-in 17 :case 15
+p :ARG1 w2    #    17 :nmod-of 19 :case 18
+w2 :ARG2-of d2    #    19 :nmod-of 22 :case 20
+d2 :degree m2    #    22 :compound 21
+a4 ( :op1 c9 :name n3 ( :op1 none3 ) | :op2 none4 ) | :op2 c10 :name n4 :op1 none5    #    12 ( :compound 11 ) | ( :cc 13 ) | :conj-and 14
+c5 :ARG1 a4 ( :op1 c9 :name n3 ( :op1 none3 ) | :op2 none4 ) | :op2 c10 :name n4 :op1 none5    #    9 :nmod-between 12 ( :case 10 ) | ( :compound 11 ) | ( :cc 13 ) | :conj-and 14
+
+69.
+a    #    12
+c :name n :op1 none0    #    1
+c :name n :op1 none0    #    3
+e    #    4 :dobj 6
+e    #    4
+e    #    6
+d    #    13
+none0    #    1
+none0    #    3
+s2    #    15
+s    #    2
+t    #    11
+t    #    8 ( :compound-prt 9 ) | :dobj 11
+s :ARG0 c :name n :op1 none0    #    2 :nsubj 1
+s :ARG1 e    #    2 :ccomp 4 :dobj 6
+e :ARG2 c :name n :op1 none0    #    4 ( :dobj 6 ) | :nsubj 3
+e :ARG1 t    #    4 :dobj 6 :acl 8 ( :compound-prt 9 ) | :dobj 11
+t :time a :op1 d    #    8 ( :dobj 11 ) | ( :compound-prt 9 ) | :advcl 13 :mark 12
+a :op1 d    #    13 :mark 12
+d :ARG1 s2    #    13 :dobj 15
+
+70.
+a    #    22
+none6    #    12
+none4    #    10
+none3    #    7
+d    #    4
+none1    #    16
+f    #    20
+i    #    2
+none0    #    1
+m    #    18
+l    #    16
+none5    #    9
+s    #    14
+r    #    21
+t    #    21
+r :AGR2 t    #    21
+c2    #    17
+d2 ( :day none4 ) | ( :month none5 ) | :year none6    #    9 ( :nummod 12 ) | :nummod 10
+none2    #    6
+c :name n ( :op1 none2 ) | :op2 none3    #    7 :compound 6
+d :time d2 ( :day none4 ) | ( :month none5 ) | :year none6    #    4 :nmod-on 9 ( :case 8 ) | ( :nummod 12 ) | :nummod 10
+d :ARG1 i    #    4 :nsubjpass 2
+i :quant none0    #    2 :nummod 1
+d :location c :name n ( :op1 none2 ) | :op2 none3    #    4 :nmod-in 7 ( :case 5 ) | :compound 6
+d :ARG2 s    #    4 :nmod-for 14 :case 13
+s :ARG1 c2    #    14 :acl 17
+c2 :ARG1 m    #    17 :dobj 18
+c2 :manner l :polarity none1    #    17 :advmod 16
+c2 :purpose f    #    17 :advcl 20
+f :ARG1 a    #    20 :dobj 22
+a :ARG0-of r :ARG2 t    #    22 :amod 21
+
+71.
+p2    #    19
+p2    #    16 :dobj 16
+d    #    18
+g    #    6
+h    #    8
+k    #    13
+none0    #    5
+m    #    3
+m    #    4
+m    #    3 :mwe 4
+o    #    9
+p    #    1
+m2    #    10
+m2    #    11
+m2    #    10 :mwe 11
+c3    #    21
+none1    #    12
+o2    #    15
+none2    #    22
+m4 ( :unit k ) | :quant none1    #    13 :nummod 12
+m2 :op1 m4 ( :unit k ) | :quant none1    #    13 :nummod 12 :advmod 10 :mwe 11
+m3 ( :unit g ) | :quant none0    #    6 :nummod 5
+m :op1 m3 ( :unit g ) | :quant none0    #    6 :nummod 5 :advmod 3 :mwe 4
+o2 :quant m2 :op1 m4 ( :unit k ) | :quant none1    #    13 ( :nummod 12 :advmod 10 :mwe 11 ) | :nmod-of 15 :case 14
+h :quant m :op2 m3 ( :unit g ) | :quant none0    #    6 ( :nummod 5 :advmod 3 :mwe 4 ) | :nmod-of 8 :case 7
+o ( :op1 h :quant m :op2 m3 ( :unit g ) | :quant none0 ) | :op2 o2 :quant m2 :op1 m4 ( :unit k ) | :quant none1    #    6 ( :cc 9 ) | ( :nummod 5 :advmod 3 :mwe 4 ) | ( :nmod-of 8 :case 7 ) | :conj-or 13 ( :nummod 12 :advmod 10 :mwe 11 ) | :nmod-of 15 :case 14
+p :ARG1 o ( :op1 h :quant m :op2 m3 ( :unit g ) | :quant none0 ) | :op2 o2 :quant m2 :op1 m4 ( :unit k ) | :quant none1    #    1 :nmod-of 6 ( :case 2 ) | ( :cc 9 ) | ( :nummod 5 :advmod 3 :mwe 4 ) | ( :nmod-of 8 :case 7 ) | :conj-or 13 ( :nummod 12 :advmod 10 :mwe 11 ) | :nmod-of 15 :case 14
+p2 :ARG2 p    #    16 ( :nsubj 1 ) | :dobj 19
+p2 :instrument d    #    16 :dobj 19 :compound 18
+p2    #    16 :dobj 19
+c2 :name n :op1 none2    #    22
+p2 :location c2 :name n :op1 none2    #    16 ( :dobj 19 ) | :nmod-in 22 :case 20
+c2 ( :mod c3 ) | :name n :op1 none2    #    22 :amod 21
+  
+72.
+none6    #    18
+none5    #    24
+none4    #    23
+none3    #    8
+none2    #    9
+none1    #    10
+none0    #    2
+i    #    15
+h    #    16
+j    #    22
+t2    #    20
+o    #    21
+s    #    4
+t    #    21
+w    #    6
+d ( :year none1 ) | ( :month none2 ) | :day none3    #    9 ( :nummod 8 ) | :nummod 10
+p :mod e :name n :op1 none0    #    2
+p2 :name n2 ( :op1 none4 ) | :op2 none5    #    24 :compound 23
+p2 :ARG0-of h2 :ARG3 j    #    22
+c :name n3 :op1 none6    #    18
+s :time w    #    4 :nmod-tmod 6
+w :mod d ( :year none1 ) | ( :month none2 ) | :day none3    #    6 :nmod-of 9 ( :case 7 ) | ( :nummod 8 ) | :nummod 10
+s :ARG1 p :mod e :name n :op1 none0    #    4 :nsubjpass 2
+s :subevent-of i    #    4 :nmod-as 12 ( :case 11 ) | :nmod-of 15 :case 13
+i :ARG1-of h    #    15 :acl 16
+h :ARG0 p2 :name n2 ( :op1 none4 ) | :op2 none5    #    16 :nmod-by 24 ( :case 17 ) | :compound 23
+p2 :ARG0-of h2 ( :ARG3 j ) | :ARG1 c :name n3 :op1 none6    #    22 :nmod-poss 18
+p2 ( :ARG0-of h2 :ARG3 j ) | :ARG0-of o :ARG1 t    #    22 :amod 21
+p2 ( :ARG0-of h2 :ARG3 j ) | :mod t2    #    22 :amod 20
+o :ARG1 t    #    21
+p2 ( :name n2 ( :op1 none4 ) | :op2 none5 ) | :ARG0-of h2 :ARG3 j    #    24 ( :compound 22 ) | :compound 23
+
+73.
+c    #    11
+g2    #    3
+g :ARG0-of g2    #    3
+i    #    1
+m    #    13
+p    #    7
+a2    #    10
+w2    #    9
+w    #    5
+a ( :op1 i ) | ( :op2 g :ARG0-of g2 ) | ( :op3 w ) | ( :op4 p ) | ( :op5 a2 ( :op1 w2 ) | :op2 c ) | :op6 m    #    1 ( :conj 3 ) | ( :conj 5 ) | ( :conj 7 ) | ( :dep 9 ( :cc 10 ) | :conj-and 11 ) | :conj 13
+a2 ( :op1 w2 ) | :op2 c    #    9 ( :cc 10 ) | :conj-and 11
+
+74.
+c :name n :op1 none0    #    1
+none0    #    1
+c :name n :op1 none0    #    3
+none0    #    3
+
+75.
+none6    #    18
+c :name n :op1 none0    #    1
+c :name n :op1 none0    #    3
+c2 :name n2 ( :op1 none1 ) | ( :op2 none2 ) | ( :op3 none3 ) | :op4 none4    #    6 :appos 9 ( :case 10 ) | :compound 8
+c3 :name n3 ( :op1 none5 ) | ( :op2 none6 ) | ( :op3 none7 ) | ( :op4 none8 ) | :op5 none9    #    15 ( :appos 20 ( :amod 17 ) | ( :case 21 ) | :nmod-poss 18
+none4    #    6
+none4    #    12
+none3    #    10
+none2    #    9
+none1    #    8
+none0    #    1
+none5    #    17
+none9    #    15
+none7    #    20
+none8    #    21
+
+76.
+none7    #    15
+none6    #    13
+none5    #    12
+none4    #    11
+none3    #    10
+none2    #    7
+none1    #    6
+none0    #    2
+none9    #    21
+none8    #    16
+none13    #    19
+none12    #    18
+a2    #    3
+c3    #    4
+a    #    14
+none11    #    23
+none10    #    22
+p2 :name n4 ( :op1 none9 ) | ( :op2 none10 ) | :op3 none11    #    23 ( :compound 22 ) | :compound 21
+p :name n3 ( :op1 none3 ) | ( :op2 none4 ) | ( :op3 none5 ) | :op4 none6    #    10 ( :compound 12 ) | ( :compound 13 ) | :compound 11
+p4 :name n ( :op1 none1 ) | :op2 none2    #    7 :compound 6
+p5 :name n2 ( :op1 none7 ) | :op2 none8    #    16 :compound 15
+p3 :name n5 ( :op1 none12 ) | :op2 none13    #    19 :compound 18
+a ( :op1 p4 :name n ( :op1 none1 ) | :op2 none2 ) | :op2 p5 :name n2 ( :op1 none7 ) | :op2 none8    #    7 ( :compound 6 ) | ( :cc 14 ) | :conj-and 16 :compound 15
+p5 ( :name n2 ( :op1 none7 ) | :op2 none8 ) | :ARG0-of h2 :ARG1 p2 :name n4 ( :op1 none9 ) | ( :op2 none10 ) | :op3 none11    #    16 ( :compound 15 ) | :nmod-from 23 ( :case 17 ) | ( :compound 22 ) | :compound 21
+p2 ( :name n4 ( :op1 none9 ) | ( :op2 none10 ) | :op3 none11 ) | :ARG1-of h3 :ARG0 p3 :name n5 ( :op1 none12 ) | :op2 none13    #    23 ( :compound 22 ) | ( :compound 21 ) | :nmod-poss 19 :compound 18
+p4 ( :name n ( :op1 none1 ) | :op2 none2 ) | :ARG0-of h :ARG1 p :name n3 ( :op1 none3 ) | ( :op2 none4 ) | ( :op3 none5 ) | :op4 none6    #    7 ( :compound 6 ) | :nmod-of 10 ( :compound 12 ) | ( :compound 13 ) | ( :compound 11 ) | :case 8
+c3 :quant none0    #    4 :nummod 2
+c3 :ARG1-of a2    #    4 :amod 3
+c3 :domain a ( :op1 p4 :name n ( :op1 none1 ) | :op2 none2 ) | :op2 p5 :name n2 ( :op1 none7 ) | :op2 none8    #    7 ( :compound 6 ) | ( :cc 14 ) | ( :conj-and 16 :compound 15 ) | :nsubj 4
+
+77.
+c :name n :op1 none0    #    1
+c :name n :op1 none0    #    3
+c2 :name n2 :op1 none1    #    6
+none3    #    9
+none2    #    8
+none1    #    6
+none0    #    1
+none0    #    3
+c3 :name n3 ( :op1 none2 ) | :op2 none3    #    9 :compound 8
+c3 :name n3 ( :op1 none2 ) | :op2 none3    #    11
+
+78.
+none1    #    12
+none0    #    1
+none0    #    25
+w3    #    11
+w2    #    13
+b2    #    3
+s2    #    20
+g2    #    7
+a5    #    23
+a4    #    15
+a6    #    8
+c2    #    22
+a    #    4
+g :ARG0-of g2    #    7
+k    #    6
+o    #    17
+p    #    10
+s    #    9
+w    #    11
+b    #    2
+c :name n :op1 none0    #    1
+c :name n :op1 none0    #    25
+t ( :unit w2 ) | :quant none1    #    13 :nummod 12
+b3 ( :op1 n2 ) | :quant t ( :unit w2 ) | :quant none1    #    13 ( :nummod 12 ) | :case 14
+b3 :op1 n2    #    14
+b3    #    14
+n2    #    14
+a4 :op1 o    #    17 :case 15
+o :poss a5 :quant s2    #    17 :nmod-of 20 ( :case 18 ) | :nmod-of 23 :case 21
+a5 :mod c2    #    23 :compound 22
+a5 :ARG1 c :name n :op1 none0    #    23 :nmod-against 25 :case 24 
+b :time b3 ( :op1 n2 ) | :quant t ( :unit w2 ) | :quant none1    #    2 :nmod-tpmod 13 ( :nummod 12 ) | :case 14
+b :time a4 :op1 o    #    2 :nmod-after 17 :case 15
+b :ARG1 b2    #    2 :xcomp 3
+b :ARG0 c :name n :op1 none0    #    2 :nsubj 1
+b2 :ARG0 c :name n :op1 none0    #    3 :nsubj 1
+b2 :ARG1 a    #    3 :dobj 4
+a :ARG1 a6 ( :op1 w ) | :op2 w3    #    4 :nmod-to 11 :case 5
+w3 :mod p    #    11 :amod 10
+w3 ( :quant s ) | :mod p    #    11 :amod 10 :det 9
+w :mod g :ARG0-of g2    #    11 :amod 7
+w :mod k    #    11 :amod 6
+
+79.
+a    #    1
+c    #    3
+e    #    6
+none0    #    6
+r    #    7
+w    #    4
+r ( :polarity none0 ) | :time e    #    7 :neg 6
+r :ARG1 a    #    7 :nsubjpass 1
+a :ARG1 w    #    1 :nmod-to 4 :case 2
+w :mod c    #    4 :amod 3
+
+80.
+m    #    1
+t    #    3
+
+81.
+a    #    13
+c    #    15
+d    #    12
+none0    #    1
+s2    #    14
+none1    #    4
+s    #    2
+r    #    5
+c2    #    7
+c4    #    15
+n5    #    10
+p4 :mod c3 :name n4 :op1 none1    #    4
+p3 :name n3 :op1 none0    #    1
+s :ARG0 p3 :name n3 :op1 none0    #    2 :nsubj 1
+s :ARG1 r :ARG1 c2    #    2 :ccomp 7 :aux 5
+r :ARG1 c2    #    7 :aux 5
+c2 :ARG1 p4 :mod c3 :name n4 :op1 none1    #    7 :nsubj 4
+c2 :ARG2 a ( :op1 c :ARG2 d ) | :op2 c4 :ARG2 s2    #    7 :nmod-in 15 ( :case 8 ) | ( :nmod 12 | :nmod 14
+c :ARG2 d    #    15 :nmod 12
+c4 :ARG2 s2    #    15 :nmod 14
+c :ARG1 n5    #    15 :nmod-poss 10
+c4 :ARG1 n5    #    15 :nmod-poss 10
+a ( :op1 c :ARG2 d ) | :op2 c4 :ARG2 s2    #    15 :nmod 12 ( :cc 13 ) | :conj-and 14
+
+82.
+c    #    4
+b    #    6
+none1    #    11
+none0    #    9
+h    #    1
+m :mod s    #    7
+n    #    2
+s    #    7
+p2 :name n3 :op1 none1    #    11
+p :name n2 :op1 none0    #    9
+n :ARG0 h    #    2 :nsubj 1
+n :ARG1 c    #    2 :xcomp 4
+c :ARG0 h    #    4 :nsubj 1
+c :ARG1 m :mod s    #    4 :dobj 7
+s :mod b    #    7 :compound 6
+m ( :mod s ) | ( :ARG0 p :name n2 :op1 none0 ) | :ARG1 p2 :name n3 :op1 none1    #    7 ( :nmod-between 11 ) | :nmod-between 9 ( :case 8 ) | ( :cc 10 ) | :conj-and 11
+
+83.
+b    #    3
+none0    #    2
+h    #    6
+u    #    5
+w    #    4
+b :li none0    #    2 :acl 3
+b :ARG2 w    #    3 :nsubj 4
+b :ARG1 h    #    3 :dobj 6
+h :mod u    #    6 :amod 5
+
+84.
+p3 :name n :op1 none0    #    1
+b    #    6
+none1    #    8
+p4 :name n2 :op1 none1    #    8
+none0    #    1
+t2    #    10
+s    #    5
+r    #    4
+t    #    9
+y    #    11
+y :mod t2    #    11 :det 10
+s :time y    #    5 :nmod-tmod 11
+s :mod r    #    5 :amod 4
+s :domain p3 :name n :op1 none0    #    5 :nsubj 1
+s :mod b :op1 t    #    5 :nmod-behind 9 :case 6
+b :op1 t    #    9 :case 6
+t :mod p4 :name n2 :op1 none1    #    9 :amod 8
+
+85.
+d    #    14
+none0    #    1
+i    #    3
+s2    #    12
+i2    #    7
+m    #    10
+o    #    13
+p    #    11
+s    #    4
+r    #    8
+s :ARG0 i    #    4 :nsubj 3
+r :ARG1 i2    #    8 :nsubj 7
+s :ARG1 r    #    4 :advcl 8
+s :ARG1 r :polarity none0    #    4 ( :advmod 1 ) | :advcl 8
+o ( :op1 s2 ) | :op2 d    #    12 ( :cc 13 ) | :conj-or 14
+r :ARG2 o ( :op1 s2 ) | :op2 d    #    8 ( :nmod-to 14 ) | :nmod-to 12 ( :case 9 ) | ( :cc 13 ) | :conj-or 14
+p :mod m    #    11 :amod 10
+o ( :op1 s2 :ARG1 p ) | :op2 d :ARG1 p    #    12 ( :cc 13 ) | ( :conj-or 14 ) | :compound 11
+
+86.
+c    #    21
+d    #    6
+none0    #    2
+i    #    18
+t2    #    22
+i2    #    20
+m    #    14
+p    #    10
+r    #    13
+t    #    23
+w    #    12
+t :mod t2    #    23 :det 22
+c :ARG1 t    #    21 :dobj 23
+c :ARG0 i2    #    21 :nsubj 20
+i ( :ARG1 i2 ) | :ARG2 c :ARG0 i2    #    18 :acl 21 :nsubj 20
+i :ARG2 c    #    18 :acl 21
+i :ARG0 d    #    6 :acl-relcl 18
+d :name n :op1 none0    #    6 :compound 2
+d :topic m    #    6 :acl 14
+m :mod r    #    14 :advmod 13
+m :ARG0 p    #    14 :nsubj 10
+p :ARG1 w    #    10 :nmod-of 12 :case 11
+
+87.
+c    #    14
+none1    #    13
+r2    #    18
+none0    #    6
+h    #    2
+l    #    17
+o    #    8
+s    #    4
+r    #    12
+w    #    11
+o :ARG1 s    #    4 :ccomp 5 :advmod 8
+s :ARG0 h    #    4 :nsubj 2
+s :polarity none0    #    4 :ccomp 5 :neg 6
+s :ARG1 r :ARG1 c    #    4 :ccomp 5 :ccomp 14 :aux 12
+r :ARG1 c    #    14 :aux 12
+c :ARG0 w    #    14 :nsubj 11
+r :ARG1 c :polarity none1    #    14 :aux 12 :neg 13
+c :ARG1 r2    #    14 :nmod-about 18 :case 15
+r2 :extent l    #    18 :amod 17
+
+88.
+a    #    7
+p2 :ARG0-of h :ARG2 s2    #    8
+p2 :ARG0-of h :ARG2 s2    #    17
+c    #    10
+s3    #    18
+e    #    15
+p3    #    13
+i    #    12
+l    #    9
+p    #    1
+s    #    4
+a2    #    15
+w    #    19
+s2    #    8
+p :ARG1 s    #    1 :nmod-with 4 :case 2
+s :ARG0-of a    #    4 :acl-relcl 7
+s :ARG0-of a    #    7 :nsubj 4
+a :ARG1 e :mod a2    #    7 :xcomp 15
+e :mod a2    #    15
+w :ARG1 e :mod a2    #    15 :advcl 19
+e ( :mod a2 ) | :ARG0 p2 :ARG0-of h :ARG2 s2    #    15 :nsubj 8
+a ( :ARG1 e :mod a2 | :condition w    #    7 :xcomp 15 :advcl 19
+w :time s3    #    19 :advmod 18
+w :ARG0 p2 :ARG0-of h :ARG2 s2    #    19 :nsubj 17
+p2 ( :ARG0-of h :ARG2 s2 ) | :ARG0-of l    #    8 :acl 9
+l :ARG1-of c :ARG0 p3    #    9 :nmod-to 13 :case 10
+p3 :mod i    #    13 :amod 12
+
+89.
+e    #    11
+m    #    2
+m    #    8
+l    #    10
+o    #    4
+r    #    9
+t    #    5
+m2    #    7
+o ( :ARG0 m ) | :ARG1 t    #    3 ( :nsubj 2 ) | :nmod-against 5 :case 4
+o :ARG1 t    #    3 :nmod-against 5 :case 4
+t :ARG0-of m2    #    5 :acl-relcl 7
+t :ARG0-of m2    #    7 :nsubj 5
+m2 :ARG1 r    #    7 :ccomp 9
+r :ARG1 m    #    9 :nsubj 8
+r :ARG2-of e    #    9 :advmod 11
+e :degree l    #    11 :advmod 10
+
+90.
+a    #    2
+c    #    7
+i    #    4
+t    #    5
+y    #    8
+t :ARG1 c    #    5 :xcomp 7
+t :ARG0 i    #    5 :nsubj 4
+c :ARG0 i    #    7 :nsubj 4
+c :ARG2 a    #    7 :nmod-of 2 :case 1
+c :ARG1 y    #    7 :dobj 8
+
+91.
+a    #    3
+f2    #    6
+f    #    17
+i    #    19
+t2    #    2
+s    #    10
+r    #    4
+t    #    15
+w    #    7
+y    #    13
+f :ARG2 i    #    17 :nmod-with 19 :case 18
+f :ARG1 t    #    17 :nsubj 15
+f :condition r    #    17 :advcl 4
+r :ARG0 a    #    4 :nsubj 3
+a :domain t2    #    3 :det 2
+r :beneficiary y    #    4 :nmod-to 13 :case 12
+r :ARG1 w    #    4 :dobj 7
+w :mod f2    #    7 :amod 6
+w :topic s    #    7 :nmod-on 10 :case 8
+
+92.
+a    #    5
+e    #    20
+none1    #    15
+none0    #    7
+i    #    1
+m    #    8
+m    #    18
+s    #    12
+o    #    23
+a3    #    14
+r    #    22
+t    #    2
+y    #    3
+o2    #    24
+a4    #    5
+t :ARG0 i    #    2 :nsubj 1
+a ( :op1 a ) | :op2 a4    #    5
+t :ARG1 a3 ( :op1 a ) | :op2 a4    #    2 :ccomp 5
+a :ARG0 y    #    5 :nsubj 3
+a4 :ARG0 y    #    5 :nsubj 3
+a :ARG1 s    #    5 :advcl 12
+s :ARG1 m    #    12 :nsubj 8
+m :quant none0    #    8 :nummod 7
+o ( :op1 e ) | :op2 o2 :ARG2 e    #    20 ( :cc 23 ) | :conj-or 25 :aux 24
+e :mod r    #    20 :nmod-in 22 :case 21
+e :ARG1 m    #    20 :nsubj 18
+o2 :ARG1 m    #    25 ( :aux 24 ) | :nsubj 18
+a4 :ARG1 o ( :op1 e ) | :op2 o2    #    5 :advcl 20 ( :cc 23 ) | :conj-or 25 :aux 24
+a4 ( :polarity none1 ) | :ARG1 o ( :op1 e ) | :op2 o2    #    5 :advcl 20 ( :neg 15 ) | ( :cc 23 ) | :conj-or 25 :aux 24
+
+93.
+b    #    4
+e    #    5
+g    #    20
+i    #    9
+h    #    18
+j    #    28
+j    #    23
+m    #    12
+m    #    16
+m    #    26
+o    #    10
+s    #    13
+r    #    2
+t    #    6
+w    #    7
+m2    #    5
+e :degree m2    #    5
+o3    #    29
+o2    #    31
+o :ARG0 i    #    10 :nsubj 9
+o :time r    #    10 :avcl 2 :mark 1
+r :ARG1 b    #    2 :dobj 4
+r :time e ( :degree m2 ) | :time w    #    2 :nmod-tmod 7 :amod 5
+e ( :degree m2 ) | :time w    #    7 :amod 5
+w :domain t    #    7 :det 6
+o :ARG1 s    #    10 :ccomp 13
+s :ARG0 m    #    13 :nsubj 12
+s :ARG1 j    #    13 :ccomp 28
+j :source o2    #    28 :nmod-off 31
+j ( :direction o3 ) | :source o2    #    28 :nmod-off 31 :case 29
+j :ARG0 m    #    28 :nsubj 26
+j :condition h    #    28 :advcl 18
+h :ARG1 g    #    18 :dobj 20
+h :ARG0 m    #    18 :nsubj 16
+g :purpose j    #    20 :acl 22 :dobj 23
+
+94.
+a    #    4
+none0    #    9
+i    #    12
+o    #    11
+p    #    6
+p    #    7
+o2    #    1
+o2    #    2
+o2    #    1 :mwe 2
+p :mod p    #    6 :nmod 7
+i :mod o2    #    12 :advmod 1 :mwe 2
+i :domain a    #    12 :nsubj 4
+a :ARG1 p    #    4 :nmod-to 6 :case 5
+i :domain a :mod o :polarity none0    #    12 ( :nsubj 4 ) | ( :amod 11 ) | :neg 9
+
+95.
+e    #    14
+i    #    1
+s2    #    11
+l    #    13
+s    #    8
+t    #    2
+y    #    4
+t :ARG0 i    #    2 :nsubj 1
+t :ARG1 s :ARG1 s2    #    2 :ccomp 11 :csubj 6 :xcomp 8
+s :ARG1 s2    #    11 :csubj 6 :xcomp 8
+s :ARG0 y    #    8 :nsubj 4
+s2 :ARG2 e    #    11 :nmod-towards 14 :case 12
+e :ARG1-of l    #    14 :amod 13
+
+96.
+none0    #    4
+none0    #    7
+i    #    1
+m    #    5
+t2    #    6
+p :name n :op1 none0    #    4
+p :name n :op1 none0    #    7
+s    #    8
+t    #    3
+t :ARG0 i    #    3 :nsubj 1
+t :ARG1 m    #    3 :ccomp 5
+m :ARG0 p :name n :op1 none0    #    5 :nsubj 4
+m :ARG1 t2 :ARG1-of s    #    5 :ccomp 8 :dobj 6
+t2 :ARG1-of s    #    8 :dobj 6
+s :ARG0 p :name n :op1 none0    #    8 :nsubj 7
+
+97.
+a    #    5
+p2    #    8
+g :ARG0-of a3    #    11
+i    #    19
+p :ARG0-of h :ARG2 p2    #    8
+i3    #    17
+s    #    6
+a3    #    11
+a2    #    9
+a2    #    18
+v    #    3
+y    #    1
+c2    #    14
+r    #    2
+o2    #    16
+e2    #    20
+a ( :op1 v ) | :op2 s    #    3 ( :cc 5 ) | :conj-and 6
+a ( :op1 v ) | ( :op2 s ) | :ARG1-of r    #    3 ( :cc 5 ) | ( :conj-and 6 ) | :advmod 2
+v :ARG0 y    #    3 :nsubj 1
+s :ARG0 y    #    6 :nsubj 1
+s :ARG1 a2 ( :op1 p :ARG0-of h :ARG2 p2 ) | :op2 g :ARG0-of a3    #    6 :dobj 8 ( :cc 9 ) | :conj-and 11
+a2 ( :op1 p :ARG0-of h :ARG2 p2 ) | :op2 g :ARG0-of a3    #    8 ( :cc 9 ) | :conj-and 11
+v :ARG1 a2 ( :op1 p :ARG0-of h :ARG2 p2 ) | :op2 g :ARG0-of a3    #    3 :dobj 8 ( :cc 9 ) | :conj-and 11
+a2 ( :op1 p :ARG0-of h :ARG2 p2 ) | ( :op2 g :ARG0-of a3 ) | :mod i3    #    8 ( :cc 9 ) | ( :conj-and 11 ) | :acl-relcl 17
+i3 :mod c2    #    17 :advmod 14
+i3 ( :mod o2 ) | :mod c2    #    17 :advmod 14 ( :cc 15 ) | :conj-and 16
+a2 ( :op1 p :ARG0-of h :ARG2 p2 ) | ( :op2 g :ARG0-of a3 ) | ( :mod i3 ) | :mod e2    #    8 ( :cc 9 ) | ( :conj-and 11 ) | :acl-relcl 17 ( :cc 15 ) | :conj-and 20
+e2 :mod i    #    20 :advmod 19
+
+98.
+o    #    15
+c    #    1
+d    #    3
+none0    #    16
+i    #    2
+i2    #    13
+m    #    22
+b2    #    18
+b2 :op1 n2    #    18
+n    #    11
+a3    #    20
+r    #    25
+a4    #    9
+w    #    7
+y    #    17
+n2    #    18
+y2    #    5
+o2    #    24
+o :op1 t ( :unit y ) | :quant none0    #    17 :nummod 16 :advmod 15
+t ( :unit y ) | :quant none0    #    17 :nummod 16
+d :ARG1 y2    #    3 :nmod-with 5 :case 4
+d :ARG0 i    #    3 :nsubj 2
+d :ARG2 n    #    3 :ccomp 11
+n :domain w    #    11 :nsubj 7
+n :domain w :mod a4    #    11 ( :nsubj 7 ) | :advmod 9
+r :ARG1-of o2    #    25 :advmod 24
+r :ARG1 m    #    25 :nsubjpass 22
+b :ARG2 b2 ( :op1 n2 ) | :quant o :op1 t ( :unit y ) | :quant none0    #    17 ( :advmod 18 ) | :nummod 16 :advmod 15
+b ( :ARG1 i2 ) | :ARG2 b2 ( :op1 n2 ) | :quant o :op1 t ( :unit y ) | :quant none0    #    17 ( :advmod 18 ) | ( :nummod 16 :advmod 15 ) | :nsubj 13
+a3 ( :op2 r ) | :op1 b :ARG2 b2 ( :op1 n2 ) | :quant o :op1 t ( :unit y ) | :quant none0    #    17 ( :advmod 18 ) | ( :nummod 16 :advmod 15 ) | ( :cc 20 ) | :conj-and 25
+c :ARG1 d    #    3 :mark 1
+
+99.
+a    #    3
+p2    #    13
+c    #    1
+d    #    7
+g    #    10
+i    #    2
+p    #    8
+s    #    12
+t    #    6
+y    #    5
+a :ARG0 i    #    3 :nsubj 2
+c :ARG1 a    #    3 :mark 1
+a :ARG1 t    #    3 :ccomp 6
+t :ARG0 y    #    6 :nsubj 5
+t :ARG1 p :domain g    #    6 :ccomp 10 :aux 8
+p :domain g    #    10 :aux 8
+g :ARG2 d    #    10 :nsubj 7
+g :ARG1 p2    #    10 :nmod-for 11 :case 11
+p2 :quant s    #    13 :det 12
+
+118.
+v    #    11
+none4    #    10
+h    #    1
+none3    #    9
+none2    #    5
+none1    #    4
+none0    #    3
+s    #    2
+r    #    15
+c2    #    12
+f    #    7
+c2 :mod v    #    12 :compound 11
+s :ARG0 h    #    2 :nsubj 1
+p :name t ( :op1 none0 ) | ( :op2 none1 ) | :op3 none2    #    5 ( :compound 4 ) | :compound 3
+r :ARG0 p :name t ( :op1 none0 ) | ( :op2 none1 ) | :op3 none2    #    15 :nsubj 5 ( :compound 4 ) | :compound 3
+r :ARG0 p :name t ( :op1 none0 ) | ( :op2 none1 ) | :op3 none2    #    5 ( :compound 4 ) | ( :compound 3 ) | :acl-relcl 15
+s :ARG1 p :name t ( :op1 none0 ) | ( :op2 none1 ) | :op3 none2    #    2 :dobj 5 ( :compound 4 ) | :compound 3
+p :ARG0-of h2 :ARG2 c2    #    12
+h2 ( :ARG2 c2 ) | :ARG0 p :name t ( :op1 none0 ) | ( :op2 none1 ) | :op3 none2    #    5 ( :compound 4 ) | ( :compound 3 ) | :appos 12
+h2 ( :ARG2 c2 ) | :time f    #    12 :advmod 7
+s :ARG1 p :name t ( :op1 none0 ) | ( :op2 none1 ) | :op3 none2    #    2 :dobj 5 ( :compound 4 ) | :compound 3
+c2 :ARG2-of h2 :ARG1 c :name w ( :op1 none3 ) | :op2 none4    #    12 :compound 9 :compound 10
+c :name w ( :op1 none3 ) | :op2 none4    #    9 :compound 10
+
+146.
+none0    #    11
+y2    #    12
+y    #    2
+t    #    7
+r    #    5
+e    #    8
+o    #    3
+c    #    1
+b    #    9 :dobj 10
+b    #    10
+c :ARG2 o    #    3 :cc 1
+o :ARG1 y    #    3 :nsubj 2
+r :ARG0 y    #    5 :nsubj 2
+r :ARG1 b    #    5 :ccomp 9 :dobj 10
+e :mod t    #    8 :det 7
+b2 :op1 n    #    13
+b2    #    13
+n    #    13
+none0 :quant-of t2 :unit y2    #    12 :nummod 11
+o :ARG2 r    #    3 :xcomp 5
+b :ARG1 e    #    9 ( :dobj 10 ) | :nsubj 8
+b :ARG2 b2 :op1 n    #    9 ( :dobj 10 ) | :advmod 13
+b2 ( :op1 n ) | :quant t2 ( :quant none0 ) | :unit y2    #    13 :nmod-npmod 12 :nummod 11
+
+147.
+b    #    9
+s3    #    8
+none2    #    13
+c4    #    16
+none0    #    7
+c3 :name n :op1 none0    #    7
+d    #    19
+none1    #    11
+f    #    2
+s    #    4
+l    #    14
+c    #    10
+s2    #    5
+g :ARG0 g4 :mod f    #    3 :amod 2
+g    #    3
+s :ARG0 g4 :ARG0-of g    #    4 :nsubj 3
+s :ARG1 s2    #    4 :dobj 5
+s2 :ARG1 b    #    5 :nmod-of 9 :case 6
+b :mod s3    #    9 :compound 8
+b :mod c3 :name n :op1 none0    #    9 :compound 7
+s :ARG1-of c :ARG0 l    #    4 :advcl 14 :mark 10
+l :polarity none2    #    14 :neg 13
+l :ARG1 c4    #    14 :dobj 16
+c4 :prep-on d    #    16 :nmod-on 19 :case 17
+g5 :ARG0-of g2    #    18
+g2    #    18
+d :mod g5 :ARG0-of g2    #    19 :compound 18
+g3 :name n2 :op1 none1    #    11
+l :ARG0 g3 :name n2 :op1 none1    #    14 :nsubj 11
+
+148.
+t    #    6
+a    #    1
+c    #    3
+d    #    4
+g    #    8
+m    #    9
+f    #    16
+s    #    14
+r    #    11
+o    #    12
+r2    #    13
+c    #    7
+d :ARG0 c    #    4 :nsubj 3
+d :ARG1 t    #    4 :xcomp 6
+r :op1-of o :op2 s    #    11 ( :conj-or 14 ) | :cc 12
+t :ARG0 c    #    6 :nsubj 3
+t :ARG1 g    #    6 :dobj 8
+g :poss c    #    8 :nmod-poss 7
+d :op2-of a    #    4 :cc 1
+s :mod r2    #    14 :compound 13
+o2    #    17
+p :ARG0-of o2    #    17
+p :ARG0-of o2 :ARG1 f    #    17 :compound 16
+m :degree-of o ( :op1 r ) | :op2 s    #    11 ( :conj-or 14 ) | ( :cc 12 ) | :advmod 9
+o ( :op1 r ) | ( :op2 s ) | :compared-to p :ARG0-of o2    #    11 ( :conj-or 14 ) | ( :cc 12 ) | ( :nmod-than 17 ) | :case 10
+r :op1-of o ( :op2 s ) | :ARG2-of t :ARG1 g    #    6 :dobj 8 :nmod-like 11 ( :conj-or 14 ) | :cc 12
+
+149.
+a    #    14
+p :ARG0-of d2    #    15
+d2    #    15
+c    #    13
+s2    #    10
+e    #    7
+d    #    8
+d3    #    8
+r    #    3
+none1    #    6
+none0    #    5
+a2    #    1
+r3    #    9
+d :ARG1-of r3 :ARG2 d3 :ARG0 s2    #    8 ( :nmod-like 10 ) | :case 9
+c :op1-of a :op2 p :ARG0-of d2    #    13 ( :conj-and 15 ) | :cc 14
+p2 :ARG0-of h :ARG2 e    #    7
+d :time a2 :op1 r    #    8 :nmod-after 3 :case 1
+r :op1-of a2    #    3 :case 1
+d :ARG0 p2 :ARG0-of h :ARG2 e    #    8 :nsubj 7
+c2 :mod t :name n ( :op1 none0 ) | :op2 none1    #    5 :compound 6
+p2 :ARG0-of h ( :ARG2 e ) | :ARG1 c2 :mod t :name n ( :op1 none0 ) | :op2 none1    #    7 :compound 5 :compound 6
+d :ARG1 a ( :op1 c ) | :op2 p :ARG0-of d2    #    8 :nmod-over 13 ( :case 11 ) | ( :cc 14 ) | :conj-and 15
+
+150.
+t    #    13
+a    #    10
+c    #    4
+i    #    2
+i    #    16
+e    #    17
+p    #    6
+a3    #    1
+a2    #    15
+c2    #    11
+l2    #    12
+d    #    5
+c3    #    14
+b    #    9
+b :degree m    #    9
+m    #    9
+c :op1-of a :op2 c2    #    4 ( :conj-and 11 ) | :cc 10
+c :op1-of a ( :op2 c2 ) | :time a3    #    4 ( :conj-and 11 ) | ( :cc 10 ) | :advmod 1
+c :ARG1 p    #    4 :dobj 6
+p :mod d    #    6 :compound 5
+c :ARG2 b :degree m    #    4 :nmod-for 9 :case 7
+c :ARG0 i    #    4 :nsubj 2
+c2 :ARG1 c3    #    11 :dobj 14
+c3 :ARG2 t    #    14 :compound 13
+c3 :ARG1-of l2    #    14 :amod 12
+e :op1-of a2    #    17 :case 15
+c2 :ARG1 c3 :ARG1 a2 :op1 e    #    11 ( :dobj 14 ) | :nmod-around 17 :case 15
+e :poss i    #    17 :nmod-poss 16
+c2 :ARG0 i    #    11 :nsubj 2
+
+151.
+none0    #    3
+n    #    7
+y    #    6
+none1    #    4
+b    #    2
+n :ARG0 y    #    7 :nsubj 6
+p :name h ( :op1 none0 ) | :op2 none1    #    4 :compound 3
+p :name h ( :op1 none0 ) | :op2 none1    #    8
+a    #    1
+n :ARG1 p :name h ( :op1 none0 ) | :op2 none1    #    7 :dobj 8
+b :ARG1 p :name h ( :op1 none0 ) | :op2 none1    #    4 ( :compound 3 ) | :cop 2
+b ( :ARG2 a ) | :ARG1 p :name h ( :op1 none0 ) | :op2 none1    #    4 ( :compound 3 ) | ( :advmod 1 ) | :cop 2
+b | ( :ARG1 p :name h ( :op1 none0 ) | :op2 none1 ) | :time n    #    4 ( :compound 3 ) | ( :cop 2 ) | :advcl 7 :advmod 5
+
+152.
+t    #    14
+b2    #    8
+b    #    7
+d    #    12
+r3    #    5
+r    #    3
+w    #    2
+w    #    10
+r2    #    11
+p    #    6
+none0    #    13
+d :ARG1-of r2    #    12 :aux 11
+r2 ( :condition r ) | :ARG1 d    #    3 ( :advcl 12 :aux 11 | :mark 1
+b :ARG0 r3    #    7 :nsubj 5
+b :ARG1 b2    #    7 :dobj 8
+r :ARG1 b    #    3 :ccomp 7
+b :mod p    #    7 :advmod 6
+r :ARG0 w    #    3 :nsubj 2
+d :ARG0 w    #    12 :nsubj 10
+d :ARG1 t    #    12 :dobj 14
+t :quant none0    #    14 :nummod 13
+
+153.
+i    #    3
+h    #    5
+u    #    7
+c :ARG0 a    #    1
+u :ARG1 i    #    7 :nsubj 3
+u :domain-of h    #    7 :dep 5
+a :ARG0-of c :ARG1 h :domain u    #    7 ( :advmod 1 ) | :dep 5
+
+154.
+d    #    4
+w    #    5
+y    #    1 :det 2
+y    #    1
+y    #    2
+d :degree-of w    #    5 :amod 4
+w :ARG1 y    #    5 :nsubj 1 :det 2
+
+155.
+a    #    1
+a4    #    14
+c    #    2
+a2    #    7
+a3    #    12
+s    #    10
+r    #    4
+o    #    15
+o2    #    3
+c    #    11
+c    #    5
+r :ARG2 c    #    4 :dobj 5
+r :ARG1 a2    #    4 :xcomp 7
+r :ARG0 c    #    4 :nsubj 2
+c :ARG0-of a    #    2 :compound 1
+a2 :ARG1 s    #    7 :nmod-to 10 :case 8
+a2 :ARG0 c    #    7 :nsubj 5
+s :ARG1-of a3    #    10 :acl-relcl 12
+a3 :ARG0 c    #    12 :nsubj 11
+a3 :ARG2 a4 :ARG1 o    #    12 :dobj 15 :compound 14
+o :ARG1-of a4    #    15 :compound 14
+r :ARG2-of o2    #    4 :aux 3
+
+156.
+p2    #    2
+p    #    7
+a    #    3
+d    #    4
+d :ARG0 a    #    4 :nsubj 3
+a :ARG0-of p2    #    3 :amod 2
+d :ARG1 p    #    4 :xcomp 7
+p :ARG1 a    #    7 :nsubjpass 3
+
+157.
+n    #    11
+a    #    9
+h    #    1
+g    #    8
+m    #    2
+s    #    6
+r    #    4
+p    #    3
+t    #    10
+r2    #    13
+r :ARG0 p    #    4 :nsubj 3
+m :beneficiary p    #    2 :dobj 3
+m :ARG0 h    #    2 :nsubj 1
+m :ARG1 r    #    2 :ccomp 4
+r :ARG1 a ( :op1 s ) | :op2 n    #    4 :dobj 6 ( :conj-and 11 ) | :cc 9
+s ( :op1 a ) | :op2 n    #    6 ( :conj-and 11 ) | :cc 9
+s :mod g    #    6 :nmod-of 8 :case 7
+n :mod r2    #    11 :nmod-of 13 :case 12
+n :mod t    #    11 :amod 10
+
+158.
+t    #    4
+a    #    7
+c    #    12
+i    #    11
+h    #    1
+e    #    3
+j    #    2
+f    #    5
+f    #    8
+a2    #    10 :advmod 9
+a2    #    9
+a2    #    10
+a :ARG1 c    #    7 :ccomp 12
+c :ARG2 a2    #    12 :advmod 10 :advmod 9
+c :ARG1 i    #    12 :nsubj 11
+f :mod t    #    5 :det 4
+a :ARG0 h    #    7 :nsubj 1
+a :ARG2 f    #    7 :dobj 8
+e :ARG2 f    #    3 :dobj 5
+e :time j    #    3 :advmod 2
+e :ARG0 h    #    3 :nsubj 1
+e :ARG1 a    #    3 :xcomp 7
+
+159.
+w2    #    15
+a    #    8
+w    #    10
+e    #    13
+g    #    3
+p    #    6
+none0    #    5
+r    #    12
+c2    #    1
+p    #    9
+a :time c2    #    8 :advmod 1
+g :ARG1 p    #    3 :nmod-of 6 :case 4
+c :name n :op1 none0    #    5
+p :mod c :name n :op1 none0    #    6 :amod 5
+r :ARG1 w2    #    12 :dobj 15
+w2 :ARG0 e    #    15 :nmod-poss 13
+a :ARG0 g    #    8 :nsubj 3
+a :purpose r    #    8 :xcomp 12
+a :ARG1 w    #    8 :dobj 10
+w :ARG0 p    #    10 :nmod-poss 9
+
+160.
+c    #    6
+s2    #    15
+p    #    4
+t2    #    10
+none0    #    3
+c2    #    8
+t :ARG1-of s    #    11
+s    #    11
+c2 :domain t :ARG1-of s    #    8 :nmod-of 11 :case 9
+s :ARG1 t :mod t2    #    11 :det 10
+c :ARG1 c2    #    6 :dobj 8
+p :polarity none0    #    4 :neg 3
+p :domain c    #    4 :xcomp 6
+c :ARG0 s2    #    6 :nmod-from 15 :case 12
+d    #    14
+none1    #    14
+d :polarity none1    #    14
+s2 :ARG0-of d :polarity none1    #    15 :amod 14
+
+161.
+t    #    2
+w    #    7
+w2    #    9
+s2    #    11
+h    #    4
+t2    #    5
+s    #    3
+h :ARG0 t    #    4 :nsubj 2
+s2 :ARG0 w2    #    11 :nsubj 9
+h :mod s    #    4 :advmod 3
+h :ARG1 t2    #    4 :dobj 5
+w :ARG2 s2    #    7 :advcl 11
+t2 :ARG1-of h :purpose w    #    4 :dobj 5 :xcomp 7
+w :ARG1 t    #    7 :nsubj 2
+
+162.
+t    #    7
+a    #    9
+c    #    13
+i    #    1
+h    #    3
+s    #    4
+o    #    5
+c2    #    6
+c2    #    14
+a2    #    2
+h :mod a2    #    3 :advmod 2
+h :ARG0 i    #    3 :nsubj 1
+c :ARG0 i    #    13 :nsubj 1
+h :op1-of a :op2 c    #    3 ( :cc 9 ) | :conj-and 11 :xcomp 13
+c :ARG1 c2    #    13 :dobj 14
+c2 :quant s    #    6 :det 4
+c2 :mod o    #    6 :amod 5
+h :ARG1 c2    #    3 :dobj 6
+h :ARG1 c2 :location t    #    3 ( :dobj 6 ) | :advmod 7
+
+163.
+a    #    10
+c    #    21
+d3    #    16
+i    #    1
+i    #    6
+c4    #    15
+c3    #    15
+l    #    4
+r    #    8
+o    #    17
+c2    #    7
+none0    #    18
+none1    #    13
+p    #    20
+m :op1 none1    #    13
+m    #    13
+o :op1 none0    #    18 :advmod 17
+c4 :quant m :op1 none1    #    13 :nmod-of 15 :case 14
+l    #    2 :dobj 4
+l :ARG1 r    #    4 :nmod-at 8 :case 5
+l :ARG0 i    #    5 ( :dobj 4 ) | :nsubj 1
+r :ARG1 c2    #    8 :compound 7
+r :ARG1 c2 :ARG0 i    #    8 ( :compound 7 ) | :nmod-poss 6
+i2    #    11 :mwe 12
+i2 :ARG2 c4 :quant m :op1 none1    #    13 ( :nmod-of 15 ) | :case 11 :mwe 12
+c :ARG1 c3 ( :quant o :op1 none0 ) | :ARG1-of i2 :ARG2 c4 :quant m :op1 none1    #    21 :nsubjpass 18 ( :advmod 17 ) | :nmod-out-of 13 ( :case 11 :mwe 12 ) | :nmod-of 15 :case 14
+c :manner p    #    21 :advmod 20
+a ( :op1 l ) | :op2 c    #    2 ( :cc 10 ) | :conj-and 21
+c4 :ARG1-of d3    #    15 :amod 16
+
+164.
+w2    #    6
+a    #    2
+w    #    1
+d    #    5
+none1    #    10
+e    #    10
+none0    #    9
+s    #    3
+e :name n ( :op1 none0 ) | :op2 none1    #    10 :compound 9
+s :ARG0 w    #    3 :nsubj 1
+s :ARG1 d    #    3 :dobj 5
+w2 :ARG0 e    #    6 :nmod-by 10 :case 7
+d :ARG1-of w2    #    5 :acl 6
+s :ARG0 w :quant a    #    3 ( :nsubj 2 ) | :nsubj 1
+
+165.
+p2    #    3
+b    #    13
+t4    #    15
+a    #    19
+t2    #    15
+s    #    5
+l    #    10
+l2    #    10
+l2    #    17
+r    #    11
+e4    #    4
+l2    #    10
+p    #    8
+r2    #    14
+r2    #    16
+b :time s    #    13 :advcl 5 :advmod 1
+b :mod r    #    13 :advmod 11
+b :ARG1 t2    #    13 :nmod-as 15
+s :ARG0 e4    #    5 :compound 4
+s :ARG0 e4 :mod p2    #    5 ( :compound 4 ) | :amod 3
+b :ARG1 t2 :domain l    #    13 ( :nsubj 10 ) | :nmod-as 15 :case 14
+l :poss p    #    10 :nmod-poss 8
+b :ARG1 t2 :ARG1-of r2    #    13 :nmod-as 15 :case 14
+t2 :ARG1-of r2    #    15 :case 14
+l2 :poss a    #    17 :nmod-of 19 :case 18
+t4 :domain l2 :poss a    #    15 :nmod-as 17 :nmod-of 19 :case 18
+r2 :ARG2 t4    #    15 :case 14
+
+166.
+a    #    10
+v    #    15
+i    #    1
+none2    #    5
+none2    #    8
+e    #    9
+d    #    14
+p    #    2
+none0    #    12
+l    #    13
+a2    #    19
+o    #    7
+l2    #    18
+none1    #    17
+p2 :name n :op1 none2    #    5
+c :name n2 :op1 none1    #    17
+l2 :poss c :name n2 :op1 none1    #    18 :amod 17
+p :ARG0 i    #    2 :nsubj 1
+p :ARG2 p2 :name n :op1 none2    #    2 :nmod-to 5 :case 3
+o :op1-of a :op2 l    #    7 ( :conj-and 13 ) | :cc 10
+o :ARG1 e    #    7 :dobj 9
+o :ARG0 p2 :name n :op1 none2    #    7 :nsubj 5
+l :ARG0 p2 :name n :op1 none2    #    13 :nsubj 5
+e :part-of p2 :name n :op1 none2    #    9 :nmod-poss 8
+l :polarity none0    #    13 :neg 12
+l :ARG1 v    #    13 :ccomp 15
+v :ARG0 d    #    15 :nsubj 14
+v :mod a2    #    15 :advmod 19
+v :ARG1 l2    #    15 :dobj 18
+p :ARG1 a ( :op1 o ) | :op2 l    #    2 ( :xcomp 13 ) | :xcomp 7 ( :cc 10 ) | :conj-and 13
+
+167.
+s4    #    13
+a    #    10
+s3    #    11
+s2    #    8
+d    #    6
+f    #    9
+s    #    5
+a2    #    2
+s :op1-of a ( :op2 s2 ) | :op3 s3    #    5 ( :cc 10 ) | ( :conj-and 8 ) | :conj-and 11
+a2 :ARG1 a ( :op1 s ) | ( :op2 s2 ) | :op3 s3    #    3 ( :nsubj 2 ) | :xcomp 5 ( :cc 10 ) | ( :conj-and 8 ) | :conj-and 11
+s :ARG1 d    #    5 :dobj 6
+s2 :ARG1 f    #    8 :dobj 9
+s3 :ARG1 s4    #    11 :dobj 13
+
+168.
+t    #    4
+a    #    11
+m3    #    7
+p3    #    9
+m2    #    8
+h    #    14
+h    #    1
+m4    #    17
+m    #    3
+none0    #    16
+a2    #    20
+p2    #    15
+p    #    2
+c    #    13
+l    #    19
+m4 :ARG1 a2    #    17 :dobj 20
+a2 :ARG0-of l    #    20 :amod 19
+m4 :ARG0 h    #    17 :nsubj 14
+m4 :domain-of p2    #    17 :aux 15
+m4 :domain-of p2 :polarity none0    #    17 ( :aux 15 ) | :neg 16
+m :domain-of p :ARG1-of c :ARG2 p2 :domain m4    #    3 ( :aux 2 ) | ( :cc 13 ) | :conj-but 17 :aux 15
+m :domain-of p    #    3 :aux 2
+m :ARG0 h    #    3 :nsubj 1
+m :ARG1 t    #    3 :dobj 4
+t :mod p3    #    4 :acl-relcl 9
+p3 :degree m2 :mod m3    #    9 ( :advmod 8 ) | :advmod 7
+p3 :compared-to a    #    9 :nmod-than 11 :case 10
+
+169.
+none0    #    5
+c    #    6
+d    #    2
+b    #    9
+p    #    4
+g    #    3
+p2 :ARG0-of h :ARG2 g    #    3
+c :ARG1 b    #    6 :xcomp 9
+c :ARG0 p2 :ARG0-of h :ARG2 g    #    6 :nsubj 3
+b :domain p2 :ARG0-of h :ARG2 g    #    9 :nsubj 3
+g :ARG2-of h :ARG0 p2 :ARG1-of d    #    3 :amod 2
+c :domain-of p :polarity none0    #    6 ( :neg 5 ) | :aux 4
+
+170.
+d    #    10
+y    #    2
+y    #    9
+g    #    5
+h    #    7
+f    #    3
+g :time d    #    5 :advcl 10 :advmod 8
+d :ARG1 y    #    10 :nsubj 9
+g :ARG4 h    #    5 :nmod-to 7 :case 6
+f :ARG1 g    #    3 :advcl 5
+f :ARG0 y    #    3 :nsubj 2
+
+171.
+s    #    4
+s    #    6
+s    #    4 :compound-prt 6
+t    #    3
+i    #    5
+a    #    1
+s :ARG0 t    #    4 :nsubj 3
+s :ARG1 i    #    4 :dobj 5
+s :manner a    #    4 :advmod 1
+
+172.
+v    #    4
+h    #    3
+e    #    2
+q    #    17
+s2    #    8
+t2    #    5
+p    #    7
+v2    #    18
+t    #    1
+s    #    1
+t :mod s    #    1
+w    #    12
+s3    #    12
+s3 :extent w    #    12
+e :mod t :mod s    #    2 :amod 1
+h :ARG0 e    #    3 :nsubj 2
+l2    #    14
+l    #    14
+l :ARG2 l2    #    14
+t2 :mod v    #    5 :amod 4
+v2 :ARG2 q    #    18 :advmod 17
+t2 :mod-of s2    #    5 :nmod-of 8 :case 6
+s2 :ARG1-of l :ARG2 l2    #    8 :acl-relcl 14
+s2 :ARG1-of l :ARG2 l2    #    14 :nsubj 8
+s2 :ARG0-of p    #    8 :compound 7
+s2 :ARG1-of s3 :extent w    #    8 :acl-relcl 12
+s2 :ARG1-of s3 :extent w    #    12 :nsubj 8
+s2 :ARG1-of v2    #    8 :acl-relcl 18
+s2 :ARG1-of v2    #    18 :nsubj 8
+h :ARG1 s2 :mod t2    #    3 :dobj 5 :nmod-of 8 :case 6
+
+173.
+n    #    1
+p2    #    6
+b    #    11
+d    #    2
+none1    #    13
+none0    #    4
+s    #    10
+c2    #    15
+r    #    12
+p    #    3
+c    #    8
+c2 :polarity none1    #    15 :neg 13
+p2 :domain-of p :polarity none0    #    6 ( :aux 3 ) | :neg 4
+b :mod s    #    11 :compound 10
+c2 :ARG1 b    #    15 :nsubj 11
+r :ARG1 c2    #    15 :aux 12
+p2 :ARG1 d    #    6 :nsubjpass 2
+d :mod n    #    2 :amod 1
+p2 :domain-of p :ARG1-of c :ARG2 r :ARG1 c2    #    6 ( :aux 3 ) | ( :cc 8 ) | :conj-but 15 :aux 12
+
+174.
+u2    #    5
+u2    #    14
+n    #    7
+n    #    6
+t    #    8
+a    #    18
+w    #    13
+w    #    4
+b    #    19
+w2    #    13
+w2    #    4
+g    #    15
+f    #    3
+y    #    10
+u    #    5
+u    #    14
+c    #    1
+i    #    16
+b    #    19 :compound 20
+b :ARG1 u    #    19 ( :compound 20 ) | :nsubj 14
+t    #    8 :compound 9
+n    #    7 :neg 6
+u :ARG0-of w    #    14 :amod 13
+u2 :ARG0-of w2    #    5 :amod 4
+t :time n    #    8 :advmod 7 :neg 6
+p :ARG1-of e    #    11
+e    #    11
+y :mod-of p :ARG1-of e    #    11 :amod 10
+t :ARG1 p :ARG1-of e    #    8 :dobj 11
+g :ARG1 u    #    15 :nsubj 14
+u2 :ARG0-of t    #    5 :acl 8
+u2 :mod f    #    5 :amod 3
+c :ARG0 t :ARG0 u2    #    1 :amod-to 5 ( :case 2 ) | :acl 8
+g :ARG1-of c    #    15 :advmod 1
+o :degree m    #    17
+o    #    17
+m    #    17
+b :op2-of a :op1 o :degree m    #    17 ( :conj-and 19 ) | :cc 18
+b :op2-of a ( :op1 o :degree m ) | :manner i    #    17 ( :conj-and 19 ) | ( :advmod 16 ) | :cc 18
+g :ARG2 a ( :op2 b ) | :op1 o :degree m    #    15 ( :xcomp 19 ) | :xcomp 17 ( :conj-and 19 ) | :cc 18
+
+175.
+f    #    1
+r    #    3
+h2    #    5
+a    #    17
+a2    #    4
+none0    #    11
+none1    #    8
+o    #    12 :dobj 14 :neg 13
+p :mod c :name n :op1 none0    #    11
+p :mod c :name n :op1 none0    #    18
+o :ARG1 p :mod c :name n :op1 none0    #    12 ( :nsubj 11 ) | :dobj 14 :neg 13
+f :ARG1 p :mod c :name n :op1 none0    #    1 :nsubj 11
+a :ARG1 p :mod c :name n :op1 none0    #    17 :dobj 18
+a :ARG0 p :mod c :name n :op1 none0    #    17 :nsubj 11
+r :op1-of a2 :op2 h2    #    3 ( :conj-and 5 ) | :cc 4
+f :ARG0 a2 ( :op1 r ) | :op2 h2    #    1 :nmod-with 3 ( :case 2 ) | ( :conj-and 5 ) | :cc 4
+p2 :mod c4 :name n2 :op1 none1    #    8
+a2 ( :op2 h2 ) | ( :op1 r ) | :example p2 :mod c4 :name n2 :op1 none1    #    3 ( :cc 4 ) | ( :conj-and 5 ) | :nmod-like 8 :case 6
+o ( :ARG2 a ) | :ARG1-of c3 :ARG0 f    #    12 ( :dobj 14 :neg 13 ) | ( :advcl 1 ) | ( :cc 15 ) | :conj-but 17
+o :ARG2 a    #    12 ( :dobj 14 :neg 13 ) | ( :cc 15 ) | :conj-but 17
+
+176.
+n    #    13
+a    #    12
+w    #    17
+i    #    6
+h    #    7
+g3    #    15
+r    #    11
+g2    #    9
+c    #    4 ( :case 1 ) | :nummod 3
+g :ARG0-of g2    #    9
+h :ARG1-of c    #    7 :nmod-on 4 ( :case 1 ) | :nummod 3
+h :ARG2 g :ARG0-of g2    #    7 :dobj 9
+h :ARG0 i    #    7 :nsubj 6
+r :op1-of a :op2 n    #    11 ( :conj-and 13 ) | :cc 12
+h :ARG1 a ( :op1 r ) | :op2 n    #    7 :xcomp 11 ( :conj-and 13 ) | :cc 12
+g3 :mod w    #    15 :nmod-of 17 :case 16
+r :ARG1 g3    #    11 :dobj 15
+n :ARG1 g3    #    13 :dobj 15
+r :ARG0 g :ARG0-if g2    #    11 :nsubj 9
+n :ARG0 g :ARG0-if g2    #    13 :nsubj 9
+
+177.
+a    #    15
+b2    #    4
+b    #    11
+g    #    14
+p    #    7
+none0    #    13
+u    #    3
+u :degree m2    #    3
+m2    #    3
+m    #    10
+c    #    6
+l    #    10
+l :degree m    #    10
+g :ARG1 b    #    14 :nsubj 11
+g :polarity none0    #    14 :neg 13
+g :condition p    #    14 :advcl 7
+g :condition p    #    14 :advcl 7 :mark 1
+b2 :mod u :degree m2    #    4 :amod 3
+p :ARG1 b2    #    7 :nsubjpass 4
+g :ARG4 a    #    14 :advmod 15
+p :manner c    #    7 :advmod 6
+b :mod l :degree m    #    11 :amod 10
+
+178.
+c    #    10
+m2    #    1
+a    #    6
+e    #    15
+e    #    13 :dobj 15
+e :ARG1 t2    #    15
+e :ARG1 t2    #    13 :dobj 15
+t    #    9
+h    #    5
+p    #    11
+d    #    18
+c3    #    7
+r    #    8
+c2    #    4
+g :degree m    #    14
+g    #    14
+m    #    14
+s    #    21
+c :time m2    #    10 :advmod 1
+h :op1-of a :op2 t    #    5 ( :conj-and 9 ) | :cc 6
+t :mod r    #    9 :compound 8
+t :ARG1-of c3    #    9 :amod 7
+h :ARG1-of c2    #    5 :amod 4
+c :ARG1 e    #    10 :xcomp 13 :dobj 15
+e :ARG0 p    #    13 ( :dobj 15 ) | :nsubj 11
+e :topic d    #    13 :dobj 15 :nmod-in 18 :case 16
+d :ARG1 s    #    18 :nmod-of 21 :case 19
+e :ARG1 t2 :mod g :degree m    #    15 :amod 14
+c :ARG0 a ( :op1 h ) | :op2 t    #    10 ( :nsubj 9 ) | :nsubj 5 ( :conj-and 9 ) | :cc 6
+
+189.
+p    #    2
+w    #    3
+i    #    1
+i    #    5
+t    #    8
+r    #    7
+c    #    6
+p :domain w    #    3 :aux 2
+w :ARG0 i    #    3 :nsubj 1
+w :ARG1 t    #    3 :nmod-on 8 :case 4
+t :mod r    #    8 :compound 7
+t :mod r :ARG0 i    #    8 ( :compound 7 ) | :nmod-poss 5
+t :mod c    #    8 :amod 6
+
+190.
+e    #    3
+h    #    1
+a    #    7
+c    #    12
+i    #    11
+a2    #    10 :advmod 9
+f    #    5
+f    #    8
+t    #    4
+j    #    2
+e :time j    #    3 :advmod 2
+e :ARG0 h    #    3 :nsubj 1
+e :ARG1 a    #    3 :acl 7
+e :ARG2 f    #    3 :dobj 5
+f :mod t    #    5 :det 4
+a :ARG0 h    #    7 :nsubj 1
+a :ARG2 f    #    7 :dobj 8
+a :ARG1 c    #    7 :ccomp 12
+c :ARG1 i    #    12 :nsubj 11
+c :ARG2 a2    #    12 :advmod 10 :advmod 9
+  
+191.
+q    #    3
+n :name n4 ( :op1 none0 ) | :op2 none1    #    2 :compound 1
+none0    #    1
+none1    #    2
+s    #    8
+g :ARG0-of g2    #    7
+g2    #    7
+c :name n2 :op1 none2    #    6
+none2    #    6
+i    #    5
+none3    #    5
+i :polarity none3    #    5
+e    #    16
+g3 :ARG0-of g4    #    14
+g4    #    14
+c2 :name n3 :op1 none4    #    13
+none4    #    13
+a    #    20
+i2    #    19
+h    #    18
+q :ARG0 n :name n4 ( :op1 none0 ) | :op2 none1    #    3 :nsubj 2 :compound 1
+q :ARG1 s    #    3 :dobj 8
+s :mod g :ARG0 g2    #    8 :compound 7
+g :ARG0 g2 :ARG1 c :name n2 :op1 none2    #    7 :amod 6
+s :ARG1-of i :polarity none3    #    8 :amod 5
+q :ARG2 e    #    3 :advcl 10 :ccomp 16
+e :ARG2 a    #    16 :nmod-in 20 :case 17
+a :topic i2    #    20 :compound 19
+a :mod h    #    20 :amod 18
+e :ARG1 g3 :ARG0 g4    #    16 :nsubjpass 14
+g3 :ARG0 g4 :ARG1 c2 :name n3 :op1 none4    #    14 :amod 13
+
+192.
+c    #    2
+g :name n :op1 none0    #    1
+none0    #    1
+l    #    7
+m2    #    6
+h    #    8
+c2 :name n2 :op1 none1    #    5
+none1    #    5
+w2    #    9
+d    #    12
+m    #    11
+w    #    3
+c :ARG0 g :name n :op1 none0    #    2 :nsubj 1
+c :manner w    #    2 :advmod 3
+c :ARG1 l :domain h    #    2 :ccomp 8 :amod 7
+l :degree m2    #    7 :advmod 6
+h :ARG0 c2 :name n2 :op1 none1    #    8 :nsubj 5
+h :ARG1 w2    #    8 :dobj 9
+w2 :ARG2-of d    #    9 :nmod-of 12 :case 10
+d :degree m    #    12 :compound 11
+
+193.
+s2    #    1 :mwe 2
+p :ARG1-of e2    #    3
+e2    #    3
+p4    #    18
+l4    #    17
+m    #    17
+l4 :degree m    #    17
+s5    #    22
+p2 :name n :op1 none0    #    5
+none0    #    5
+o    #    8
+s3 :name n2 :op1 none1    #    10
+s3 :name n2 :op1 none1    #    21
+none1    #    10
+r    #    11
+p3 :name n3 :op1 none2    #    13
+none2    #    13
+s2 :ARG0 p :ARG1 e2    #    3 :case 1 :mwe 2
+s2 ( :ARG1 p4 ) | :ARG0 p :ARG1 e2    #    18 :nmod-according_to 3 :case 1 :mwe 2
+p4 :domain p2 :name n :op1 none0    #    18 :nsubj 5
+p2 ( :ARG0-of o ) | :name n :op1 none0    #    5 :acl-relcl 8
+p2 ( :ARG0-of o ) | :name n :op1 none0    #    8 :nsubj 5
+o :ARG1 s3 :name n2 :op1 none1    #    8 :dobj 10
+o :ARG1-of r :ARG2 p3 :name n3 :op1 none2    #    8 :nmod-like 13 :case 11
+p4 :mod l4 :degree m    #    18 :amod 17
+l4 ( :degree m ) | :compared-to s5    #    17 :nmod-in 22 :case 19
+s5 :mod s3 :name n2 :op1 none1    #    22 :amod 21
+
+194.
+d    #    8
+h    #    6
+h2    #    13
+t    #    11
+n    #    10
+e    #    15
+w    #    18
+c    #    17
+c2 :name n2 :op1 none0    #    20 :goeswith 22
+none0    #    20 :goeswith 22
+none0    #    22
+none0    #    20
+a    #    7
+t2    #    4
+s    #    3
+d :ARG0 h    #    8 :nsubj 6
+d :mod a    #    8 :advmod 7
+d :time t2    #    8 :nmod-at 4 :case 1
+t2 :ARG1-of s    #    4 :amod 3
+d :ARG1 h2    #    8 :ccomp 13
+h2 :ARG1 t    #    13 :nsubjpass 11
+t :mod n    #    11 :amod 10
+t :purpose e    #    15 :nsubj 11
+e :ARG1 w    #    15 :dobj 18
+w :mod c    #    18 :amod 17
+w :location c2 :name n2 :op1 none0    #    18 :nmod-in 20 ( :goeswith 22 ) | :case 19
+
+195.
+c    #    8
+none0    #    8
+c :polarity none0    #    8
+l    #    1
+d :day none1 :month none2 :year none3    #    4 ( :nummod 3 ) | :nummod 5
+l :op1 d ( :day none1 ) | ( :month none2 ) | :year none3    #    4 ( :nummod 3 ) | ( :nummod 5 ) | :advmod 1
+none1    #    3
+none2    #    5
+none3    #    5
+o    #    20
+none4    #    9
+c2    #    11
+a3    #    17
+s    #    19
+c3 :name n :op1 none5    #    16
+none5    #    16
+s3    #    19
+c4 :name n2 :op1 none6    #    18
+c4 :name n2 :op1 none6    #    29
+none6    #    18
+none6    #    29
+g    #    10
+t    #    13
+p    #    14
+l2    #    23
+f    #    25
+b    #    26
+s2    #    27
+f2    #    30
+c ( :polarity none0 ) | :time l :op1 d :day none1 :month none2 :year none3    #    8 :nmod-on 4 ( :nummod 3 ) | ( :nummod 5 ) | ( :advmod 1 ) | :case 2
+c ( :polarity none0 ) | :domain o ( :op1 c2 :ARG1-of t ) | :op2 l2    #    8 ( :ccomp 23 ) | :ccomp 13 ( :cc 20 ) | ( :conj-or 23 ) | :nsubj 11
+o ( :op1 c2 :ARG1-of t ) | :op2 l2    #    13 ( :cc 20 ) | ( :conj-or 23 ) | :nsubj 11
+t :ARG2 p    #    13 :dobj 14
+c2 :ARG1-of t    #    13 :nsubj 11
+c2 :location g    #    11 :compound 10
+s :mod c3 :name n :op1 none5    #    19 :amod 16
+s3 :mod c4 :name n2 :op1 none6    #    19 :amod 18
+a3 ( :op1 s :mod c3 :name n :op1 none5 ) | :op2 s3 :mod c4 :name n2 :op1 none6    #    19 ( :amod 18 ) | :amod 16 ( :cc 17 ) | :conj-and 18
+c2 ( :ARG1-of t ) | :ARG0 a3 ( :op1 s :mod c3 :name n :op1 none5 ) | :op2 s3 :mod c4 :name n2 :op1 none6    #    13 ( :nsubj 11 ) | :nmod-between 19 ( :case 15 ) | ( :amod 18 ) | :amod 16 ( :cc 17 ) | :conj-and 18
+o ( :mode none4 ) | :op1 c2 :ARG1-of t    #    13 ( :mark 9 ) | ( :cc 20 ) | :nsubj 11
+l2 :ARG1 c2    #    23 :nsubjpass 11
+l2 :ARG2 f    #    23 :advcl 25
+f :ARG0 b :op1 s2    #    25 :nmod-between 27 :case 26
+b ( :op1 s2 ) | :op2 f2    #    27 ( :case 26 ) | :conj-and 30
+f2 :mod c4 :name n2 :op1 none6    #    30 :amod 29
+                            
+196.
+s    #    3
+p :name n ( :op1 none0 ) | :op2 none1    #    2 :compound 1
+none0    #    1
+none1    #    2
+c    #    11
+c3    #    11
+n2    #    13
+v    #    6
+m    #    5
+t    #    9
+k    #    8
+f    #    18
+p2    #    17
+none2    #    15
+s :ARG0 p :name n ( :op1 none0 ) | :op2 none1    #    3 :nsubj 2 :compound 1
+f :mod p2    #    18 :amod 17
+v :quant m    #    6 :amod 5
+v :mod t    #    6 :nmod-of 9 :case 7
+t :ARG1 k    #    9 :compound 8
+c :ARG1 v    #    11 :nsubjpass 6
+c3 :ARG1 v    #    11 :nsubjpass 6
+c :ARG0 n2    #    11 :nmod-agent 13 :case 12
+c2 ( :ARG1 c :ARG0 n2 ) | :ARG2 c3 :ARG0 f    #    11 :nmod-agent 13 ( :case 12 ) | :remnant 18 :case 16
+s :ARG1 c2 ( :ARG1 c :ARG0 n2 ) | :ARG2 c3 :ARG0 f    #    3 :ccomp 11 :nmod-agent 13 ( :case 12 ) | :remnant 18 :case 16
+
+197.
+c    #    7
+t    #    2
+t    #    11
+d    #    1
+c2 :name n :op1 none0    #    4
+none0    #    4
+s    #    9
+s2    #    8
+p :polarity none1    #    14
+none1    #    14
+p    #    14
+u    #    16
+c :ARG1 t    #    7 :nsubjpass 2
+c :mod s    #    7 :advmod 9
+s :degree s2    #    9 :advmod 8
+c :mod s :degree s2 :ARG0-of c3 :ARG1 p :polarity none1    #    7 ( :advmod 9 :advmod 8 ) | :ccomp 14
+p ( :polarity none1 ) | :domain u    #    14 :xcomp 16
+u :ARG1 t    #    16 :nsubj 11
+t :ARG1 d    #    2 :compound 1
+t :source c2 :name n :op1 none0    #    2 :nmod-from 4 :case 3
+c :mod s :degree s2 :ARG0-of c3 :ARG1 p :polarity none1    #    7 ( :advmod 9 :advmod 8 ) | :ccomp 14
+
+198.
+r    #    5
+p    #    6
+a2    #    7
+p2 :ARG0-of c3    #    12
+c3    #    12
+p2 :ARG0-of b    #    14
+b    #    14
+c2 :name n :op1 none0    #    16
+none0    #    16
+k    #    10
+t    #    9
+a3    #    4
+a    #    3
+r2    #    2
+a :ARG0-of r2    #    3 :compound 2
+p :mod a3    #    6 :advmod 4
+p :ARG1 a2    #    6 :dobj 7
+r :ARG1 p    #    6 :aux 5
+k :mod t    #    10 :det 9
+r ( :ARG1 p ) | :ARG2 a    #    6 ( :nsubj 3 ) | :aux 5
+p :ARG0 a    #    6 :nsubj 3
+p :ARG2 p2 ( :ARG0-of c3 ) | :mod k    #    6 :nmod-to 10 ( :case 8 ) | :nmod-of 12 :case 11
+p2 ( :ARG0-of c3 ) | :ARG0-of b    #    12 ( :cc 13 ) | :conj-and 14
+p2 :ARG0-of b :ARG1 c2 :name n :op1 none0    #    14 :nmod-of 16 :case 15
+            
+199.
+r    #    8
+r :polarity none0    #    8 :neg 7
+none0    #    7
+i    #    2
+p :ARG0-of t    #    5
+t    #    5
+r :ARG1 i    #    8 :nsubjpass 2
+i :poss p :ARG0-of t    #    2 :nmod-of 5 :case 3
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+1	word	lemma	_	_	_	2	det	_	_
+2	word	lemma	_	_	_	8	parataxis	_	_
+3	word	lemma	_	_	_	2	cop	_	_
+4	word	lemma	_	_	_	2	amod-tmod	_	_
+5	word	lemma	_	_	_	8	punct	_	_
+6	word	lemma	_	_	_	8	aux	_	_
+7	word	lemma	_	_	_	8	nsubj	_	_
+8	word	lemma	_	_	_	0	ROOT	_	_
+9	word	lemma	_	_	_	8	compound-prt	_	_
+10	word	lemma	_	_	_	11	det	_	_
+11	word	lemma	_	_	_	8	advmod	_	_
+12	word	lemma	_	_	_	15	det	_	_
+13	word	lemma	_	_	_	14	compound	_	_
+14	word	lemma	_	_	_	15	compound	_	_
+15	word	lemma	_	_	_	17	nmod-poss	_	_
+16	word	lemma	_	_	_	15	case	_	_
+17	word	lemma	_	_	_	8	dobj	_	_
+18	word	lemma	_	_	_	19	case	_	_
+19	word	lemma	_	_	_	17	nmod-of	_	_
+20	word	lemma	_	_	_	8	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	9	det	_	_
+4	word	lemma	_	_	_	9	amod	_	_
+5	word	lemma	_	_	_	6	punct	_	_
+6	word	lemma	_	_	_	9	compound	_	_
+7	word	lemma	_	_	_	6	nummod	_	_
+8	word	lemma	_	_	_	9	punct	_	_
+9	word	lemma	_	_	_	11	nsubj	_	_
+9	word	lemma	_	_	_	2	dobj	_	_
+10	word	lemma	_	_	_	11	mark	_	_
+11	word	lemma	_	_	_	2	xcomp	_	_
+12	word	lemma	_	_	_	11	compound-prt	_	_
+13	word	lemma	_	_	_	15	case	_	_
+14	word	lemma	_	_	_	15	det	_	_
+15	word	lemma	_	_	_	11	nmod-in	_	_
+16	word	lemma	_	_	_	2	punct	_	_
+17	word	lemma	_	_	_	2	cc	_	_
+18	word	lemma	_	_	_	19	compound	_	_
+19	word	lemma	_	_	_	23	nsubj	_	_
+20	word	lemma	_	_	_	19	cc	_	_
+21	word	lemma	_	_	_	23	nsubj	_	_
+21	word	lemma	_	_	_	19	conj-and	_	_
+22	word	lemma	_	_	_	23	advmod	_	_
+23	word	lemma	_	_	_	2	conj-and	_	_
+24	word	lemma	_	_	_	25	case	_	_
+25	word	lemma	_	_	_	23	nmod-in	_	_
+26	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	8	aux	_	_
+2	word	lemma	_	_	_	8	nsubjpass	_	_
+3	word	lemma	_	_	_	8	auxpass	_	_
+4	word	lemma	_	_	_	8	mark	_	_
+5	word	lemma	_	_	_	6	det	_	_
+6	word	lemma	_	_	_	8	nsubjpass	_	_
+7	word	lemma	_	_	_	8	auxpass	_	_
+8	word	lemma	_	_	_	0	ROOT	_	_
+9	word	lemma	_	_	_	8	punct	_	_
+
+1	word	lemma	_	_	_	22	advmod	_	_
+2	word	lemma	_	_	_	22	punct	_	_
+3	word	lemma	_	_	_	22	csubj	_	_
+3	word	lemma	_	_	_	26	nsubj	_	_
+4	word	lemma	_	_	_	6	det	_	_
+5	word	lemma	_	_	_	6	compound	_	_
+6	word	lemma	_	_	_	3	dobj	_	_
+7	word	lemma	_	_	_	3	punct	_	_
+8	word	lemma	_	_	_	12	advmod	_	_
+9	word	lemma	_	_	_	12	det	_	_
+10	word	lemma	_	_	_	12	amod	_	_
+11	word	lemma	_	_	_	12	amod	_	_
+12	word	lemma	_	_	_	6	appos	_	_
+13	word	lemma	_	_	_	3	punct	_	_
+14	word	lemma	_	_	_	3	conj	_	_
+14	word	lemma	_	_	_	22	csubj	_	_
+14	word	lemma	_	_	_	26	nsubj	_	_
+15	word	lemma	_	_	_	16	compound	_	_
+16	word	lemma	_	_	_	14	dobj	_	_
+17	word	lemma	_	_	_	16	cc	_	_
+18	word	lemma	_	_	_	21	amod	_	_
+19	word	lemma	_	_	_	20	amod	_	_
+20	word	lemma	_	_	_	21	compound	_	_
+21	word	lemma	_	_	_	16	conj-and	_	_
+21	word	lemma	_	_	_	14	dobj	_	_
+22	word	lemma	_	_	_	0	ROOT	_	_
+23	word	lemma	_	_	_	26	mark	_	_
+24	word	lemma	_	_	_	26	cop	_	_
+25	word	lemma	_	_	_	26	advmod	_	_
+26	word	lemma	_	_	_	22	xcomp	_	_
+27	word	lemma	_	_	_	22	punct	_	_
+
+1	word	lemma	_	_	_	2	compound	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	6	det	_	_
+5	word	lemma	_	_	_	6	amod	_	_
+6	word	lemma	_	_	_	3	dobj	_	_
+7	word	lemma	_	_	_	9	case	_	_
+8	word	lemma	_	_	_	9	det	_	_
+9	word	lemma	_	_	_	3	nmod-during	_	_
+10	word	lemma	_	_	_	9	acl	_	_
+11	word	lemma	_	_	_	16	case	_	_
+12	word	lemma	_	_	_	16	det	_	_
+13	word	lemma	_	_	_	16	compound	_	_
+14	word	lemma	_	_	_	16	punct	_	_
+15	word	lemma	_	_	_	16	amod	_	_
+16	word	lemma	_	_	_	10	nmod-by	_	_
+17	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	2	case	_	_
+2	word	lemma	_	_	_	15	nmod-with	_	_
+3	word	lemma	_	_	_	2	acl	_	_
+4	word	lemma	_	_	_	5	case	_	_
+5	word	lemma	_	_	_	3	nmod-in	_	_
+6	word	lemma	_	_	_	2	punct	_	_
+7	word	lemma	_	_	_	15	nsubj	_	_
+7	word	lemma	_	_	_	18	nsubj	_	_
+8	word	lemma	_	_	_	15	cop	_	_
+9	word	lemma	_	_	_	15	det	_	_
+10	word	lemma	_	_	_	12	compound	_	_
+11	word	lemma	_	_	_	12	punct	_	_
+12	word	lemma	_	_	_	15	amod	_	_
+13	word	lemma	_	_	_	15	amod	_	_
+14	word	lemma	_	_	_	15	compound	_	_
+15	word	lemma	_	_	_	0	ROOT	_	_
+15	word	lemma	_	_	_	16	nsubj	_	_
+15	word	lemma	_	_	_	18	nsubj	_	_
+16	word	lemma	_	_	_	15	acl-relcl	_	_
+17	word	lemma	_	_	_	16	cc	_	_
+18	word	lemma	_	_	_	16	conj-and	_	_
+18	word	lemma	_	_	_	15	acl-relcl	_	_
+19	word	lemma	_	_	_	21	compound	_	_
+20	word	lemma	_	_	_	19	punct	_	_
+21	word	lemma	_	_	_	22	amod	_	_
+22	word	lemma	_	_	_	16	dobj	_	_
+22	word	lemma	_	_	_	18	dobj	_	_
+23	word	lemma	_	_	_	15	punct	_	_
+
+1	word	lemma	_	_	_	3	advmod	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	6	advcl	_	_
+4	word	lemma	_	_	_	6	punct	_	_
+5	word	lemma	_	_	_	6	nsubj	_	_
+6	word	lemma	_	_	_	0	ROOT	_	_
+7	word	lemma	_	_	_	9	det	_	_
+8	word	lemma	_	_	_	9	compound	_	_
+9	word	lemma	_	_	_	6	dobj	_	_
+10	word	lemma	_	_	_	12	case	_	_
+11	word	lemma	_	_	_	12	det	_	_
+12	word	lemma	_	_	_	6	nmod-from	_	_
+13	word	lemma	_	_	_	14	case	_	_
+14	word	lemma	_	_	_	12	nmod-of	_	_
+15	word	lemma	_	_	_	17	case	_	_
+16	word	lemma	_	_	_	17	nmod-poss	_	_
+17	word	lemma	_	_	_	6	nmod-into	_	_
+18	word	lemma	_	_	_	6	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	4	det	_	_
+4	word	lemma	_	_	_	2	dobj	_	_
+5	word	lemma	_	_	_	15	mark	_	_
+6	word	lemma	_	_	_	8	det	_	_
+7	word	lemma	_	_	_	8	compound	_	_
+8	word	lemma	_	_	_	15	nsubj	_	_
+8	word	lemma	_	_	_	17	nsubj	_	_
+9	word	lemma	_	_	_	12	case	_	_
+10	word	lemma	_	_	_	12	det	_	_
+11	word	lemma	_	_	_	12	amod	_	_
+12	word	lemma	_	_	_	8	nmod-on	_	_
+13	word	lemma	_	_	_	15	cop	_	_
+14	word	lemma	_	_	_	15	advmod	_	_
+15	word	lemma	_	_	_	4	ccomp	_	_
+16	word	lemma	_	_	_	15	mark	_	_
+17	word	lemma	_	_	_	15	xcomp	_	_
+18	word	lemma	_	_	_	19	nummod	_	_
+19	word	lemma	_	_	_	17	nmod-tmod	_	_
+20	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	2	case	_	_
+2	word	lemma	_	_	_	8	nmod-from	_	_
+3	word	lemma	_	_	_	6	case	_	_
+4	word	lemma	_	_	_	6	det	_	_
+5	word	lemma	_	_	_	6	amod	_	_
+6	word	lemma	_	_	_	2	nmod-to	_	_
+7	word	lemma	_	_	_	9	punct	_	_
+8	word	lemma	_	_	_	9	nsubj	_	_
+8	word	lemma	_	_	_	11	nsubj	_	_
+9	word	lemma	_	_	_	0	ROOT	_	_
+10	word	lemma	_	_	_	11	mark	_	_
+11	word	lemma	_	_	_	9	xcomp	_	_
+12	word	lemma	_	_	_	11	dobj	_	_
+13	word	lemma	_	_	_	14	case	_	_
+14	word	lemma	_	_	_	11	nmod-in	_	_
+15	word	lemma	_	_	_	9	punct	_	_
+
+1	word	lemma	_	_	_	2	case	_	_
+2	word	lemma	_	_	_	18	nmod-in	_	_
+3	word	lemma	_	_	_	2	punct	_	_
+4	word	lemma	_	_	_	2	ref	_	_
+5	word	lemma	_	_	_	9	cop	_	_
+6	word	lemma	_	_	_	8	advmod	_	_
+7	word	lemma	_	_	_	8	nummod	_	_
+8	word	lemma	_	_	_	9	nmod-npmod	_	_
+9	word	lemma	_	_	_	2	acl-relcl	_	_
+10	word	lemma	_	_	_	12	case	_	_
+11	word	lemma	_	_	_	12	det	_	_
+12	word	lemma	_	_	_	9	nmod-from	_	_
+13	word	lemma	_	_	_	18	punct	_	_
+14	word	lemma	_	_	_	15	det	_	_
+15	word	lemma	_	_	_	18	nsubj	_	_
+16	word	lemma	_	_	_	18	aux	_	_
+17	word	lemma	_	_	_	18	neg	_	_
+18	word	lemma	_	_	_	0	ROOT	_	_
+19	word	lemma	_	_	_	20	det	_	_
+20	word	lemma	_	_	_	18	dobj	_	_
+21	word	lemma	_	_	_	23	case	_	_
+22	word	lemma	_	_	_	23	case	_	_
+23	word	lemma	_	_	_	20	nmod-over	_	_
+24	word	lemma	_	_	_	18	punct	_	_
+25	word	lemma	_	_	_	23	cc	_	_
+26	word	lemma	_	_	_	23	conj-or	_	_
+27	word	lemma	_	_	_	29	case	_	_
+28	word	lemma	_	_	_	29	det	_	_
+29	word	lemma	_	_	_	26	nmod-at	_	_
+30	word	lemma	_	_	_	18	punct	_	_
+
+1	word	lemma	_	_	_	3	case	_	_
+2	word	lemma	_	_	_	3	det	_	_
+3	word	lemma	_	_	_	13	nmod-on	_	_
+4	word	lemma	_	_	_	7	case	_	_
+5	word	lemma	_	_	_	7	det	_	_
+6	word	lemma	_	_	_	7	compound	_	_
+7	word	lemma	_	_	_	3	nmod-of	_	_
+8	word	lemma	_	_	_	9	punct	_	_
+9	word	lemma	_	_	_	3	parataxis	_	_
+10	word	lemma	_	_	_	11	compound	_	_
+11	word	lemma	_	_	_	9	advmod	_	_
+12	word	lemma	_	_	_	9	punct	_	_
+13	word	lemma	_	_	_	0	ROOT	_	_
+14	word	lemma	_	_	_	15	case	_	_
+15	word	lemma	_	_	_	13	nmod-on	_	_
+16	word	lemma	_	_	_	20	case	_	_
+17	word	lemma	_	_	_	20	nmod-poss	_	_
+18	word	lemma	_	_	_	17	name	_	_
+19	word	lemma	_	_	_	17	case	_	_
+20	word	lemma	_	_	_	15	nmod-at	_	_
+21	word	lemma	_	_	_	13	cop	_	_
+22	word	lemma	_	_	_	13	nsubj	_	_
+23	word	lemma	_	_	_	22	name	_	_
+24	word	lemma	_	_	_	22	punct	_	_
+25	word	lemma	_	_	_	22	conj-and	_	_
+25	word	lemma	_	_	_	13	nsubj	_	_
+26	word	lemma	_	_	_	25	name	_	_
+27	word	lemma	_	_	_	22	punct	_	_
+28	word	lemma	_	_	_	22	cc	_	_
+29	word	lemma	_	_	_	33	nmod-poss	_	_
+30	word	lemma	_	_	_	29	name	_	_
+31	word	lemma	_	_	_	29	case	_	_
+32	word	lemma	_	_	_	33	amod	_	_
+33	word	lemma	_	_	_	22	conj-and	_	_
+33	word	lemma	_	_	_	13	nsubj	_	_
+34	word	lemma	_	_	_	33	punct	_	_
+35	word	lemma	_	_	_	33	appos	_	_
+36	word	lemma	_	_	_	35	name	_	_
+37	word	lemma	_	_	_	13	punct	_	_
+
+1	word	lemma	_	_	_	3	case	_	_
+2	word	lemma	_	_	_	3	det	_	_
+3	word	lemma	_	_	_	8	nmod-after	_	_
+4	word	lemma	_	_	_	8	punct	_	_
+5	word	lemma	_	_	_	7	amod	_	_
+6	word	lemma	_	_	_	7	compound	_	_
+7	word	lemma	_	_	_	8	nsubj	_	_
+7	word	lemma	_	_	_	9	nsubj	_	_
+8	word	lemma	_	_	_	0	ROOT	_	_
+9	word	lemma	_	_	_	8	xcomp	_	_
+10	word	lemma	_	_	_	11	compound	_	_
+11	word	lemma	_	_	_	9	dobj	_	_
+12	word	lemma	_	_	_	8	punct	_	_
+
+1	word	lemma	_	_	_	2	compound	_	_
+2	word	lemma	_	_	_	4	nsubj	_	_
+3	word	lemma	_	_	_	4	punct	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	4	dobj	_	_
+5	word	lemma	_	_	_	6	nsubj	_	_
+6	word	lemma	_	_	_	4	xcomp	_	_
+7	word	lemma	_	_	_	6	compound-prt	_	_
+8	word	lemma	_	_	_	11	det-qmod	_	_
+9	word	lemma	_	_	_	8	mwe	_	_
+10	word	lemma	_	_	_	11	det	_	_
+11	word	lemma	_	_	_	6	dobj	_	_
+12	word	lemma	_	_	_	14	case	_	_
+13	word	lemma	_	_	_	14	det	_	_
+14	word	lemma	_	_	_	11	nmod-for	_	_
+15	word	lemma	_	_	_	16	advmod	_	_
+16	word	lemma	_	_	_	14	advmod	_	_
+17	word	lemma	_	_	_	19	case	_	_
+18	word	lemma	_	_	_	19	nmod-poss	_	_
+19	word	lemma	_	_	_	14	nmod-in	_	_
+20	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	5	case	_	_
+2	word	lemma	_	_	_	5	det	_	_
+3	word	lemma	_	_	_	5	amod	_	_
+4	word	lemma	_	_	_	5	nummod	_	_
+5	word	lemma	_	_	_	18	nmod-in	_	_
+6	word	lemma	_	_	_	5	punct	_	_
+7	word	lemma	_	_	_	11	case	_	_
+8	word	lemma	_	_	_	11	det	_	_
+9	word	lemma	_	_	_	11	amod	_	_
+10	word	lemma	_	_	_	11	amod	_	_
+11	word	lemma	_	_	_	18	nmod-behind	_	_
+11	word	lemma	_	_	_	13	nsubj	_	_
+12	word	lemma	_	_	_	11	ref	_	_
+13	word	lemma	_	_	_	11	acl-relcl	_	_
+14	word	lemma	_	_	_	13	dobj	_	_
+15	word	lemma	_	_	_	14	mwe	_	_
+16	word	lemma	_	_	_	14	mwe	_	_
+17	word	lemma	_	_	_	18	cop	_	_
+18	word	lemma	_	_	_	0	ROOT	_	_
+19	word	lemma	_	_	_	22	mark	_	_
+20	word	lemma	_	_	_	22	cop	_	_
+21	word	lemma	_	_	_	22	det	_	_
+22	word	lemma	_	_	_	18	xcomp	_	_
+23	word	lemma	_	_	_	29	case	_	_
+24	word	lemma	_	_	_	29	det	_	_
+25	word	lemma	_	_	_	26	compound	_	_
+26	word	lemma	_	_	_	29	nmod	_	_
+27	word	lemma	_	_	_	29	compound	_	_
+28	word	lemma	_	_	_	29	compound	_	_
+29	word	lemma	_	_	_	22	nmod-of	_	_
+30	word	lemma	_	_	_	31	punct	_	_
+31	word	lemma	_	_	_	29	appos	_	_
+32	word	lemma	_	_	_	31	punct	_	_
+33	word	lemma	_	_	_	11	punct	_	_
+
+1	word	lemma	_	_	_	5	nsubj	_	_
+2	word	lemma	_	_	_	5	cop	_	_
+3	word	lemma	_	_	_	5	neg	_	_
+4	word	lemma	_	_	_	5	det	_	_
+5	word	lemma	_	_	_	0	ROOT	_	_
+6	word	lemma	_	_	_	7	case	_	_
+7	word	lemma	_	_	_	5	nmod-of	_	_
+8	word	lemma	_	_	_	10	case	_	_
+9	word	lemma	_	_	_	10	det	_	_
+10	word	lemma	_	_	_	5	nmod-in	_	_
+11	word	lemma	_	_	_	5	punct	_	_
+12	word	lemma	_	_	_	13	advmod	_	_
+13	word	lemma	_	_	_	5	advmod	_	_
+14	word	lemma	_	_	_	17	case	_	_
+15	word	lemma	_	_	_	17	det	_	_
+16	word	lemma	_	_	_	17	amod	_	_
+17	word	lemma	_	_	_	13	nmod-in	_	_
+18	word	lemma	_	_	_	20	advmod	_	_
+19	word	lemma	_	_	_	20	expl	_	_
+20	word	lemma	_	_	_	17	acl-relcl	_	_
+21	word	lemma	_	_	_	23	det	_	_
+22	word	lemma	_	_	_	23	compound	_	_
+23	word	lemma	_	_	_	20	nsubj	_	_
+24	word	lemma	_	_	_	5	punct	_	_
+25	word	lemma	_	_	_	26	amod	_	_
+26	word	lemma	_	_	_	23	conj-and	_	_
+27	word	lemma	_	_	_	23	cc	_	_
+28	word	lemma	_	_	_	29	neg	_	_
+29	word	lemma	_	_	_	23	conj-and	_	_
+30	word	lemma	_	_	_	29	cc	_	_
+31	word	lemma	_	_	_	29	conj-or	_	_
+32	word	lemma	_	_	_	5	punct	_	_
+
+1	word	lemma	_	_	_	2	compound	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	4	punct	_	_
+4	word	lemma	_	_	_	2	appos	_	_
+5	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	2	compound	_	_
+2	word	lemma	_	_	_	4	compound	_	_
+3	word	lemma	_	_	_	4	compound	_	_
+4	word	lemma	_	_	_	5	nsubj	_	_
+4	word	lemma	_	_	_	18	nsubj	_	_
+5	word	lemma	_	_	_	0	ROOT	_	_
+6	word	lemma	_	_	_	7	det	_	_
+7	word	lemma	_	_	_	5	dobj	_	_
+8	word	lemma	_	_	_	9	amod	_	_
+9	word	lemma	_	_	_	5	nmod-tmod	_	_
+10	word	lemma	_	_	_	17	case	_	_
+11	word	lemma	_	_	_	12	compound	_	_
+12	word	lemma	_	_	_	17	nmod-poss	_	_
+13	word	lemma	_	_	_	12	case	_	_
+14	word	lemma	_	_	_	15	compound	_	_
+15	word	lemma	_	_	_	16	compound	_	_
+16	word	lemma	_	_	_	17	amod	_	_
+17	word	lemma	_	_	_	5	nmod-to	_	_
+18	word	lemma	_	_	_	5	xcomp	_	_
+19	word	lemma	_	_	_	23	case	_	_
+20	word	lemma	_	_	_	23	amod	_	_
+21	word	lemma	_	_	_	20	cc	_	_
+22	word	lemma	_	_	_	23	amod	_	_
+22	word	lemma	_	_	_	20	conj-and	_	_
+23	word	lemma	_	_	_	18	nmod-for	_	_
+24	word	lemma	_	_	_	25	case	_	_
+25	word	lemma	_	_	_	23	nmod-against	_	_
+26	word	lemma	_	_	_	27	case	_	_
+27	word	lemma	_	_	_	25	nmod-to	_	_
+28	word	lemma	_	_	_	5	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	1	punct	_	_
+3	word	lemma	_	_	_	1	conj	_	_
+4	word	lemma	_	_	_	1	punct	_	_
+5	word	lemma	_	_	_	1	conj	_	_
+6	word	lemma	_	_	_	1	punct	_	_
+7	word	lemma	_	_	_	1	conj	_	_
+8	word	lemma	_	_	_	7	cc	_	_
+9	word	lemma	_	_	_	1	conj	_	_
+9	word	lemma	_	_	_	7	conj-and	_	_
+10	word	lemma	_	_	_	1	punct	_	_
+11	word	lemma	_	_	_	1	conj	_	_
+12	word	lemma	_	_	_	1	punct	_	_
+13	word	lemma	_	_	_	1	conj	_	_
+
+1	word	lemma	_	_	_	2	mod	_	_
+2	word	lemma	_	_	_	5	nummod	_	_
+3	word	lemma	_	_	_	5	amod	_	_
+4	word	lemma	_	_	_	5	amod	_	_
+5	word	lemma	_	_	_	8	nsubjpass	_	_
+6	word	lemma	_	_	_	8	aux	_	_
+7	word	lemma	_	_	_	8	auxpass	_	_
+8	word	lemma	_	_	_	0	ROOT	_	_
+9	word	lemma	_	_	_	10	case	_	_
+10	word	lemma	_	_	_	8	nmod-since	_	_
+11	word	lemma	_	_	_	13	case	_	_
+12	word	lemma	_	_	_	13	amod	_	_
+13	word	lemma	_	_	_	8	nmod-under	_	_
+14	word	lemma	_	_	_	16	case	_	_
+15	word	lemma	_	_	_	16	amod	_	_
+16	word	lemma	_	_	_	13	nmod-against	_	_
+17	word	lemma	_	_	_	16	cc	_	_
+18	word	lemma	_	_	_	19	amod	_	_
+19	word	lemma	_	_	_	13	nmod-against	_	_
+19	word	lemma	_	_	_	16	conj-and	_	_
+20	word	lemma	_	_	_	13	acl	_	_
+21	word	lemma	_	_	_	24	case	_	_
+22	word	lemma	_	_	_	24	compound	_	_
+23	word	lemma	_	_	_	24	compound	_	_
+24	word	lemma	_	_	_	20	nmod-by	_	_
+25	word	lemma	_	_	_	27	case	_	_
+26	word	lemma	_	_	_	27	det	_	_
+27	word	lemma	_	_	_	20	nmod-during	_	_
+28	word	lemma	_	_	_	8	punct	_	_
+
+1	word	lemma	_	_	_	5	det	_	_
+2	word	lemma	_	_	_	5	compound	_	_
+3	word	lemma	_	_	_	4	amod	_	_
+4	word	lemma	_	_	_	5	amod	_	_
+5	word	lemma	_	_	_	13	nsubj	_	_
+6	word	lemma	_	_	_	5	acl	_	_
+7	word	lemma	_	_	_	8	amod	_	_
+8	word	lemma	_	_	_	6	dobj	_	_
+9	word	lemma	_	_	_	10	case	_	_
+10	word	lemma	_	_	_	8	nmod-in	_	_
+11	word	lemma	_	_	_	13	cop	_	_
+12	word	lemma	_	_	_	13	det	_	_
+13	word	lemma	_	_	_	0	ROOT	_	_
+14	word	lemma	_	_	_	13	cc	_	_
+15	word	lemma	_	_	_	13	conj-and	_	_
+16	word	lemma	_	_	_	6	punct	_	_
+
+1	word	lemma	_	_	_	2	amod	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	6	det	_	_
+5	word	lemma	_	_	_	6	compound	_	_
+6	word	lemma	_	_	_	3	dobj	_	_
+7	word	lemma	_	_	_	9	case	_	_
+8	word	lemma	_	_	_	9	compound	_	_
+9	word	lemma	_	_	_	6	nmod-for	_	_
+10	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	1	punct	_	_
+3	word	lemma	_	_	_	1	conj	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	9	mark	_	_
+4	word	lemma	_	_	_	5	det	_	_
+5	word	lemma	_	_	_	9	nsubjpass	_	_
+6	word	lemma	_	_	_	9	aux	_	_
+7	word	lemma	_	_	_	9	auxpass	_	_
+8	word	lemma	_	_	_	9	advmod	_	_
+9	word	lemma	_	_	_	2	ccomp	_	_
+10	word	lemma	_	_	_	11	case	_	_
+11	word	lemma	_	_	_	9	nmod-on	_	_
+12	word	lemma	_	_	_	13	case	_	_
+13	word	lemma	_	_	_	11	nmod-of	_	_
+14	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	2	compound	_	_
+2	word	lemma	_	_	_	4	nsubj	_	_
+3	word	lemma	_	_	_	4	aux	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	7	case	_	_
+6	word	lemma	_	_	_	7	det	_	_
+7	word	lemma	_	_	_	4	nmod-to	_	_
+8	word	lemma	_	_	_	10	case	_	_
+9	word	lemma	_	_	_	10	det	_	_
+10	word	lemma	_	_	_	7	nmod-of	_	_
+11	word	lemma	_	_	_	13	case	_	_
+12	word	lemma	_	_	_	13	compound	_	_
+13	word	lemma	_	_	_	10	nmod-with	_	_
+14	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	3	det	_	_
+2	word	lemma	_	_	_	3	compound	_	_
+3	word	lemma	_	_	_	4	nsubj	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	7	mark	_	_
+6	word	lemma	_	_	_	7	nsubj	_	_
+7	word	lemma	_	_	_	4	ccomp	_	_
+8	word	lemma	_	_	_	10	nsubj	_	_
+9	word	lemma	_	_	_	10	aux	_	_
+10	word	lemma	_	_	_	7	ccomp	_	_
+11	word	lemma	_	_	_	10	advmod	_	_
+12	word	lemma	_	_	_	15	case	_	_
+13	word	lemma	_	_	_	15	det	_	_
+14	word	lemma	_	_	_	15	compound	_	_
+15	word	lemma	_	_	_	10	nmod-from	_	_
+16	word	lemma	_	_	_	19	mark	_	_
+17	word	lemma	_	_	_	19	nsubj	_	_
+18	word	lemma	_	_	_	19	aux	_	_
+19	word	lemma	_	_	_	10	advcl	_	_
+20	word	lemma	_	_	_	21	amod	_	_
+21	word	lemma	_	_	_	19	dobj	_	_
+22	word	lemma	_	_	_	23	case	_	_
+23	word	lemma	_	_	_	21	nmod-than	_	_
+24	word	lemma	_	_	_	25	case	_	_
+25	word	lemma	_	_	_	19	nmod-in	_	_
+26	word	lemma	_	_	_	28	case	_	_
+27	word	lemma	_	_	_	28	compound	_	_
+28	word	lemma	_	_	_	25	nmod-of	_	_
+29	word	lemma	_	_	_	28	cc	_	_
+30	word	lemma	_	_	_	25	nmod-of	_	_
+30	word	lemma	_	_	_	28	conj-and	_	_
+31	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	2	amod	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	5	nsubj	_	_
+5	word	lemma	_	_	_	3	ccomp	_	_
+6	word	lemma	_	_	_	7	det	_	_
+7	word	lemma	_	_	_	11	nsubj	_	_
+8	word	lemma	_	_	_	11	aux	_	_
+9	word	lemma	_	_	_	11	cop	_	_
+10	word	lemma	_	_	_	11	advmod	_	_
+11	word	lemma	_	_	_	5	ccomp	_	_
+12	word	lemma	_	_	_	16	case	_	_
+13	word	lemma	_	_	_	16	det	_	_
+14	word	lemma	_	_	_	16	nmod-tmod	_	_
+15	word	lemma	_	_	_	16	amod	_	_
+16	word	lemma	_	_	_	11	nmod-as	_	_
+16	word	lemma	_	_	_	26	nsubj	_	_
+17	word	lemma	_	_	_	24	case	_	_
+18	word	lemma	_	_	_	19	compound	_	_
+19	word	lemma	_	_	_	24	nmod-poss	_	_
+20	word	lemma	_	_	_	19	case	_	_
+21	word	lemma	_	_	_	24	amod	_	_
+22	word	lemma	_	_	_	23	amod	_	_
+23	word	lemma	_	_	_	24	compound	_	_
+24	word	lemma	_	_	_	16	nmod-over	_	_
+25	word	lemma	_	_	_	16	ref	_	_
+26	word	lemma	_	_	_	16	acl-relcl	_	_
+27	word	lemma	_	_	_	29	case	_	_
+28	word	lemma	_	_	_	27	mwe	_	_
+29	word	lemma	_	_	_	26	nmod-close_to	_	_
+30	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	3	punct	_	_
+3	word	lemma	_	_	_	1	dep	_	_
+4	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	7	nmod-poss	_	_
+4	word	lemma	_	_	_	3	case	_	_
+5	word	lemma	_	_	_	7	compound	_	_
+6	word	lemma	_	_	_	7	compound	_	_
+7	word	lemma	_	_	_	2	dobj	_	_
+8	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	3	nsubjpass	_	_
+2	word	lemma	_	_	_	3	auxpass	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	5	case	_	_
+5	word	lemma	_	_	_	3	nmod-to	_	_
+6	word	lemma	_	_	_	7	case	_	_
+7	word	lemma	_	_	_	3	nmod-in	_	_
+8	word	lemma	_	_	_	11	case	_	_
+9	word	lemma	_	_	_	11	det	_	_
+10	word	lemma	_	_	_	11	amod	_	_
+11	word	lemma	_	_	_	3	nmod-for	_	_
+12	word	lemma	_	_	_	13	case	_	_
+13	word	lemma	_	_	_	11	nmod-of	_	_
+14	word	lemma	_	_	_	11	acl	_	_
+15	word	lemma	_	_	_	19	case	_	_
+16	word	lemma	_	_	_	19	det	_	_
+17	word	lemma	_	_	_	18	compound	_	_
+18	word	lemma	_	_	_	19	compound	_	_
+19	word	lemma	_	_	_	14	nmod-as	_	_
+20	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	3	det	_	_
+2	word	lemma	_	_	_	3	amod	_	_
+3	word	lemma	_	_	_	8	nsubj	_	_
+4	word	lemma	_	_	_	3	acl	_	_
+5	word	lemma	_	_	_	8	cop	_	_
+6	word	lemma	_	_	_	8	det	_	_
+7	word	lemma	_	_	_	8	amod	_	_
+8	word	lemma	_	_	_	10	nmod-poss	_	_
+8	word	lemma	_	_	_	0	ROOT	_	_
+9	word	lemma	_	_	_	8	ref	_	_
+10	word	lemma	_	_	_	13	nsubj	_	_
+11	word	lemma	_	_	_	12	case	_	_
+12	word	lemma	_	_	_	10	nmod-in	_	_
+13	word	lemma	_	_	_	8	acl-relcl	_	_
+14	word	lemma	_	_	_	16	det	_	_
+15	word	lemma	_	_	_	16	amod	_	_
+16	word	lemma	_	_	_	13	dobj	_	_
+17	word	lemma	_	_	_	18	case	_	_
+18	word	lemma	_	_	_	16	nmod-with	_	_
+19	word	lemma	_	_	_	8	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	6	mark	_	_
+4	word	lemma	_	_	_	5	det	_	_
+5	word	lemma	_	_	_	6	nsubj	_	_
+6	word	lemma	_	_	_	2	ccomp	_	_
+7	word	lemma	_	_	_	9	amod	_	_
+8	word	lemma	_	_	_	9	amod	_	_
+9	word	lemma	_	_	_	6	dobj	_	_
+10	word	lemma	_	_	_	9	cc	_	_
+11	word	lemma	_	_	_	9	conj-and	_	_
+12	word	lemma	_	_	_	14	case	_	_
+13	word	lemma	_	_	_	14	compound	_	_
+14	word	lemma	_	_	_	9	nmod-than	_	_
+15	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	2	amod	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+2	word	lemma	_	_	_	8	nsubj	_	_
+2	word	lemma	_	_	_	15	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	8	mark	_	_
+5	word	lemma	_	_	_	8	cop	_	_
+6	word	lemma	_	_	_	8	det	_	_
+7	word	lemma	_	_	_	8	amod	_	_
+8	word	lemma	_	_	_	3	xcomp	_	_
+9	word	lemma	_	_	_	10	case	_	_
+10	word	lemma	_	_	_	8	nmod-of	_	_
+11	word	lemma	_	_	_	12	case	_	_
+12	word	lemma	_	_	_	8	nmod-to	_	_
+13	word	lemma	_	_	_	8	cc	_	_
+14	word	lemma	_	_	_	15	det	_	_
+15	word	lemma	_	_	_	3	xcomp	_	_
+15	word	lemma	_	_	_	8	conj-and	_	_
+16	word	lemma	_	_	_	20	case	_	_
+17	word	lemma	_	_	_	18	advmod	_	_
+18	word	lemma	_	_	_	20	det-predet	_	_
+19	word	lemma	_	_	_	20	det	_	_
+20	word	lemma	_	_	_	15	nmod-of	_	_
+21	word	lemma	_	_	_	20	acl	_	_
+22	word	lemma	_	_	_	24	case	_	_
+23	word	lemma	_	_	_	24	compound	_	_
+24	word	lemma	_	_	_	21	nmod-in	_	_
+25	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	6	expl	_	_
+2	word	lemma	_	_	_	6	aux	_	_
+3	word	lemma	_	_	_	6	cop	_	_
+4	word	lemma	_	_	_	6	det	_	_
+5	word	lemma	_	_	_	6	amod	_	_
+6	word	lemma	_	_	_	0	ROOT	_	_
+7	word	lemma	_	_	_	12	case	_	_
+8	word	lemma	_	_	_	10	amod	_	_
+9	word	lemma	_	_	_	10	compound	_	_
+10	word	lemma	_	_	_	12	nmod-poss	_	_
+11	word	lemma	_	_	_	10	case	_	_
+12	word	lemma	_	_	_	6	nmod-in	_	_
+13	word	lemma	_	_	_	15	case	_	_
+14	word	lemma	_	_	_	15	amod	_	_
+15	word	lemma	_	_	_	12	nmod-of	_	_
+16	word	lemma	_	_	_	19	case	_	_
+17	word	lemma	_	_	_	18	nmod	_	_
+18	word	lemma	_	_	_	19	compound	_	_
+19	word	lemma	_	_	_	15	nmod-including	_	_
+20	word	lemma	_	_	_	19	punct	_	_
+21	word	lemma	_	_	_	23	amod	_	_
+22	word	lemma	_	_	_	23	amod	_	_
+23	word	lemma	_	_	_	19	conj-and	_	_
+23	word	lemma	_	_	_	15	nmod-including	_	_
+24	word	lemma	_	_	_	19	cc	_	_
+25	word	lemma	_	_	_	27	amod	_	_
+26	word	lemma	_	_	_	27	amod	_	_
+27	word	lemma	_	_	_	15	nmod-including	_	_
+27	word	lemma	_	_	_	19	conj-and	_	_
+28	word	lemma	_	_	_	6	punct	_	_
+
+1	word	lemma	_	_	_	3	nsubj	_	_
+1	word	lemma	_	_	_	10	nsubj	_	_
+2	word	lemma	_	_	_	3	aux	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	6	case	_	_
+5	word	lemma	_	_	_	6	det	_	_
+6	word	lemma	_	_	_	3	nmod-on	_	_
+7	word	lemma	_	_	_	8	case	_	_
+8	word	lemma	_	_	_	6	nmod-of	_	_
+9	word	lemma	_	_	_	10	mark	_	_
+10	word	lemma	_	_	_	3	xcomp	_	_
+11	word	lemma	_	_	_	13	det	_	_
+12	word	lemma	_	_	_	13	amod	_	_
+13	word	lemma	_	_	_	10	dobj	_	_
+14	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	3	det	_	_
+2	word	lemma	_	_	_	3	nummod	_	_
+3	word	lemma	_	_	_	4	nsubj	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	6	compound	_	_
+6	word	lemma	_	_	_	4	dobj	_	_
+7	word	lemma	_	_	_	8	advmod	_	_
+8	word	lemma	_	_	_	6	acl	_	_
+9	word	lemma	_	_	_	10	case	_	_
+10	word	lemma	_	_	_	8	nmod-by	_	_
+11	word	lemma	_	_	_	10	cc	_	_
+12	word	lemma	_	_	_	8	nmod-by	_	_
+12	word	lemma	_	_	_	10	conj-and	_	_
+13	word	lemma	_	_	_	14	mark	_	_
+14	word	lemma	_	_	_	8	advcl-in	_	_
+15	word	lemma	_	_	_	16	amod	_	_
+16	word	lemma	_	_	_	14	dobj	_	_
+17	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	3	punct	_	_
+3	word	lemma	_	_	_	1	appos	_	_
+4	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	4	det	_	_
+4	word	lemma	_	_	_	6	nsubj	_	_
+4	word	lemma	_	_	_	11	nsubj	_	_
+4	word	lemma	_	_	_	2	dobj	_	_
+5	word	lemma	_	_	_	6	mark	_	_
+6	word	lemma	_	_	_	2	xcomp	_	_
+7	word	lemma	_	_	_	8	amod	_	_
+8	word	lemma	_	_	_	6	dobj	_	_
+9	word	lemma	_	_	_	6	cc	_	_
+10	word	lemma	_	_	_	11	neg	_	_
+11	word	lemma	_	_	_	6	conj-and	_	_
+11	word	lemma	_	_	_	2	xcomp	_	_
+12	word	lemma	_	_	_	14	nmod-poss	_	_
+13	word	lemma	_	_	_	12	case	_	_
+14	word	lemma	_	_	_	11	dobj	_	_
+15	word	lemma	_	_	_	14	cc	_	_
+16	word	lemma	_	_	_	17	amod	_	_
+17	word	lemma	_	_	_	14	conj-and	_	_
+17	word	lemma	_	_	_	11	dobj	_	_
+18	word	lemma	_	_	_	20	case	_	_
+19	word	lemma	_	_	_	18	mwe	_	_
+20	word	lemma	_	_	_	2	nmod-because_of	_	_
+21	word	lemma	_	_	_	23	case	_	_
+22	word	lemma	_	_	_	23	amod	_	_
+23	word	lemma	_	_	_	20	nmod-about	_	_
+24	word	lemma	_	_	_	26	case	_	_
+25	word	lemma	_	_	_	26	det	_	_
+26	word	lemma	_	_	_	23	nmod-in	_	_
+27	word	lemma	_	_	_	29	case	_	_
+28	word	lemma	_	_	_	29	amod	_	_
+29	word	lemma	_	_	_	26	nmod-of	_	_
+30	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	3	compound	_	_
+2	word	lemma	_	_	_	3	punct	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	3	det	_	_
+2	word	lemma	_	_	_	3	compound	_	_
+3	word	lemma	_	_	_	5	nsubj	_	_
+3	word	lemma	_	_	_	11	nsubj	_	_
+4	word	lemma	_	_	_	5	cop	_	_
+5	word	lemma	_	_	_	0	ROOT	_	_
+6	word	lemma	_	_	_	9	case	_	_
+7	word	lemma	_	_	_	9	nmod-poss	_	_
+8	word	lemma	_	_	_	7	case	_	_
+9	word	lemma	_	_	_	5	nmod-of	_	_
+10	word	lemma	_	_	_	5	cc	_	_
+11	word	lemma	_	_	_	5	conj-and	_	_
+12	word	lemma	_	_	_	22	mark	_	_
+13	word	lemma	_	_	_	15	nmod-poss	_	_
+14	word	lemma	_	_	_	13	case	_	_
+15	word	lemma	_	_	_	22	nsubj	_	_
+16	word	lemma	_	_	_	20	case	_	_
+17	word	lemma	_	_	_	20	det	_	_
+18	word	lemma	_	_	_	20	amod	_	_
+19	word	lemma	_	_	_	20	compound	_	_
+20	word	lemma	_	_	_	15	nmod-of	_	_
+21	word	lemma	_	_	_	22	advmod	_	_
+22	word	lemma	_	_	_	11	ccomp	_	_
+23	word	lemma	_	_	_	22	dobj	_	_
+24	word	lemma	_	_	_	27	mark	_	_
+25	word	lemma	_	_	_	27	nsubj	_	_
+26	word	lemma	_	_	_	27	aux	_	_
+27	word	lemma	_	_	_	22	advcl	_	_
+28	word	lemma	_	_	_	29	amod	_	_
+29	word	lemma	_	_	_	27	dobj	_	_
+30	word	lemma	_	_	_	5	punct	_	_
+
+1	word	lemma	_	_	_	2	det	_	_
+2	word	lemma	_	_	_	7	nsubj	_	_
+3	word	lemma	_	_	_	5	case	_	_
+4	word	lemma	_	_	_	5	compound	_	_
+5	word	lemma	_	_	_	2	nmod-in	_	_
+6	word	lemma	_	_	_	7	aux	_	_
+7	word	lemma	_	_	_	0	ROOT	_	_
+8	word	lemma	_	_	_	11	amod	_	_
+9	word	lemma	_	_	_	10	compound	_	_
+10	word	lemma	_	_	_	11	compound	_	_
+11	word	lemma	_	_	_	7	dobj	_	_
+12	word	lemma	_	_	_	20	mark	_	_
+13	word	lemma	_	_	_	14	det	_	_
+14	word	lemma	_	_	_	20	nsubj	_	_
+15	word	lemma	_	_	_	18	case	_	_
+16	word	lemma	_	_	_	18	det	_	_
+17	word	lemma	_	_	_	18	amod	_	_
+18	word	lemma	_	_	_	14	nmod-at	_	_
+19	word	lemma	_	_	_	20	aux	_	_
+20	word	lemma	_	_	_	7	advcl	_	_
+21	word	lemma	_	_	_	22	det	_	_
+22	word	lemma	_	_	_	20	dobj	_	_
+23	word	lemma	_	_	_	24	mark	_	_
+24	word	lemma	_	_	_	20	advcl	_	_
+25	word	lemma	_	_	_	26	mod	_	_
+26	word	lemma	_	_	_	24	dobj	_	_
+27	word	lemma	_	_	_	26	acl	_	_
+28	word	lemma	_	_	_	27	advmod	_	_
+29	word	lemma	_	_	_	30	case	_	_
+30	word	lemma	_	_	_	27	nmod-in	_	_
+31	word	lemma	_	_	_	7	punct	_	_
+
+1	word	lemma	_	_	_	5	nmod-poss	_	_
+2	word	lemma	_	_	_	1	case	_	_
+3	word	lemma	_	_	_	5	amod	_	_
+4	word	lemma	_	_	_	5	compound	_	_
+5	word	lemma	_	_	_	6	nsubj	_	_
+6	word	lemma	_	_	_	0	ROOT	_	_
+7	word	lemma	_	_	_	12	mark	_	_
+8	word	lemma	_	_	_	11	nmod-poss	_	_
+9	word	lemma	_	_	_	8	case	_	_
+10	word	lemma	_	_	_	11	compound	_	_
+11	word	lemma	_	_	_	12	nsubj	_	_
+12	word	lemma	_	_	_	6	advcl	_	_
+13	word	lemma	_	_	_	12	compound-prt	_	_
+14	word	lemma	_	_	_	12	dobj	_	_
+15	word	lemma	_	_	_	18	case	_	_
+16	word	lemma	_	_	_	18	nmod-poss	_	_
+17	word	lemma	_	_	_	18	compound	_	_
+18	word	lemma	_	_	_	12	nmod-along	_	_
+19	word	lemma	_	_	_	6	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+
+1	word	lemma	_	_	_	3	neg	_	_
+2	word	lemma	_	_	_	3	amod	_	_
+3	word	lemma	_	_	_	5	nsubj	_	_
+4	word	lemma	_	_	_	5	aux	_	_
+5	word	lemma	_	_	_	0	ROOT	_	_
+6	word	lemma	_	_	_	7	case	_	_
+7	word	lemma	_	_	_	5	nmod-as	_	_
+8	word	lemma	_	_	_	9	case	_	_
+9	word	lemma	_	_	_	5	nmod-in	_	_
+10	word	lemma	_	_	_	5	punct	_	_
+
+1	word	lemma	_	_	_	2	det	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+2	word	lemma	_	_	_	7	dobj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	5	nummod	_	_
+5	word	lemma	_	_	_	3	dobj	_	_
+6	word	lemma	_	_	_	7	mark	_	_
+7	word	lemma	_	_	_	3	xcomp	_	_
+8	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	3	punct	_	_
+3	word	lemma	_	_	_	1	appos	_	_
+4	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	2	amod	_	_
+2	word	lemma	_	_	_	5	nmod-tmod	_	_
+3	word	lemma	_	_	_	4	amod	_	_
+4	word	lemma	_	_	_	5	nsubj	_	_
+5	word	lemma	_	_	_	0	ROOT	_	_
+6	word	lemma	_	_	_	9	advmod	_	_
+7	word	lemma	_	_	_	6	mwe	_	_
+8	word	lemma	_	_	_	10	det	_	_
+9	word	lemma	_	_	_	10	nummod	_	_
+10	word	lemma	_	_	_	5	dobj	_	_
+11	word	lemma	_	_	_	10	acl	_	_
+12	word	lemma	_	_	_	16	case	_	_
+13	word	lemma	_	_	_	14	det	_	_
+14	word	lemma	_	_	_	16	compound	_	_
+15	word	lemma	_	_	_	14	case	_	_
+16	word	lemma	_	_	_	11	nmod-to	_	_
+17	word	lemma	_	_	_	10	advmod	_	_
+18	word	lemma	_	_	_	19	case	_	_
+19	word	lemma	_	_	_	17	nmod-of	_	_
+20	word	lemma	_	_	_	5	punct	_	_
+
+1	word	lemma	_	_	_	2	compound	_	_
+2	word	lemma	_	_	_	5	nsubj	_	_
+3	word	lemma	_	_	_	5	cop	_	_
+4	word	lemma	_	_	_	5	det	_	_
+5	word	lemma	_	_	_	0	ROOT	_	_
+6	word	lemma	_	_	_	16	case	_	_
+7	word	lemma	_	_	_	11	det	_	_
+8	word	lemma	_	_	_	9	amod	_	_
+9	word	lemma	_	_	_	11	amod	_	_
+10	word	lemma	_	_	_	11	compound	_	_
+11	word	lemma	_	_	_	16	nmod-poss	_	_
+12	word	lemma	_	_	_	11	case	_	_
+13	word	lemma	_	_	_	16	amod	_	_
+14	word	lemma	_	_	_	16	compound	_	_
+15	word	lemma	_	_	_	16	compound	_	_
+16	word	lemma	_	_	_	5	nmod-of	_	_
+17	word	lemma	_	_	_	5	punct	_	_
+
+1	word	lemma	_	_	_	2	compound	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	9	mark	_	_
+5	word	lemma	_	_	_	6	compound	_	_
+6	word	lemma	_	_	_	9	nsubj	_	_
+7	word	lemma	_	_	_	9	aux	_	_
+8	word	lemma	_	_	_	9	advmod	_	_
+9	word	lemma	_	_	_	3	ccomp	_	_
+10	word	lemma	_	_	_	12	det	_	_
+11	word	lemma	_	_	_	12	amod	_	_
+12	word	lemma	_	_	_	9	dobj	_	_
+13	word	lemma	_	_	_	9	cc	_	_
+14	word	lemma	_	_	_	18	mark	_	_
+15	word	lemma	_	_	_	18	nsubj	_	_
+16	word	lemma	_	_	_	18	aux	_	_
+17	word	lemma	_	_	_	18	cop	_	_
+18	word	lemma	_	_	_	9	conj-and	_	_
+18	word	lemma	_	_	_	3	ccomp	_	_
+19	word	lemma	_	_	_	21	advmod	_	_
+20	word	lemma	_	_	_	21	nsubj	_	_
+21	word	lemma	_	_	_	18	ccomp	_	_
+22	word	lemma	_	_	_	24	case	_	_
+23	word	lemma	_	_	_	24	compound	_	_
+24	word	lemma	_	_	_	21	nmod-towards	_	_
+25	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	2	det	_	_
+2	word	lemma	_	_	_	9	nsubj	_	_
+3	word	lemma	_	_	_	8	case	_	_
+4	word	lemma	_	_	_	8	nmod-poss	_	_
+5	word	lemma	_	_	_	4	case	_	_
+6	word	lemma	_	_	_	8	compound	_	_
+7	word	lemma	_	_	_	8	compound	_	_
+8	word	lemma	_	_	_	2	nmod-for	_	_
+9	word	lemma	_	_	_	0	ROOT	_	_
+10	word	lemma	_	_	_	12	case	_	_
+11	word	lemma	_	_	_	12	compound	_	_
+12	word	lemma	_	_	_	9	nmod-to	_	_
+13	word	lemma	_	_	_	22	mark	_	_
+14	word	lemma	_	_	_	15	det	_	_
+15	word	lemma	_	_	_	22	nsubjpass	_	_
+16	word	lemma	_	_	_	19	case	_	_
+17	word	lemma	_	_	_	19	det	_	_
+18	word	lemma	_	_	_	19	compound	_	_
+19	word	lemma	_	_	_	15	nmod-for	_	_
+20	word	lemma	_	_	_	22	aux	_	_
+21	word	lemma	_	_	_	22	auxpass	_	_
+22	word	lemma	_	_	_	9	ccomp	_	_
+23	word	lemma	_	_	_	25	case	_	_
+24	word	lemma	_	_	_	25	amod	_	_
+25	word	lemma	_	_	_	22	nmod-at	_	_
+26	word	lemma	_	_	_	30	case	_	_
+27	word	lemma	_	_	_	26	mwe	_	_
+28	word	lemma	_	_	_	30	det	_	_
+29	word	lemma	_	_	_	30	amod	_	_
+30	word	lemma	_	_	_	22	nmod-due_to	_	_
+31	word	lemma	_	_	_	30	acl	_	_
+32	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	10	mark	_	_
+4	word	lemma	_	_	_	7	det	_	_
+5	word	lemma	_	_	_	7	compound	_	_
+6	word	lemma	_	_	_	7	compound	_	_
+7	word	lemma	_	_	_	10	nsubjpass	_	_
+8	word	lemma	_	_	_	10	auxpass	_	_
+9	word	lemma	_	_	_	10	advmod	_	_
+10	word	lemma	_	_	_	2	ccomp	_	_
+11	word	lemma	_	_	_	14	case	_	_
+12	word	lemma	_	_	_	11	mwe	_	_
+13	word	lemma	_	_	_	14	amod	_	_
+14	word	lemma	_	_	_	10	nmod-due_to	_	_
+15	word	lemma	_	_	_	17	case	_	_
+16	word	lemma	_	_	_	17	det	_	_
+17	word	lemma	_	_	_	14	nmod-at	_	_
+18	word	lemma	_	_	_	20	case	_	_
+19	word	lemma	_	_	_	20	amod	_	_
+20	word	lemma	_	_	_	17	nmod-of	_	_
+21	word	lemma	_	_	_	23	case	_	_
+22	word	lemma	_	_	_	23	det	_	_
+23	word	lemma	_	_	_	20	nmod-about	_	_
+24	word	lemma	_	_	_	26	case	_	_
+25	word	lemma	_	_	_	26	amod	_	_
+26	word	lemma	_	_	_	23	nmod-of	_	_
+27	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	2	amod	_	_
+2	word	lemma	_	_	_	3	nmod	_	_
+3	word	lemma	_	_	_	4	nsubj	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	8	nmod	_	_
+6	word	lemma	_	_	_	5	cc	_	_
+7	word	lemma	_	_	_	5	conj-and	_	_
+7	word	lemma	_	_	_	8	nmod	_	_
+8	word	lemma	_	_	_	4	dobj	_	_
+9	word	lemma	_	_	_	10	mark	_	_
+10	word	lemma	_	_	_	8	acl	_	_
+11	word	lemma	_	_	_	12	compound	_	_
+12	word	lemma	_	_	_	13	nsubj	_	_
+13	word	lemma	_	_	_	10	ccomp	_	_
+14	word	lemma	_	_	_	15	case	_	_
+15	word	lemma	_	_	_	13	nmod-in	_	_
+16	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	4	det	_	_
+2	word	lemma	_	_	_	4	compound	_	_
+3	word	lemma	_	_	_	4	compound	_	_
+4	word	lemma	_	_	_	6	nsubj	_	_
+5	word	lemma	_	_	_	6	aux	_	_
+6	word	lemma	_	_	_	0	ROOT	_	_
+7	word	lemma	_	_	_	8	nummod	_	_
+8	word	lemma	_	_	_	6	dobj	_	_
+9	word	lemma	_	_	_	8	cc	_	_
+10	word	lemma	_	_	_	11	amod	_	_
+11	word	lemma	_	_	_	6	dobj	_	_
+11	word	lemma	_	_	_	8	conj-and	_	_
+12	word	lemma	_	_	_	14	case	_	_
+13	word	lemma	_	_	_	14	nummod	_	_
+14	word	lemma	_	_	_	6	nmod-in	_	_
+15	word	lemma	_	_	_	6	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+
+1	word	lemma	_	_	_	3	advmod	_	_
+2	word	lemma	_	_	_	1	mwe	_	_
+3	word	lemma	_	_	_	4	nummod	_	_
+4	word	lemma	_	_	_	12	nsubj	_	_
+5	word	lemma	_	_	_	4	cc	_	_
+6	word	lemma	_	_	_	7	nmod-poss	_	_
+7	word	lemma	_	_	_	4	conj-and	_	_
+7	word	lemma	_	_	_	12	nsubj	_	_
+8	word	lemma	_	_	_	7	cc	_	_
+9	word	lemma	_	_	_	11	nummod	_	_
+10	word	lemma	_	_	_	11	compound	_	_
+11	word	lemma	_	_	_	4	conj-and	_	_
+11	word	lemma	_	_	_	12	nsubj	_	_
+12	word	lemma	_	_	_	0	ROOT	_	_
+13	word	lemma	_	_	_	16	mark	_	_
+14	word	lemma	_	_	_	15	compound	_	_
+15	word	lemma	_	_	_	16	nsubj	_	_
+16	word	lemma	_	_	_	12	advcl	_	_
+17	word	lemma	_	_	_	19	amod	_	_
+18	word	lemma	_	_	_	19	amod	_	_
+19	word	lemma	_	_	_	16	dobj	_	_
+20	word	lemma	_	_	_	22	case	_	_
+21	word	lemma	_	_	_	22	amod	_	_
+22	word	lemma	_	_	_	16	nmod-in	_	_
+23	word	lemma	_	_	_	22	nummod	_	_
+24	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	3	det	_	_
+2	word	lemma	_	_	_	3	compound	_	_
+3	word	lemma	_	_	_	6	nsubj	_	_
+4	word	lemma	_	_	_	6	aux	_	_
+5	word	lemma	_	_	_	6	aux	_	_
+6	word	lemma	_	_	_	0	ROOT	_	_
+7	word	lemma	_	_	_	9	case	_	_
+8	word	lemma	_	_	_	9	det	_	_
+9	word	lemma	_	_	_	6	nmod-on	_	_
+9	word	lemma	_	_	_	15	nsubj	_	_
+10	word	lemma	_	_	_	12	case	_	_
+11	word	lemma	_	_	_	12	amod	_	_
+12	word	lemma	_	_	_	9	nmod-of	_	_
+13	word	lemma	_	_	_	9	ref	_	_
+14	word	lemma	_	_	_	15	aux	_	_
+15	word	lemma	_	_	_	9	acl-relcl	_	_
+16	word	lemma	_	_	_	17	amod	_	_
+17	word	lemma	_	_	_	15	dobj	_	_
+18	word	lemma	_	_	_	17	cc	_	_
+19	word	lemma	_	_	_	15	dobj	_	_
+19	word	lemma	_	_	_	17	conj-and	_	_
+20	word	lemma	_	_	_	6	punct	_	_
+
+1	word	lemma	_	_	_	2	compound	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	5	det	_	_
+5	word	lemma	_	_	_	3	dobj	_	_
+6	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	2	amod	_	_
+2	word	lemma	_	_	_	11	nmod-tmod	_	_
+3	word	lemma	_	_	_	4	compound	_	_
+4	word	lemma	_	_	_	10	nmod-poss	_	_
+5	word	lemma	_	_	_	4	case	_	_
+6	word	lemma	_	_	_	8	compound	_	_
+7	word	lemma	_	_	_	8	compound	_	_
+8	word	lemma	_	_	_	10	compound	_	_
+9	word	lemma	_	_	_	10	amod	_	_
+10	word	lemma	_	_	_	11	nsubj	_	_
+11	word	lemma	_	_	_	0	ROOT	_	_
+12	word	lemma	_	_	_	14	amod	_	_
+13	word	lemma	_	_	_	14	amod	_	_
+14	word	lemma	_	_	_	11	dobj	_	_
+15	word	lemma	_	_	_	16	mark	_	_
+16	word	lemma	_	_	_	11	acl	_	_
+17	word	lemma	_	_	_	20	mark	_	_
+18	word	lemma	_	_	_	20	nsubj	_	_
+18	word	lemma	_	_	_	23	nsubj	_	_
+19	word	lemma	_	_	_	20	aux	_	_
+20	word	lemma	_	_	_	16	ccomp	_	_
+21	word	lemma	_	_	_	20	dobj	_	_
+22	word	lemma	_	_	_	20	cc	_	_
+23	word	lemma	_	_	_	20	conj-or	_	_
+24	word	lemma	_	_	_	25	amod	_	_
+25	word	lemma	_	_	_	23	dobj	_	_
+26	word	lemma	_	_	_	28	case	_	_
+27	word	lemma	_	_	_	28	nummod	_	_
+28	word	lemma	_	_	_	23	nmod-within	_	_
+29	word	lemma	_	_	_	11	punct	_	_
+
+1	word	lemma	_	_	_	3	det	_	_
+2	word	lemma	_	_	_	3	amod	_	_
+3	word	lemma	_	_	_	8	nsubj	_	_
+3	word	lemma	_	_	_	6	nsubj	_	_
+4	word	lemma	_	_	_	6	aux	_	_
+5	word	lemma	_	_	_	6	cop	_	_
+6	word	lemma	_	_	_	0	ROOT	_	_
+7	word	lemma	_	_	_	8	mark	_	_
+8	word	lemma	_	_	_	6	xcomp	_	_
+9	word	lemma	_	_	_	8	dobj	_	_
+10	word	lemma	_	_	_	12	case	_	_
+11	word	lemma	_	_	_	12	nummod	_	_
+12	word	lemma	_	_	_	6	nmod-in	_	_
+13	word	lemma	_	_	_	6	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	1	punct	_	_
+3	word	lemma	_	_	_	1	conj	_	_
+4	word	lemma	_	_	_	1	punct	_	_
+5	word	lemma	_	_	_	1	conj	_	_
+
+1	word	lemma	_	_	_	5	nsubj	_	_
+2	word	lemma	_	_	_	4	case	_	_
+3	word	lemma	_	_	_	4	det	_	_
+4	word	lemma	_	_	_	1	nmod-of	_	_
+5	word	lemma	_	_	_	0	ROOT	_	_
+6	word	lemma	_	_	_	5	compound-prt	_	_
+7	word	lemma	_	_	_	10	case	_	_
+8	word	lemma	_	_	_	10	nummod	_	_
+9	word	lemma	_	_	_	10	amod	_	_
+10	word	lemma	_	_	_	5	nmod-over	_	_
+11	word	lemma	_	_	_	5	punct	_	_
+
+1	word	lemma	_	_	_	6	advmod	_	_
+2	word	lemma	_	_	_	3	nummod	_	_
+3	word	lemma	_	_	_	6	nsubj	_	_
+4	word	lemma	_	_	_	5	case	_	_
+5	word	lemma	_	_	_	3	nmod-in	_	_
+6	word	lemma	_	_	_	0	ROOT	_	_
+7	word	lemma	_	_	_	6	dobj	_	_
+8	word	lemma	_	_	_	6	punct	_	_
+
+1	word	lemma	_	_	_	2	compound	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	3	case	_	_
+2	word	lemma	_	_	_	3	nummod	_	_
+3	word	lemma	_	_	_	6	nmod-on	_	_
+4	word	lemma	_	_	_	3	nummod	_	_
+5	word	lemma	_	_	_	6	nsubj	_	_
+6	word	lemma	_	_	_	0	ROOT	_	_
+7	word	lemma	_	_	_	8	det	_	_
+8	word	lemma	_	_	_	6	dobj	_	_
+9	word	lemma	_	_	_	10	case	_	_
+10	word	lemma	_	_	_	6	nmod-on	_	_
+11	word	lemma	_	_	_	12	case	_	_
+12	word	lemma	_	_	_	10	nmod-of	_	_
+13	word	lemma	_	_	_	12	cc	_	_
+14	word	lemma	_	_	_	10	nmod-of	_	_
+14	word	lemma	_	_	_	12	conj-and	_	_
+15	word	lemma	_	_	_	16	case	_	_
+16	word	lemma	_	_	_	12	nmod-of	_	_
+17	word	lemma	_	_	_	6	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	6	punct	_	_
+3	word	lemma	_	_	_	6	case	_	_
+4	word	lemma	_	_	_	6	punct	_	_
+5	word	lemma	_	_	_	6	punct	_	_
+6	word	lemma	_	_	_	1	nmod-in	_	_
+7	word	lemma	_	_	_	8	punct	_	_
+8	word	lemma	_	_	_	6	dep	_	_
+9	word	lemma	_	_	_	6	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	1	cc	_	_
+3	word	lemma	_	_	_	4	amod	_	_
+4	word	lemma	_	_	_	1	conj-and	_	_
+5	word	lemma	_	_	_	1	punct	_	_
+6	word	lemma	_	_	_	1	dep	_	_
+7	word	lemma	_	_	_	6	cc	_	_
+8	word	lemma	_	_	_	6	conj-and	_	_
+8	word	lemma	_	_	_	1	dep	_	_
+9	word	lemma	_	_	_	1	punct	_	_
+10	word	lemma	_	_	_	1	dep	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+
+1	word	lemma	_	_	_	5	nsubj	_	_
+2	word	lemma	_	_	_	1	cc	_	_
+3	word	lemma	_	_	_	4	compound	_	_
+4	word	lemma	_	_	_	5	nsubj	_	_
+4	word	lemma	_	_	_	1	conj-and	_	_
+5	word	lemma	_	_	_	0	ROOT	_	_
+6	word	lemma	_	_	_	5	dobj	_	_
+7	word	lemma	_	_	_	9	case	_	_
+8	word	lemma	_	_	_	9	det	_	_
+9	word	lemma	_	_	_	6	nmod-over	_	_
+10	word	lemma	_	_	_	12	case	_	_
+11	word	lemma	_	_	_	12	compound	_	_
+12	word	lemma	_	_	_	9	nmod-between	_	_
+13	word	lemma	_	_	_	12	cc	_	_
+14	word	lemma	_	_	_	9	nmod-between	_	_
+14	word	lemma	_	_	_	12	conj-and	_	_
+15	word	lemma	_	_	_	17	case	_	_
+16	word	lemma	_	_	_	17	det	_	_
+17	word	lemma	_	_	_	9	nmod-in	_	_
+18	word	lemma	_	_	_	19	case	_	_
+19	word	lemma	_	_	_	17	nmod-of	_	_
+20	word	lemma	_	_	_	22	case	_	_
+21	word	lemma	_	_	_	22	compound	_	_
+22	word	lemma	_	_	_	19	nmod-of	_	_
+23	word	lemma	_	_	_	5	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	4	nsubj	_	_
+4	word	lemma	_	_	_	2	ccomp	_	_
+5	word	lemma	_	_	_	6	det	_	_
+6	word	lemma	_	_	_	4	dobj	_	_
+7	word	lemma	_	_	_	8	mark	_	_
+8	word	lemma	_	_	_	6	acl	_	_
+9	word	lemma	_	_	_	8	compound-prt	_	_
+10	word	lemma	_	_	_	11	det	_	_
+11	word	lemma	_	_	_	8	dobj	_	_
+12	word	lemma	_	_	_	13	mark	_	_
+13	word	lemma	_	_	_	8	advcl	_	_
+14	word	lemma	_	_	_	15	det	_	_
+15	word	lemma	_	_	_	13	dobj	_	_
+16	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	2	nummod	_	_
+2	word	lemma	_	_	_	4	nsubjpass	_	_
+3	word	lemma	_	_	_	4	auxpass	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	7	case	_	_
+6	word	lemma	_	_	_	7	compound	_	_
+7	word	lemma	_	_	_	4	nmod-in	_	_
+8	word	lemma	_	_	_	9	case	_	_
+9	word	lemma	_	_	_	4	nmod-on	_	_
+10	word	lemma	_	_	_	9	nummod	_	_
+11	word	lemma	_	_	_	4	punct	_	_
+12	word	lemma	_	_	_	9	nummod	_	_
+13	word	lemma	_	_	_	14	case	_	_
+14	word	lemma	_	_	_	4	nmod-for	_	_
+15	word	lemma	_	_	_	17	mark	_	_
+16	word	lemma	_	_	_	17	advmod	_	_
+17	word	lemma	_	_	_	14	acl	_	_
+18	word	lemma	_	_	_	17	dobj	_	_
+19	word	lemma	_	_	_	20	mark	_	_
+20	word	lemma	_	_	_	17	advcl	_	_
+21	word	lemma	_	_	_	22	amod	_	_
+22	word	lemma	_	_	_	20	dobj	_	_
+23	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	16	nsubj	_	_
+2	word	lemma	_	_	_	6	case	_	_
+3	word	lemma	_	_	_	5	advmod	_	_
+4	word	lemma	_	_	_	3	mwe	_	_
+5	word	lemma	_	_	_	6	nummod	_	_
+6	word	lemma	_	_	_	1	nmod-of	_	_
+7	word	lemma	_	_	_	8	case	_	_
+8	word	lemma	_	_	_	6	nmod-of	_	_
+9	word	lemma	_	_	_	6	cc	_	_
+10	word	lemma	_	_	_	12	advmod	_	_
+11	word	lemma	_	_	_	10	mwe	_	_
+12	word	lemma	_	_	_	13	nummod	_	_
+13	word	lemma	_	_	_	6	conj-or	_	_
+13	word	lemma	_	_	_	1	nmod-of	_	_
+14	word	lemma	_	_	_	15	case	_	_
+15	word	lemma	_	_	_	13	nmod-of	_	_
+16	word	lemma	_	_	_	0	ROOT	_	_
+17	word	lemma	_	_	_	19	det	_	_
+18	word	lemma	_	_	_	19	compound	_	_
+19	word	lemma	_	_	_	16	dobj	_	_
+20	word	lemma	_	_	_	22	case	_	_
+21	word	lemma	_	_	_	22	amod	_	_
+22	word	lemma	_	_	_	16	nmod-in	_	_
+23	word	lemma	_	_	_	16	punct	_	_
+
+1	word	lemma	_	_	_	2	det	_	_
+2	word	lemma	_	_	_	4	nsubjpass	_	_
+3	word	lemma	_	_	_	4	auxpass	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	6	det	_	_
+6	word	lemma	_	_	_	4	nmod-tmod	_	_
+7	word	lemma	_	_	_	9	case	_	_
+8	word	lemma	_	_	_	9	nummod	_	_
+9	word	lemma	_	_	_	6	nmod-of	_	_
+10	word	lemma	_	_	_	9	nummod	_	_
+11	word	lemma	_	_	_	12	case	_	_
+12	word	lemma	_	_	_	4	nmod-as	_	_
+13	word	lemma	_	_	_	15	case	_	_
+14	word	lemma	_	_	_	15	det	_	_
+15	word	lemma	_	_	_	12	nmod-of	_	_
+16	word	lemma	_	_	_	15	acl	_	_
+17	word	lemma	_	_	_	24	case	_	_
+18	word	lemma	_	_	_	22	nmod-poss	_	_
+19	word	lemma	_	_	_	18	case	_	_
+20	word	lemma	_	_	_	22	amod	_	_
+21	word	lemma	_	_	_	22	amod	_	_
+22	word	lemma	_	_	_	24	compound	_	_
+23	word	lemma	_	_	_	24	compound	_	_
+24	word	lemma	_	_	_	16	nmod-by	_	_
+25	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	1	punct	_	_
+3	word	lemma	_	_	_	1	conj	_	_
+4	word	lemma	_	_	_	1	punct	_	_
+5	word	lemma	_	_	_	1	conj	_	_
+6	word	lemma	_	_	_	1	punct	_	_
+7	word	lemma	_	_	_	1	conj	_	_
+8	word	lemma	_	_	_	1	punct	_	_
+9	word	lemma	_	_	_	1	dep	_	_
+10	word	lemma	_	_	_	9	cc	_	_
+11	word	lemma	_	_	_	9	conj-and	_	_
+11	word	lemma	_	_	_	1	dep	_	_
+12	word	lemma	_	_	_	1	punct	_	_
+13	word	lemma	_	_	_	1	dep	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	3	punct	_	_
+3	word	lemma	_	_	_	1	appos	_	_
+4	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	3	punct	_	_
+3	word	lemma	_	_	_	1	appos	_	_
+4	word	lemma	_	_	_	3	punct	_	_
+5	word	lemma	_	_	_	1	punct	_	_
+6	word	lemma	_	_	_	1	conj	_	_
+7	word	lemma	_	_	_	6	punct	_	_
+8	word	lemma	_	_	_	9	compound	_	_
+9	word	lemma	_	_	_	6	appos	_	_
+10	word	lemma	_	_	_	9	case	_	_
+11	word	lemma	_	_	_	12	punct	_	_
+12	word	lemma	_	_	_	9	appos	_	_
+13	word	lemma	_	_	_	12	punct	_	_
+14	word	lemma	_	_	_	1	punct	_	_
+15	word	lemma	_	_	_	1	conj	_	_
+16	word	lemma	_	_	_	6	punct	_	_
+17	word	lemma	_	_	_	20	amod	_	_
+18	word	lemma	_	_	_	20	nmod-poss	_	_
+19	word	lemma	_	_	_	18	case	_	_
+20	word	lemma	_	_	_	15	appos	_	_
+21	word	lemma	_	_	_	20	case	_	_
+22	word	lemma	_	_	_	23	punct	_	_
+23	word	lemma	_	_	_	20	nmod-of	_	_
+24	word	lemma	_	_	_	23	punct	_	_
+
+1	word	lemma	_	_	_	4	det	_	_
+2	word	lemma	_	_	_	4	nummod	_	_
+3	word	lemma	_	_	_	4	amod	_	_
+4	word	lemma	_	_	_	6	nsubj	_	_
+4	word	lemma	_	_	_	15	nsubj	_	_
+5	word	lemma	_	_	_	6	cop	_	_
+6	word	lemma	_	_	_	0	ROOT	_	_
+7	word	lemma	_	_	_	6	name	_	_
+8	word	lemma	_	_	_	10	case	_	_
+9	word	lemma	_	_	_	10	det	_	_
+10	word	lemma	_	_	_	6	nmod-of	_	_
+11	word	lemma	_	_	_	10	compound	_	_
+12	word	lemma	_	_	_	10	compound	_	_
+13	word	lemma	_	_	_	10	compound	_	_
+14	word	lemma	_	_	_	6	cc	_	_
+15	word	lemma	_	_	_	6	conj-and	_	_
+16	word	lemma	_	_	_	15	name	_	_
+17	word	lemma	_	_	_	23	case	_	_
+18	word	lemma	_	_	_	23	nmod-poss	_	_
+19	word	lemma	_	_	_	18	name	_	_
+20	word	lemma	_	_	_	18	case	_	_
+21	word	lemma	_	_	_	23	compound	_	_
+22	word	lemma	_	_	_	23	compound	_	_
+23	word	lemma	_	_	_	15	nmod-from	_	_
+24	word	lemma	_	_	_	6	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	3	punct	_	_
+3	word	lemma	_	_	_	1	appos	_	_
+4	word	lemma	_	_	_	3	punct	_	_
+5	word	lemma	_	_	_	1	punct	_	_
+6	word	lemma	_	_	_	1	appos	_	_
+7	word	lemma	_	_	_	1	punct	_	_
+8	word	lemma	_	_	_	9	compound	_	_
+9	word	lemma	_	_	_	1	appos	_	_
+10	word	lemma	_	_	_	11	punct	_	_
+11	word	lemma	_	_	_	9	appos	_	_
+12	word	lemma	_	_	_	11	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+1	word	lemma	_	_	_	3	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	2	xcomp	_	_
+4	word	lemma	_	_	_	3	dobj	_	_
+5	word	lemma	_	_	_	11	case	_	_
+6	word	lemma	_	_	_	11	amod	_	_
+7	word	lemma	_	_	_	11	amod	_	_
+8	word	lemma	_	_	_	7	cc	_	_
+9	word	lemma	_	_	_	10	det	_	_
+10	word	lemma	_	_	_	11	amod	_	_
+10	word	lemma	_	_	_	7	conj-and	_	_
+11	word	lemma	_	_	_	4	nmod-to	_	_
+12	word	lemma	_	_	_	13	nummod	_	_
+13	word	lemma	_	_	_	2	nmod-tpmod	_	_
+14	word	lemma	_	_	_	13	case	_	_
+15	word	lemma	_	_	_	17	case	_	_
+16	word	lemma	_	_	_	17	det	_	_
+17	word	lemma	_	_	_	2	nmod-after	_	_
+18	word	lemma	_	_	_	20	case	_	_
+19	word	lemma	_	_	_	20	det	_	_
+20	word	lemma	_	_	_	17	nmod-of	_	_
+21	word	lemma	_	_	_	23	case	_	_
+22	word	lemma	_	_	_	23	compound	_	_
+23	word	lemma	_	_	_	20	nmod-of	_	_
+24	word	lemma	_	_	_	25	case	_	_
+25	word	lemma	_	_	_	23	nmod-against	_	_
+26	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	7	nsubjpass	_	_
+2	word	lemma	_	_	_	4	case	_	_
+3	word	lemma	_	_	_	4	amod	_	_
+4	word	lemma	_	_	_	1	nmod-to	_	_
+5	word	lemma	_	_	_	7	cop	_	_
+6	word	lemma	_	_	_	7	neg	_	_
+7	word	lemma	_	_	_	0	ROOT	_	_
+8	word	lemma	_	_	_	7	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	1	punct	_	_
+3	word	lemma	_	_	_	1	appos	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	7	mark	_	_
+4	word	lemma	_	_	_	7	nsubj	_	_
+5	word	lemma	_	_	_	7	aux	_	_
+6	word	lemma	_	_	_	7	cop	_	_
+7	word	lemma	_	_	_	2	ccomp	_	_
+8	word	lemma	_	_	_	15	case	_	_
+9	word	lemma	_	_	_	10	det	_	_
+10	word	lemma	_	_	_	15	nmod-poss	_	_
+11	word	lemma	_	_	_	10	case	_	_
+12	word	lemma	_	_	_	15	nmod	_	_
+13	word	lemma	_	_	_	12	cc	_	_
+14	word	lemma	_	_	_	15	nmod	_	_
+14	word	lemma	_	_	_	12	conj-and	_	_
+15	word	lemma	_	_	_	7	nmod-in	_	_
+16	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+1	word	lemma	_	_	_	4	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	4	mark	_	_
+4	word	lemma	_	_	_	2	xcomp	_	_
+5	word	lemma	_	_	_	7	det	_	_
+6	word	lemma	_	_	_	7	compound	_	_
+7	word	lemma	_	_	_	4	dobj	_	_
+8	word	lemma	_	_	_	9	case	_	_
+9	word	lemma	_	_	_	7	nmod-between	_	_
+10	word	lemma	_	_	_	9	cc	_	_
+11	word	lemma	_	_	_	9	conj-and	_	_
+11	word	lemma	_	_	_	7	nmod-between	_	_
+12	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	1	nummod	_	_
+3	word	lemma	_	_	_	2	acl	_	_
+4	word	lemma	_	_	_	3	nsubj	_	_
+5	word	lemma	_	_	_	6	amod	_	_
+6	word	lemma	_	_	_	3	dobj	_	_
+
+1	word	lemma	_	_	_	5	nsubj	_	_
+2	word	lemma	_	_	_	5	cop	_	_
+3	word	lemma	_	_	_	5	det	_	_
+4	word	lemma	_	_	_	5	amod	_	_
+5	word	lemma	_	_	_	0	ROOT	_	_
+6	word	lemma	_	_	_	9	case	_	_
+7	word	lemma	_	_	_	9	det	_	_
+8	word	lemma	_	_	_	9	amod	_	_
+9	word	lemma	_	_	_	5	nmod-behind	_	_
+10	word	lemma	_	_	_	11	det	_	_
+11	word	lemma	_	_	_	5	nmod-tmod	_	_
+12	word	lemma	_	_	_	5	punct	_	_
+
+1	word	lemma	_	_	_	4	advmod	_	_
+2	word	lemma	_	_	_	4	punct	_	_
+3	word	lemma	_	_	_	4	nsubj	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	4	punct	_	_
+6	word	lemma	_	_	_	8	mark	_	_
+7	word	lemma	_	_	_	8	nsubj	_	_
+8	word	lemma	_	_	_	4	advcl	_	_
+9	word	lemma	_	_	_	12	case	_	_
+10	word	lemma	_	_	_	11	amod	_	_
+11	word	lemma	_	_	_	12	compound	_	_
+12	word	lemma	_	_	_	8	nmod-to	_	_
+13	word	lemma	_	_	_	12	cc	_	_
+14	word	lemma	_	_	_	8	nmod-to	_	_
+14	word	lemma	_	_	_	12	conj-or	_	_
+15	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	6	punct	_	_
+2	word	lemma	_	_	_	6	compound	_	_
+3	word	lemma	_	_	_	6	punct	_	_
+4	word	lemma	_	_	_	6	punct	_	_
+5	word	lemma	_	_	_	6	det	_	_
+6	word	lemma	_	_	_	0	ROOT	_	_
+7	word	lemma	_	_	_	14	mark	_	_
+8	word	lemma	_	_	_	14	dobj	_	_
+9	word	lemma	_	_	_	10	det	_	_
+10	word	lemma	_	_	_	14	nsubj	_	_
+11	word	lemma	_	_	_	12	case	_	_
+12	word	lemma	_	_	_	10	nmod-of	_	_
+13	word	lemma	_	_	_	14	advmod	_	_
+14	word	lemma	_	_	_	6	acl	_	_
+15	word	lemma	_	_	_	6	ref	_	_
+16	word	lemma	_	_	_	18	cop	_	_
+17	word	lemma	_	_	_	18	det	_	_
+18	word	lemma	_	_	_	6	acl-relcl	_	_
+19	word	lemma	_	_	_	21	mark	_	_
+20	word	lemma	_	_	_	21	nsubj	_	_
+21	word	lemma	_	_	_	18	acl	_	_
+22	word	lemma	_	_	_	23	det	_	_
+23	word	lemma	_	_	_	21	dobj	_	_
+24	word	lemma	_	_	_	6	punct	_	_
+
+1	word	lemma	_	_	_	4	dobj	_	_
+2	word	lemma	_	_	_	4	nsubj	_	_
+3	word	lemma	_	_	_	4	aux	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	4	ccomp	_	_
+6	word	lemma	_	_	_	5	neg	_	_
+7	word	lemma	_	_	_	6	punct	_	_
+8	word	lemma	_	_	_	5	advmod	_	_
+9	word	lemma	_	_	_	14	punct	_	_
+10	word	lemma	_	_	_	14	mark	_	_
+11	word	lemma	_	_	_	14	nsubj	_	_
+12	word	lemma	_	_	_	14	aux	_	_
+13	word	lemma	_	_	_	12	neg	_	_
+14	word	lemma	_	_	_	5	ccomp	_	_
+15	word	lemma	_	_	_	18	case	_	_
+16	word	lemma	_	_	_	18	det	_	_
+17	word	lemma	_	_	_	18	amod	_	_
+18	word	lemma	_	_	_	14	nmod-about	_	_
+19	word	lemma	_	_	_	14	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	4	case	_	_
+3	word	lemma	_	_	_	4	det	_	_
+4	word	lemma	_	_	_	1	nmod-with	_	_
+4	word	lemma	_	_	_	7	nsubj	_	_
+5	word	lemma	_	_	_	4	ref	_	_
+6	word	lemma	_	_	_	7	aux	_	_
+7	word	lemma	_	_	_	4	acl-relcl	_	_
+8	word	lemma	_	_	_	7	nsubj	_	_
+8	word	lemma	_	_	_	15	nsubj	_	_
+9	word	lemma	_	_	_	8	acl	_	_
+10	word	lemma	_	_	_	13	case	_	_
+11	word	lemma	_	_	_	13	det	_	_
+12	word	lemma	_	_	_	13	amod	_	_
+13	word	lemma	_	_	_	9	nmod-to	_	_
+14	word	lemma	_	_	_	15	mark	_	_
+15	word	lemma	_	_	_	7	xcomp	_	_
+16	word	lemma	_	_	_	19	mark	_	_
+17	word	lemma	_	_	_	19	nsubj	_	_
+18	word	lemma	_	_	_	19	advmod	_	_
+19	word	lemma	_	_	_	15	advcl	_	_
+20	word	lemma	_	_	_	19	nmod	_	_
+21	word	lemma	_	_	_	1	punct	_	_
+
+1	word	lemma	_	_	_	2	det	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	5	case	_	_
+5	word	lemma	_	_	_	7	nsubj	_	_
+5	word	lemma	_	_	_	3	nmod-against	_	_
+6	word	lemma	_	_	_	5	ref	_	_
+7	word	lemma	_	_	_	5	acl-relcl	_	_
+8	word	lemma	_	_	_	9	nsubj	_	_
+9	word	lemma	_	_	_	7	ccomp	_	_
+10	word	lemma	_	_	_	11	advmod	_	_
+11	word	lemma	_	_	_	9	advmod	_	_
+12	word	lemma	_	_	_	5	punct	_	_
+
+1	word	lemma	_	_	_	2	case	_	_
+2	word	lemma	_	_	_	7	nmod-of	_	_
+3	word	lemma	_	_	_	5	aux	_	_
+4	word	lemma	_	_	_	5	nsubj	_	_
+4	word	lemma	_	_	_	7	nsubj	_	_
+5	word	lemma	_	_	_	0	ROOT	_	_
+6	word	lemma	_	_	_	7	mark	_	_
+7	word	lemma	_	_	_	5	xcomp	_	_
+8	word	lemma	_	_	_	7	dobj	_	_
+9	word	lemma	_	_	_	5	punct	_	_
+
+1	word	lemma	_	_	_	4	mark	_	_
+2	word	lemma	_	_	_	3	det	_	_
+3	word	lemma	_	_	_	4	nsubj	_	_
+4	word	lemma	_	_	_	17	advcl	_	_
+5	word	lemma	_	_	_	7	det	_	_
+6	word	lemma	_	_	_	7	amod	_	_
+7	word	lemma	_	_	_	4	dobj	_	_
+8	word	lemma	_	_	_	10	case	_	_
+9	word	lemma	_	_	_	10	punct	_	_
+10	word	lemma	_	_	_	7	nmod-on	_	_
+11	word	lemma	_	_	_	10	punct	_	_
+12	word	lemma	_	_	_	13	case	_	_
+13	word	lemma	_	_	_	4	nmod-to	_	_
+14	word	lemma	_	_	_	17	punct	_	_
+15	word	lemma	_	_	_	17	nsubj	_	_
+16	word	lemma	_	_	_	17	cop	_	_
+17	word	lemma	_	_	_	0	ROOT	_	_
+18	word	lemma	_	_	_	19	case	_	_
+19	word	lemma	_	_	_	17	nmod-with	_	_
+20	word	lemma	_	_	_	17	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	5	nsubj	_	_
+4	word	lemma	_	_	_	5	aux	_	_
+5	word	lemma	_	_	_	2	ccomp	_	_
+6	word	lemma	_	_	_	12	mark	_	_
+7	word	lemma	_	_	_	8	nummod	_	_
+8	word	lemma	_	_	_	12	nsubj	_	_
+9	word	lemma	_	_	_	12	cop	_	_
+10	word	lemma	_	_	_	12	det	_	_
+11	word	lemma	_	_	_	12	punct	_	_
+12	word	lemma	_	_	_	5	advcl	_	_
+13	word	lemma	_	_	_	12	punct	_	_
+14	word	lemma	_	_	_	12	cc	_	_
+15	word	lemma	_	_	_	20	neg	_	_
+16	word	lemma	_	_	_	20	advmod	_	_
+16	word	lemma	_	_	_	5	advcl	_	_
+17	word	lemma	_	_	_	20	mark	_	_
+18	word	lemma	_	_	_	20	nsubj	_	_
+18	word	lemma	_	_	_	25	nsubj	_	_
+19	word	lemma	_	_	_	20	cop	_	_
+20	word	lemma	_	_	_	5	advcl	_	_
+20	word	lemma	_	_	_	12	conj-and	_	_
+21	word	lemma	_	_	_	22	case	_	_
+22	word	lemma	_	_	_	20	nmod-in	_	_
+23	word	lemma	_	_	_	20	cc	_	_
+24	word	lemma	_	_	_	25	aux	_	_
+25	word	lemma	_	_	_	20	conj-or	_	_
+25	word	lemma	_	_	_	12	advcl	_	_
+26	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	2	mark	_	_
+2	word	lemma	_	_	_	10	advcl	_	_
+3	word	lemma	_	_	_	4	det	_	_
+4	word	lemma	_	_	_	2	dobj	_	_
+5	word	lemma	_	_	_	7	advmod	_	_
+6	word	lemma	_	_	_	7	det	_	_
+7	word	lemma	_	_	_	2	nmod-tmod	_	_
+8	word	lemma	_	_	_	10	punct	_	_
+9	word	lemma	_	_	_	10	nsubj	_	_
+10	word	lemma	_	_	_	0	ROOT	_	_
+11	word	lemma	_	_	_	12	det	_	_
+12	word	lemma	_	_	_	13	nsubj	_	_
+13	word	lemma	_	_	_	10	ccomp	_	_
+14	word	lemma	_	_	_	28	mark	_	_
+15	word	lemma	_	_	_	18	mark	_	_
+16	word	lemma	_	_	_	18	nsubj	_	_
+17	word	lemma	_	_	_	18	punct	_	_
+18	word	lemma	_	_	_	28	advcl	_	_
+19	word	lemma	_	_	_	20	det	_	_
+20	word	lemma	_	_	_	18	dobj	_	_
+21	word	lemma	_	_	_	22	mark	_	_
+22	word	lemma	_	_	_	20	acl	_	_
+23	word	lemma	_	_	_	22	dobj	_	_
+24	word	lemma	_	_	_	28	punct	_	_
+25	word	lemma	_	_	_	28	punct	_	_
+26	word	lemma	_	_	_	28	nsubj	_	_
+27	word	lemma	_	_	_	28	aux	_	_
+28	word	lemma	_	_	_	13	ccomp	_	_
+29	word	lemma	_	_	_	31	case	_	_
+30	word	lemma	_	_	_	31	det	_	_
+31	word	lemma	_	_	_	28	nmod-off	_	_
+32	word	lemma	_	_	_	10	punct	_	_
+
+1	word	lemma	_	_	_	12	advmod	_	_
+2	word	lemma	_	_	_	1	mwe	_	_
+3	word	lemma	_	_	_	12	punct	_	_
+4	word	lemma	_	_	_	12	nsubj	_	_
+5	word	lemma	_	_	_	6	case	_	_
+6	word	lemma	_	_	_	4	nmod-to	_	_
+7	word	lemma	_	_	_	6	nmod	_	_
+8	word	lemma	_	_	_	12	cop	_	_
+9	word	lemma	_	_	_	12	neg	_	_
+10	word	lemma	_	_	_	12	det	_	_
+11	word	lemma	_	_	_	12	amod	_	_
+12	word	lemma	_	_	_	0	ROOT	_	_
+13	word	lemma	_	_	_	12	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	6	dobj	_	_
+4	word	lemma	_	_	_	6	nsubj	_	_
+4	word	lemma	_	_	_	8	nsubj	_	_
+5	word	lemma	_	_	_	6	aux	_	_
+6	word	lemma	_	_	_	11	csubj	_	_
+7	word	lemma	_	_	_	8	mark	_	_
+8	word	lemma	_	_	_	6	xcomp	_	_
+9	word	lemma	_	_	_	11	cop	_	_
+10	word	lemma	_	_	_	11	det	_	_
+11	word	lemma	_	_	_	2	ccomp	_	_
+12	word	lemma	_	_	_	14	case	_	_
+13	word	lemma	_	_	_	14	amod	_	_
+14	word	lemma	_	_	_	11	nmod-towards	_	_
+15	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	3	nsubj	_	_
+2	word	lemma	_	_	_	3	aux	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	5	nsubj	_	_
+5	word	lemma	_	_	_	3	ccomp	_	_
+6	word	lemma	_	_	_	8	dobj	_	_
+7	word	lemma	_	_	_	8	nsubj	_	_
+8	word	lemma	_	_	_	5	ccomp	_	_
+9	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	3	nsubj	_	_
+1	word	lemma	_	_	_	6	nsubj	_	_
+2	word	lemma	_	_	_	3	advmod	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	3	nmod	_	_
+5	word	lemma	_	_	_	3	cc	_	_
+6	word	lemma	_	_	_	3	conj-and	_	_
+7	word	lemma	_	_	_	8	det	_	_
+8	word	lemma	_	_	_	3	dobj	_	_
+8	word	lemma	_	_	_	6	dobj	_	_
+9	word	lemma	_	_	_	8	cc	_	_
+10	word	lemma	_	_	_	11	det	_	_
+11	word	lemma	_	_	_	3	dobj	_	_
+11	word	lemma	_	_	_	6	dobj	_	_
+11	word	lemma	_	_	_	8	conj-and	_	_
+12	word	lemma	_	_	_	8	ref	_	_
+13	word	lemma	_	_	_	17	cop	_	_
+14	word	lemma	_	_	_	17	advmod	_	_
+15	word	lemma	_	_	_	14	cc	_	_
+16	word	lemma	_	_	_	14	conj-and	_	_
+17	word	lemma	_	_	_	8	acl-relcl	_	_
+18	word	lemma	_	_	_	17	cc	_	_
+19	word	lemma	_	_	_	20	advmod	_	_
+20	word	lemma	_	_	_	17	conj-and	_	_
+21	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	3	mark	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	17	advcl	_	_
+4	word	lemma	_	_	_	5	case	_	_
+5	word	lemma	_	_	_	3	nmod-with	_	_
+6	word	lemma	_	_	_	11	mark	_	_
+7	word	lemma	_	_	_	11	nsubj	_	_
+8	word	lemma	_	_	_	11	aux	_	_
+9	word	lemma	_	_	_	11	advmod	_	_
+10	word	lemma	_	_	_	11	cop	_	_
+11	word	lemma	_	_	_	3	ccomp	_	_
+12	word	lemma	_	_	_	17	punct	_	_
+13	word	lemma	_	_	_	17	nsubj	_	_
+14	word	lemma	_	_	_	17	cop	_	_
+15	word	lemma	_	_	_	16	advmod	_	_
+16	word	lemma	_	_	_	17	nummod	_	_
+17	word	lemma	_	_	_	0	ROOT	_	_
+18	word	lemma	_	_	_	17	advmod	_	_
+19	word	lemma	_	_	_	17	punct	_	_
+20	word	lemma	_	_	_	17	cc	_	_
+21	word	lemma	_	_	_	22	det	_	_
+22	word	lemma	_	_	_	25	nsubjpass	_	_
+23	word	lemma	_	_	_	25	aux	_	_
+24	word	lemma	_	_	_	25	advmod	_	_
+25	word	lemma	_	_	_	17	conj-and	_	_
+26	word	lemma	_	_	_	17	punct	_	_
+
+1	word	lemma	_	_	_	3	mark	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	6	aux	_	_
+5	word	lemma	_	_	_	6	nsubj	_	_
+6	word	lemma	_	_	_	3	ccomp	_	_
+7	word	lemma	_	_	_	10	nsubj	_	_
+8	word	lemma	_	_	_	10	aux	_	_
+9	word	lemma	_	_	_	10	cop	_	_
+10	word	lemma	_	_	_	6	ccomp	_	_
+11	word	lemma	_	_	_	13	case	_	_
+12	word	lemma	_	_	_	13	det	_	_
+13	word	lemma	_	_	_	10	nmod-for	_	_
+14	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	5	compound	_	_
+4	word	lemma	_	_	_	5	compound	_	_
+5	word	lemma	_	_	_	2	dobj	_	_
+5	word	lemma	_	_	_	15	nsubj	_	_
+6	word	lemma	_	_	_	5	punct	_	_
+7	word	lemma	_	_	_	12	advmod	_	_
+8	word	lemma	_	_	_	12	det	_	_
+9	word	lemma	_	_	_	12	compound	_	_
+10	word	lemma	_	_	_	9	compound	_	_
+11	word	lemma	_	_	_	12	compound	_	_
+12	word	lemma	_	_	_	5	appos	_	_
+13	word	lemma	_	_	_	5	punct	_	_
+14	word	lemma	_	_	_	5	ref	_	_
+15	word	lemma	_	_	_	5	acl-relcl	_	_
+16	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	3	cc	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+2	word	lemma	_	_	_	5	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	5	mark	_	_
+5	word	lemma	_	_	_	3	xcomp	_	_
+6	word	lemma	_	_	_	9	mark	_	_
+7	word	lemma	_	_	_	8	det	_	_
+8	word	lemma	_	_	_	9	nsubj	_	_
+9	word	lemma	_	_	_	5	ccomp	_	_
+10	word	lemma	_	_	_	9	dobj	_	_
+11	word	lemma	_	_	_	12	nummod	_	_
+12	word	lemma	_	_	_	13	nmod-npmod	_	_
+13	word	lemma	_	_	_	9	advmod	_	_
+14	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	3	det	_	_
+2	word	lemma	_	_	_	3	amod	_	_
+3	word	lemma	_	_	_	4	nsubj	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	4	dobj	_	_
+6	word	lemma	_	_	_	9	case	_	_
+7	word	lemma	_	_	_	9	compound	_	_
+8	word	lemma	_	_	_	9	compound	_	_
+9	word	lemma	_	_	_	5	nmod-of	_	_
+10	word	lemma	_	_	_	14	mark	_	_
+11	word	lemma	_	_	_	14	nsubj	_	_
+12	word	lemma	_	_	_	14	aux	_	_
+13	word	lemma	_	_	_	14	neg	_	_
+14	word	lemma	_	_	_	4	advcl	_	_
+15	word	lemma	_	_	_	16	det	_	_
+16	word	lemma	_	_	_	14	dobj	_	_
+17	word	lemma	_	_	_	19	case	_	_
+18	word	lemma	_	_	_	19	compound	_	_
+19	word	lemma	_	_	_	16	nmod-on	_	_
+20	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	4	cc	_	_
+2	word	lemma	_	_	_	3	det	_	_
+3	word	lemma	_	_	_	4	nsubj	_	_
+3	word	lemma	_	_	_	6	nsubj	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	6	mark	_	_
+6	word	lemma	_	_	_	4	xcomp	_	_
+7	word	lemma	_	_	_	8	nmod-poss	_	_
+8	word	lemma	_	_	_	6	dobj	_	_
+9	word	lemma	_	_	_	11	advmod	_	_
+10	word	lemma	_	_	_	11	case	_	_
+11	word	lemma	_	_	_	8	nmod-like	_	_
+12	word	lemma	_	_	_	11	cc	_	_
+13	word	lemma	_	_	_	14	compound	_	_
+14	word	lemma	_	_	_	8	nmod-like	_	_
+14	word	lemma	_	_	_	11	conj-or	_	_
+15	word	lemma	_	_	_	17	case	_	_
+16	word	lemma	_	_	_	17	compound	_	_
+17	word	lemma	_	_	_	11	nmod-than	_	_
+18	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	3	case	_	_
+2	word	lemma	_	_	_	3	det	_	_
+3	word	lemma	_	_	_	8	nmod-after	_	_
+4	word	lemma	_	_	_	8	punct	_	_
+5	word	lemma	_	_	_	7	compound	_	_
+6	word	lemma	_	_	_	5	compound	_	_
+7	word	lemma	_	_	_	8	nsubj	_	_
+8	word	lemma	_	_	_	0	ROOT	_	_
+9	word	lemma	_	_	_	10	case	_	_
+10	word	lemma	_	_	_	8	nmod-like	_	_
+11	word	lemma	_	_	_	13	case	_	_
+12	word	lemma	_	_	_	13	det	_	_
+13	word	lemma	_	_	_	8	nmod-over	_	_
+14	word	lemma	_	_	_	13	cc	_	_
+15	word	lemma	_	_	_	8	nmod-over	_	_
+15	word	lemma	_	_	_	13	conj-and	_	_
+16	word	lemma	_	_	_	8	punct	_	_
+
+1	word	lemma	_	_	_	4	advmod	_	_
+2	word	lemma	_	_	_	4	nsubj	_	_
+2	word	lemma	_	_	_	11	nsubj	_	_
+3	word	lemma	_	_	_	4	aux	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	6	compound	_	_
+6	word	lemma	_	_	_	4	dobj	_	_
+7	word	lemma	_	_	_	9	case	_	_
+8	word	lemma	_	_	_	9	det	_	_
+9	word	lemma	_	_	_	4	nmod-for	_	_
+10	word	lemma	_	_	_	4	cc	_	_
+11	word	lemma	_	_	_	4	conj-and	_	_
+12	word	lemma	_	_	_	14	amod	_	_
+13	word	lemma	_	_	_	14	compound	_	_
+14	word	lemma	_	_	_	11	dobj	_	_
+15	word	lemma	_	_	_	17	case	_	_
+16	word	lemma	_	_	_	17	nmod-poss	_	_
+17	word	lemma	_	_	_	11	nmod-around	_	_
+18	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	4	advmod	_	_
+2	word	lemma	_	_	_	4	cop	_	_
+3	word	lemma	_	_	_	4	compound	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	7	advmod	_	_
+6	word	lemma	_	_	_	7	nsubj	_	_
+7	word	lemma	_	_	_	4	advcl	_	_
+8	word	lemma	_	_	_	7	dobj	_	_
+9	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	3	mark	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	7	mark	_	_
+5	word	lemma	_	_	_	7	nsubj	_	_
+6	word	lemma	_	_	_	7	advmod	_	_
+7	word	lemma	_	_	_	3	ccomp	_	_
+8	word	lemma	_	_	_	7	dobj	_	_
+9	word	lemma	_	_	_	12	advmod	_	_
+10	word	lemma	_	_	_	12	nsubj	_	_
+11	word	lemma	_	_	_	12	aux	_	_
+12	word	lemma	_	_	_	3	advcl	_	_
+13	word	lemma	_	_	_	14	nummod	_	_
+14	word	lemma	_	_	_	12	dobj	_	_
+15	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	7	advmod	_	_
+2	word	lemma	_	_	_	7	aux	_	_
+3	word	lemma	_	_	_	7	nsubj	_	_
+4	word	lemma	_	_	_	5	advmod	_	_
+5	word	lemma	_	_	_	7	dep	_	_
+6	word	lemma	_	_	_	7	mark	_	_
+7	word	lemma	_	_	_	0	ROOT	_	_
+8	word	lemma	_	_	_	7	punct	_	_
+
+1	word	lemma	_	_	_	5	nsubj	_	_
+2	word	lemma	_	_	_	1	det	_	_
+3	word	lemma	_	_	_	5	cop	_	_
+4	word	lemma	_	_	_	5	amod	_	_
+5	word	lemma	_	_	_	0	ROOT	_	_
+6	word	lemma	_	_	_	5	punct	_	_
+
+1	word	lemma	_	_	_	2	compound	_	_
+2	word	lemma	_	_	_	4	nsubj	_	_
+3	word	lemma	_	_	_	4	aux	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	4	dobj	_	_
+5	word	lemma	_	_	_	7	nsubj	_	_
+6	word	lemma	_	_	_	7	mark	_	_
+7	word	lemma	_	_	_	4	xcomp	_	_
+8	word	lemma	_	_	_	10	case	_	_
+9	word	lemma	_	_	_	10	det	_	_
+10	word	lemma	_	_	_	7	nmod-to	_	_
+11	word	lemma	_	_	_	12	nsubj	_	_
+12	word	lemma	_	_	_	10	acl-relcl	_	_
+13	word	lemma	_	_	_	14	advmod	_	_
+14	word	lemma	_	_	_	12	advcl	_	_
+15	word	lemma	_	_	_	14	dobj	_	_
+16	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	0	ROOT	_	_
+2	word	lemma	_	_	_	3	amod	_	_
+3	word	lemma	_	_	_	4	nsubj	_	_
+3	word	lemma	_	_	_	7	nsubjpass	_	_
+4	word	lemma	_	_	_	1	ccomp	_	_
+5	word	lemma	_	_	_	7	mark	_	_
+6	word	lemma	_	_	_	7	auxpass	_	_
+7	word	lemma	_	_	_	4	xcomp	_	_
+8	word	lemma	_	_	_	1	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	2	dobj	_	_
+3	word	lemma	_	_	_	4	nsubj	_	_
+4	word	lemma	_	_	_	2	ccomp	_	_
+5	word	lemma	_	_	_	6	det	_	_
+6	word	lemma	_	_	_	4	dobj	_	_
+7	word	lemma	_	_	_	8	case	_	_
+8	word	lemma	_	_	_	6	nmod-of	_	_
+9	word	lemma	_	_	_	6	cc	_	_
+10	word	lemma	_	_	_	11	amod	_	_
+11	word	lemma	_	_	_	6	conj-and	_	_
+12	word	lemma	_	_	_	13	case	_	_
+13	word	lemma	_	_	_	11	nmod-of	_	_
+14	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	3	nsubj	_	_
+1	word	lemma	_	_	_	7	nsubj	_	_
+2	word	lemma	_	_	_	3	advmod	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	5	det	_	_
+5	word	lemma	_	_	_	3	dobj	_	_
+6	word	lemma	_	_	_	7	mark	_	_
+7	word	lemma	_	_	_	3	xcomp	_	_
+8	word	lemma	_	_	_	7	dobj	_	_
+9	word	lemma	_	_	_	10	advmod	_	_
+10	word	lemma	_	_	_	12	advmod	_	_
+11	word	lemma	_	_	_	12	nsubj	_	_
+12	word	lemma	_	_	_	7	ccomp	_	_
+13	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	8	advmod	_	_
+2	word	lemma	_	_	_	3	det	_	_
+3	word	lemma	_	_	_	8	nsubj	_	_
+3	word	lemma	_	_	_	12	nsubj	_	_
+4	word	lemma	_	_	_	6	case	_	_
+5	word	lemma	_	_	_	6	amod	_	_
+6	word	lemma	_	_	_	3	nmod-of	_	_
+7	word	lemma	_	_	_	8	aux	_	_
+8	word	lemma	_	_	_	0	ROOT	_	_
+9	word	lemma	_	_	_	10	nmod-poss	_	_
+10	word	lemma	_	_	_	8	dobj	_	_
+11	word	lemma	_	_	_	12	mark	_	_
+12	word	lemma	_	_	_	8	xcomp	_	_
+13	word	lemma	_	_	_	15	nmod-poss	_	_
+14	word	lemma	_	_	_	13	case	_	_
+15	word	lemma	_	_	_	12	dobj	_	_
+16	word	lemma	_	_	_	8	punct	_	_
+
+1	word	lemma	_	_	_	4	nsubj	_	_
+2	word	lemma	_	_	_	4	cop	_	_
+3	word	lemma	_	_	_	4	neg	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	6	mark	_	_
+6	word	lemma	_	_	_	4	xcomp	_	_
+7	word	lemma	_	_	_	8	det	_	_
+8	word	lemma	_	_	_	6	dobj	_	_
+9	word	lemma	_	_	_	11	case	_	_
+10	word	lemma	_	_	_	11	det	_	_
+11	word	lemma	_	_	_	8	nmod-of	_	_
+12	word	lemma	_	_	_	15	case	_	_
+13	word	lemma	_	_	_	15	det	_	_
+14	word	lemma	_	_	_	15	amod	_	_
+15	word	lemma	_	_	_	6	nmod-from	_	_
+16	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	4	aux	_	_
+2	word	lemma	_	_	_	4	nsubj	_	_
+2	word	lemma	_	_	_	7	nsubj	_	_
+3	word	lemma	_	_	_	4	advmod	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	4	dobj	_	_
+6	word	lemma	_	_	_	7	mark	_	_
+7	word	lemma	_	_	_	4	xcomp	_	_
+8	word	lemma	_	_	_	11	mark	_	_
+9	word	lemma	_	_	_	11	nsubj	_	_
+10	word	lemma	_	_	_	11	mark	_	_
+11	word	lemma	_	_	_	7	advcl	_	_
+12	word	lemma	_	_	_	1	punct	_	_
+
+1	word	lemma	_	_	_	3	nsubj	_	_
+1	word	lemma	_	_	_	11	nsubj	_	_
+1	word	lemma	_	_	_	13	nsubj	_	_
+2	word	lemma	_	_	_	3	advmod	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	6	det	_	_
+5	word	lemma	_	_	_	6	amod	_	_
+6	word	lemma	_	_	_	3	dobj	_	_
+7	word	lemma	_	_	_	3	advmod	_	_
+8	word	lemma	_	_	_	3	punct	_	_
+9	word	lemma	_	_	_	3	cc	_	_
+10	word	lemma	_	_	_	11	aux	_	_
+11	word	lemma	_	_	_	3	conj-and	_	_
+12	word	lemma	_	_	_	13	mark	_	_
+13	word	lemma	_	_	_	11	xcomp	_	_
+14	word	lemma	_	_	_	13	dobj	_	_
+15	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	4	det	_	_
+4	word	lemma	_	_	_	2	dobj	_	_
+5	word	lemma	_	_	_	8	case	_	_
+6	word	lemma	_	_	_	8	nmod-poss	_	_
+7	word	lemma	_	_	_	8	compound	_	_
+8	word	lemma	_	_	_	4	nmod-at	_	_
+9	word	lemma	_	_	_	2	punct	_	_
+10	word	lemma	_	_	_	2	cc	_	_
+11	word	lemma	_	_	_	13	case	_	_
+12	word	lemma	_	_	_	11	mwe	_	_
+13	word	lemma	_	_	_	18	nmod-out-of	_	_
+14	word	lemma	_	_	_	15	case	_	_
+15	word	lemma	_	_	_	13	nmod-of	_	_
+16	word	lemma	_	_	_	15	amod	_	_
+17	word	lemma	_	_	_	18	advmod	_	_
+18	word	lemma	_	_	_	21	nsubjpass	_	_
+19	word	lemma	_	_	_	21	auxpass	_	_
+20	word	lemma	_	_	_	21	advmod	_	_
+21	word	lemma	_	_	_	2	conj-and	_	_
+22	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	3	nsubj	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	5	det	_	_
+5	word	lemma	_	_	_	3	dobj	_	_
+6	word	lemma	_	_	_	5	acl	_	_
+7	word	lemma	_	_	_	10	case	_	_
+8	word	lemma	_	_	_	10	det	_	_
+9	word	lemma	_	_	_	10	compound	_	_
+10	word	lemma	_	_	_	6	nmod-by	_	_
+11	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	5	advmod	_	_
+2	word	lemma	_	_	_	5	det	_	_
+3	word	lemma	_	_	_	5	amod	_	_
+4	word	lemma	_	_	_	5	compound	_	_
+5	word	lemma	_	_	_	13	advcl	_	_
+6	word	lemma	_	_	_	13	punct	_	_
+7	word	lemma	_	_	_	8	det	_	_
+8	word	lemma	_	_	_	10	nmod-poss	_	_
+9	word	lemma	_	_	_	8	case	_	_
+10	word	lemma	_	_	_	13	nsubj	_	_
+11	word	lemma	_	_	_	13	advmod	_	_
+12	word	lemma	_	_	_	13	aux	_	_
+13	word	lemma	_	_	_	0	ROOT	_	_
+14	word	lemma	_	_	_	15	case	_	_
+15	word	lemma	_	_	_	13	nmod-as	_	_
+16	word	lemma	_	_	_	17	case	_	_
+17	word	lemma	_	_	_	15	nmod-as	_	_
+18	word	lemma	_	_	_	19	case	_	_
+19	word	lemma	_	_	_	17	nmod-of	_	_
+20	word	lemma	_	_	_	13	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	5	case	_	_
+4	word	lemma	_	_	_	5	det	_	_
+5	word	lemma	_	_	_	2	nmod-to	_	_
+5	word	lemma	_	_	_	7	nsubj	_	_
+5	word	lemma	_	_	_	13	nsubj	_	_
+6	word	lemma	_	_	_	7	mark	_	_
+7	word	lemma	_	_	_	2	xcomp	_	_
+8	word	lemma	_	_	_	9	nmod-poss	_	_
+9	word	lemma	_	_	_	7	dobj	_	_
+10	word	lemma	_	_	_	7	cc	_	_
+11	word	lemma	_	_	_	13	aux	_	_
+12	word	lemma	_	_	_	13	neg	_	_
+13	word	lemma	_	_	_	2	xcomp	_	_
+13	word	lemma	_	_	_	7	conj-and	_	_
+14	word	lemma	_	_	_	15	nsubj	_	_
+15	word	lemma	_	_	_	13	ccomp	_	_
+16	word	lemma	_	_	_	18	det	_	_
+17	word	lemma	_	_	_	18	amod	_	_
+18	word	lemma	_	_	_	15	dobj	_	_
+19	word	lemma	_	_	_	15	advmod	_	_
+20	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	2	det	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	5	mark	_	_
+5	word	lemma	_	_	_	3	xcomp	_	_
+6	word	lemma	_	_	_	5	dobj	_	_
+7	word	lemma	_	_	_	5	punct	_	_
+8	word	lemma	_	_	_	3	xcomp	_	_
+8	word	lemma	_	_	_	5	conj-and	_	_
+9	word	lemma	_	_	_	8	dobj	_	_
+10	word	lemma	_	_	_	5	cc	_	_
+11	word	lemma	_	_	_	3	xcomp	_	_
+11	word	lemma	_	_	_	5	conj-and	_	_
+12	word	lemma	_	_	_	13	det	_	_
+13	word	lemma	_	_	_	11	dobj	_	_
+14	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	3	nsubj	_	_
+2	word	lemma	_	_	_	3	aux	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	3	dobj	_	_
+4	word	lemma	_	_	_	9	nsubj	_	_
+5	word	lemma	_	_	_	4	ref	_	_
+6	word	lemma	_	_	_	9	cop	_	_
+7	word	lemma	_	_	_	9	advmod	_	_
+8	word	lemma	_	_	_	9	advmod	_	_
+9	word	lemma	_	_	_	4	acl-relcl	_	_
+10	word	lemma	_	_	_	11	case	_	_
+11	word	lemma	_	_	_	9	nmod-than	_	_
+12	word	lemma	_	_	_	3	punct	_	_
+13	word	lemma	_	_	_	3	cc	_	_
+14	word	lemma	_	_	_	17	nsubj	_	_
+15	word	lemma	_	_	_	17	aux	_	_
+16	word	lemma	_	_	_	17	neg	_	_
+17	word	lemma	_	_	_	3	conj-but	_	_
+18	word	lemma	_	_	_	20	det	_	_
+19	word	lemma	_	_	_	20	amod	_	_
+20	word	lemma	_	_	_	17	dobj	_	_
+21	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	3	det	_	_
+2	word	lemma	_	_	_	3	amod	_	_
+3	word	lemma	_	_	_	6	nsubj	_	_
+3	word	lemma	_	_	_	9	nsubj	_	_
+4	word	lemma	_	_	_	6	aux	_	_
+5	word	lemma	_	_	_	6	neg	_	_
+6	word	lemma	_	_	_	0	ROOT	_	_
+7	word	lemma	_	_	_	9	mark	_	_
+8	word	lemma	_	_	_	9	cop	_	_
+9	word	lemma	_	_	_	6	xcomp	_	_
+10	word	lemma	_	_	_	6	punct	_	_
+
+1	word	lemma	_	_	_	3	cop	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	5	mark	_	_
+5	word	lemma	_	_	_	3	advcl	_	_
+6	word	lemma	_	_	_	7	case	_	_
+7	word	lemma	_	_	_	5	nmod-to	_	_
+8	word	lemma	_	_	_	10	advmod	_	_
+9	word	lemma	_	_	_	10	nsubj	_	_
+10	word	lemma	_	_	_	5	advcl	_	_
+11	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	4	advmod	_	_
+2	word	lemma	_	_	_	4	aux	_	_
+3	word	lemma	_	_	_	4	nsubj	_	_
+4	word	lemma	_	_	_	0	ROOT	_	_
+5	word	lemma	_	_	_	4	dobj	_	_
+6	word	lemma	_	_	_	4	compound-prt	_	_
+7	word	lemma	_	_	_	4	punct	_	_
+
+1	word	lemma	_	_	_	2	amod	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	5	amod	_	_
+5	word	lemma	_	_	_	3	dobj	_	_
+6	word	lemma	_	_	_	8	case	_	_
+7	word	lemma	_	_	_	8	compound	_	_
+8	word	lemma	_	_	_	5	nmod-of	_	_
+8	word	lemma	_	_	_	12	nsubj	_	_
+8	word	lemma	_	_	_	14	nsubj	_	_
+8	word	lemma	_	_	_	18	nsubj	_	_
+9	word	lemma	_	_	_	8	punct	_	_
+10	word	lemma	_	_	_	8	ref	_	_
+11	word	lemma	_	_	_	12	cop	_	_
+12	word	lemma	_	_	_	8	acl-relcl	_	_
+13	word	lemma	_	_	_	12	punct	_	_
+14	word	lemma	_	_	_	8	acl-relcl	_	_
+14	word	lemma	_	_	_	12	conj-and	_	_
+15	word	lemma	_	_	_	12	punct	_	_
+16	word	lemma	_	_	_	12	cc	_	_
+17	word	lemma	_	_	_	18	advmod	_	_
+18	word	lemma	_	_	_	8	acl-relcl	_	_
+18	word	lemma	_	_	_	12	conj-and	_	_
+19	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	2	amod	_	_
+2	word	lemma	_	_	_	6	nsubjpass	_	_
+3	word	lemma	_	_	_	6	aux	_	_
+4	word	lemma	_	_	_	6	neg	_	_
+5	word	lemma	_	_	_	6	auxpass	_	_
+6	word	lemma	_	_	_	0	ROOT	_	_
+7	word	lemma	_	_	_	6	punct	_	_
+8	word	lemma	_	_	_	6	cc	_	_
+9	word	lemma	_	_	_	11	det	_	_
+10	word	lemma	_	_	_	11	compound	_	_
+11	word	lemma	_	_	_	15	nsubj	_	_
+12	word	lemma	_	_	_	15	aux	_	_
+13	word	lemma	_	_	_	15	neg	_	_
+14	word	lemma	_	_	_	15	aux	_	_
+15	word	lemma	_	_	_	6	conj-but	_	_
+16	word	lemma	_	_	_	6	punct	_	_
+
+1	word	lemma	_	_	_	15	advmod	_	_
+2	word	lemma	_	_	_	5	case	_	_
+3	word	lemma	_	_	_	5	amod	_	_
+4	word	lemma	_	_	_	5	amod	_	_
+5	word	lemma	_	_	_	1	nmod-to	_	_
+6	word	lemma	_	_	_	7	neg	_	_
+7	word	lemma	_	_	_	8	advmod	_	_
+8	word	lemma	_	_	_	5	acl	_	_
+9	word	lemma	_	_	_	8	compound-prt	_	_
+10	word	lemma	_	_	_	11	amod	_	_
+11	word	lemma	_	_	_	8	dobj	_	_
+12	word	lemma	_	_	_	15	punct	_	_
+13	word	lemma	_	_	_	14	amod	_	_
+14	word	lemma	_	_	_	15	nsubj	_	_
+14	word	lemma	_	_	_	17	nsubj	_	_
+14	word	lemma	_	_	_	19	nsubj	_	_
+15	word	lemma	_	_	_	0	ROOT	_	_
+16	word	lemma	_	_	_	17	advmod	_	_
+17	word	lemma	_	_	_	15	xcomp	_	_
+18	word	lemma	_	_	_	17	cc	_	_
+19	word	lemma	_	_	_	15	xcomp	_	_
+19	word	lemma	_	_	_	17	conj-and	_	_
+20	word	lemma	_	_	_	19	compound-prt	_	_
+21	word	lemma	_	_	_	15	punct	_	_
+
+1	word	lemma	_	_	_	12	advcl	_	_
+2	word	lemma	_	_	_	3	case	_	_
+3	word	lemma	_	_	_	1	nmod-with	_	_
+4	word	lemma	_	_	_	3	cc	_	_
+5	word	lemma	_	_	_	1	nmod-with	_	_
+5	word	lemma	_	_	_	3	conj-and	_	_
+6	word	lemma	_	_	_	8	case	_	_
+7	word	lemma	_	_	_	8	det	_	_
+8	word	lemma	_	_	_	3	nmod-like	_	_
+9	word	lemma	_	_	_	12	punct	_	_
+10	word	lemma	_	_	_	11	det	_	_
+11	word	lemma	_	_	_	12	nsubj	_	_
+11	word	lemma	_	_	_	17	nsubj	_	_
+12	word	lemma	_	_	_	0	ROOT	_	_
+13	word	lemma	_	_	_	14	neg	_	_
+14	word	lemma	_	_	_	12	dobj	_	_
+15	word	lemma	_	_	_	12	cc	_	_
+16	word	lemma	_	_	_	17	mark	_	_
+17	word	lemma	_	_	_	12	conj-but	_	_
+18	word	lemma	_	_	_	17	dobj	_	_
+19	word	lemma	_	_	_	12	punct	_	_
+
+1	word	lemma	_	_	_	4	case	_	_
+2	word	lemma	_	_	_	4	det	_	_
+3	word	lemma	_	_	_	4	nummod	_	_
+4	word	lemma	_	_	_	7	nmod-on	_	_
+5	word	lemma	_	_	_	7	punct	_	_
+6	word	lemma	_	_	_	7	nsubj	_	_
+7	word	lemma	_	_	_	0	ROOT	_	_
+8	word	lemma	_	_	_	9	det	_	_
+9	word	lemma	_	_	_	7	dobj	_	_
+9	word	lemma	_	_	_	11	nsubj	_	_
+9	word	lemma	_	_	_	13	nsubj	_	_
+10	word	lemma	_	_	_	11	mark	_	_
+11	word	lemma	_	_	_	7	xcomp	_	_
+12	word	lemma	_	_	_	11	cc	_	_
+13	word	lemma	_	_	_	7	xcomp	_	_
+13	word	lemma	_	_	_	11	conj-and	_	_
+14	word	lemma	_	_	_	15	det	_	_
+15	word	lemma	_	_	_	11	dobj	_	_
+15	word	lemma	_	_	_	13	dobj	_	_
+16	word	lemma	_	_	_	17	case	_	_
+17	word	lemma	_	_	_	15	nmod-of	_	_
+18	word	lemma	_	_	_	7	punct	_	_
+
+1	word	lemma	_	_	_	7	mark	_	_
+2	word	lemma	_	_	_	4	det	_	_
+3	word	lemma	_	_	_	4	amod	_	_
+4	word	lemma	_	_	_	7	nsubjpass	_	_
+5	word	lemma	_	_	_	7	auxpass	_	_
+6	word	lemma	_	_	_	7	advmod	_	_
+7	word	lemma	_	_	_	14	advcl	_	_
+8	word	lemma	_	_	_	14	punct	_	_
+9	word	lemma	_	_	_	11	det	_	_
+10	word	lemma	_	_	_	11	amod	_	_
+11	word	lemma	_	_	_	14	nsubj	_	_
+12	word	lemma	_	_	_	14	aux	_	_
+13	word	lemma	_	_	_	14	neg	_	_
+14	word	lemma	_	_	_	0	ROOT	_	_
+15	word	lemma	_	_	_	14	advmod	_	_
+16	word	lemma	_	_	_	14	punct	_	_
+
+1	word	lemma	_	_	_	10	advmod	_	_
+2	word	lemma	_	_	_	10	punct	_	_
+3	word	lemma	_	_	_	5	det	_	_
+4	word	lemma	_	_	_	5	amod	_	_
+5	word	lemma	_	_	_	10	nsubj	_	_
+6	word	lemma	_	_	_	5	cc	_	_
+7	word	lemma	_	_	_	9	amod	_	_
+8	word	lemma	_	_	_	9	compound	_	_
+9	word	lemma	_	_	_	5	conj-and	_	_
+9	word	lemma	_	_	_	10	nsubj	_	_
+10	word	lemma	_	_	_	0	ROOT	_	_
+11	word	lemma	_	_	_	10	dobj	_	_
+11	word	lemma	_	_	_	13	nsubj	_	_
+12	word	lemma	_	_	_	13	mark	_	_
+13	word	lemma	_	_	_	10	xcomp	_	_
+14	word	lemma	_	_	_	15	amod	_	_
+15	word	lemma	_	_	_	13	dobj	_	_
+16	word	lemma	_	_	_	18	case	_	_
+17	word	lemma	_	_	_	18	det	_	_
+18	word	lemma	_	_	_	15	nmod-in	_	_
+19	word	lemma	_	_	_	21	case	_	_
+20	word	lemma	_	_	_	21	det	_	_
+21	word	lemma	_	_	_	18	nmod-of	_	_
+22	word	lemma	_	_	_	10	punct	_	_
+
+1	word	lemma	_	_	_	3	nsubj	_	_
+2	word	lemma	_	_	_	3	aux	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	8	case	_	_
+5	word	lemma	_	_	_	8	nmod-poss	_	_
+6	word	lemma	_	_	_	8	amod	_	_
+7	word	lemma	_	_	_	8	compound	_	_
+8	word	lemma	_	_	_	3	nmod-on	_	_
+9	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	3	nsubj	_	_
+1	word	lemma	_	_	_	7	nsubj	_	_
+2	word	lemma	_	_	_	3	advmod	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	5	det	_	_
+5	word	lemma	_	_	_	3	dobj	_	_
+6	word	lemma	_	_	_	7	mark	_	_
+7	word	lemma	_	_	_	3	acl	_	_
+8	word	lemma	_	_	_	7	dobj	_	_
+9	word	lemma	_	_	_	10	advmod	_	_
+10	word	lemma	_	_	_	12	advmod	_	_
+11	word	lemma	_	_	_	12	nsubj	_	_
+12	word	lemma	_	_	_	7	ccomp	_	_
+13	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	2	compound	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	8	det	_	_
+5	word	lemma	_	_	_	8	amod	_	_
+6	word	lemma	_	_	_	7	amod	_	_
+7	word	lemma	_	_	_	8	compound	_	_
+8	word	lemma	_	_	_	3	dobj	_	_
+9	word	lemma	_	_	_	10	mark	_	_
+10	word	lemma	_	_	_	3	advcl	_	_
+11	word	lemma	_	_	_	16	mark	_	_
+12	word	lemma	_	_	_	14	det	_	_
+13	word	lemma	_	_	_	14	amod	_	_
+14	word	lemma	_	_	_	16	nsubjpass	_	_
+15	word	lemma	_	_	_	16	auxpass	_	_
+16	word	lemma	_	_	_	10	ccomp	_	_
+17	word	lemma	_	_	_	20	case	_	_
+18	word	lemma	_	_	_	20	amod	_	_
+19	word	lemma	_	_	_	20	compound	_	_
+20	word	lemma	_	_	_	16	nmod-in	_	_
+21	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	2	nsubj	_	_
+2	word	lemma	_	_	_	0	ROOT	_	_
+3	word	lemma	_	_	_	2	advmod	_	_
+4	word	lemma	_	_	_	8	mark	_	_
+5	word	lemma	_	_	_	8	nsubj	_	_
+6	word	lemma	_	_	_	7	advmod	_	_
+7	word	lemma	_	_	_	8	amod	_	_
+8	word	lemma	_	_	_	2	ccomp	_	_
+9	word	lemma	_	_	_	8	dobj	_	_
+10	word	lemma	_	_	_	12	case	_	_
+11	word	lemma	_	_	_	12	compound	_	_
+12	word	lemma	_	_	_	9	nmod-of	_	_
+13	word	lemma	_	_	_	2	punct	_	_
+
+1	word	lemma	_	_	_	3	case	_	_
+2	word	lemma	_	_	_	1	mwe	_	_
+3	word	lemma	_	_	_	18	nmod-according_to	_	_
+4	word	lemma	_	_	_	18	punct	_	_
+5	word	lemma	_	_	_	8	nsubj	_	_
+5	word	lemma	_	_	_	18	nsubj	_	_
+6	word	lemma	_	_	_	5	punct	_	_
+7	word	lemma	_	_	_	5	ref	_	_
+8	word	lemma	_	_	_	5	acl-relcl	_	_
+9	word	lemma	_	_	_	10	det	_	_
+10	word	lemma	_	_	_	8	dobj	_	_
+11	word	lemma	_	_	_	13	case	_	_
+12	word	lemma	_	_	_	13	det	_	_
+13	word	lemma	_	_	_	8	nmod-like	_	_
+14	word	lemma	_	_	_	5	punct	_	_
+15	word	lemma	_	_	_	18	cop	_	_
+16	word	lemma	_	_	_	18	det	_	_
+17	word	lemma	_	_	_	18	amod	_	_
+18	word	lemma	_	_	_	0	ROOT	_	_
+19	word	lemma	_	_	_	22	case	_	_
+20	word	lemma	_	_	_	22	det	_	_
+21	word	lemma	_	_	_	22	amod	_	_
+22	word	lemma	_	_	_	17	nmod-in	_	_
+23	word	lemma	_	_	_	18	punct	_	_
+
+1	word	lemma	_	_	_	4	case	_	_
+2	word	lemma	_	_	_	4	det	_	_
+3	word	lemma	_	_	_	4	amod	_	_
+4	word	lemma	_	_	_	8	nmod-at	_	_
+5	word	lemma	_	_	_	8	punct	_	_
+6	word	lemma	_	_	_	8	nsubj	_	_
+7	word	lemma	_	_	_	8	advmod	_	_
+8	word	lemma	_	_	_	0	ROOT	_	_
+9	word	lemma	_	_	_	13	mark	_	_
+10	word	lemma	_	_	_	11	amod	_	_
+11	word	lemma	_	_	_	15	nsubj	_	_
+11	word	lemma	_	_	_	13	nsubjpass	_	_
+12	word	lemma	_	_	_	13	auxpass	_	_
+13	word	lemma	_	_	_	8	ccomp	_	_
+14	word	lemma	_	_	_	15	mark	_	_
+15	word	lemma	_	_	_	13	xcomp	_	_
+16	word	lemma	_	_	_	18	det	_	_
+17	word	lemma	_	_	_	18	amod	_	_
+18	word	lemma	_	_	_	15	dobj	_	_
+19	word	lemma	_	_	_	20	case	_	_
+20	word	lemma	_	_	_	18	nmod-in	_	_
+21	word	lemma	_	_	_	20	punct	_	_
+22	word	lemma	_	_	_	20	goeswith	_	_
+23	word	lemma	_	_	_	8	punct	_	_
+
+1	word	lemma	_	_	_	4	advmod	_	_
+2	word	lemma	_	_	_	4	case	_	_
+3	word	lemma	_	_	_	4	nummod	_	_
+4	word	lemma	_	_	_	8	nmod-on	_	_
+5	word	lemma	_	_	_	4	nummod	_	_
+6	word	lemma	_	_	_	8	nsubj	_	_
+7	word	lemma	_	_	_	8	cop	_	_
+8	word	lemma	_	_	_	0	ROOT	_	_
+9	word	lemma	_	_	_	13	mark	_	_
+10	word	lemma	_	_	_	11	compound	_	_
+11	word	lemma	_	_	_	23	nsubjpass	_	_
+11	word	lemma	_	_	_	13	nsubj	_	_
+12	word	lemma	_	_	_	13	aux	_	_
+13	word	lemma	_	_	_	8	ccomp	_	_
+14	word	lemma	_	_	_	13	dobj	_	_
+15	word	lemma	_	_	_	19	case	_	_
+16	word	lemma	_	_	_	19	amod	_	_
+17	word	lemma	_	_	_	16	cc	_	_
+18	word	lemma	_	_	_	16	conj-and	_	_
+18	word	lemma	_	_	_	19	amod	_	_
+19	word	lemma	_	_	_	13	nmod-between	_	_
+20	word	lemma	_	_	_	13	cc	_	_
+21	word	lemma	_	_	_	23	aux	_	_
+22	word	lemma	_	_	_	23	auxpass	_	_
+23	word	lemma	_	_	_	8	ccomp	_	_
+23	word	lemma	_	_	_	13	conj-or	_	_
+24	word	lemma	_	_	_	25	mark	_	_
+25	word	lemma	_	_	_	23	advcl	_	_
+26	word	lemma	_	_	_	27	case	_	_
+27	word	lemma	_	_	_	25	nmod-between	_	_
+28	word	lemma	_	_	_	27	cc	_	_
+29	word	lemma	_	_	_	30	amod	_	_
+30	word	lemma	_	_	_	25	nmod-between	_	_
+30	word	lemma	_	_	_	27	conj-and	_	_
+31	word	lemma	_	_	_	8	punct	_	_
+
+1	word	lemma	_	_	_	2	compound	_	_
+2	word	lemma	_	_	_	3	nsubj	_	_
+3	word	lemma	_	_	_	0	ROOT	_	_
+4	word	lemma	_	_	_	11	mark	_	_
+5	word	lemma	_	_	_	6	amod	_	_
+6	word	lemma	_	_	_	11	nsubjpass	_	_
+7	word	lemma	_	_	_	9	case	_	_
+8	word	lemma	_	_	_	9	compound	_	_
+9	word	lemma	_	_	_	6	nmod-of	_	_
+10	word	lemma	_	_	_	11	auxpass	_	_
+11	word	lemma	_	_	_	11	conj-and	_	_
+11	word	lemma	_	_	_	3	ccomp	_	_
+12	word	lemma	_	_	_	13	case	_	_
+13	word	lemma	_	_	_	11	nmod-agent	_	_
+14	word	lemma	_	_	_	11	cc	_	_
+15	word	lemma	_	_	_	18	neg	_	_
+16	word	lemma	_	_	_	18	case	_	_
+17	word	lemma	_	_	_	18	amod	_	_
+18	word	lemma	_	_	_	13	remnant	_	_
+19	word	lemma	_	_	_	3	punct	_	_
+
+1	word	lemma	_	_	_	2	compound	_	_
+2	word	lemma	_	_	_	7	nsubjpass	_	_
+3	word	lemma	_	_	_	4	case	_	_
+4	word	lemma	_	_	_	2	nmod-from	_	_
+5	word	lemma	_	_	_	7	aux	_	_
+6	word	lemma	_	_	_	7	auxpass	_	_
+7	word	lemma	_	_	_	0	ROOT	_	_
+8	word	lemma	_	_	_	9	advmod	_	_
+9	word	lemma	_	_	_	7	advmod	_	_
+10	word	lemma	_	_	_	14	mark	_	_
+11	word	lemma	_	_	_	14	nsubj	_	_
+11	word	lemma	_	_	_	16	nsubj	_	_
+12	word	lemma	_	_	_	14	aux	_	_
+13	word	lemma	_	_	_	14	cop	_	_
+14	word	lemma	_	_	_	7	ccomp	_	_
+15	word	lemma	_	_	_	16	mark	_	_
+16	word	lemma	_	_	_	14	xcomp	_	_
+17	word	lemma	_	_	_	7	punct	_	_
+
+1	word	lemma	_	_	_	3	det	_	_
+2	word	lemma	_	_	_	3	compound	_	_
+3	word	lemma	_	_	_	6	nsubj	_	_
+4	word	lemma	_	_	_	6	advmod	_	_
+5	word	lemma	_	_	_	6	aux	_	_
+6	word	lemma	_	_	_	0	ROOT	_	_
+7	word	lemma	_	_	_	6	dobj	_	_
+8	word	lemma	_	_	_	10	case	_	_
+9	word	lemma	_	_	_	10	det	_	_
+10	word	lemma	_	_	_	6	nmod-to	_	_
+11	word	lemma	_	_	_	12	case	_	_
+12	word	lemma	_	_	_	10	nmod-of	_	_
+13	word	lemma	_	_	_	12	cc	_	_
+14	word	lemma	_	_	_	12	conj-and	_	_
+14	word	lemma	_	_	_	10	nmod-of	_	_
+15	word	lemma	_	_	_	16	case	_	_
+16	word	lemma	_	_	_	14	nmod-of	_	_
+17	word	lemma	_	_	_	6	punct	_	_
+
+1	word	lemma	_	_	_	2	det	_	_
+2	word	lemma	_	_	_	8	nsubjpass	_	_
+3	word	lemma	_	_	_	5	case	_	_
+4	word	lemma	_	_	_	5	det	_	_
+5	word	lemma	_	_	_	2	nmod-of	_	_
+6	word	lemma	_	_	_	8	auxpass	_	_
+7	word	lemma	_	_	_	8	neg	_	_
+8	word	lemma	_	_	_	0	ROOT	_	_
+9	word	lemma	_	_	_	8	punct	_	_
+

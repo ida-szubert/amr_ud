@@ -1,0 +1,144 @@
+# ::id sdl_0002.24 ::date 2013-07-11T02:36:27 ::annotator SDL-AMR-09 ::preferred
+# ::id sdl_0002.80 ::date 2013-07-09T12:47:12 ::annotator SDL-AMR-09 ::preferred
+# ::id sdl_0002.100 ::date 2013-07-09T14:42:32 ::annotator SDL-AMR-09 ::preferred
+# ::id nw.chtb_0112.17 ::date 2012-11-24T19:46:34 ::annotator SDL-AMR-09 ::preferred
+# ::id nw.chtb_0134.3 ::date 2012-12-02T18:17:08 ::annotator SDL-AMR-09 ::preferred
+# ::id nw.chtb_0156.3 ::date 2012-11-05T07:40:11 ::annotator SDL-AMR-09 ::preferred
+# ::id nw.chtb_0170.5 ::date 2012-11-27T13:28:32 ::annotator SDL-AMR-09 ::preferred
+# ::id nw.chtb_0216.15 ::date 2012-12-20T11:39:18 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10510_9811.12 ::date 2012-12-18T10:09:09 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10511_2844.1 ::date 2012-12-20T11:51:58 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10511_2891.4 ::date 2012-12-22T13:07:56 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10511_3031.1 ::date 2012-12-22T16:46:30 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_12240_8611.3 ::date 2012-12-08T19:27:27 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_3473_7371.2 ::date 2012-12-17T17:11:11 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_3492_6281.12 ::date 2012-12-05T13:53:53 ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20020105_0162.2 ::date 2013-05-01T11:37:06 ::snt-type country ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020111_0093.32 ::date 2013-05-09T08:57:18 ::snt-type body ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020115_0320.3 ::date 2013-05-09T15:59:49 ::snt-type topic ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020115_0320.7 ::date 2013-05-10T13:03:38 ::snt-type body ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020115_0320.17 ::date 2013-05-14T13:36:22 ::snt-type body ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020117_0270.19 ::date 2013-05-09T11:22:27 ::snt-type body ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020123_0346.3 ::date 2013-05-13T14:43:55 ::snt-type topic ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020123_0346.8 ::date 2013-05-13T15:42:29 ::snt-type body ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020128_0449.11 ::date 2013-05-15T08:00:14 ::snt-type body subordinate ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020304_0028.29 ::date 2013-05-22T09:25:07 ::snt-type body ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020329_0022.16 ::date 2013-06-09T14:47:21 ::snt-type body ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020404_0305.2 ::date 2013-05-28T13:32:33 ::snt-type country ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020518_0107.36 ::date 2013-06-08T18:42:12 ::snt-type body ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020522_0013.7 ::date 2013-06-06T15:03:41 ::snt-type body ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020522_0013.15 ::date 2013-06-06T16:36:06 ::snt-type body ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020610_0336.16 ::date 2013-06-20T18:12:11 ::snt-type body ::annotator LDC-AMR-14 ::preferred
+# ::id PROXY_AFP_ENG_20020626_0144.29 ::date 2013-05-25T14:19:18 ::snt-type body ::annotator UCO-AMR-05 ::preferred
+# ::id PROXY_AFP_ENG_20020629_0321.15 ::date 2013-05-25T15:48:08 ::snt-type body ::annotator UCO-AMR-05 ::preferred
+# ::id PROXY_AFP_ENG_20020723_0353.12 ::date 2013-05-27T16:22:16 ::snt-type body ::annotator UCO-AMR-05 ::preferred
+# ::id PROXY_AFP_ENG_20020723_0353.14 ::date 2013-05-27T16:37:17 ::snt-type body ::annotator UCO-AMR-05 ::preferred
+# ::id PROXY_AFP_ENG_20021015_0171.1 ::date 2013-07-12T13:52:20 ::snt-type date ::annotator UCO-AMR-05 ::preferred
+# ::id PROXY_AFP_ENG_20021018_0360.2 ::date 2013-07-19T12:40:29 ::snt-type country ::annotator UCO-AMR-05 ::preferred
+# ::id PROXY_AFP_ENG_20021102_0031.15 ::date 2013-07-22T12:07:15 ::snt-type body ::annotator UCO-AMR-05 ::preferred
+# ::id PROXY_AFP_ENG_20021230_0032.2 ::date 2013-06-04T16:02:02 ::snt-type country ::annotator UCO-AMR-05 ::preferred
+# ::id PROXY_AFP_ENG_20030220_0697.13 ::date 2013-07-11T16:00:01 ::snt-type body ::annotator UCO-AMR-05 ::preferred
+# ::id PROXY_AFP_ENG_20030220_0697.27 ::date 2013-07-12T10:22:08 ::snt-type body ::annotator UCO-AMR-05 ::preferred
+# ::id PROXY_AFP_ENG_20030321_0363.10 ::date 2013-07-04T17:06:03 ::snt-type body ::annotator UCO-AMR-05 ::preferred
+# ::id PROXY_AFP_ENG_20030330_0257.1 ::date 2013-07-06T17:14:38 ::snt-type date ::annotator UCO-AMR-05 ::preferred
+# ::id PROXY_AFP_ENG_20030330_0257.9 ::date 2013-07-06T17:52:31 ::snt-type body ::annotator UCO-AMR-05 ::preferred
+# ::id PROXY_AFP_ENG_20030330_0257.32 ::date 2013-08-13T15:56:54 ::snt-type body ::annotator UCO-AMR-05 ::preferred
+# ::id PROXY_AFP_ENG_20030406_0055.2 ::date 2013-09-10T07:57:27 ::snt-type country ::annotator UCO-AMR-05 ::preferred
+# ::id PROXY_AFP_ENG_20030624_0449.14 ::date 2013-05-04T14:01:49 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20030630_0211.9 ::date 2013-05-05T06:03:00 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20030715_0045.23 ::date 2013-05-07T09:11:40 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20031202_0313.23 ::date 2013-05-08T03:34:47 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20031202_0313.28 ::date 2013-05-08T04:04:06 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20040203_0804.4 ::date 2013-05-17T15:13:06 ::snt-type summary ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20040203_0804.31 ::date 2013-05-19T15:59:15 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20040216_0567.1 ::date 2013-05-02T07:17:17 ::snt-type date ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20040305_0056.9 ::date 2013-05-14T14:10:59 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20040508_0150.10 ::date 2013-05-21T15:53:20 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20040626_0107.7 ::date 2013-05-16T20:28:11 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20040720_0035.14 ::date 2013-05-15T05:55:56 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20040728_0433.14 ::date 2013-05-23T03:35:29 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20050601_0389.3 ::date 2013-05-26T17:28:45 ::snt-type topic ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20050603_0056.5 ::date 2013-05-26T16:58:55 ::snt-type summary ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20050708_0783.14 ::date 2013-05-31T07:31:58 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20050718_0646.16 ::date 2013-06-01T13:08:12 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20050919_0252.8 ::date 2013-06-02T12:26:55 ::snt-type body subordinate ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20051018_0064.2 ::date 2013-06-02T22:10:38 ::snt-type country ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20051018_0064.3 ::date 2013-06-02T21:56:23 ::snt-type topic ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20051212_0547.1 ::date 2013-06-07T03:38:42 ::snt-type date ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20070116_0270.6 ::date 2013-06-16T11:11:54 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20070201_0099.19 ::date 2013-06-02T22:38:32 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20070203_0026.4 ::date 2013-06-02T22:46:36 ::snt-type summary ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20070207_0243.13 ::date 2013-06-02T01:28:31 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20070209_0566.7 ::date 2013-05-31T23:39:22 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20070327_0002.3 ::date 2013-06-10T06:33:29 ::snt-type topic ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20070331_0467.2 ::date 2013-06-10T14:40:29 ::snt-type country ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20070419_0476.2 ::date 2013-06-10T08:14:21 ::snt-type country ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20070504_0296.7 ::date 2013-06-13T06:34:28 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20070521_0178.2 ::date 2013-06-10T08:38:02 ::snt-type country ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20070521_0178.15 ::date 2013-06-14T08:11:47 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20070521_0178.30 ::date 2013-06-15T09:23:07 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20070525_0061.3 ::date 2013-06-16T14:03:33 ::snt-type topic ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20070529_0077.15 ::date 2013-09-01T06:37:19 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id DF-170-181103-888_2097.5 ::date 2013-09-16T07:28:10 ::annotator LDC-AMR-14 ::preferred
+# ::id DF-170-181104-872_5719.12 ::date 2013-09-18T06:27:28 ::annotator LDC-AMR-14 ::preferred
+# ::id DF-170-181104-872_8783.8 ::date 2013-09-18T08:36:03 ::annotator LDC-AMR-14 ::preferred
+# ::id DF-170-181110-876_4423.15 ::date 2013-09-21T06:58:43 ::annotator LDC-AMR-14 ::preferred
+# ::id DF-170-181110-876_5223.3 ::date 2013-09-21T10:25:15 ::annotator LDC-AMR-14 ::preferred
+# ::id DF-170-181113-874_8063.15 ::date 2013-09-21T16:11:09 ::annotator LDC-AMR-14 ::preferred
+# ::id DF-170-181118-887_5920.30 ::date 2013-09-29T09:08:01 ::annotator LDC-AMR-14 ::preferred
+# ::id DF-170-181118-887_5920.32 ::date 2013-09-29T09:16:45 ::annotator LDC-AMR-14 ::preferred
+# ::id DF-183-195681-794_9722.13 ::date 2013-08-28T22:47:03 ::annotator UCO-AMR-05 ::preferred
+# ::id DF-183-195681-794_9722.18 ::date 2013-08-28T23:26:58 ::annotator UCO-AMR-05 ::preferred
+# ::id DF-199-192772-680_8771.3 ::date 2013-09-04T19:09:23 ::annotator UCO-AMR-05 ::preferred
+# ::id DF-199-192772-681_0232.1 ::date 2013-09-04T19:29:26 ::annotator UCO-AMR-05 ::preferred
+# ::id DF-199-192772-681_0984.8 ::date 2013-09-11T18:47:01 ::annotator UCO-AMR-05 ::preferred
+# ::id DF-199-192772-681_0984.38 ::date 2013-09-13T14:35:37 ::annotator UCO-AMR-05 ::preferred
+# ::id DF-199-192783-685_0989.27 ::date 2013-08-15T02:47:14 ::annotator SDL-AMR-09 ::preferred
+# ::id DF-199-192783-685_0989.33 ::date 2013-08-15T03:57:30 ::annotator SDL-AMR-09 ::preferred
+# ::id DF-199-192784-587_5251.8 ::date 2013-08-16T01:39:23 ::annotator SDL-AMR-09 ::preferred
+# ::id DF-199-192794-660_6610.11 ::date 2013-08-22T03:23:26 ::annotator SDL-AMR-09 ::preferred
+# ::id nw.wsj_0005.2 ::date 2012-04-26T15:06:47 ::annotator ISI-AMR-01 ::preferred
+# ::id nw.wsj_0003.29 ::date 2012-05-26T21:50:24 ::annotator ISI-AMR-01 ::preferred
+# ::id nw.wsj_0008.1 ::date 2012-04-26T15:45:26 ::annotator ISI-AMR-01 ::preferred
+# ::id nw.wsj_0010.4 ::date 2012-05-13T20:21:56 ::annotator ISI-AMR-01 ::preferred
+# ::id nw.wsj_0010.13 ::date 2012-05-15T09:00:23 ::annotator ISI-AMR-01 ::preferred
+# ::id wb.eng_0003.5 ::date 2012-08-27T11:30:38 ::annotator ISI-AMR-01 ::preferred
+# ::id wb.eng_0003.13 ::date 2012-09-14T14:13:20 ::annotator ISI-AMR-01 ::preferred
+# ::id wb.eng_0003.60 ::date 2012-10-17T07:13:49 ::annotator ISI-AMR-01 ::preferred
+# ::id wb.eng_0003.62 ::date 2012-10-17T07:25:25 ::annotator ISI-AMR-01 ::preferred
+# ::id wb.eng_0003.52 ::date 2012-09-28T09:33:32 ::annotator ISI-AMR-01 ::preferred
+# ::id sdl_0002.22 ::date 2013-07-11T02:11:13 ::annotator SDL-AMR-09 ::preferred
+# ::id sdl_0002.25 ::date 2013-07-11T02:43:30 ::annotator SDL-AMR-09 ::preferred
+# ::id sdl_0002.32 ::date 2013-07-11T04:10:57 ::annotator SDL-AMR-09 ::preferred
+# ::id sdl_0002.65 ::date 2013-07-10T09:19:15 ::annotator SDL-AMR-09 ::preferred
+# ::id sdl_0002.97 ::date 2013-07-09T14:27:43 ::annotator SDL-AMR-09 ::preferred
+# ::id sdl_0003.64 ::date 2013-07-10T01:45:58 ::annotator SDL-AMR-09 ::preferred
+# ::id sdl_0002.88 ::date 2013-07-09T13:24:41 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10489_6271.5 ::date 2012-12-09T19:08:12 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10489_6271.8 ::date 2012-12-09T19:31:50 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10510_8171.4 ::date 2012-12-14T20:12:18 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10510_8171.10 ::date 2012-12-15T06:45:01 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10510_8841.6 ::date 2012-12-16T09:01:52 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10510_9313.8 ::date 2012-12-17T06:37:56 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10510_9796.1 ::date 2012-12-18T08:04:14 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10510_9811.5 ::date 2012-12-18T09:22:53 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10510_9873.3 ::date 2012-12-18T10:28:47 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10510_9873.10 ::date 2012-12-19T18:14:11 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10511_2816.7 ::date 2012-12-20T11:36:25 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10511_2851.8 ::date 2012-12-22T10:17:42 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_10511_3031.5 ::date 2012-12-22T17:28:25 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_2981_0166.1 ::date 2012-12-09T16:01:31 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_3988_7641.18 ::date 2012-11-28T13:41:26 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_3991_0111.29 ::date 2012-12-19T18:15:09 ::annotator SDL-AMR-09 ::preferred
+# ::id bolt12_4474_0751.12 ::date 2012-12-06T11:11:04 ::annotator SDL-AMR-09 ::preferred
+# ::id sdl_0002.59 ::date 2013-07-10T04:44:46 ::annotator SDL-AMR-09 ::preferred
+# ::id sdl_0002.65 ::date 2013-07-10T09:19:15 ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20070906_0523.10 ::date 2013-06-22T01:22:13 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20081104_0091.10 ::date 2013-07-09T09:58:51 ::snt-type body subordinate ::annotator SDL-AMR-09 ::preferred
+# ::id nw.chtb_0287.3 ::date 2012-11-15T21:13:00 ::annotator SDL-AMR-09 ::preferred
+# ::id nw.chtb_0285.3 ::date 2012-11-14T19:22:29 ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_NYT_ENG_20080808_0162.32 ::date 2013-08-05T10:51:50 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_APW_ENG_20080214_1715.14 ::date 2013-07-14T11:28:04 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20020210_0074.18 ::date 2013-05-20T15:11:13 ::snt-type body ::annotator LDC-AMR-14 ::preferred
+# ::id bolt12_64545_0524.1 ::date 2012-12-23T18:26:29 ::annotator SDL-AMR-09 ::preferred
+# ::id PROXY_AFP_ENG_20080526_0379.7 ::date 2013-07-08T04:25:05 ::snt-type body ::annotator SDL-AMR-09 ::preferred

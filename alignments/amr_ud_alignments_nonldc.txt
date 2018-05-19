@@ -1,0 +1,1760 @@
+// The first part of this file is a list of lexical and structural alignments for 200 AMRs.
+// The second part of this file contains gold standard UD enhanced parses for the same 200 sentences.
+//***The majority of AMRs in the corpus are distributed through LDC, and therefore cannot be 
+// freely re-distributed. We are preparing a standoff format for the data, which will be ready
+// for the final submission of the paper. In this file we show a fraction of the corpus
+// containing only non-LDC AMRs.***
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+100.
+# ::id lpp_1943.1 ::date 2012-06-07T17:06:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt Chapter 1 .
+# ::zh I
+# ::save-date Thu Jun 7, 2012 ::file lpp_1943_1.txt
+c/chapter    #    1/chapter
+none0/1    #    2/1
+c/chapter :mod none0/1    #    1/chapter :nummod 2/1
+
+101.
+# ::id lpp_1943.53 ::date 2012-07-24T11:54:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt That , however , is not my fault .
+# ::zh 这不是我的过错。
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_53.txt
+c/contrast    #    3/however
+none0/-    #    6/not
+i/i    #    7/my
+f/fault    #    8/fault
+t/that    #    1/that
+c/contrast :ARG2 f/fault    #    8/fault :advmod 3/however
+f/fault :ARG1 i/i    #    8/fault :nmod-poss 7/my
+f/fault :ARG2 t/that    #    8/fault :nsubj 1/that
+f/fault :polarity none0/-    #    8/fault :neg 6/not
+
+102.
+# ::id lpp_1943.126 ::date 2012-07-31T10:09:21 ::annotator ISI-AMR-05 ::preferred
+# ::snt And he sank into a reverie , which lasted a long time .
+# ::zh 说到这里，他就长时间地陷入沉思之中。
+# ::save-date Thu Jun 4, 2015 ::file lpp_1943_126.txt
+a/and    #    1/and
+h/he    #    2/he
+l/long    #    11/long
+s/sink    #    3/sank
+r/reverie    #    6/reverie
+a/and :op2 s/sink    #    3/sink :cc 1/and
+s/sink :ARG0 h/he    #    3/sank :nsubj 2/he
+l/long    #    9/lasted :dobj 12/time :amod 11/long
+s/sink :ARG4 r/reverie    #    3/sank :nmod-into 6/reverie :case 4/into
+r/reverie :ARG1-of l/long    #    6/reverie :acl-relcl 9/lasted :dobj 12/time :amod 11/long
+r/reverie :ARG1-of l/long    #    9/lasted ( :dobj 12/time :amod 11/long ) | :nsubj 6/reverie
+
+103.
+# ::id lpp_1943.134 ::date 2012-07-31T10:54:57 ::annotator ISI-AMR-05 ::preferred
+# ::snt That is so .
+# ::zh “那当然。
+# ::save-date Sat Dec 29, 2012 ::file lpp_1943_134.txt
+s/so    #    3/so
+t/that    #    1/that
+s/so :domain t/that    #    3/so :nsubj 1/that
+
+104.
+# ::id lpp_1943.233 ::date 2012-11-08T07:45:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt If it is only a sprout of radish or the sprig of a rose - bush , one would let it grow wherever it might wish .
+# ::zh 如果是小萝卜或是玫瑰的嫩苗，就让它去自由地生长。
+# ::save-date Thu May 2, 2013 ::file lpp_1943_233.txt
+a/allow    #    20/let
+r2/rose    #    14/rose
+g/grow    #    22/grow
+i/it    #    21/it
+i/it    #    2/it
+i/it    #    24/it
+s2/sprig    #    11/spring
+o/one    #    18/one
+p/possible    #    25/might
+s/sprout    #    6/sprout
+r/radish    #    8/radish
+w2/wish    #    26/wish
+b2/bush    #    16/bush
+o3/only    #    4/only
+o2/or    #    9/or
+o2/or ( :op1 s/sprout ) | :op2 s2/spring    #    6/sprout ( :cc 9/or ) | :conj-or 11/spring
+s/sprout :part-of r/radish    #    6/sprout :nmod-of 8/radish :case 7/of
+s2/spring :part-of b2/bush    #    11/spring :nmod-of 16/bush :case 12/of
+b2/bush :mod r2/rose    #    16/bush :compound 14/rose
+o2/or ( :op1 s/sprout ) | ( :op2 s2/spring ) | :mod o3/only    #    6/sprout ( :cc 9/or ) | ( :conj-or 11/spring ) | :advmod 4/only
+a/allow :ARG0 o/one    #    20/let :nsubj 18/one
+a/allow :condition o2/or ( :op1 s/sprout ) | :op2 s2/spring    #    20/let :csubj 6/sprout ( :cc 9/or ) | :conj-or 11/spring
+o2/or ( :op1 s/sprout ) | ( :op2 s2/spring ) | :domain i/it    #    6/sprout ( :cc 9/or ) | ( :conj-or 11/spring ) | :nsubj 2/it
+a/allow :ARG1 g/grow    #    20/let :ccomp 22/grow
+g/grow :ARG1 i/it    #    22/grow :nsubj 21/it
+g/grow :location w2/wish    #    22/grow :advcl 26/wish :advmod 23/wherever
+w2/wish :ARG0 i/it    #    26/wish :nsubj 24/it
+w2/wish :ARG1-of p/possible    #    26/wish :aux 25/might
+
+105.
+# ::id lpp_1943.320 ::date 2012-11-19T12:10:21 ::annotator ISI-AMR-05 ::preferred
+# ::snt I do n't believe anything .
+# ::zh 我什么也不认为！
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_320.txt
+i/i    #    1/I
+a2/anything    #    5/anything
+b2/believe    #    4/believe
+none0/-    #    3/n't
+b2/believe :polarity none0/-    #    4/believe :neg 3/n't
+b2/believe :ARG0 i/i    #    4/believe :nsubj 1/I
+b2/believe :ARG1 a2/anything    #    4/believe :dobj 5/anything
+
+106.
+# ::id lpp_1943.324 ::date 2012-11-19T12:15:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt Matters of consequence !
+# ::zh “正经事？”
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_324.txt
+h/have    #    2/of
+c/consequence    #    3/consequence
+m/matter    #    1/matters
+m/matter :ARG0-of h/have :ARG1 c/consequence    #    1/matters :nmod-of 3/consequence :case 2/of
+
+107.
+# ::id lpp_1943.334 ::date 2012-11-19T12:32:18 ::annotator ISI-AMR-05 ::preferred
+# ::snt He has never looked at a star .
+# ::zh 他从来没有看过一颗星星。
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_334.txt
+e/ever    #    3/never
+none0/-    #    3/never
+h/he    #    1/he
+l/look    #    4/looked
+s/star    #    7/star
+l/look :ARG0 h/he    #    4/looked :nsubj 1/he
+l/look :ARG1 s/star    #    4/looked :nmod-at 7/star :case 5/at
+l/look ( :time e/ever ) | :polarity none0/-    #    4/looked :neg 3/never
+
+108.
+# ::id lpp_1943.342 ::date 2012-11-20T10:16:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt The flowers have been growing thorns for millions of years .
+# ::zh “几百万年以来花儿都在制造着刺，
+# ::save-date Sat Apr 20, 2013 ::file lpp_1943_342.txt
+g/grow    #    5/growing
+f/flower    #    2/flowers
+m/multiple    #    8/milions
+none0/1000000    #    8/milions
+m/multiple :op1 t2/temporal-quantity ( :unit y/year ) | :quant none0/1000000    #    8/milions :nmod-of 10/year :case 9/of
+t/thorn    #    6/thorns
+y/year    #    10/years
+g/grow :ARG1 t/thorn    #    5/growing :dobj 6/thorns
+g/grow :ARG0 f/flower    #    5/growing :nsubj 2/flowers
+g/grow :duration m/multiple :op1 t2/temporal-quantity ( :unit y/year ) | :quant none0/1000000    #    5/growing :nmod-for 8/millions ( :case 7/for ) | :nmod-of 10/years :case 9/of
+
+109.
+# ::id lpp_1943.438 ::date 2012-11-11T13:02:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt But , as he said , one never knows !
+# ::zh 他想，说不定它还会活动呢！
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_438.txt
+c/contrast    #    1/but
+none0/-    #    8/never
+h/he    #    4/he
+k/know    #    9/knows
+o/one    #    7/one
+s/say    #    5/said
+s/say :ARG0 h/he    #    5/said :nsubj 4/he
+s/say :ARG1 k/know    #    9/knows :advcl 5/said
+k/know :polarity none0/-    #    9/knows :neg 8/never
+k/know :ARG0 o/one    #    9/knows :nsubj 7/one
+c/contrast :ARG2 s/say :ARG1 k/know    #    9/knows ( :advcl 5/said ) | :cc 1/but
+
+110.
+# ::id lpp_1943.460 ::date 2012-11-11T15:47:56 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is my fault that you have not known it all the while .
+# ::zh “但由于我的过错，你一点也没有理会。
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_460.txt
+a/all    #    11/all
+none0/-    #    8/not
+f/fault    #    4/fault
+i3/i    #    3/my
+i2/it    #    10/it
+w/while-away    #    13/while
+y/you    #    6/you
+k/know    #    9/known
+f/fault :ARG1 i3/i    #    4/fault :nmod-poss 3/my
+f/fault :ARG2 k/know    #    4/fault :ccomp 9/known
+k/know :ARG0 y/you    #    9/known :nsubj 6/you
+k/know :polarity none0/-    #    9/known :neg 8/not
+k/know :ARG1 i2/it    #    9/known :dobj 10/it
+k/know :time w/while-away    #    9/known :nmod-tmod 13/while
+w/while-away :duration a/all    #    13/while :det-predet 11/all 
+
+111.
+# ::id lpp_1943.505 ::date 2012-11-13T15:55:17 ::annotator ISI-AMR-05 ::preferred
+# ::snt That frightens me ...
+# ::zh “这倒叫我有点紧张…
+# ::save-date Tue Nov 13, 2012 ::file lpp_1943_505.txt
+i/i    #    3/me
+t/that    #    1/that
+f/frighten    #    2/frightens
+f/frighten :ARG0 t/that    #    2/frightens :nsubj 1/that
+f/frighten :ARG1 i/i    #    2/frightens :dobj 3/me
+
+112.
+# ::id lpp_1943.529 ::date 2012-11-19T20:04:51 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Over all that , " the king answered .
+# ::zh “统治这一切。”
+# ::save-date Tue Dec 11, 2012 ::file lpp_1943_529.txt
+a/answer    #    9/answered
+k/king    #    8/king
+o/over    #    2/over
+a2/all    #    3/all
+t/that    #    4/that
+a/answer :ARG0 k/king    #    9/answered :nsubj 8/king
+o/over :op1 t/that    #    4/that :case 2/over
+t/that :mod a2/all    #    4/that :det 3/all
+a/answer :ARG2 o/over :op1 t/that    #    9/answered :parataxis 4/that :case 2/over
+
+113.
+# ::id lpp_1943.557 ::date 2012-11-25T17:27:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt And you will see how well I am obeyed .
+# ::zh 你将看到我的命令一定会被服从的。”
+# ::save-date Fri Apr 19, 2013 ::file lpp_1943_557.txt
+a/amr-unknown    #    5/how
+i/i    #    7/I
+o/obey    #    9/obeyed
+s/see    #    4/see
+w/well    #    6/well
+y/you    #    2/you
+s/see :ARG0 y/you    #    4/see :nsubj 2/you
+s/see :ARG1 o/obey    #    4/see :ccomp 9/obeyed
+o/obey :ARG1 i/i    #    9/obeyed :nsubjpass 7/I
+o/obey :manner w/well    #    9/obeyed :advmod 6/well
+w/well :degree a/amr-unknown    #    6/well :advmod 5/how
+
+114.
+# ::id lpp_1943.608 ::date 2012-11-26T18:28:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt For , to conceited men , all other men are admirers .
+# ::zh 在那些爱虚荣的人眼里，别人都成了他们的崇拜者。
+# ::save-date Tue May 7, 2013 ::file lpp_1943_608.txt
+p2/person :domain m/man    #    9/men
+a/all    #    7/all
+c/conceit    #    4/conceited
+m/man    #    9/men
+o/other    #    8/other
+a3/admire    #    11/admirers
+m2/man    #    5/men
+m2/man :mod c/conceit    #    5/men :amod 4/conceited
+p2/person ( :domain m/men ) | :ARG0-of a3/admire    #    11/admirers :nsubj 9/men
+m/men :mod o/other    #    9/men :amod 8/other
+m/men :mod a/all    #    9/men :det 7/all
+o2/opine ( :ARG0 m2/man ) | :ARG1 p2/person ( :domain m/man ) | :ARG0-of a3/admire    #    11/admirers ( :nsubj 9/men ) | :nmod-to 5/men :case 3/to
+
+115.
+# ::id lpp_1943.667 ::date 2012-11-08T14:00:38 ::annotator ISI-AMR-05 ::preferred
+# ::snt I have so much to do !
+# ::zh 我的工作很多…
+# ::save-date Fri Apr 26, 2013 ::file lpp_1943_667.txt
+d/do    #    6/do
+i/i    #    1/I
+m/much    #    4/much
+o/obligate    #    2/have
+s/so    #    3/so
+o/oblige :ARG1 i/i    #    2/have :nsubj 1/I
+o/oblige :ARG2 d/do :ARG1 m/much    #    2/have :dobj 4/much :acl 6/do
+d/do :ARG1 m/much    #    4/much :acl 6/do
+m/much :degree s/so    #    4/much :advmod 3/so
+
+116.
+# ::id lpp_1943.708 ::date 2012-11-09T17:10:17 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is a very different matter .
+# ::zh 这不是一码事。”
+# ::save-date Mon Aug 5, 2013 ::file lpp_1943_708.txt
+i/it    #    1/it
+m/matter    #    6/matter
+d/differ    #    5/different
+v/very    #    4/very
+m/matter :domain i/it    #    6/matter :nsubj 1/it
+m/matter :ARG1-of d/differ    #    6/matter :amod 5/different
+d/differ :degree v/very    #    5/different :advmod 4/very
+
+117.
+# ::id lpp_1943.1387 ::annotator ISI-AMR-05 ::preferred
+# ::snt I had loosened the golden muffler that he always wore .
+# ::zh æˆ‘è§£å¼€äº†ä»–ä¸€ç›´å¸¦ç€çš„é‡‘é»„è‰²çš„å›´è„–ã€‚
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_1387.txt
+a/always    #    9/always
+w/wear    #    10/wear
+i/i    #    1/I
+h/he    #    8/he
+m/muffler    #    6/muffler
+l/loosen    #    3/loosen
+g/gold    #    5/golden
+w/wear :time a/always    #    10/wear :advmod 9/always
+m/muffler :ARG1-of w/wear    #    6/muffler :acl-relcl 10/wear
+l/loosen :ARG0 i/i    #    3/loosen :nsubj 1/I
+w/wear :ARG0 h/he    #    10/wear :nsubj 8/he
+w/wear :ARG1 m/muffler    #    10/wear :dobj 6/muffler
+l/loosen :ARG1 m/muffler    #    3/loosen :dobj 6/muffler
+w/wear :ARG1 m/muffler    #    10/wear :dobj 6/muffler
+m/muffler :consist-of g/gold    #    6/muffler :amod 5/golden
+
+119.
+# ::id lpp_1943.1366 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is the right day , but this is not the place .
+# ::zh æ—¥å­æ˜¯å¯¹çš„ï¼›ä½†åœ°ç‚¹ä¸æ˜¯è¿™é‡Œâ€¦â€
+# ::save-date Sun Dec 20, 2015 ::file lpp_1943_1366.txt
+none0/-    #    10/not
+d/day    #    5/day
+r/right    #    4/right
+t/this    #    8/this
+p/place    #    12/place
+p/place :polarity none0/-    #    12/place :neg 10/not
+d/day :ARG2-of r/right    #    5/day :amod 4/right
+p/place :domain t/this    #    12/place :nsubj 8/this
+d/day :ARG1-of c/contrast :ARG2 p/place    #    5/day ( :conj-but 12/place ) | :cc 7/but
+c/contrast    #    7/but
+
+120.
+# ::id lpp_1943.1368 ::annotator ISI-AMR-05 ::preferred
+# ::snt At no time did I see or hear anyone .
+# ::zh æˆ‘è¿˜æ˜¯çœ‹ä¸åˆ°ï¼Œä¹Ÿå¬ä¸è§ä»»ä½•åˆ«äººã€‚
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_1368.txt
+a/anyone    #    9/anyone
+i/i    #    5/I
+h/hear    #    8/hear
+none1/-    #    2/no
+none0/-    #    2/no
+s/see    #    6/see
+o/or    #    7/or
+h/hear :ARG1 a/anyone    #    8/hear :dobj 9/anyone
+h/hear :ARG0 i/i    #    8/hear :nsubj 5/I
+s/see :ARG0 i/i    #    6/see :nsubj 5/I
+s/see :ARG1 a/anyone    #    6/see :dobj 9/anyone
+s/see :op1-of o/or :op2 h/hear    #    6/see ( :conj-or 8/hear ) | :cc 7/or
+s/see :op1-of o/or ( :op2 h/hear ) | :time e/ever    #    6/see ( :conj-or 8/hear ) | ( :cc 7/or ) | :nmod-at 3/time :case 1/at
+s/see ( :polarity none0/-) | :op1-of o/or ( :op2 h/hear :polarity none1/- ) | :time e/ever    #    6/see ( :conj-or 8/hear ) | ( :cc 7/or ) | :nmod-at 3/time ( :neg 2/no ) | :case 1/at
+
+121.
+# ::id lpp_1943.1371 ::annotator ISI-AMR-05 ::preferred
+# ::snt You have nothing to do but wait for me there .
+# ::zh ä½ åœ¨é‚£é‡Œç­‰ç€æˆ‘å°±è¡Œäº†ã€‚
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_1371.txt
+n/nothing    #    3/nothing
+w2/wait    #    7/wait
+i/i    #    9/I
+h2/have    #    2/have
+d/do    #    5/do
+t2/there    #    10/there
+y/you    #    1/you
+c/contrast    #    6/but
+h2/have :ARG0 y/you    #    2/have :nsubj 1/you
+n/nothing :ARG1-of d/do    #    3/nothing :xcomp 5/do
+h2/have :ARG1 n/nothing    #    2/have :dobj 3/nothing
+w2/wait :ARG2 i/i    #    7/wait :nmod-for 9/I :case 8/for
+w2/wait :location t2/there    #    7/wait :advmod 10/there
+d/do :ARG0 y/you    #    5/do :nsubj 1/you
+w2/wait :ARG1 y/you    #    7/wait :nsubj 1/you
+h2/have :ARG1 n/nothing ( :ARG1-of d/do ) | :ARG1-of c/contrast :ARG2 w2/wait    #    2/have ( :dobj 3/nothing ) | :xcomp 5/do ( :cc 6/but ) | :conj-but 7/wait  
+
+122.
+# ::id lpp_1943.1378 ::annotator ISI-AMR-05 ::preferred
+# ::snt I want to get down from the wall .
+# ::zh æˆ‘è¦ä¸‹æ¥äº†ï¼ â€¦â€
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_1378.txt
+d/down    #    5/down
+i/i    #    1/I
+w/want    #    2/want
+g/get    #    4/get
+w2/wall    #    8/wall
+w/want :ARG1 g/get    #    2/want :xcomp 4/get
+w/want :ARG0 i/i    #    2/want :nsubj 1/I
+g/get :ARG0 i/i    #    4/get :nsubj 1/I
+g/get :ARG2 r/relative-position :op1 w2/wall    #    4/get :nmod-from 8/wall :case 6/from
+g/get :ARG2 r/relative-position :direction d/down    #    4/get :compound-prt 5/down
+
+123.
+# ::id lpp_1943.1388 ::annotator ISI-AMR-05 ::preferred
+# ::snt I had moistened his temples , and had given him some water to drink .
+# ::zh æˆ‘ç”¨æ°´æ¸æ¹¿äº†ä»–çš„å¤ªé˜³ç©´ï¼Œè®©ä»–å–äº†ç‚¹æ°´ã€‚
+# ::save-date Sat Dec 29, 2012 ::file lpp_1943_1388.txt
+t/temple    #    5/temple
+a/and    #    7/and
+w/water    #    12/water
+i/i    #    1/I
+h/he    #    10/he
+h/he    #    4/he
+d/drink    #    14/drink
+g/give    #    9/give
+m/moisten    #    3/moisten
+s/some    #    11/some
+g/give :ARG1 w/water    #    9/give :dobj 12/water
+w/water :purpose d/drink    #    12/water :acl 14/drink
+m/moisten :ARG0 i/i    #    3/moisten :nsubj 1/I
+t/temple :poss h/he    #    5/temple :nmod-poss 4/he
+g/give :ARG2 h/he    #    9/give :iobj 10/he
+m/moisten :ARG1 t/temple    #    3/moisten :dobj 5/temple
+g/give :ARG0 i/i    #    9/give :nsubj 1/I
+w/water :quant s/some    #    12/water :det 11/some
+m/moisten :op1-of a/and :op2 g/give    #    3/moisten ( :conj-and 9/give ) | :cc 7/and
+
+124.
+# ::id lpp_1943.1394 ::annotator ISI-AMR-05 ::preferred
+# ::snt How do you know about that ?
+# ::zh â€œä½ æ€Žä¹ˆçŸ¥é“çš„ï¼Ÿâ€
+# ::save-date Sat Dec 29, 2012 ::file lpp_1943_1394.txt
+k/know    #    4/know
+t/that    #    6/that
+y/you    #    3/you
+a/amr-unknown    #    1/how
+k/know :ARG1 t/that    #    4/know :nmod-about 6/that :case 5/about
+k/know :ARG0 y/you    #    4/know :nsubj 3/you
+k/know :manner a/amr-unknown    #    4/know :advmod 1/how
+
+125.
+# ::id lpp_1943.1400 ::annotator ISI-AMR-05 ::preferred
+# ::snt His look was very serious , like someone lost far away .
+# ::zh ä»–çš„çœ¼ç¥žå¾ˆä¸¥è‚ƒï¼Œæœ›ç€é¥è¿œçš„åœ°æ–¹ã€‚
+# ::save-date Wed Nov 4, 2015 ::file lpp_1943_1400.txt
+a/away    #    11/away
+v/very    #    4/very
+s2/someone    #    8/someone
+h/he    #    1/he
+f/far    #    10/far
+s/serious    #    5/serious
+l/look    #    2/look
+l2/lose    #    9/lose
+r/resemble    #    7/like
+l/look :ARG0 h/he    #    2/look :nmod-poss 1/he
+l2/lose :ARG1 s2/someone    #    9/lose :nsubj 8/someone
+s/serious :ARG2 l/look    #    5/serious :nsubj 2/look
+l2/lose :direction a/away    #    9/lose :advmod 11/away
+s/serious :degree v/very    #    5/serious :advmod 4/very
+a/away :mod f/far    #    11/away :advmod 10/far
+l2/lose :ARG1 s2/someone    #    9/lose :nsubj 8/someone
+s/serious :ARG2 l/look    #    5/serious :nsubj 2/look
+r/resemble :ARG2 s2/someone :ARG0-of l2/lose    #    9/lost ( :nsubj 8/someone ) | :mark 7/like
+l/look :ARG1-of r/resemble :ARG2 s2/someone :ARG0-of l2/lose    #    2/look :advcl 9/lost ( :nsubj 8/someone ) | :mark 7/like   
+
+126.
+# ::id lpp_1943.1445 ::annotator ISI-AMR-05 ::preferred
+# ::snt For some , who are travelers , the stars are guides .
+# ::zh å¯¹æ—…è¡Œçš„äººæ¥è¯´ï¼Œæ˜Ÿæ˜Ÿæ˜¯å‘å¯¼ã€‚
+# ::save-date Sun Dec 30, 2012 ::file lpp_1943_1445.txt
+s/star    #    9/star
+g/guide    #    11/guide
+s2/some    #    2/some
+t/travel    #    6/traveler
+g/guide :ARG0 s/star    #    11/guide :nsubj 9/star
+t/travel :ARG0 s2/some    #    6/traveler :nsubj 2/some
+t/travel :ARG0 s2/some    #    2/some :acl-relcl 6/traveler
+g/guide :ARG1 s2/some    #    11/guides :nmod-for 2/some :case 1/for
+
+127.
+# ::id lpp_1943.1481 ::annotator ISI-AMR-05 ::preferred
+# ::snt That night I did not see him set out on his way .
+# ::zh è¿™å¤©å¤œé‡Œï¼Œæˆ‘æ²¡æœ‰çœ‹åˆ°ä»–èµ·ç¨‹ã€‚
+# ::save-date Tue Mar 1, 2016 ::file lpp_1943_1481.txt
+n/night    #    2/night
+t/that    #    1/that
+w/way    #    12/way
+i/i    #    3/I
+s2/set-out    #    8/set :compound-prt 9/out
+s2/set-out    #    8/set
+s2/set-out    #    9/out
+h/he    #    7/he
+h/he    #    11/he
+none0/-    #    5/not
+s/see    #    6/see
+s2/set-out :ARG0 h/he    #    8/set ( :compound-prt 9/out ) | :nsubj 7/he
+s/see :ARG1 s2/set-out    #    6/see :ccomp 8/set :compound-prt 9/out
+s/see :polarity none0/-    #    6/see :neg 5/not
+w/way :poss h/he    #    12/way :nmod-poss 11/he
+s/see :ARG0 i/i    #    6/see :nsubj 3/I
+s2/set-out :ARG1 w/way    #    8/set ( :compound-prt 9/out ) | :nmod-on 12/way :case 10/on
+n/night :dayperiod-of d/date-entity :mod t/that    #    2/night :det 1/that
+n/night :dayperiod-of d/date-entity :time-of s/see    #    2/night :acl-relcl 6/see
+
+128.
+# ::id lpp_1943.1502 ::annotator ISI-AMR-05 ::preferred
+# ::snt All the stars will be wells with a rusty pulley .
+# ::zh æ‰€æœ‰çš„æ˜Ÿæ˜Ÿéƒ½å°†æ˜¯å¸¦æœ‰ç”Ÿäº†é”ˆçš„è¾˜è½³çš„äº•ã€‚
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_1502.txt
+s/star    #    3/star
+a/all    #    1/all
+w/well    #    6/well
+p/pulley    #    10/pulley
+r/rust    #    9/rusty
+w/well :domain-of s/star    #    6/well :nsubj 3/star
+s/star :mod a/all    #    3/star :det-predet 1/all
+w/well :ARG0-of h/have :ARG1 p/pulley    #    6/well :nmod-with 10/pulley :case 7/with
+p/pulley :mod r/rust    #    10/pulley :amod 9/rusty
+
+129.
+# ::id lpp_1943.1510 ::annotator ISI-AMR-05 ::preferred
+# ::snt And he sat down , because he was afraid .
+# ::zh ä»–è¿™æ—¶åä¸‹æ¥ï¼Œå› ä¸ºä»–å®³æ€•äº†ã€‚
+# ::save-date Mon May 13, 2013 ::file lpp_1943_1510.txt
+a/and    #    1/and
+h/he    #    7/he
+h/he    #    2/he
+c/cause    #    6/because
+f/fear    #    9/afraid
+s/sit-down    #    3/sit :advmod 4/down
+s/sit-down    #    3/sit
+s/sit-down    #    4/down
+s/sit-down :ARG1 h/he    #    3/sit ( :advmod 4/down ) | :nsubj 2/he
+s/sit-down :op2-of a/and    #    3/sit ( :advmod 4/down ) | :cc 1/and
+f/fear :ARG0 h/he    #    9/afraid :nsubj 7/he
+c/cause :ARG0 f/fear    #    9/afraid :mark 6/because
+s/sit-down :ARG1-of c/cause :ARG0 f/fear    #    3/sit ( :advmod 4/down ) | :advcl 9/afraid :mark 6/because
+
+130.
+# ::id lpp_1943.1515 ::annotator ISI-AMR-05 ::preferred
+# ::snt She has four thorns , of no use at all , to protect herself against all the world .
+# ::zh å¥¹åªæœ‰å››æ ¹å¾®ä¸è¶³é“çš„åˆºï¼Œä¿æŠ¤è‡ªå·±ï¼ŒæŠµæŠ—å¤–æ•Œâ€¦â€
+# ::save-date Tue Apr 23, 2013 ::file lpp_1943_1515.txt
+t/thorn    #    4/thorn
+a/all    #    16/all
+w/world    #    18/world
+h/have    #    2/have
+none1/-    #    7/no
+p/protect    #    13/protect
+s/she    #    1/she
+u/use    #    8/use
+none0/4    #    3/four
+s/she    #    14/herself
+w/world :mod a/all    #    18/world :det-predet 16/all
+h/have :ARG1 t/thorn    #    2/have :dobj 4/thorn
+u/use :polarity none1/-    #    8/use :neg 7/no
+t/thorn :ARG0-of p/protect    #    4/thorn :acl 13/protect
+p/protect :ARG2 w/world    #    13/protect :nmod-against 18/world :case 15/against
+t/thorn :ARG1-of u/use    #    4/thorn :nmod-of 8/use :case 6/of
+h/have :ARG0 s/she    #    2/have :nsubj 1/she
+t/thorn :ARG1-of h/have :purpose p/protect    #    2/have :dobj 4/thorn :acl 13/protect
+t/thorn :quant none0/4    #    4/thorn :nummod 3/four
+p/protect :ARG1 s/she    #    13/protect :dobj 14/herself
+
+131.
+# ::id lpp_1943.1291 ::annotator ISI-AMR-05 ::preferred
+# ::snt I did not want him to tire himself with the rope .
+# ::zh æˆ‘ä¸æ„¿è®©ä»–è´¹åŠ²ã€‚
+# ::save-date Sun Dec 2, 2012 ::file lpp_1943_1291.txt
+t/tire    #    7/tire
+w/want    #    4/want
+i/i    #    1/I
+h/he    #    5/he
+none0/-    #    3/not
+r/rope    #    11/rope
+h/he    #    8/himself
+w/want :ARG1 t/tire    #    4/want :xcomp 7/tire
+w/want :ARG0 i/i    #    4/want :nsubj 1/I
+w/want :polarity none0/-    #    4/want :neg 3/not
+t/tire :ARG0 h/he    #    7/tire :nsubj 5/he
+t/tire :ARG1 h/he    #    7/tire :dobj 8/himself
+t/tire :instrument r/rope    #    7/tire :nmod-with 11/rope :case 9/with
+w/want :ARG1 t/tire :ARG0 h/he    #    4/want ( :dobj 5/he ) | :xcomp 7/tire :nsubj 5/he
+
+132.
+# ::id lpp_1943.1230 ::date 2012-11-15T19:56:42 ::annotator ISI-AMR-05 ::preferred
+# ::snt He has never been either hungry or thirsty .
+# ::zh â€œä»–ä»Žæ¥ä¸çŸ¥é“é¥¥æ¸´ã€‚
+# ::save-date Thu May 9, 2013 ::file lpp_1943_1230.txt
+t/thirst    #    8/thirsty
+h/hunger    #    6/hungry
+a/and    #    7/or
+a/and    #    5/either
+h2/he    #    1/he
+t/thirst :ARG0 h2/he    #    8/thirsty :nsubj 1/he
+h/hunger :ARG0 h2/he    #    6/hungry :nsubj 1/he
+e/ever    #    3/never
+none0/-    #    3/never
+none1/-    #    3/never
+h/hunger :op1-of a/and :op2 t/thirst    #    6/hungry ( :conj-or 8/thirsty ) | :cc 7/or
+h/hunger :op1-of a/and :op2 t/thirst    #    6/hungry ( :cc-preconj 5/either ) | ( :cc 7/or ) | :conj-or 8/thirsty
+a/and ( :op1 h/hunger :polarity none0/- ) | ( :op2 t/thirst :polarity none1/- ) | :time e/ever    #    6/hungry ( :cc 7/or ) | ( :conj-or 6/thirsty ) | :neg 3/never
+
+133.
+# ::id lpp_1943.1234 ::date 2012-11-15T20:20:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt I made a gesture of weariness .
+# ::zh æˆ‘æ˜¾å‡ºåŽŒçƒ¦çš„æ ·å­ï¼š
+# ::save-date Wed Jun 3, 2015 ::file lpp_1943_1234.txt
+g2/gesture    #    4/gesture
+w/weary    #    6/weariness
+i/i    #    1/I
+g2/gesture :ARG1 w/weary    #    2/make :dobj 4/gesture :nmod-of 6/weariness :case 5/of
+g2/gesture    #    2/make :dobj 4/gesture
+g2/gesture :ARG0 i/i    #    2/make ( :dobj 4/gesture ) | :nsubj 1/I
+
+134.
+# ::id lpp_1943.1267 ::date 2013-04-20T20:54:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt I felt deeply moved , and stirred .
+# ::zh æˆ‘å¾ˆæ¿€åŠ¨ã€‚
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_1267.txt
+f/feel    #    2/feel
+s/stir    #    7/stir
+a/and    #    6/and
+i/i    #    1/I
+m/move    #    4/move
+d/deep    #    3/deeply
+m/move :ARG1-of d/deep    #    4/move :advmod 3/deeply
+f/feel :ARG0 i/i    #    2/feel :nsubj 1/I
+a/and ( :op1 s/stir ) | :op2 m/move    #    4/move ( :cc 6/and ) | :conj-and 7/stir
+s/stir :ARG1 i/i    #    7/stir :nsubj 1/I
+m/move :ARG1 i/i    #    4/move :nsubj 1/I
+f/feel :ARG1 a/and ( :op2 s/stir ) | :op1 m/move    #    2/feel ( :xcomp 4/move ( :cc 6/and ) | :conj-and 7/stir ) | :xcomp 7/stir
+
+135.
+# ::id lpp_1943.1209 ::date 2012-11-27T12:54:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt This was a merchant who sold pills that had been invented to quench thirst .
+# ::zh è¿™æ˜¯ä¸€ä½è´©å–èƒ½å¤Ÿæ­¢æ¸´çš„ç²¾åˆ¶è¯ä¸¸çš„å•†äººã€‚
+# ::save-date Fri May 10, 2013 ::file lpp_1943_1209.txt
+t/thirst    #    14/thirst
+p2/pill    #    7/pill
+i/invent    #    11/invent
+q/quench    #    13/quench
+t2/this    #    1/this
+s/sell    #    6/sell
+m/merchandise    #    4/merchant
+p/person :ARG0-of m/merchandise    #    4/merchant
+p/person ( :ARG0-of m/merchandise ) | :domain t2/this    #    4/merchant :nsubj 1/this
+p2/pill :ARG1-of i/invent    #    7/pill :acl-relcl 11/invent
+i/invent :ARG1 p2/pill    #    11/invent :nsubjpass 7/pill
+s/sell :ARG1 p2/pill    #    6/sell :dobj 7/pill
+q/quench :ARG1 t/thirst    #    13/quench :dobj 14/thirst
+i/invent :purpose q/quench    #    11/invent :nmod-to 13/quench :case 12/to
+m/merchandise :ARG0 p/person :ARG0-of s/sell    #    4/merchant :acl-relcl 6/sell
+m/merchandise :ARG0 p/person :ARG0-of s/sell    #    6/sell :nsubj 4/merchant
+
+136.
+# ::id lpp_1943.105 ::date 2012-07-31T07:42:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince , who asked me so many questions , never seemed to hear the ones I asked him .
+# ::zh å°çŽ‹å­å‘æˆ‘æå‡ºäº†å¾ˆå¤šé—®é¢˜ï¼Œå¯æ˜¯ï¼Œå¯¹æˆ‘æå‡ºçš„é—®é¢˜ï¼Œä»–å¥½è±¡åŽ‹æ ¹æ²¡æœ‰å¬è§ä¼¼çš„ã€‚
+# ::save-date Wed Apr 8, 2015 ::file lpp_1943_105.txt
+s/seem    #    13/seem
+h/hear    #    15/hear
+o/one    #    17/one
+a2/ask    #    19/ask
+a/ask    #    6/ask
+i/i    #    18/I
+i/i    #    7/I
+p/prince    #    3/prince
+p/prince    #    20/he
+q/question    #    10/question
+m/many    #    9/many
+s2/so    #    8/so
+l/little    #    2/little
+e2/ever    #    12/never
+s/seem :ARG1 h/hear    #    13/seem :xcomp 15/hear
+s/seem :ARG1 h/hear ( :polarity none0/- ) | :time e2/ever    #    13/seem ( :xcomp 15/hear ) | :neg 12/never
+h/hear :ARG0 p/prince    #    15/hear :nsubj 3/prince
+h/hear :ARG1 o/one    #    15/hear :dobj 17/one
+o/one :ARG1-of a2/ask    #    17/one :acl-relcl 19/ask
+a2/ask :ARG2 p/prince    #    19/ask :dobj 20/he
+a2/ask :ARG0 i/i    #    19/ask :nsubj 18/I
+p/prince :ARG0-of a/ask    #    3/prince :acl-relcl 6/ask
+a/ask :ARG0 p/prince    #    6/ask :nsubj 3/prince
+p/prince :mod l/little    #    3/prince :amod 2/little
+a/ask :ARG2 i/i    #    6/ask :iobj 7/I
+a/ask :ARG1 q/question    #    6/ask :dobj 10/question
+q/question :quant m/many    #    10/question :amod 9/many
+m/many :degree s2/so    #    9/many :advmod 8/so
+
+137.
+# ::id lpp_1943.275 ::date 2012-11-14T11:00:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt At first you seemed to be very much surprised .
+# ::zh å¼€å§‹ï¼Œä½ æ˜¾å¾—å¾ˆæƒŠå¥‡çš„æ ·å­ï¼Œ
+# ::save-date Wed Aug 7, 2013 ::file lpp_1943_275.txt
+v/very    #    7/very
+s2/surprise    #    9/surprised
+m/much    #    8/much
+s/seem    #    4/seem
+y/you    #    3/you
+s/seem :ARG1 s2/surprise    #    4/seem :xcomp 9/surprised
+s2/surprise :degree m/much    #    9/surprised :advmod 8/much
+s2/surprise :ARG1 y/you    #    9/surprised :nsubj 3/you
+m/much :degree v/very    #    8/much :advmod 7/very
+s/seem :time a/at-first    #    4/seem :nmod-at 2/first :case 1/at
+a/at-first    #    2/first :case 1/at
+a/at-first    #    2/first
+a/at-first    #    1/at
+
+138.
+# ::id lpp_1943.470 ::date 2012-11-11T17:09:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt It seems that they are very beautiful .
+# ::zh æ®è¯´è¿™æ˜¯å¾ˆç¾Žçš„ã€‚
+# ::save-date Sat Jul 25, 2015 ::file lpp_1943_470.txt
+v2/very    #    6/very
+b/beautiful    #    7/beautiful
+s/seem    #    2/seem
+t2/they    #    4/they
+b/beautiful :degree v2/very    #    7/beautiful :advmod 6/very
+s/seem :ARG1 b/beautiful    #    2/seem :ccomp 7/beautiful
+b/beautiful :ARG1 t2/they    #    7/beautiful :nsubj 4/they
+
+139.
+# ::id lpp_1943.478 ::date 2012-11-11T18:01:54 ::annotator ISI-AMR-05 ::preferred
+# ::snt For she did not want him to see her crying .
+# ::zh å¥¹æ˜¯æ€•å°çŽ‹å­çœ‹è§å¥¹åœ¨å“­ã€‚
+# ::save-date Wed Apr 10, 2013 ::file lpp_1943_478.txt
+w/want    #    5/want
+c/cry    #    10/cry
+h/he    #    6/he
+s2/see    #    8/see
+none0/-    #    4/not
+s/she    #    2/she
+s/she    #    9/she
+s2/see :ARG0 h/he    #    8/see :nsubj 6/he
+s2/see :ARG1 c/cry    #    8/see :dobj 10/cry
+c/cry :ARG0 s/she    #    10/cry :nmod-poss 9/she
+w/want :ARG1 s2/see    #    5/want :xcomp 8/see
+w/want :ARG0 s/she    #    5/want :nsubj 2/she
+w/want :polarity none0/-    #    5/want :neg 4/not
+
+140.
+# ::id lpp_1943.820 ::date 2012-11-14T18:11:13 ::annotator ISI-AMR-05 ::preferred
+# ::snt Perhaps that is because he is thinking of something else besides himself .
+# ::zh è¿™å¯èƒ½æ˜¯å› ä¸ºä»–æ‰€å…³å¿ƒçš„æ˜¯åˆ«çš„äº‹ï¼Œè€Œä¸æ˜¯ä»–è‡ªå·±ã€‚â€
+# ::save-date Mon Sep 22, 2014 ::file lpp_1943_820.txt
+p/possible    #    1/perhaps
+c/cause    #    4/because
+s/something    #    9/something
+t/think    #    7/think
+h/he    #    5/he
+h/he    #    12/himself
+e/else    #    10/else
+d/differ    #    11/besides
+t/think :ARG0 h/he    #    7/think :nsubj 5/he
+s/something :mod e/else    #    9/something :advmod 10/else
+t/think :ARG2 s/something    #    7/think :nmod-of 9/something :case 8/of
+s/something ( :ARG1-of d/differ :ARG2 h/he ) | :mod e/else    #    9/something :advmod 10/else :nmod-besides 12/himself :case 11/besides
+d/differ :ARG2 h/he    #    12/himself :case 11/besides
+t/think :ARG0-of c/cause    #    7/think :mark 4/because
+p/possible :ARG1 c/cause :ARG0 t/think    #    3/is ( :advmod 1/perhaps ) | :advcl 7/thinking :mark 4/because
+
+141.
+# ::id lpp_1943.834 ::date 2012-11-15T06:20:55 ::annotator ISI-AMR-05 ::preferred
+# ::snt What are you doing ?
+# ::zh ä½ åœ¨è¿™é‡Œå¹²ä»€ä¹ˆï¼Ÿâ€
+# ::save-date Tue Apr 16, 2013 ::file lpp_1943_834.txt
+y/you    #    3/you
+d2/do    #    4/do
+a/amr-unknown    #    1/what
+d2/do :ARG0 y/you    #    4/do :nsubj 3/you
+d2/do :ARG1 a/amr-unknown    #    4/do :dobj 1/what
+
+142.
+# ::id lpp_1943.30 ::date 2012-07-24T08:57:30 ::annotator ISI-AMR-05 ::preferred
+# ::snt I would try to find out , so , if this was a person of true understanding .
+# ::zh æˆ‘æƒ³çŸ¥é“ä»–æ˜¯å¦çœŸçš„æœ‰ç†è§£èƒ½åŠ›ã€‚
+# ::save-date Thu Feb 4, 2016 ::file lpp_1943_30.txt
+t/try    #    3/try
+i/i    #    1/I
+p/person    #    14/person
+t2/this    #    11/this
+t3/true    #    16/true
+u2/understand    #    17/understanding
+t/try :ARG1 f/find-out    #    3/try :xcomp 5/find :compound-prt 6/out
+f/find-out :ARG0 i/i    #    5/find ( :compound-prt 6/out ) | :nsubj 1/I
+p/person :mod t2/this    #    14/person :nsubj 11/this
+t/try :ARG0 i/i    #    3/try :nsubj 1/I
+f/find-out    #    5/find :compound-prt 6/out
+f/find-out    #    5/find
+f/find-out    #    6/out
+u2/understand :ARG1-of t3/true    #    17/understanding :amod 16/true
+p/person :ARG0-of u2/understand    #    14/person :nmod-of 17/understanding :case 15/of
+none0/interrogative    #    10/if
+none0/interrogative :mode-of u2/understanding :ARG0 p/person    #    14/person ( :nmod-of 17/understanding :case 15/of ) | :mark 10/if
+f/find-out :ARG1 u2/understanding :ARG0 p/person    #    5/find :advcl 14/person :nmod-of 17/understanding :case 15/of
+
+143.
+# ::id lpp_1943.195 ::date 2012-08-07T10:20:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt I shall certainly try to make my portraits as true to life as possible .
+# ::zh å½“ç„¶ï¼Œæˆ‘ä¸€å®šè¦æŠŠè¿™äº›ç”»å°½é‡åœ°ç”»å¾—é€¼çœŸï¼Œ
+# ::save-date Sun Apr 12, 2015 ::file lpp_1943_195.txt
+t/try    #    4/try
+p2/possible    #    14/possible
+i/i    #    1/I
+i/i    #    7/my
+p/portrait    #    8/portrait
+m/make    #    6/make
+t2/true    #    10/true
+l/life    #    12/life
+c/certain    #    3/certainly
+m2/most    #    9/as
+t2/true :ARG2 l/life    #    10/true :nmod-to 12/life :case 11/to
+m/make :ARG0 i/i    #    6/make :nsubj 1/I
+m/make :ARG1 t2/true    #    6/make :advcl 10/true
+t/try :ARG0 i/i    #    4/try :nsubj 1/I
+t/try :mod c/certain    #    4/try :advmod 3/certainly
+m2/most :degree-of t2/true :compared-to p2/possible    #    10/true ( :advcl-as 14/possible :case 13/as ) | :mark 9/as
+t/try :ARG1 m/make    #    4/try :xcomp 6/make
+m/make :ARG1 t2/true :ARG1 p/portrait    #    6/make ( :dobj 8/portrait ) | :advcl 10/true
+p/portrait :poss i/i    #    8/portrait :nmod-poss 7/my
+
+144.
+# ::id lpp_1943.94 ::date 2012-07-31T06:59:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt Do you think that this sheep will have to have a great deal of grass ?
+# ::zh ä½ è¯´è¿™åªç¾Šéœ€è¦å¾ˆå¤šè‰å—ï¼Ÿâ€
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_94.txt
+t/think    #    3/think
+g2/great    #    12/great
+h/have    #    10/have
+o/obligate    #    8/have
+d/deal    #    13/deal
+g/grass    #    15/grass
+t2/this    #    5/this
+s/sheep    #    6/sheep
+y/you    #    2/you
+d/deal :mod g2/great    #    13/deal :amod 12/great
+s/sheep :mod t2/this    #    6/sheep :det 5/this
+d/deal :quant-of g/grass    #    13/deal :nmod-of 15/grass :case 14/of
+h/have :ARG0 s/sheep    #    10/have :nsubj 6/sheep
+o/obligate :ARG1 s/sheep    #    8/have :nsubj 6/sheep
+o/obligate :ARG2 h/have    #    8/have :xcomp 10/have
+t/think :ARG0 y/you    #    3/think :nsubj 2/you
+t/think :ARG1 o/obligate    #    3/think :ccomp 8/have
+h/have :ARG1 g/grass :quant d/deal    #    10/have :dobj 13/deal :nmod-of 15/grass :case 14/of
+
+145.
+# ::id lpp_1943.165 ::date 2012-07-31T12:53:52 ::annotator ISI-AMR-05 ::preferred
+# ::snt Does he collect butterflies ?
+# ::zh ä»–æ˜¯å¦æ”¶é›†è´è¶æ ‡æœ¬å‘€ï¼Ÿâ€
+# ::save-date Tue Jul 31, 2012 ::file lpp_1943_165.txt
+c/collect    #    3/collect
+b/butterfly    #    4/butterfly
+h/he    #    2/he
+c/collect :ARG1 b/butterfly    #    3/collect :dobj 4/butterfly
+c/collect :ARG0 h/he    #    3/collect :nsubj 2/he
+
+179.
+# ::id edinburgh_1003.1 ::date 2016-05-25T12:26:05
+# ::snt that's a terribly small horse for you to ride .
+# ::save-date Wed May 25, 2016 ::user nathans ::file edinburgh_1003_1.txt
+s/small    #    5/small
+t/terribly    #    4/terrible
+r/ride    #    10/ride
+h/horse    #    6/horse
+y/you    #    8/you
+t2/that    #    1/that
+h/horse :mod t2/that    #    6/horse :nsubj 1/that
+s/small :domain h/horse    #    6/horse :amod 5/small
+s/small :beneficiary r/ride    #    5/small :xcomp 10/ride
+r/ride :ARG0 y/you    #    10/ride :nsubj 8/you
+s/small :degree t/terribly    #    5/small :advmod 4/terrible
+
+180.
+# ::id edinburgh_1003.2 ::date 2016-05-25T12:31:26
+# ::snt why don't you look at some of the toys in the basket .
+# ::save-date Sat Jun 4, 2016 ::user nathans ::file edinburgh_1003_2.txt
+l/look    #    5/look
+t/toy    #    10/toy
+b/basket    #    13/basket
+s/some    #    7/some
+y/you    #    4/you
+r/recommend :ARG1 l/look    #    5/look ( :advmod 1/why ) | ( :aux 2/do ) | :neg 3/not
+l/look :ARG0 y/you    #    5/look :nsubj 4/you
+l/look :ARG1 t/toy    #    5/look :nmod-at 10/toys :case 6/at
+t/toy :mod s/some    #    10/toy :det-qmod 7/some :mwe 8/of
+t/toy :location b/basket    #    10/toys :nmod-in 13/basket :case 11/in
+
+181.
+# ::id edinburgh_1003.3 ::date 2016-05-25T12:38:21
+# ::snt does he walk like you or does he go hop hop hop ?
+# ::save-date Wed May 25, 2016 ::user nathans ::file edinburgh_1003_3.txt
+w/walk    #    3/walk
+g/go    #    9/go
+h2/hop    #    10/hop
+h2/hop    #    11/hop
+h2/hop    #    12/hop
+h2/hop :mode none0/expressive    #    10/hop :goeswith 11/hop :goeswith 12/hop
+h/he    #    8/he
+h/he    #    2/he
+y/you    #     5/you
+g/go :ARG0 h/he    #    9/go :nsubj 8/he
+g/go :ARG1 h2/hop    #    9/go :advmod 10/hop
+w2/walk    #    3/walk
+w/walk :ARG0 h/he    #    3/walk :nsubj 2/he
+r/resemble    #    4/like
+w/walk :ARG1-of r/resemble :ARG2 w2/walk :ARG0 y/you    #    3/walk :nmod-like 5/you :case 4/like
+m/multiple-choice    #    6/or
+w/walk :ARG1-of m/multiple-choice :ARG2 g/go    #    3/walk ( :conj-or 9/go ) | :cc 6/or
+
+182.
+# ::id edinburgh_1003.4 ::date 2016-05-25T12:46:23
+# ::snt if you look out the other window maybe you'll see it .
+# ::save-date Wed May 25, 2016 ::user nathans ::file edinburgh_1003_4.txt
+s/see    #    11/see
+y/you    #    9/you
+y/you    #    2/you
+l/look    #    3/look
+o/out    #    4/out
+w/window    #    7/window
+o2/other    #    6/other
+i/it    #    12/it
+s/see :ARG0 y/you    #    11/see :nsubj 9/you
+p/possible    #    8/maybe
+p/possible ( :ARG1 s/see ) | :condition l/look    #    11/see ( :discourse 8/maybe ) | :advcl 3/look :mark 1/if
+l/look :ARG0 y/you    #    3/look :nsubj 2/you
+w/window :mod o2/other    #    7/window :amod 6/other
+w/window :op1-of o/out    #    7/window :case 4/out
+l/look :direction o/out :op1 w/window    #    3/look ( :nmod-out 7/window ) | :case 4/out
+s/see :ARG1 i/it    #    11/see :dobj 12/it
+p/possible :ARG1 s/see    #    11/see :discourse 8/maybe
+
+183.
+# ::id edinburgh_1003.5 ::date 2016-05-25T12:54:24
+# ::snt I think that one's too large to go in the window .
+# ::save-date Sat Jun 4, 2016 ::user nathans ::file edinburgh_1003_5.txt
+t/think    #    2/think
+i/i    #    1/I
+t/think :ARG0 i/i    #     2/think :nsubj 1/I
+l/large    #    7/large
+t3/too    #    6/too
+l/large :ARG1-of h/have-degree :ARG3 t3/too    #    7/large :advmod 6/too
+l/large :ARG1-of h/have-degree    #    7/large
+o/one    #    4/one
+t2/that    #    3/that
+o/one :mod t2/that    #    4/one :det 3/that
+l/large :ARG1-of h/have-degree :ARG2 o/one    #    7/large :nsubj 4/one
+g/go    #    9/go
+w/window    #    12/window
+g/go :ARG4 w/window    #    9/go :nmod-in 12/window :case 10/in
+t/think :ARG1 h/have-degree :ARG1 l/large    #    2/think :ccomp 7/large
+h/have-degree ( :ARG1 l/large ) | :ARG5 g/go    #    7/large :advcl 9/go
+
+184.
+# ::id edinburgh_1003.6 ::date 2016-05-25T13:01:10
+# ::snt not the kind you hit but the kind you kick .
+# ::save-date Sat Jun 4, 2016 ::user nathans ::file edinburgh_1003_6.txt
+k/kind-yy    #    8/kind
+k2/kick    #    10/kick
+p/person    #    9/you
+k3/kind-yy    #    3/kind
+h/hit    #    5/hit
+p2/person    #    4/you
+k2/kick :ARG0 p/person    #    10/kick :nsubj 9/you
+k/kind-yy :ARG1-of k2/kick    #    8/kind :acl-relcl 10/kick
+h/hit :ARG0 p2/person    #    5/hit :nsubj 4/you
+k3/kind-yy :ARG1-of h/hit    #    3/kind :acl-relcl 5/hit
+k/kind-yy :ARG1-of i2/instead-of :ARG2 k3/kind-yy    #    3/kind ( :cc-preconj 1/not ) | ( :conj-but 8/kind ) | :cc 6/but
+
+185.
+# ::id edinburgh_1003.7 ::date 2016-05-25T13:04:51
+# ::snt why don't you take that over and show it to him .
+# ::save-date Wed May 25, 2016 ::user nathans ::file edinburgh_1003_7.txt
+t/take    #    5/take
+a/and    #    8/and
+s/show    #    9/show
+o/over    #    7/over
+y/you    #    4/you
+t2/that    #    6/that
+t2/that    #    10/it
+h/he    #    12/him
+t/take :ARG0 y/you    #    5/take :nsubj 4/you
+t/take :direction o/over    #    5/take :advmod 7/over
+t/take :ARG1 t2/that    #    5/take :dobj 6/that
+s/show :ARG1 t2/that    #    9/show :dobj 10/it
+s/show :ARG2 h/he    #    9/show :nmod-to 12/him :case 11/to
+t/take :op1-of a/and :op2 s/show    #    5/take ( :conj-and 9/show ) | :cc 8/and
+r/recommend :ARG1 a/and ( :op1 t/take ) | :op2 s/show    #    5/take ( :advmod 1/why ) | ( :neg 3/not ) | ( :conj-and 9/show ) | :cc 8/and
+s/show :ARG0 y/you    #    9/show :nsubj 4/you
+
+186.
+# ::id edinburgh_1003.8 ::date 2016-05-25T13:09:12
+# ::snt I guess Cliffy looks at Bozo at her house .
+# ::save-date Wed May 25, 2016 ::user nathans ::file edinburgh_1003_8.txt
+g/guess    #    2/guess
+l/look    #    4/look
+h/house    #    9/house
+i/i    #    1/I
+none1/Bozo    #    6/Bozo
+none0/Cliffy    #    3/Cliffy
+p2/person :name n2/name :op1 none1/Bozo    #    6/Bozo
+p2/person :name n2/name :op1 none1/Bozo    #    8/her
+p/person :name n/name :op1 none0/Cliffy    #    3/Cliffy
+g/guess :ARG0 i/i    #    2/guess :nsubj 1/I
+g/guess :ARG1 l/look    #    2/guess :ccomp 4/look
+l/look :location h/house    #    4/look :nmod-at 9/house :case 7/at
+l/look :ARG1 p2/person :name n2/name :op1 none1/Bozo    #    4/look :nmod-at 6/Bozo :case 5/at
+h/house :poss p2/person :name n2/name :op1 none1/Bozo    #    9/house :nmod-poss 8/her
+l/look :ARG0 p/person :name n/name :op1 none0/Cliffy    #    4/look :nsubj 3/Cliffy
+
+187.
+# ::id edinburgh_1003.9 ::date 2016-05-25T13:10:57
+# ::snt you don't have anything else to put in the box do you ?
+# ::save-date Sat Jun 4, 2016 ::user nathans ::file edinburgh_1003_9.txt
+h/have    #    4/have
+a/anything    #    5/anything
+y/you    #    1/you
+e/else    #    6/else
+p/put    #    8/put
+b/box    #    11/box
+none0/-    #    3/not
+h/have :polarity none0/-    #    4/have :neg 3/not
+h/have :ARG0 y/you    #    4/have :nsubj 1/you
+h/have :ARG1 a/anything    #    4/have :dobj 5/anything
+a/anything :mod e/else    #    5/anything :dep 6/else
+a/anything :purpose p/put    #    5/anything :acl 8/put
+p/put :ARG1 a/anything    #    5/anything :acl 8/put
+p/put :ARG2 b/box    #    8/put :nmod-in 11/box :case 9/in
+r/request-confirmation    #    12/do :nsubj 13/you
+r/request-confirmation :ARG1 h/have    #    4/have :discourse 12/do :nsubj 13/you
+
+188.
+# ::id edinburgh_1003.10 ::date 2016-05-25T14:04:59
+# ::snt why don't you come over here and play with the ball ?
+# ::save-date Wed May 25, 2016 ::user nathans ::file edinburgh_1003_10.txt
+a/and    #    8/and
+p/play    #    9/play
+c/come    #    5/come
+b/ball    #    12/ball
+h/here    #    7/here
+o/over    #    6/over
+y/you    #    4/you
+p/play :ARG2 b/ball    #    9/play :nmod-with 12/ball :case 10/with
+c/come :ARG4 h/here    #    5/come :advmod 7/here
+o/over :direction-of c/come :ARG4 h/here    #    5/come :advmod 7/here :advmod 6/over
+c/come :ARG1 y/you    #    5/come :nsubj 4/you
+c/come :op1-of a/and :op2 p/play    #    5/come ( :conj-and 9/play ) | :cc 8/and
+r/recommend :ARG1 a/and ( :op1 c/come ) | :op2 p/play    #    5/come ( :advmod 1/why ) | ( :neg 3/not ) | ( :conj-and 9/play ) | :cc 8/and
+
+200.
+# ::id NATHANS_EXAMPLE ::date 2017-06-06T04:25:05 ::snt-type body ::annotator SDL-AMR-09 ::preferred
+# ::snt In the story, evildoer Cruella de Vil makes no attempt to conceal her glee and lack of conscience.
+# ::save-date Tue Jun 6, 2017
+a/attempt    #    11/attempt
+a/attempt    #    9/makes :dobj 11/attempt
+none0/-    #    10/no
+a/attempt :polarity none0/-    #    11/attempt :neg 10/no
+s/story    #    3/story
+p/person :ARG0-of d/do :ARG1 t/thing :mod e/evil    #    5/evildoer 
+e/evil    #    5/evildoer
+p/person :name n/name ( :op1 none1/Cruella ) | ( :op2 none2/de ) | :op3 none3/Vil    #    8/Vil ( :compound 6/Cruella ) | :amod 7/de
+none1/Cruella    #    6/Cruella
+none2/de    #    7/de
+none3/Vil    #    8/Vil
+p/person :name n/name ( :op1 none1/Cruella ) | ( :op2 none2/de ) | :op3 none3/Vil    #    14/her
+c/conceal    #    13/conceal
+a2/and    #    16/and
+g/glee    #    15/glee
+l/lack    #    17/lack
+c2/conscience    #    19/conscience
+a/attempt :location s/story    #    9/makes ( :dobj 11/attempt ) | :nmod-in 3/story :case 1/in
+a/attempt :ARG1 c/conceal    #    9/makes :dobj 11/attempt :acl 13/conceal
+a/attempt :ARG0 p/person :name n/name ( :op1 none1/Cruella ) | ( :op2 none2/de ) | :op3 none3/Vil    #    9/makes ( :dobj 11/attempt ) | :nsubj 8/Vil ( :compound 6/Cruella ) | :amod 7/de
+c/conceal :ARG0 p/person :name n/name ( :op1 none1/Cruella ) | ( :op2 none2/de ) | :op3 none3/Vil    #    13/conceal :nsubj 8/Vil ( :compound 6/Cruella ) | :amod 7/de
+p/person ( :name n/name ( :op1 none1/Cruella ) | ( :op2 none2/de ) | :op3 none3/Vil ) | :ARG0-of d/do :ARG1 t/thing :mod e/evil    #    8/Vil ( :compound 6/Cruella ) | ( :amod 7/de ) | :appos 5/evildoer
+a2/and ( :op1 g/glee ) | :op2 l/lack    #    15/glee ( :cc 16/and ) | :conj-and 17/lack
+l/lack :ARG1 c2/conscience    #    17/lack :nmod-of 19/conscience :case 18/of
+g/glee :poss p/person :name n/name ( :op1 none1/Cruella ) | ( :op2 none2/de ) | :op3 none3/Vil    #    15/glee :nmod-poss 14/her
+l/lack :ARG0 p/person :name n/name ( :op1 none1/Cruella ) | ( :op2 none2/de ) | :op3 none3/Vil    #    17/lack :nmod-poss 14/her
+c/conceal :ARG1 a2/and ( :op1 g/glee ) | :op2 l/lack    #    13/conceal :dobj 15/glee ( :cc 16/and ) | :conj-and 17/lack
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+1	Chapter	chapter	_	_	_	0	ROOT	_	_
+2	1	1	_	_	_	1	nummod	_	_
+3	.	.	_	_	_	1	punct	_	_
+
+1	That	that	_	_	_	8	nsubj	_	_
+2	,	,	_	_	_	8	punct	_	_
+3	however	however	_	_	_	8	advmod	_	_
+4	,	,	_	_	_	8	punct	_	_
+5	is	be	_	_	_	8	cop	_	_
+6	not	not	_	_	_	8	neg	_	_
+7	my	my	_	_	_	8	nmod-poss	_	_
+8	fault	fault	_	_	_	0	ROOT	_	_
+9	.	.	_	_	_	8	punct	_	_
+
+1	And	and	_	_	_	3	cc	_	_
+2	he	he	_	_	_	3	nsubj	_	_
+3	sank	sink	_	_	_	0	ROOT	_	_
+4	into	into	_	_	_	6	case	_	_
+5	a	a	_	_	_	6	det	_	_
+6	reverie	reverie	_	_	_	3	nmod-into	_	_
+6	reverie	reverie	_	_	_	9	nsubj	_	_
+7	,	,	_	_	_	6	punct	_	_
+8	which	which	_	_	_	6	ref	_	_
+9	lasted	last	_	_	_	6	acl-relcl	_	_
+10	a	a	_	_	_	12	det	_	_
+11	long	long	_	_	_	12	amod	_	_
+12	time	time	_	_	_	9	dobj	_	_
+13	.	.	_	_	_	3	punct	_	_
+
+1	That	that	_	_	_	3	nsubj	_	_
+2	is	be	_	_	_	3	cop	_	_
+3	so	so	_	_	_	0	ROOT	_	_
+4	.	.	_	_	_	3	punct	_	_
+
+1	If	if	_	_	_	6	mark	_	_
+2	it	it	_	_	_	6	nsubj	_	_
+3	is	be	_	_	_	6	cop	_	_
+4	only	only	_	_	_	6	advmod	_	_
+5	a	a	_	_	_	6	det	_	_
+6	sprout	sprout	_	_	_	20	csubj	_	_
+7	of	of	_	_	_	8	case	_	_
+8	radish	radish	_	_	_	6	nmod-of	_	_
+9	or	or	_	_	_	6	cc	_	_
+10	the	the	_	_	_	11	det	_	_
+11	sprig	sprig	_	_	_	6	conj-or	_	_
+12	of	of	_	_	_	16	case	_	_
+13	a	a	_	_	_	16	det	_	_
+14	rose	rose	_	_	_	16	compound	_	_
+15	-	-	_	_	_	16	compound	_	_
+16	bush	bush	_	_	_	11  nmod-of	_	_
+17	,	,	_	_	_	16	punct	_	_
+18	one	one	_	_	_	20	nsubj	_	_
+19	would	would	_	_	_	20	aux	_	_
+20	let	let	_	_	_	0	ROOT	_	_
+21	it	it	_	_	_	22	nsubj	_	_
+22	grow	grow	_	_	_	20	ccomp	_	_
+23	wherever	wherever	_	_	_	26	advmod	_	_
+24	it	it	_	_	_	26	nsubj	_	_
+25	might	might	_	_	_	26	aux	_	_
+26	wish	wish	_	_	_	22	advcl	_	_
+27	.	.	_	_	_	20	punct	_	_
+
+1	I	I	_	_	_	4	nsubj	_	_
+2	do	do	_	_	_	4	aux	_	_
+3	n't	not	_	_	_	4	neg	_	_
+4	believe	believe	_	_	_	0	ROOT	_	_
+5	anything	anything	_	_	_	4	dobj	_	_
+6	.	.	_	_	_	4	punct	_	_
+
+1	Matters	matter	_	_	_	0	ROOT	_	_
+2	of	of	_	_	_	3	case	_	_
+3	consequence	consequence	_	_	_	1	nmod-of	_	_
+4	!	!	_	_	_	1	punct	_	_
+
+1	He	he	_	_	_	4	nsubj	_	_
+2	has	have	_	_	_	4	aux	_	_
+3	never	never	_	_	_	4	neg	_	_
+4	looked	look	_	_	_	0	ROOT	_	_
+5	at	at	_	_	_	7	case	_	_
+6	a	a	_	_	_	7	det	_	_
+7	star	star	_	_	_	4	nmod-at	_	_
+8	.	.	_	_	_	4	punct	_	_
+
+1	The	the	_	_	_	2	det	_	_
+2	flowers	flower	_	_	_	5	nsubj	_	_
+3	have	have	_	_	_	5	aux	_	_
+4	been	be	_	_	_	5	aux	_	_
+5	growing	grow	_	_	_	0	ROOT	_	_
+6	thorns	thorn	_	_	_	5	dobj	_	_
+7	for	for	_	_	_	8	case	_	_
+8	millions	million	_	_	_	5	nmod-for	_	_
+9	of	of	_	_	_	10	case	_	_
+10	years	year	_	_	_	8	nmod-of	_	_
+11	.	.	_	_	_	5	punct	_	_
+
+1	But	but	_	_	_	9	cc	_	_
+2	,	,	_	_	_	9	punct	_	_
+3	as	as	_	_	_	5	mark	_	_
+4	he	he	_	_	_	5	nsubj	_	_
+5	said	say	_	_	_	9	advcl	_	_
+6	,	,	_	_	_	9	punct	_	_
+7	one	one	_	_	_	9	nsubj	_	_
+8	never	never	_	_	_	9	neg	_	_
+9	knows	know	_	_	_	0	ROOT	_	_
+10	!	!	_	_	_	9	punct	_	_
+
+1	It	it	_	_	_	4	nsubj	_	_
+2	is	be	_	_	_	4	cop	_	_
+3	my	my	_	_	_	4	nmod-poss	_	_
+4	fault	fault	_	_	_	0	ROOT	_	_
+5	that	that	_	_	_	9	mark	_	_
+6	you	you	_	_	_	9	nsubj	_	_
+7	have	have	_	_	_	9	aux	_	_
+8	not	not	_	_	_	9	neg	_	_
+9	known	know	_	_	_	4	ccomp	_	_
+10	it	it	_	_	_	9	dobj	_	_
+11	all	all	_	_	_	13	det-predet	_	_
+12	the	the	_	_	_	13	det	_	_
+13	while	while	_	_	_	9	nmod-tmod	_	_
+14	.	.	_	_	_	4	punct	_	_
+
+1	That	that	_	_	_	2	nsubj	_	_
+2	frightens	frighten	_	_	_	0	ROOT	_	_
+3	me	I	_	_	_	2	dobj	_	_
+4	...	...	_	_	_	2	punct	_	_
+
+1	''	''	_	_	_	9	punct	_	_
+2	Over	over	_	_	_	4	case	_	_
+3	all	all	_	_	_	4	det	_	_
+4	that	that	_	_	_	9	parataxis	_	_
+5	,	,	_	_	_	9	punct	_	_
+6	''	''	_	_	_	9	punct	_	_
+7	the	the	_	_	_	8	det	_	_
+8	king	king	_	_	_	9	nsubj	_	_
+9	answered	answer	_	_	_	0	ROOT	_	_
+10	.	.	_	_	_	9	punct	_	_
+
+1	And	and	_	_	_	4	cc	_	_
+2	you	you	_	_	_	4	nsubj	_	_
+3	will	will	_	_	_	4	aux	_	_
+4	see	see	_	_	_	0	ROOT	_	_
+5	how	how	_	_	_	6	advmod	_	_
+6	well	well	_	_	_	9	advmod	_	_
+7	I	I	_	_	_	9	nsubjpass	_	_
+8	am	be	_	_	_	9	auxpass	_	_
+9	obeyed	obey	_	_	_	4	ccomp	_	_
+10	.	.	_	_	_	4	punct	_	_
+
+1	For	for	_	_	_	11	case	_	_
+2	,	,	_	_	_	5	punct	_	_
+3	to	to	_	_	_	5	case	_	_
+4	conceited	conceit	_	_	_	5	amod	_	_
+5	men	man	_	_	_	11	nmod-to	_	_
+6	,	,	_	_	_	11	punct	_	_
+7	all	all	_	_	_	9	det	_	_
+8	other	other	_	_	_	9	amod	_	_
+9	men	man	_	_	_	11	nsubj	_	_
+10	are	be	_	_	_	11	cop	_	_
+11	admirers	admirer	_	_	_	0	ROOT	_	_
+12	.	.	_	_	_	11	punct	_	_
+
+1	I	I	_	_	_	2	nsubj	_	_
+2	have	have	_	_	_	0	ROOT	_	_
+3	so	so	_	_	_	4	advmod	_	_
+4	much	much	_	_	_	2	dobj	_	_
+5	to	to	_	_	_	6	mark	_	_
+6	do	do	_	_	_	4	acl	_	_
+7	!	!	_	_	_	2	punct	_	_
+
+1	It	it	_	_	_	6	nsubj	_	_
+2	is	be	_	_	_	6	cop	_	_
+3	a	a	_	_	_	6	det	_	_
+4	very	very	_	_	_	5	advmod	_	_
+5	different	different	_	_	_	6	amod	_	_
+6	matter	matter	_	_	_	0	ROOT	_	_
+7	.	.	_	_	_	6	punct	_	_
+
+1	I	I	_	_	_	3	nsubj	_	_
+2	had	have	_	_	_	3	aux	_	_
+3	loosened	loosen	_	_	_	0	ROOT	_	_
+4	the	the	_	_	_	6	det	_	_
+5	golden	golden	_	_	_	6	amod	_	_
+6	muffler	muffler	_	_	_	3	dobj	_	_
+6	muffler	muffler	_	_	_	10	dobj	_	_
+7	that	that	_	_	_	6	ref	_	_
+8	he	he	_	_	_	10	nsubj	_	_
+9	always	always	_	_	_	10	advmod	_	_
+10	wore	wear	_	_	_	6	acl-relcl	_	_
+11	.	.	_	_	_	3	punct	_	_
+
+1	It	it	_	_	_	5	nsubj	_	_
+2	is	be	_	_	_	5	cop	_	_
+3	the	the	_	_	_	5	det	_	_
+4	right	right	_	_	_	5	amod	_	_
+5	day	day	_	_	_	0	ROOT	_	_
+6	,	,	_	_	_	5	punct	_	_
+7	but	but	_	_	_	5	cc	_	_
+8	this	this	_	_	_	12	nsubj	_	_
+9	is	be	_	_	_	12	cop	_	_
+10	not	not	_	_	_	12	neg	_	_
+11	the	the	_	_	_	12	det	_	_
+12	place	place	_	_	_	5	conj-but	_	_
+13	.	.	_	_	_	5	punct	_	_
+
+1	At	at	_	_	_	3	case	_	_
+2	no	no	_	_	_	3	neg	_	_
+3	time	time	_	_	_	6	nmod-at	_	_
+4	did	do	_	_	_	6	aux	_	_
+5	I	I	_	_	_	6	nsubj	_	_
+5	I	I	_	_	_	8	nsubj	_	_
+6	see	see	_	_	_	0	ROOT	_	_
+7	or	or	_	_	_	6	cc	_	_
+8	hear	hear	_	_	_	6	conj-or	_	_
+9	anyone	anyone	_	_	_	8	dobj	_	_
+9	anyone	anyone	_	_	_	6	dobj	_	_
+10	.	.	_	_	_	6	punct	_	_
+
+1	You	you	_	_	_	2	nsubj	_	_
+1	You	you	_	_	_	5	nsubj	_	_
+1	You	you	_	_	_	7	nsubj	_	_
+2	have	have	_	_	_	0	ROOT	_	_
+3	nothing	nothing	_	_	_	2	dobj	_	_
+4	to	to	_	_	_	5	mark	_	_
+5	do	do	_	_	_	2	xcomp	_	_
+6	but	but	_	_	_	5	cc	_	_
+7	wait	wait	_	_	_	5	conj-but	_	_
+7	wait	wait	_	_	_	2	xcomp	_	_
+8	for	for	_	_	_	9	case	_	_
+9	me	I	_	_	_	7	nmod-for	_	_
+10	there	there	_	_	_	7	advmod	_	_
+11	.	.	_	_	_	2	punct	_	_
+
+1	I	I	_	_	_	2	nsubj	_	_
+1	I	I	_	_	_	4	nsubj	_	_
+2	want	want	_	_	_	0	ROOT	_	_
+3	to	to	_	_	_	4	mark	_	_
+4	get	get	_	_	_	2	xcomp	_	_
+5	down	down	_	_	_	4	compound-prt	_	_
+6	from	from	_	_	_	8	case	_	_
+7	the	the	_	_	_	8	det	_	_
+8	wall	wall	_	_	_	4	nmod-from	_	_
+9	.	.	_	_	_	2	punct	_	_
+
+1	I	I	_	_	_	3	nsubj	_	_
+1	I	I	_	_	_	9	nsubj	_	_
+2	had	have	_	_	_	3	aux	_	_
+3	moistened	moisten	_	_	_	0	ROOT	_	_
+4	his	he	_	_	_	5	nmod-poss	_	_
+5	temples	temple	_	_	_	3	dobj	_	_
+6	,	,	_	_	_	3	punct	_	_
+7	and	and	_	_	_	3	cc	_	_
+8	had	have	_	_	_	9	aux	_	_
+9	given	give	_	_	_	3	conj-and	_	_
+10	him	he	_	_	_	9	iobj	_	_
+11	some	some	_	_	_	12	det	_	_
+12	water	water	_	_	_	9	dobj	_	_
+13	to	to	_	_	_	14	mark	_	_
+14	drink	drink	_	_	_	12	acl	_	_
+15	.	.	_	_	_	3	punct	_	_
+
+1	How	how	_	_	_	4	advmod	_	_
+2	do	do	_	_	_	4	aux	_	_
+3	you	you	_	_	_	4	nsubj	_	_
+4	know	know	_	_	_	0	ROOT	_	_
+5	about	about	_	_	_	6	case	_	_
+6	that	that	_	_	_	4	nmod-about	_	_
+7	?	?	_	_	_	4	punct	_	_
+
+1	His	he	_	_	_	2	nmod-poss	_	_
+2	look	look	_	_	_	5	nsubj	_	_
+3	was	be	_	_	_	5	cop	_	_
+4	very	very	_	_	_	5	advmod	_	_
+5	serious	serious	_	_	_	0	ROOT	_	_
+6	,	,	_	_	_	5	punct	_	_
+7	like	like	_	_	_	9	mark	_	_
+8	someone	someone	_	_	_	9	nsubj	_	_
+9	lost	lose	_	_	_	2	advcl	_	_
+10	far	far	_	_	_	11	advmod	_	_
+11	away	away	_	_	_	9	advmod	_	_
+12	.	.	_	_	_	5	punct	_	_
+
+1	For	for	_	_	_	2	case	_	_
+2	some	some	_	_	_	11	nmod-for	_	_
+2	some	some	_	_	_	6	nsubj	_	_
+3	,	,	_	_	_	11	punct	_	_
+4	who	who	_	_	_	6	ref	_	_
+5	are	be	_	_	_	6	cop	_	_
+6	travelers	traveler	_	_	_	2	acl-relcl	_	_
+7	,	,	_	_	_	11	punct	_	_
+8	the	the	_	_	_	9	det	_	_
+9	stars	star	_	_	_	11	nsubj	_	_
+10	are	be	_	_	_	11	cop	_	_
+11	guides	guide	_	_	_	0	ROOT	_	_
+12	.	.	_	_	_	11	punct	_	_
+
+1	That	that	_	_	_	2	det	_	_
+2	night	night	_	_	_	0	ROOT	_	_
+3	I	I	_	_	_	6	nsubj	_	_
+4	did	do	_	_	_	6	aux	_	_
+5	not	not	_	_	_	6	neg	_	_
+6	see	see	_	_	_	2	acl-relcl	_	_
+7	him	he	_	_	_	8	nsubj	_	_
+8	set	set	_	_	_	6	ccomp	_	_
+9	out	out	_	_	_	8	compound-prt	_	_
+10	on	on	_	_	_	12	case	_	_
+11	his	he	_	_	_	12	nmod-poss	_	_
+12	way	way	_	_	_	8	nmod-on	_	_
+13	.	.	_	_	_	2	punct	_	_
+
+1	All	all	_	_	_	3	det-predet	_	_
+2	the	the	_	_	_	3	det	_	_
+3	stars	star	_	_	_	6	nsubj	_	_
+4	will	will	_	_	_	6	aux	_	_
+5	be	be	_	_	_	6	cop	_	_
+6	wells	well	_	_	_	0	ROOT	_	_
+7	with	with	_	_	_	10	case	_	_
+8	a	a	_	_	_	10	det	_	_
+9	rusty	rusty	_	_	_	10	amod	_	_
+10	pulley	pulley	_	_	_	6	nmod-with	_	_
+11	.	.	_	_	_	6	punct	_	_
+
+1	And	and	_	_	_	3	cc	_	_
+2	he	he	_	_	_	3	nsubj	_	_
+3	sat	sit	_	_	_	0	ROOT	_	_
+4	down	down	_	_	_	3	advmod	_	_
+5	,	,	_	_	_	3	punct	_	_
+6	because	because	_	_	_	9	mark	_	_
+7	he	he	_	_	_	9	nsubj	_	_
+8	was	be	_	_	_	9	cop	_	_
+9	afraid	afraid	_	_	_	3	advcl	_	_
+10	.	.	_	_	_	3	punct	_	_
+
+1	She	she	_	_	_	2	nsubj	_	_
+2	has	have	_	_	_	0	ROOT	_	_
+3	four	four	_	_	_	4	nummod	_	_
+4	thorns	thorn	_	_	_	2	dobj	_	_
+5	,	,	_	_	_	4	punct	_	_
+6	of	of	_	_	_	8	case	_	_
+7	no	no	_	_	_	8	neg	_	_
+8	use	use	_	_	_	4	nmod-of	_	_
+9	at	at	_	_	_	10	case	_	_
+10	all	all	_	_	_	8	nmod-at	_	_
+11	,	,	_	_	_	4	punct	_	_
+12	to	to	_	_	_	13	mark	_	_
+13	protect	protect	_	_	_	4	acl	_	_
+14	herself	herself	_	_	_	13	dobj	_	_
+15	against	against	_	_	_	18	case	_	_
+16	all	all	_	_	_	18	det-predet	_	_
+17	the	the	_	_	_	18	det	_	_
+18	world	world	_	_	_	13	nmod-against	_	_
+19	.	.	_	_	_	2	punct	_	_
+
+1	I	I	_	_	_	4	nsubj	_	_
+2	did	do	_	_	_	4	aux	_	_
+3	not	not	_	_	_	4	neg	_	_
+4	want	want	_	_	_	0	ROOT	_	_
+5	him	he	_	_	_	4	dobj	_	_
+5	him	he	_	_	_	7	nsubj	_	_
+6	to	to	_	_	_	7	mark	_	_
+7	tire	tire	_	_	_	4	xcomp	_	_
+8	himself	himself	_	_	_	7	dobj	_	_
+9	with	with	_	_	_	11	case	_	_
+10	the	the	_	_	_	11	det	_	_
+11	rope	rope	_	_	_	7	nmod-with	_	_
+12	.	.	_	_	_	4	punct	_	_
+
+1	He	he	_	_	_	6	nsubj	_	_
+1	He	he	_	_	_	8	nsubj	_	_
+2	has	have	_	_	_	6	aux	_	_
+3	never	never	_	_	_	6	neg	_	_
+4	been	be	_	_	_	6	cop	_	_
+5	either	either	_	_	_	6	cc-preconj	_	_
+6	hungry	hungry	_	_	_	0	ROOT	_	_
+7	or	or	_	_	_	6	cc	_	_
+8	thirsty	thirsty	_	_	_	6	conj-or	_	_
+9	.	.	_	_	_	6	punct	_	_
+
+1	I	I	_	_	_	2	nsubj	_	_
+2	made	make	_	_	_	0	ROOT	_	_
+3	a	a	_	_	_	4	det	_	_
+4	gesture	gesture	_	_	_	2	dobj	_	_
+5	of	of	_	_	_	6	case	_	_
+6	weariness	weariness	_	_	_	4	nmod-of	_	_
+7	.	.	_	_	_	2	punct	_	_
+
+1	I	I	_	_	_	2	nsubj	_	_
+1	I	I	_	_	_	7	nsubj	_	_
+1	I	I	_	_	_	4	nsubj	_	_
+2	felt	feel	_	_	_	0	ROOT	_	_
+3	deeply	deeply	_	_	_	4	advmod	_	_
+4	moved	move	_	_	_	2	xcomp	_	_
+5	,	,	_	_	_	2	punct	_	_
+6	and	and	_	_	_	4	cc	_	_
+7	stirred	stir	_	_	_	4	conj-and	_	_
+7	stirred	stir	_	_	_	2	xcomp	_	_
+8	.	.	_	_	_	2	punct	_	_
+
+1	This	this	_	_	_	4	nsubj	_	_
+2	was	be	_	_	_	4	cop	_	_
+3	a	a	_	_	_	4	det	_	_
+4	merchant	merchant	_	_	_	0	ROOT	_	_
+4	merchant	merchant	_	_	_	6	nsubj	_	_
+5	who	who	_	_	_	4	ref	_	_
+6	sold	sell	_	_	_	4	acl-relcl	_	_
+7	pills	pill	_	_	_	6	dobj	_	_
+7	pills	pill	_	_	_	11	nsubjpass	_	_
+8	that	that	_	_	_	7	ref	_	_
+9	had	have	_	_	_	11	aux	_	_
+10	been	be	_	_	_	11	auxpass	_	_
+11	invented	invent	_	_	_	7	acl-relcl	_	_
+12	to	to	_	_	_	13	mark	_	_
+13	quench	quench	_	_	_	11	nmod-to	_	_
+14	thirst	thirst	_	_	_	13	dobj	_	_
+15	.	.	_	_	_	4	punct	_	_
+
+1	The	the	_	_	_	3	det	_	_
+2	little	little	_	_	_	3	amod	_	_
+3	prince	prince	_	_	_	13	nsubj	_	_
+3	prince	prince	_	_	_	6	nsubj	_	_
+3	prince	prince	_	_	_	15	nsubj	_	_
+4	,	,	_	_	_	3	punct	_	_
+5	who	who	_	_	_	3	ref	_	_
+6	asked	ask	_	_	_	3	acl-relcl	_	_
+7	me	I	_	_	_	6	iobj	_	_
+8	so	so	_	_	_	9	advmod	_	_
+9	many	many	_	_	_	10	amod	_	_
+10	questions	question	_	_	_	6	dobj	_	_
+11	,	,	_	_	_	10	punct	_	_
+12	never	never	_	_	_	13	neg	_	_
+13	seemed	seem	_	_	_	0	ROOT	_	_
+14	to	to	_	_	_	15	mark	_	_
+15	hear	hear	_	_	_	13	xcomp	_	_
+16	the	the	_	_	_	17	det	_	_
+17	ones	one	_	_	_	15	dobj	_	_
+18	I	I	_	_	_	19	nsubj	_	_
+19	asked	ask	_	_	_	17	acl-relcl	_	_
+20	him	he	_	_	_	19	dobj	_	_
+21	.	.	_	_	_	13	punct	_	_
+
+1	At	at	_	_	_	2	case	_	_
+2	first	first	_	_	_	4	nmod-at	_	_
+3	you	you	_	_	_	4	nsubj	_	_
+3	you	you	_	_	_	9	nsubj	_	_
+4	seemed	seem	_	_	_	0	ROOT	_	_
+5	to	to	_	_	_	9	mark	_	_
+6	be	be	_	_	_	9	cop	_	_
+7	very	very	_	_	_	8	advmod	_	_
+8	much	much	_	_	_	9	advmod	_	_
+9	surprised	surprised	_	_	_	4	xcomp	_	_
+10	.	.	_	_	_	4	punct	_	_
+
+1	It	it	_	_	_	2	nsubj	_	_
+2	seems	seem	_	_	_	0	ROOT	_	_
+3	that	that	_	_	_	7	mark	_	_
+4	they	they	_	_	_	7	nsubj	_	_
+5	are	be	_	_	_	7	cop	_	_
+6	very	very	_	_	_	7	advmod	_	_
+7	beautiful	beautiful	_	_	_	2	ccomp	_	_
+8	.	.	_	_	_	2	punct	_	_
+
+1	For	for	_	_	_	5	mark	_	_
+2	she	she	_	_	_	5	nsubj	_	_
+3	did	do	_	_	_	5	aux	_	_
+4	not	not	_	_	_	5	neg	_	_
+5	want	want	_	_	_	0	ROOT	_	_
+6	him	he	_	_	_	5	dobj	_	_
+6	him	he	_	_	_	8	nsubj	_	_
+7	to	to	_	_	_	8	mark	_	_
+8	see	see	_	_	_	5	xcomp	_	_
+9	her	she	_	_	_	10	nmod-poss	_	_
+10	crying	cry	_	_	_	8	dobj	_	_
+11	.	.	_	_	_	5	punct	_	_
+
+1	Perhaps	perhaps	_	_	_	3	advmod	_	_
+2	that	that	_	_	_	3	nsubj	_	_
+3	is	be	_	_	_	0	ROOT	_	_
+4	because	because	_	_	_	7	mark	_	_
+5	he	he	_	_	_	7	nsubj	_	_
+6	is	be	_	_	_	7	aux	_	_
+7	thinking	think	_	_	_	3	advcl	_	_
+8	of	of	_	_	_	9	case	_	_
+9	something	something	_	_	_	7	nmod-of	_	_
+10	else	else	_	_	_	9	advmod	_	_
+11	besides	besides	_	_	_	12	case	_	_
+12	himself	himself	_	_	_	10	nmod-besides	_	_
+13	.	.	_	_	_	3	punct	_	_
+
+1	What	what	_	_	_	4	dobj	_	_
+2	are	be	_	_	_	4	aux	_	_
+3	you	you	_	_	_	4	nsubj	_	_
+4	doing	do	_	_	_	0	ROOT	_	_
+5	?	?	_	_	_	4	punct	_	_
+
+1	I	I	_	_	_	3	nsubj	_	_
+1	I	I	_	_	_	5	nsubj	_	_
+2	would	would	_	_	_	3	aux	_	_
+3	try	try	_	_	_	0	ROOT	_	_
+4	to	to	_	_	_	5	mark	_	_
+5	find	find	_	_	_	3	xcomp	_	_
+6	out	out	_	_	_	5	compound-prt	_	_
+7	,	,	_	_	_	3	punct	_	_
+8	so	so	_	_	_	3	advmod	_	_
+9	,	,	_	_	_	3	punct	_	_
+10	if	if	_	_	_	14	mark	_	_
+11	this	this	_	_	_	14	nsubj	_	_
+12	was	be	_	_	_	14	cop	_	_
+13	a	a	_	_	_	14	det	_	_
+14	person	person	_	_	_	5	advcl	_	_
+15	of	of	_	_	_	17	case	_	_
+16	true	true	_	_	_	17	amod	_	_
+17	understanding	understanding	_	_	_	14	nmod-of	_	_
+18	.	.	_	_	_	3	punct	_	_
+
+1	I	I	_	_	_	4	nsubj	_	_
+1	I	I	_	_	_	6	nsubj	_	_
+2	shall	shall	_	_	_	4	aux	_	_
+3	certainly	certainly	_	_	_	4	advmod	_	_
+4	try	try	_	_	_	0	ROOT	_	_
+5	to	to	_	_	_	6	mark	_	_
+6	make	make	_	_	_	4	xcomp	_	_
+7	my	my	_	_	_	8	nmod-poss	_	_
+8	portraits	portrait	_	_	_	6	dobj	_	_
+9	as	as	_	_	_	10	mark	_	_
+10	true	true	_	_	_	6	advcl	_	_
+11	to	to	_	_	_	12	case	_	_
+12	life	life	_	_	_	10	nmod-to	_	_
+13	as	as	_	_	_	14	case	_	_
+14	possible	possible	_	_	_	10	advcl-as	_	_
+15	.	.	_	_	_	4	punct	_	_
+
+1	Do	do	_	_	_	3	aux	_	_
+2	you	you	_	_	_	3	nsubj	_	_
+3	think	think	_	_	_	0	ROOT	_	_
+4	that	that	_	_	_	8	mark	_	_
+5	this	this	_	_	_	6	det	_	_
+6	sheep	sheep	_	_	_	8	nsubj	_	_
+6	sheep	sheep	_	_	_	10	nsubj	_	_
+7	will	will	_	_	_	8	aux	_	_
+8	have	have	_	_	_	3	ccomp	_	_
+9	to	to	_	_	_	10	mark	_	_
+10	have	have	_	_	_	8	xcomp	_	_
+11	a	a	_	_	_	13	det	_	_
+12	great	great	_	_	_	13	amod	_	_
+13	deal	deal	_	_	_	10	dobj	_	_
+14	of	of	_	_	_	15	case	_	_
+15	grass	grass	_	_	_	13	nmod-of	_	_
+16	?	?	_	_	_	3	punct	_	_
+
+1	Does	do	_	_	_	3	aux	_	_
+2	he	he	_	_	_	3	nsubj	_	_
+3	collect	collect	_	_	_	0	ROOT	_	_
+4	butterflies	butterfly	_	_	_	3	dobj	_	_
+5	?	?	_	_	_	3	punct	_	_
+
+1	that	that	PRON	pro:dem	_	6	nsubj	_	_
+2	is	be	VERB	cop	_	6	cop	_	_
+3	a	a	DET	art	_	6	det	_	_
+4	terribly	terrible	ADV	adv	_	5	advmod	_	_
+5	small	small	ADJ	adj	_	6	amod	_	_
+6	horse	horse	NOUN	n	_	0	root	_	_
+7	for	for	ADP	prep	_	8	case	_	_
+8	you	you	PRON	pro	_	5	nmod-for	_	_
+8	you	you	PRON	pro	_	10	nsubj	_	_
+9	to	to	PART	inf	_	10	mark	_	_
+10	ride	ride	VERB	v	_	5	xcomp	_	_
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+1	why	why	ADV	adv:wh	_	5	advmod	_	_
+2	do	do	AUX	mod	_	5	aux	_	_
+3	not	not	PART	neg	_	5	neg	_	_
+4	you	you	PRON	pro	_	5	nsubj	_	_
+5	look	look	VERB	v	_	0	root	_	_
+6	at	at	ADP	prep	_	10	case	_	_
+7	some	some	DET	qn	_	10	det-qmod	_	_
+8	of	of	ADP	prep	_	7	mwe	_	_
+9	the	the	DET	art	_	10	det	_	_
+10	toys	toy	NOUN	n	_	5	nmod-at	_	_
+11	in	in	ADP	prep	_	13	case	_	_
+12	the	the	DET	art	_	13	det	_	_
+13	basket	basket	NOUN	n	_	10	nmod-in	_	_
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+1	does	do	AUX	mod	_	3	aux	_	_
+2	he	he	PRON	pro:sub	_	3	nsubj	_	_
+3	walk	walk	NOUN	n	_	0	root	_	_
+4	like	like	ADP	prep	_	5	case	_	_
+5	you	you	PRON	pro	_	3	nmod-like	_	_
+6	or	or	CONJ	coord	_	3	cc	_	_
+7	does	do	VERB	v	_	9	aux	_	_
+8	he	he	PRON	pro:sub	_	9	nsubj	_	_
+9	go	go	VERB	v	_	3	conj-or	_	_
+10	hop	hop	NOUN	n	_	9	advmod	_	_
+11	hop	hop	NOUN	n	_	10	goeswith	_	_
+12	hop	hop	NOUN	n	_	11	goeswith	_	_
+13	?	?	PUNCT	?	_	3	punct	_	_
+
+1	if	if	SCONJ	conj	_	3	mark	_	_
+2	you	you	PRON	pro	_	3	nsubj	_	_
+3	look	look	VERB	v	_	11	advcl	_	_
+4	out	out	ADP	prep	_	7	case	_	_
+5	the	the	DET	art	_	7	det	_	_
+6	other	other	DET	qn	_	7	amod	_	_
+7	window	window	NOUN	n	_	3	nmod-out	_	_
+8	maybe	maybe	ADV	adv	_	11	discourse	_	_
+9	you	you	PRON	pro	_	11	nsubj	_	_
+10	will	will	AUX	mod	_	11	aux	_	_
+11	see	see	VERB	v	_	0	root	_	_
+12	it	it	PRON	pro	_	11	dobj	_	_
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+1	I	I	PRON	pro:sub	_	2	nsubj	_	_
+2	think	think	VERB	v	_	0	root	_	_
+3	that	that	DET	det	_	4	det	_	_
+4	one	one	PRON	pro:indef	_	7	nsubj	_	_
+5	is	be	VERB	cop	_	7	cop	_	_
+6	too	too	ADV	adv	_	7	advmod	_	_
+7	large	large	NOUN	n	_	2	ccomp	_	_
+8	to	to	PART	inf	_	9	mark	_	_
+9	go	go	VERB	v	_	7	advcl	_	_
+10	in	in	ADP	prep	_	12	case	_	_
+11	the	the	DET	art	_	12	det	_	_
+12	window	window	NOUN	n	_	9	nmod-in	_	_
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+1	not	not	PART	neg	_	3	cc:preconj	_	_
+2	the	the	DET	art	_	3	det	_	_
+3	kind	kind	NOUN	n	_	0	root	_	_
+4	you	you	PRON	pro	_	5	nsubj	_	_
+5	hit	hit	VERB	v	_	3	acl:relcl	_	_
+6	but	but	CONJ	conj	_	3	cc	_	_
+7	the	the	DET	art	_	8	det	_	_
+8	kind	kind	NOUN	n	_	3	conj-but	_	_
+9	you	you	PRON	pro	_	10	nsubj	_	_
+10	kick	kick	VERB	v	_	8	acl:relcl	_	_
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+1	why	why	ADV	adv:wh	_	5	advmod	_	_
+2	do	do	AUX	mod	_	5	aux	_	_
+3	not	not	PART	neg	_	5	neg	_	_
+4	you	you	PRON	pro	_	5	nsubj	_	_
+4	you	you	PRON	pro	_	9	nsubj	_	_
+5	take	take	VERB	v	_	0	root	_	_
+6	that	that	PRON	pro:dem	_	5	dobj	_	_
+7	over	over	ADV	adv	_	5	advmod	_	_
+8	and	and	CONJ	coord	_	5	cc	_	_
+9	show	show	VERB	v	_	5	conj-and	_	_
+10	it	it	PRON	pro	_	9	dobj	_	_
+11	to	to	ADP	prep	_	12	case	_	_
+12	him	him	PRON	pro:obj	_	9	nmod-to	_	_
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+1	I	I	PRON	pro:sub	_	2	nsubj	_	_
+2	guess	guess	VERB	v	_	0	root	_	_
+3	Cliffy	Cliffy	PROPN	n:prop	_	4	nsubj	_	_
+4	looks	look	VERB	v	_	2	ccomp	_	_
+5	at	at	ADP	prep	_	6	case	_	_
+6	Bozo	Bozo	PROPN	n:prop	_	4	nmod-at	_	_
+7	at	at	ADP	prep	_	9	case	_	_
+8	her	her	PRON	pro:poss:det	_	9	nmod-poss	_	_
+9	house	house	NOUN	n	_	4	nmod	_	_
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+1	you	you	PRON	pro	_	4	nsubj	_	_
+2	do	do	AUX	mod	_	4	aux	_	_
+3	not	not	PART	neg	_	4	neg	_	_
+4	have	have	VERB	v	_	0	root	_	_
+5	anything	anything	PRON	pro:indef	_	4	dobj	_	_
+6	else	else	ADV	post	_	5	dep	_	_
+7	to	to	PART	inf	_	8	mark	_	_
+8	put	put	VERB	v	_	5	acl	_	_
+9	in	in	ADP	prep	_	11	case	_	_
+10	the	the	DET	art	_	11	det	_	_
+11	box	box	NOUN	n	_	8	nmod-in	_	_
+12	do	do	VERB	v	_	4	discourse	_	_
+13	you	you	PRON	pro	_	12	nsubj	_	_
+14	?	?	PUNCT	?	_	4	punct	_	_
+
+1	why	why	ADV	adv:wh	_	5	advmod	_	_
+2	do	do	AUX	mod	_	5	aux	_	_
+3	not	not	PART	neg	_	5	neg	_	_
+4	you	you	PRON	pro	_	5	nsubj	_	_
+5	come	come	VERB	v	_	0	root	_	_
+6	over	over	ADV	adv	_	7	advmod	_	_
+7	here	here	ADV	adv	_	5	advmod	_	_
+8	and	and	CONJ	coord	_	5	cc	_	_
+9	play	play	NOUN	n	_	5	conj-and	_	_
+10	with	with	ADP	prep	_	12	case	_	_
+11	the	the	DET	art	_	12	det	_	_
+12	ball	ball	NOUN	n	_	9	nmod-with	_	_
+13	?	?	PUNCT	?	_	5	punct	_	_
+
+1	In	in	_	_	_	3	case	_	_
+2	the	the	_	_	_	3	det	_	_
+3	story	story	_	_	_	9	nmod-in	_	_
+4	,	,	_	_	_	9	punct	_	_
+5	evildoer	evildoer	_	_	_	8	appos	_	_
+6	Cruella	Cruella	_	_	_	8	compound	_	_
+7	de	de	_	_	_	8	amod	_	_
+8	Vil	Vil	_	_	_	9	nsubj	_	_
+8	Vil	Vil	_	_	_	13	nsubj	_	_
+9	makes	make	_	_	_	0	ROOT	_	_
+10	no	no	_	_	_	11	neg	_	_
+11	attempt	attempt	_	_	_	9	dobj	_	_
+12	to	to	_	_	_	13	mark	_	_
+13	conceal	conceal	_	_	_	11	acl	_	_
+14	her	she	_	_	_	15	nmod-poss	_	_
+14	her	she	_	_	_	17	nmod-poss	_	_
+15	glee	glee	_	_	_	13	dobj	_	_
+16	and	and	_	_	_	15	cc	_	_
+17	lack	lack	_	_	_	15	conj-and	_	_
+18	of	of	_	_	_	19	case	_	_
+19	conscience	conscience	_	_	_	17	nmod-of	_	_
+20	.	.	_	_	_	9	punct	_	_
