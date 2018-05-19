@@ -1,7 +1,13 @@
+This resource contains data and code for the paper
+
+* Ida Szubert, Adam Lopez, and Nathan Schneider (2018). A structured syntax-semantics interface for English-AMR alignment. _Proceedings of NAACL-HLT_. <http://people.cs.georgetown.edu/nschneid/p/amr2dep.pdf>
+
+which describes a representation, dataset, and algorithms for aligning nodes and subgraphs of [Abstract Meaning Representation](http://amr.isi.edu/) (AMR) semantic structures with nodes and subgraphs of syntactic parses in the [Universal Dependencies](http://universaldependencies.org/) (UD) framework.
+
 ## MANUAL ALIGNMENTS
 
 ### Reconstructing
-To recover our manual alignments you will need to have access to AMR Release 1.0.
+To recover our manual alignments you will need to have access to [AMR Release 1.0](https://catalog.ldc.upenn.edu/LDC2014T12).
 Unzip the release files and cd to corpus/release1/unsplit. From there run:
 
 `cat amr-release-1.0-bolt.txt amr-release-1.0-consensus.txt  amr-release-1.0-dfa.txt  amr-release-1.0-mt09sdl.txt amr-release-1.0-xinhua.txt amr-release-1.0-proxy.txt > ~/YOUR_PATH/amr_ud/data/amr-release-1.0-all.txt`
