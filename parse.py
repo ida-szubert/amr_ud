@@ -199,7 +199,7 @@ def extract_all_concepts(full_amr):
 
 
 def parse_amr(tokens, concept_dict, relations, current_relation, open_concepts, none_counter, jamr_counter = {},
-              jgamr=False, isi=False, nesting_level=0):
+              jamr=False, isi=False, nesting_level=0):
     """
     Given an AMR represented as a string, extract all edges between nodes.
     :param tokens: as yet unparsed portion of the AMR represented as a string
