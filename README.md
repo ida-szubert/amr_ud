@@ -4,14 +4,17 @@
 To recover our manual alignments you will need to have access to AMR Release 1.0.
 Unzip the release files and cd to corpus/release1/unsplit. From there run:
 
-`cat amr-release-1.0-bolt.txt amr-release-1.0-consensus.txt  amr-release-1.0-dfa.txt  amr-release-1.0-mt09sdl.txt amr-release-1.0-xinhua.txt amr-release-1.0-proxy.txt > ~/YOUR_PATH/amr_ud/data/amr-release-1.0-all.txt`
+```
+cat amr-release-1.0-bolt.txt amr-release-1.0-consensus.txt  amr-release-1.0-dfa.txt  amr-release-1.0-mt09sdl.txt amr-release-1.0-xinhua.txt amr-release-1.0-proxy.txt > ~/YOUR_PATH/amr_ud/data/amr-release-1.0-all.txt
+```
 
 to concatenate all release files into one.
 
 
 Then cd to amr_ud and run:
 
-```python2 dp1.py
+```
+python2 dp1.py
 patch ./alignments/aligned_amrs_reconstructed.txt -i ./alignments/amrs.patch -o ./alignments/aligned_amrs.txt
 python2 dp2.py
 patch ./alignments/ud_parses_ldc_reconstructed.txt -i ./alignments/ud_parses.patch -o ./alignments/ud_parses_patched.txt
