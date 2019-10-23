@@ -1125,6 +1125,7 @@ def parse_path(path, nodes_and_edges, parent_buffer):
 
 
 def print_alignment(sentences, filename, structure_type='both'):
+    # type: # (object, object, object) -> object
     out_file = open(filename, "w")
     for s_id in sorted(sentences.keys()):
         sentence_dict = sentences[s_id]

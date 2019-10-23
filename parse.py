@@ -199,7 +199,7 @@ def extract_all_concepts(full_amr):
 
 
 def parse_amr(tokens, concept_dict, relations, current_relation, open_concepts, none_counter, jamr_counter = {},
-              jgamr=False, isi=False, nesting_level=0):
+              jamr=False, isi=False, nesting_level=0):
     """
     Given an AMR represented as a string, extract all edges between nodes.
     :param tokens: as yet unparsed portion of the AMR represented as a string
@@ -464,6 +464,7 @@ def read_conllu(dep_file):
     parses = {}
     sent_id = 1
     lemmas = {}
+    words = {}
     dependencies = {}
     sentence = []
     for line in open(dep_file, "r"):
@@ -475,15 +476,19 @@ def read_conllu(dep_file):
             parent_index = split_line[6]
             edge_label = ':' + ''.join(['-' if char == ':' else char for char in split_line[7]])
             lemmas[int(word_index)] = lemma
+            words[int(word_index)] = word
             # if parent_index == 'nmod-against':
             #     print split_line
             dependencies[(int(parent_index), int(word_index))] = edge_label
             sentence.append(word)
         else:
             lemmas[0] = 'ROOT'
-            parses[sent_id] = {'sentence': ' '.join(sentence), 'dep_graph': dependencies, 'lemmas': lemmas}
+            words[0] = 'ROOT'
+            parses[sent_id] = {'sentence': ' '.join(sentence), 'dep_graph': dependencies,
+                               'lemmas': lemmas, 'words': words}
             sent_id += 1
             lemmas = {}
+            words = {}
             dependencies = {}
             sentence = []
     return parses
@@ -509,7 +514,7 @@ def read_in_fixed_parses(sent_dict, filename):
     for s_id in sent_dict:
         sent_dict[s_id]['dep_graph'] = fixed_parses[s_id]['dep_graph']
         sent_dict[s_id]['lemmas'] = fixed_parses[s_id]['lemmas']
-        # sent_dict[s_id]['words'] = fixed_parses[s_id]['words']
+        sent_dict[s_id]['words'] = fixed_parses[s_id]['words']
     return sent_dict
 
 

@@ -46,10 +46,10 @@ def test_morphological_analysis():
 # find_alignments_to_simplify('C', 'DG-AMR', '../alignments/dev_gold_dg_amr.txt', 'parsed_aligned.p')
 
 # ALIGNMENT
-# sentences = unpickle_parsed_data('parsed.p')
+# sentences = unpickle('parsed_datasets/parsed.p')
 # neg_dict = read_neg_polarity_items('neg-polarity.txt')
 # al = get_full_alignment(sentences, neg_dict)
-# print_alignment(al, '../alignments/selected_test.txt', structure_type='paths')
+# print_alignment(al, 'alignments/generated_test.txt', structure_type='paths')
 
 # PARSING
 # data for selected sentences: parsed.p

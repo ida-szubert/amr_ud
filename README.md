@@ -1,3 +1,10 @@
+## AUTOMATIC ALIGNER
+To run the rule-base aligner described in the paper you'll need an AMR file and a file with UD parse of the same sentences in the same order in CoNLL format.
+The aligner does not require any specific version of UD annotation.
+
+Run the align script:
+`python2 align.py -p "UD_parse_file" -a "AMR_file" -o "output_alignment_file"`
+
 ## MANUAL ALIGNMENTS
 
 ### Reconstructing
