@@ -11,6 +11,9 @@ The aligner does not require any specific version of UD annotation.
 Run the align script:
 `python2 align.py -p "UD_parse_file" -a "AMR_file" -o "output_alignment_file"`
 
+To run the aligner on and AMR only, you need to start a CoreNLP server (see https://stanfordnlp.github.io/CoreNLP/corenlp-server.html) and run
+`python2 align.py -a "AMR_file" -o "output_alignment_file"`
+
 ## MANUAL ALIGNMENTS
 
 ### Reconstructing
