@@ -14,6 +14,9 @@ Run the align script:
 To run the aligner on and AMR only, you need to start a CoreNLP server (see https://stanfordnlp.github.io/CoreNLP/corenlp-server.html) and run
 `python2 align.py -a "AMR_file" -o "output_alignment_file"`
 
+If you'd like to save the automatic UD parses, run:
+`python2 align.py -a "AMR_file" -o "output_alignment_file" -w "output_ud_parse_file"`
+
 ## MANUAL ALIGNMENTS
 
 ### Reconstructing
